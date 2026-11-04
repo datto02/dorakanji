@@ -1,45 +1,733 @@
 [
-  "参加する",
-  "育てる",
-  "運ぶ",
-  "入院する",
-  "退院する",
-  "入れる",
-  "切る",
-  "気持ちがいい",
-  "気持ちが悪い",
-  "大きな",
-  "小さな",
-  "赤ちゃん",
-  "小学校",
-  "中学校",
-  "海岸",
-  "工場",
-  "指輪",
-  "電源",
-  "習慣",
-  "健康",
-  "製",
-  "一昨年",
-  "回覧",
-  "研究室",
-  "きちんと",
-  "整理する",
-  "方法",
-  "冊",
-  "判子",
-  "押す",
-  "双子",
-  "姉妹",
-  "似る",
-  "性格",
-  "大人しい",
-  "優しい",
-  "世話",
-  "経つ",
-  "点",
-  "気が強い",
-  "けんかする",
-  "年齢",
-  "仕方"
+ {
+  "word": "参加する",
+  "reading": "さんかする",
+  "meaning": "tham gia",
+  "example": "[会議](かいぎ)に**[参加](さんか)する**のは[十人](じゅうにん)です。",
+  "exampleVi": "Số người tham gia cuộc họp là 10 người.",
+  "examples": [
+   {
+    "ja": "[会議](かいぎ)に**[参加](さんか)する**のは[十人](じゅうにん)です。",
+    "vi": "Số người tham gia cuộc họp là 10 người."
+   },
+   {
+    "ja": "[来週](らいしゅう)のパーティーに**[参加](さんか)します**。",
+    "vi": "Tôi sẽ tham gia bữa tiệc tuần sau."
+   }
+  ]
+ },
+ {
+  "word": "育てる",
+  "reading": "そだてる",
+  "meaning": "nuôi, chăm sóc",
+  "example": "[花](はな)を**[育](そだ)てる**のが[好](す)きです。",
+  "exampleVi": "Tôi thích trồng hoa.",
+  "examples": [
+   {
+    "ja": "[花](はな)を**[育](そだ)てる**のが[好](す)きです。",
+    "vi": "Tôi thích trồng hoa."
+   },
+   {
+    "ja": "そ[母](ぼ)は、[庭](にわ)で[野菜](やさい)を**[育](そだ)てている**。",
+    "vi": "Bà tôi trồng rau ở ngoài vườn."
+   }
+  ]
+ },
+ {
+  "word": "運ぶ",
+  "reading": "はこぶ",
+  "meaning": "chở, vận chuyển",
+  "example": "[重](おも)い[荷物](にもつ)を**[運](はこ)ぶ**のは[大変](たいへん)です。",
+  "exampleVi": "Việc chuyển hành lý nặng thì vất vả.",
+  "examples": [
+   {
+    "ja": "[重](おも)い[荷物](にもつ)を**[運](はこ)ぶ**のは[大変](たいへん)です。",
+    "vi": "Việc chuyển hành lý nặng thì vất vả."
+   },
+   {
+    "ja": "[重](おも)い[荷物](にもつ)を[二](に)[階](かい)まで**[運](はこ)んだ**。",
+    "vi": "Tôi đã khuân hành lý nặng lên tầng hai."
+   }
+  ]
+ },
+ {
+  "word": "入院する",
+  "reading": "にゅういんする",
+  "meaning": "nhập viện",
+  "example": "[父](ちち)は[先週](せんしゅう)**[入院](にゅういん)しました**。",
+  "exampleVi": "Tuần trước bố tôi nhập viện.",
+  "examples": [
+   {
+    "ja": "[父](ちち)は[先週](せんしゅう)**[入院](にゅういん)しました**。",
+    "vi": "Tuần trước bố tôi nhập viện."
+   },
+   {
+    "ja": "[祖父](そふ)は[病気](びょうき)で**[入院](にゅういん)しました**。",
+    "vi": "Ông tôi bị bệnh nên đã nhập viện."
+   }
+  ]
+ },
+ {
+  "word": "退院する",
+  "reading": "たいいんする",
+  "meaning": "ra viện",
+  "example": "[来週](らいしゅう)、**[退院](たいいん)します**。",
+  "exampleVi": "Tuần sau tôi sẽ ra viện.",
+  "examples": [
+   {
+    "ja": "[来週](らいしゅう)、**[退院](たいいん)します**。",
+    "vi": "Tuần sau tôi sẽ ra viện."
+   },
+   {
+    "ja": "[祖父](そふ)は[来週](らいしゅう)**[退院](たいいん)します**。",
+    "vi": "Tuần sau ông tôi sẽ ra viện."
+   }
+  ]
+ },
+ {
+  "word": "入れる",
+  "reading": "いれる",
+  "meaning": "cho vào, bật [nguồn]",
+  "example": "[電源](でんげん)を**[入](い)れて**ください。",
+  "exampleVi": "Xin hãy bật nguồn.",
+  "examples": [
+   {
+    "ja": "[電源](でんげん)を**[入](い)れて**ください。",
+    "vi": "Xin hãy bật nguồn."
+   },
+   {
+    "ja": "コーヒーに、さとうを**[入](い)れます**。",
+    "vi": "Tôi cho đường vào cà phê."
+   }
+  ]
+ },
+ {
+  "word": "切る",
+  "reading": "きる",
+  "meaning": "cắt, tắt [nguồn điện]",
+  "example": "[電源](でんげん)を**[切](き)って**ください。",
+  "exampleVi": "Xin hãy tắt nguồn.",
+  "examples": [
+   {
+    "ja": "[電源](でんげん)を**[切](き)って**ください。",
+    "vi": "Xin hãy tắt nguồn."
+   },
+   {
+    "ja": "[映画](えいが)の[前](まえ)にけいたいの[電源](でんげん)を**[切](き)って**ください。",
+    "vi": "Xin hãy tắt nguồn điện thoại trước khi xem phim."
+   }
+  ]
+ },
+ {
+  "word": "気持ちがいい",
+  "reading": "きもちがいい",
+  "meaning": "tâm trạng sảng khoái, tốt",
+  "example": "[朝](あさ)の[散歩](さんぽ)は**[気持](きも)ちがいい**です。",
+  "exampleVi": "Đi dạo buổi sáng thật sảng khoái.",
+  "examples": [
+   {
+    "ja": "[朝](あさ)の[散歩](さんぽ)は**[気持](きも)ちがいい**です。",
+    "vi": "Đi dạo buổi sáng thật sảng khoái."
+   },
+   {
+    "ja": "[海](うみ)の[近](ちか)くは**[気持](きも)ちがいい**です。",
+    "vi": "Ở gần biển thấy sảng khoái."
+   }
+  ]
+ },
+ {
+  "word": "気持ちが悪い",
+  "reading": "きもちがわるい",
+  "meaning": "tâm trạng không tốt",
+  "example": "[食](た)べ[過](す)ぎて、**[気持](きも)ちが[悪](わる)い**です。",
+  "exampleVi": "Tôi ăn quá nhiều nên thấy khó chịu trong người.",
+  "examples": [
+   {
+    "ja": "[食](た)べ[過](す)ぎて、**[気持](きも)ちが[悪](わる)い**です。",
+    "vi": "Tôi ăn quá nhiều nên thấy khó chịu trong người."
+   },
+   {
+    "ja": "お[酒](さけ)を[飲](の)みすぎて、**[気持](きも)ちが[悪](わる)い**です。",
+    "vi": "Tôi uống quá nhiều rượu nên có cảm giác khó chịu."
+   }
+  ]
+ },
+ {
+  "word": "大きな",
+  "reading": "おおきな",
+  "meaning": "to, lớn",
+  "example": "**[大](おお)きな**[犬](いぬ)がいます。",
+  "exampleVi": "Có một con chó lớn.",
+  "examples": [
+   {
+    "ja": "**[大](おお)きな**[犬](いぬ)がいます。",
+    "vi": "Có một con chó lớn."
+   },
+   {
+    "ja": "あそこに**[大](おお)きな**[犬](いぬ)がいます。",
+    "vi": "Ở đằng kia có một con chó to."
+   }
+  ]
+ },
+ {
+  "word": "小さな",
+  "reading": "ちいさな",
+  "meaning": "bé nhỏ",
+  "example": "**[小](ちい)さな**[花](はな)がさいています。",
+  "exampleVi": "Những bông hoa nhỏ đang nở.",
+  "examples": [
+   {
+    "ja": "**[小](ちい)さな**[花](はな)がさいています。",
+    "vi": "Những bông hoa nhỏ đang nở."
+   },
+   {
+    "ja": "[庭](にわ)に**[小](ちい)さな**[花](はな)がさいています。",
+    "vi": "Trong vườn những bông hoa nhỏ nở."
+   }
+  ]
+ },
+ {
+  "word": "赤ちゃん",
+  "reading": "あかちゃん",
+  "meaning": "em bé",
+  "example": "**[赤](あか)ちゃん**がねむっています。",
+  "exampleVi": "Em bé đang ngủ.",
+  "examples": [
+   {
+    "ja": "**[赤](あか)ちゃん**がねむっています。",
+    "vi": "Em bé đang ngủ."
+   },
+   {
+    "ja": "[姉](あね)に**[赤](あか)ちゃん**が[生](う)まれました。",
+    "vi": "Chị tôi đã sinh em bé."
+   }
+  ]
+ },
+ {
+  "word": "小学校",
+  "reading": "しょうがっこう",
+  "meaning": "trường tiểu học",
+  "example": "**[小学校](しょうがっこう)**は[家](いえ)の[近](ちか)くです。",
+  "exampleVi": "Trường tiểu học ở gần nhà.",
+  "examples": [
+   {
+    "ja": "**[小学校](しょうがっこう)**は[家](いえ)の[近](ちか)くです。",
+    "vi": "Trường tiểu học ở gần nhà."
+   },
+   {
+    "ja": "アリさんは**[小学校](しょうがっこう)**の[先生](せんせい)です。",
+    "vi": "Ali là giáo viên trường tiểu học."
+   }
+  ]
+ },
+ {
+  "word": "中学校",
+  "reading": "ちゅうがっこう",
+  "meaning": "trường trung học cơ sở",
+  "example": "[弟](おとうと)は**[中学校](ちゅうがっこう)**に[通](かよ)っています。",
+  "exampleVi": "Em trai tôi đang học ở trường trung học cơ sở.",
+  "examples": [
+   {
+    "ja": "[弟](おとうと)は**[中学校](ちゅうがっこう)**に[通](かよ)っています。",
+    "vi": "Em trai tôi đang học ở trường trung học cơ sở."
+   },
+   {
+    "ja": "トムさんは**[中学校](ちゅうがっこう)**の[先生](せんせい)です。",
+    "vi": "Anh Tom là giáo viên trường trung học cơ sở."
+   }
+  ]
+ },
+ {
+  "word": "海岸",
+  "reading": "かいがん",
+  "meaning": "bờ biển",
+  "example": "**[海岸](かいがん)**を[散歩](さんぽ)します。",
+  "exampleVi": "Tôi đi dạo dọc bờ biển.",
+  "examples": [
+   {
+    "ja": "**[海岸](かいがん)**を[散歩](さんぽ)します。",
+    "vi": "Tôi đi dạo dọc bờ biển."
+   },
+   {
+    "ja": "この[町](まち)にはきれいな**[海岸](かいがん)**があります。",
+    "vi": "Thị trấn này có bờ biển đẹp."
+   }
+  ]
+ },
+ {
+  "word": "工場",
+  "reading": "こうじょう",
+  "meaning": "nhà máy, xưởng",
+  "example": "**[工場](こうじょう)**は[町](まち)の[外](そと)にあります。",
+  "exampleVi": "Nhà máy nằm ngoài thị trấn.",
+  "examples": [
+   {
+    "ja": "**[工場](こうじょう)**は[町](まち)の[外](そと)にあります。",
+    "vi": "Nhà máy nằm ngoài thị trấn."
+   },
+   {
+    "ja": "この**[工場](こうじょう)**では、[自動車](じどうしゃ)の[部品](ぶひん)を[作](つく)っている。",
+    "vi": "Nhà máy này sản xuất linh kiện ô tô."
+   }
+  ]
+ },
+ {
+  "word": "指輪",
+  "reading": "ゆびわ",
+  "meaning": "nhẫn",
+  "example": "この**[指輪](ゆびわ)**は[母](はは)のです。",
+  "exampleVi": "Chiếc nhẫn này là của mẹ tôi.",
+  "examples": [
+   {
+    "ja": "この**[指輪](ゆびわ)**は[母](はは)のです。",
+    "vi": "Chiếc nhẫn này là của mẹ tôi."
+   },
+   {
+    "ja": "これは[母](はは)の**[指輪](ゆびわ)**です。",
+    "vi": "Đây là chiếc nhẫn của mẹ tôi."
+   }
+  ]
+ },
+ {
+  "word": "電源",
+  "reading": "でんげん",
+  "meaning": "nguồn điện, công tắc điện",
+  "example": "**[電源](でんげん)**はどこですか。",
+  "exampleVi": "Công tắc nguồn ở đâu vậy?",
+  "examples": [
+   {
+    "ja": "**[電源](でんげん)**はどこですか。",
+    "vi": "Công tắc nguồn ở đâu vậy?"
+   },
+   {
+    "ja": "この[部屋](へや)は**[電源](でんげん)**が[少](すく)なくて、[不便](ふべん)です。",
+    "vi": "Phòng này ít ổ cắm điện nên bất tiện."
+   }
+  ]
+ },
+ {
+  "word": "習慣",
+  "reading": "しゅうかん",
+  "meaning": "thói quen, tập quán",
+  "example": "[毎朝](まいあさ)[歩](ある)くのがわたしの**[習慣](しゅうかん)**です。",
+  "exampleVi": "Đi bộ mỗi sáng là thói quen của tôi.",
+  "examples": [
+   {
+    "ja": "[毎朝](まいあさ)[歩](ある)くのがわたしの**[習慣](しゅうかん)**です。",
+    "vi": "Đi bộ mỗi sáng là thói quen của tôi."
+   },
+   {
+    "ja": "[毎朝](まいあさ)、りんごジュースを[飲](の)むのが**[習慣](しゅうかん)**です。",
+    "vi": "Uống nước táo mỗi sáng là thói quen (của tôi)."
+   }
+  ]
+ },
+ {
+  "word": "健康",
+  "reading": "けんこう",
+  "meaning": "sức khỏe",
+  "example": "[毎日](まいにち)[歩](ある)くのは**[健康](けんこう)**にいいです。",
+  "exampleVi": "Đi bộ mỗi ngày tốt cho sức khỏe.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)[歩](ある)くのは**[健康](けんこう)**にいいです。",
+    "vi": "Đi bộ mỗi ngày tốt cho sức khỏe."
+   },
+   {
+    "ja": "**[健康](けんこう)**がいちばん[大切](たいせつ)です。",
+    "vi": "Sức khỏe là quan trọng nhất."
+   }
+  ]
+ },
+ {
+  "word": "製",
+  "reading": "せい",
+  "meaning": "sản xuất tại ~ (hậu tố)",
+  "example": "これは[日本](にほん)**[製](せい)**の[時計](とけい)です。",
+  "exampleVi": "Đây là đồng hồ sản xuất tại Nhật.",
+  "examples": [
+   {
+    "ja": "これは[日本](にほん)**[製](せい)**の[時計](とけい)です。",
+    "vi": "Đây là đồng hồ sản xuất tại Nhật."
+   },
+   {
+    "ja": "[外国](がいこく)**[製](せい)**の[車](くるま)は[高](たか)いです。",
+    "vi": "Xe hơi sản xuất ở nước ngoài thì đắt."
+   }
+  ]
+ },
+ {
+  "word": "一昨年",
+  "reading": "おととし",
+  "meaning": "năm kia",
+  "example": "**[一昨年](おととし)**、[日本](にほん)へ[来](き)ました。",
+  "exampleVi": "Năm kia tôi đã đến Nhật.",
+  "examples": [
+   {
+    "ja": "**[一昨年](おととし)**、[日本](にほん)へ[来](き)ました。",
+    "vi": "Năm kia tôi đã đến Nhật."
+   },
+   {
+    "ja": "[日本](にほん)へ[来](き)たのは**[一昨年](おととし)**の4[月](がつ)です。",
+    "vi": "Tôi đã đến Nhật vào tháng 4 năm kia."
+   }
+  ]
+ },
+ {
+  "word": "回覧",
+  "reading": "かいらん",
+  "meaning": "tập thông báo",
+  "example": "**[回覧](かいらん)**を[読](よ)んでください。",
+  "exampleVi": "Xin hãy đọc tập thông báo lưu hành.",
+  "examples": [
+   {
+    "ja": "**[回覧](かいらん)**を[読](よ)んでください。",
+    "vi": "Xin hãy đọc tập thông báo lưu hành."
+   },
+   {
+    "ja": "[町](まち)の**[回覧](かいらん)**が[来](き)ました。",
+    "vi": "Tập thông báo của khu phố đã đến."
+   }
+  ]
+ },
+ {
+  "word": "研究室",
+  "reading": "けんきゅうしつ",
+  "meaning": "phòng nghiên cứu",
+  "example": "[先生](せんせい)は**[研究室](けんきゅうしつ)**にいます。",
+  "exampleVi": "Thầy đang ở phòng nghiên cứu.",
+  "examples": [
+   {
+    "ja": "[先生](せんせい)は**[研究室](けんきゅうしつ)**にいます。",
+    "vi": "Thầy đang ở phòng nghiên cứu."
+   },
+   {
+    "ja": "[私](わたし)は**[研究室](けんきゅうしつ)**で[実験](じっけん)をしています。",
+    "vi": "Tôi đang làm thí nghiệm ở phòng nghiên cứu."
+   }
+  ]
+ },
+ {
+  "word": "きちんと",
+  "reading": "きちんと",
+  "meaning": "Chỉn chu, đàng hoàng",
+  "example": "[部屋](へや)を**きちんと**[片付](かたづ)けてください。",
+  "exampleVi": "Xin hãy dọn phòng cho gọn gàng.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)を**きちんと**[片付](かたづ)けてください。",
+    "vi": "Xin hãy dọn phòng cho gọn gàng."
+   },
+   {
+    "ja": "[本](ほん)は[本](ほん)だなに**きちんと**[返](かえ)してください。",
+    "vi": "Hãy trả sách lại kệ sách đàng hoàng."
+   }
+  ]
+ },
+ {
+  "word": "整理する",
+  "reading": "せいりする",
+  "meaning": "sắp xếp, chỉnh lý",
+  "example": "[書類](しょるい)を**[整理](せいり)しました**。",
+  "exampleVi": "Tôi đã sắp xếp hồ sơ.",
+  "examples": [
+   {
+    "ja": "[書類](しょるい)を**[整理](せいり)しました**。",
+    "vi": "Tôi đã sắp xếp hồ sơ."
+   },
+   {
+    "ja": "[机](つくえ)の[中](なか)を**[整理](せいり)しました**。",
+    "vi": "Tôi đã sắp xếp lại bên trong bàn."
+   }
+  ]
+ },
+ {
+  "word": "方法",
+  "reading": "ほうほう",
+  "meaning": "phương pháp, cách thức",
+  "example": "いい**[方法](ほうほう)**を[考](かんが)えました。",
+  "exampleVi": "Tôi đã nghĩ ra một cách hay.",
+  "examples": [
+   {
+    "ja": "いい**[方法](ほうほう)**を[考](かんが)えました。",
+    "vi": "Tôi đã nghĩ ra một cách hay."
+   },
+   {
+    "ja": "[日本語](にほんご)が[上手](じょうず)になる**[方法](ほうほう)**を[教](おし)えてください。",
+    "vi": "Vui lòng chỉ cho tôi phương pháp để giỏi tiếng Nhật."
+   }
+  ]
+ },
+ {
+  "word": "冊",
+  "reading": "さつ",
+  "meaning": "quyển, cuốn (đếm sách)",
+  "example": "[本](ほん)を3**[冊](さつ)**[借](か)りました。",
+  "exampleVi": "Tôi đã mượn 3 quyển sách.",
+  "examples": [
+   {
+    "ja": "[本](ほん)を3**[冊](さつ)**[借](か)りました。",
+    "vi": "Tôi đã mượn 3 quyển sách."
+   },
+   {
+    "ja": "[図書館](としょかん)で[本](ほん)を[二](に)**[冊](さつ)**[借](か)りました。",
+    "vi": "Tôi đã mượn hai quyển sách ở thư viện."
+   }
+  ]
+ },
+ {
+  "word": "判子",
+  "reading": "はんこ",
+  "meaning": "con dấu",
+  "example": "ここに**[判子](はんこ)**をおしてください。",
+  "exampleVi": "Xin hãy đóng con dấu vào đây.",
+  "examples": [
+   {
+    "ja": "ここに**[判子](はんこ)**をおしてください。",
+    "vi": "Xin hãy đóng con dấu vào đây."
+   },
+   {
+    "ja": "[書類](しょるい)に**[判子](はんこ)**を[押](お)します。",
+    "vi": "Tôi đóng con dấu vào hồ sơ."
+   }
+  ]
+ },
+ {
+  "word": "おす",
+  "reading": "おす",
+  "meaning": "ấn, đẩy, đóng [dấu]",
+  "example": "[判子](はんこ)を**おします**。",
+  "exampleVi": "Tôi đóng dấu.",
+  "examples": [
+   {
+    "ja": "[判子](はんこ)を**おします**。",
+    "vi": "Tôi đóng dấu."
+   },
+   {
+    "ja": "ボタンを**おして**ください。",
+    "vi": "Hãy ấn nút."
+   }
+  ]
+ },
+ {
+  "word": "ふたご",
+  "reading": "ふたご",
+  "meaning": "sinh đôi",
+  "example": "[私](わたし)は**ふたご**です。",
+  "exampleVi": "Tôi là một trong cặp sinh đôi.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は**ふたご**です。",
+    "vi": "Tôi là một trong cặp sinh đôi."
+   },
+   {
+    "ja": "[友達](ともだち)に**ふたご**の[兄弟](きょうだい)がいます。",
+    "vi": "Bạn tôi có anh em sinh đôi."
+   }
+  ]
+ },
+ {
+  "word": "姉妹",
+  "reading": "しまい",
+  "meaning": "chị em gái",
+  "example": "[私](わたし)は[三人](さんにん)**[姉妹](しまい)**です。",
+  "exampleVi": "Chúng tôi là ba chị em gái.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[三人](さんにん)**[姉妹](しまい)**です。",
+    "vi": "Chúng tôi là ba chị em gái."
+   },
+   {
+    "ja": "**[姉妹](しまい)**で[旅行](りょこう)に[行](い)きました。",
+    "vi": "Hai chị em tôi đã đi du lịch cùng nhau."
+   }
+  ]
+ },
+ {
+  "word": "似る",
+  "reading": "にる",
+  "meaning": "giống",
+  "example": "[私](わたし)は[父](ちち)に**[似](に)ています**。",
+  "exampleVi": "Tôi giống bố.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[父](ちち)に**[似](に)ています**。",
+    "vi": "Tôi giống bố."
+   },
+   {
+    "ja": "[私](わたし)は[母](はは)に、[姉](あね)は[父](ちち)に**[似](に)ています**。",
+    "vi": "Tôi giống mẹ, chị tôi giống cha."
+   }
+  ]
+ },
+ {
+  "word": "性格",
+  "reading": "せいかく",
+  "meaning": "tính cách",
+  "example": "[弟](おとうと)は**[性格](せいかく)**がいいです。",
+  "exampleVi": "Em trai tôi có tính cách tốt.",
+  "examples": [
+   {
+    "ja": "[弟](おとうと)は**[性格](せいかく)**がいいです。",
+    "vi": "Em trai tôi có tính cách tốt."
+   },
+   {
+    "ja": "[彼](かれ)は**[性格](せいかく)**が[明](あか)るいです。",
+    "vi": "Anh ấy có tính cách vui vẻ."
+   }
+  ]
+ },
+ {
+  "word": "大人しい",
+  "reading": "おとなしい",
+  "meaning": "hiền lành, trầm",
+  "example": "[妹](いもうと)は**[大人](おとな)しい**[子](こ)です。",
+  "exampleVi": "Em gái tôi là một đứa trẻ hiền lành.",
+  "examples": [
+   {
+    "ja": "[妹](いもうと)は**[大人](おとな)しい**[子](こ)です。",
+    "vi": "Em gái tôi là một đứa trẻ hiền lành."
+   },
+   {
+    "ja": "[私](わたし)の[犬](いぬ)は**[大人](おとな)しい**です。",
+    "vi": "Chú chó của tôi hiền lành."
+   }
+  ]
+ },
+ {
+  "word": "優しい",
+  "reading": "やさしい",
+  "meaning": "hiền lành, tốt bụng",
+  "example": "[母](はは)は**[優](やさ)しい**[人](ひと)です。",
+  "exampleVi": "Mẹ tôi là người hiền lành.",
+  "examples": [
+   {
+    "ja": "[母](はは)は**[優](やさ)しい**[人](ひと)です。",
+    "vi": "Mẹ tôi là người hiền lành."
+   },
+   {
+    "ja": "[山田先生](やまだせんせい)はとても**[優](やさ)しい**です。",
+    "vi": "Thầy/ cô Yamada rất hiền."
+   }
+  ]
+ },
+ {
+  "word": "世話",
+  "reading": "せわ",
+  "meaning": "chăm sóc, hỗ trợ",
+  "example": "[赤](あか)ちゃんの**[世話](せわ)**をします。",
+  "exampleVi": "Tôi chăm sóc em bé.",
+  "examples": [
+   {
+    "ja": "[赤](あか)ちゃんの**[世話](せわ)**をします。",
+    "vi": "Tôi chăm sóc em bé."
+   },
+   {
+    "ja": "[犬](いぬ)を**[世話](せわ)する**のはとても[楽](たの)しいです。",
+    "vi": "Chăm sóc chó rất vui."
+   }
+  ]
+ },
+ {
+  "word": "経つ",
+  "reading": "たつ",
+  "meaning": "trải qua, trôi qua",
+  "example": "もう1[年](ねん)が**[経](た)ちました**。",
+  "exampleVi": "Đã một năm trôi qua rồi.",
+  "examples": [
+   {
+    "ja": "もう1[年](ねん)が**[経](た)ちました**。",
+    "vi": "Đã một năm trôi qua rồi."
+   },
+   {
+    "ja": "[三十分](さんじゅっぷん)**[経](た)ちました**。",
+    "vi": "30 phút đã trôi qua."
+   }
+  ]
+ },
+ {
+  "word": "点",
+  "reading": "てん",
+  "meaning": "điểm số",
+  "example": "[試験](しけん)の**[点](てん)**がよかったです。",
+  "exampleVi": "Điểm thi của tôi tốt.",
+  "examples": [
+   {
+    "ja": "[試験](しけん)の**[点](てん)**がよかったです。",
+    "vi": "Điểm thi của tôi tốt."
+   },
+   {
+    "ja": "この[問題](もんだい)は5**[点](てん)**です。",
+    "vi": "Câu hỏi này được 5 điểm."
+   }
+  ]
+ },
+ {
+  "word": "気が強い",
+  "reading": "きがつよい",
+  "meaning": "tính cách mạnh mẽ",
+  "example": "[姉](あね)は**[気](き)が[強](つよ)い**です。",
+  "exampleVi": "Chị tôi có tính cách mạnh mẽ.",
+  "examples": [
+   {
+    "ja": "[姉](あね)は**[気](き)が[強](つよ)い**です。",
+    "vi": "Chị tôi có tính cách mạnh mẽ."
+   },
+   {
+    "ja": "[彼女](かのじょ)は**[気](き)が[強](つよ)い**です。",
+    "vi": "Cô ấy có tính cách mạnh mẽ."
+   }
+  ]
+ },
+ {
+  "word": "けんかする",
+  "reading": "けんかする",
+  "meaning": "cãi nhau",
+  "example": "[弟](おとうと)と**けんかしました**。",
+  "exampleVi": "Tôi đã cãi nhau với em trai.",
+  "examples": [
+   {
+    "ja": "[弟](おとうと)と**けんかしました**。",
+    "vi": "Tôi đã cãi nhau với em trai."
+   },
+   {
+    "ja": "[兄](あに)と**けんかしました**。",
+    "vi": "Tôi đã cãi nhau với anh trai."
+   }
+  ]
+ },
+ {
+  "word": "ねんれい",
+  "reading": "ねんれい",
+  "meaning": "tuổi",
+  "example": "**ねんれい**を[書](か)いてください。",
+  "exampleVi": "Xin hãy viết tuổi.",
+  "examples": [
+   {
+    "ja": "**ねんれい**を[書](か)いてください。",
+    "vi": "Xin hãy viết tuổi."
+   },
+   {
+    "ja": "[名前](なまえ)と**ねんれい**を[書](か)きます。",
+    "vi": "Tôi viết tên và tuổi."
+   }
+  ]
+ },
+ {
+  "word": "仕方",
+  "reading": "しかた",
+  "meaning": "cách làm",
+  "example": "[勉強](べんきょう)の**[仕方](しかた)**を[教](おし)えてください。",
+  "exampleVi": "Xin hãy chỉ tôi cách học.",
+  "examples": [
+   {
+    "ja": "[勉強](べんきょう)の**[仕方](しかた)**を[教](おし)えてください。",
+    "vi": "Xin hãy chỉ tôi cách học."
+   },
+   {
+    "ja": "[仕事](しごと)の**[仕方](しかた)**をすぐに[覚](おぼ)えました。",
+    "vi": "Tôi đã nhớ cách làm việc ngay."
+   }
+  ]
+ }
 ]

@@ -1,24 +1,376 @@
 [
-  "聞きます",
-  "回します",
-  "引きます",
-  "触ります",
-  "歩きます",
-  "渡ります",
-  "曲がります",
-  "寂しい",
-  "お湯",
-  "音",
-  "サイズ",
-  "故障",
-  "道",
-  "交差点",
-  "信号",
-  "角",
-  "橋",
-  "駐車場",
-  "建物",
-  "何回も",
-  "目",
-  "引っ越しします"
+ {
+  "word": "聞きます",
+  "reading": "ききます",
+  "meaning": "hỏi, nghe",
+  "example": "[先生](せんせい)に**[聞](き)きます**。",
+  "exampleVi": "Tôi hỏi giáo viên.",
+  "examples": [
+   {
+    "ja": "[先生](せんせい)に**[聞](き)きます**。",
+    "vi": "Tôi hỏi giáo viên."
+   },
+   {
+    "ja": "まいばん、ラジオを**[聞](き)きます**。",
+    "vi": "Tối nào tôi cũng nghe radio."
+   }
+  ]
+ },
+ {
+  "word": "回します",
+  "reading": "まわします",
+  "meaning": "vặn, xoay",
+  "example": "このボタンを**[回](まわ)します**。",
+  "exampleVi": "Tôi vặn nút này.",
+  "examples": [
+   {
+    "ja": "このボタンを**[回](まわ)します**。",
+    "vi": "Tôi vặn nút này."
+   },
+   {
+    "ja": "これを[左](ひだり)に**[回](まわ)す**と、お[湯](ゆ)が[出](で)ます。",
+    "vi": "Hễ quay cái này sang trái, nước nóng sẽ chảy ra."
+   }
+  ]
+ },
+ {
+  "word": "引きます",
+  "reading": "ひきます",
+  "meaning": "kéo, trừ",
+  "example": "ドアを**[引](ひ)きます**。",
+  "exampleVi": "Tôi kéo cửa.",
+  "examples": [
+   {
+    "ja": "ドアを**[引](ひ)きます**。",
+    "vi": "Tôi kéo cửa."
+   },
+   {
+    "ja": "[右](みぎ)のドアを**[引](ひ)いて**ください。",
+    "vi": "Xin hãy kéo cánh cửa bên phải."
+   }
+  ]
+ },
+ {
+  "word": "さわります",
+  "reading": "さわります",
+  "meaning": "sờ, chạm",
+  "example": "この[箱](はこ)に**さわります**。",
+  "exampleVi": "Tôi chạm vào chiếc hộp này.",
+  "examples": [
+   {
+    "ja": "この[箱](はこ)に**さわります**。",
+    "vi": "Tôi chạm vào chiếc hộp này."
+   },
+   {
+    "ja": "この[絵](え)に**さわらないで**ください。",
+    "vi": "Vui lòng không sờ vào bức tranh này."
+   }
+  ]
+ },
+ {
+  "word": "歩きます",
+  "reading": "あるきます",
+  "meaning": "đi bộ",
+  "example": "[駅](えき)まで**[歩](ある)きます**。",
+  "exampleVi": "Tôi đi bộ đến nhà ga.",
+  "examples": [
+   {
+    "ja": "[駅](えき)まで**[歩](ある)きます**。",
+    "vi": "Tôi đi bộ đến nhà ga."
+   },
+   {
+    "ja": "**[歩](ある)いて**スーパーに[行](い)きます。",
+    "vi": "Tôi đi bộ đến siêu thị."
+   }
+  ]
+ },
+ {
+  "word": "わたります",
+  "reading": "わたります",
+  "meaning": "băng qua, đi qua",
+  "example": "[橋](はし)を**わたります**。",
+  "exampleVi": "Tôi băng qua cây cầu.",
+  "examples": [
+   {
+    "ja": "[橋](はし)を**わたります**。",
+    "vi": "Tôi băng qua cây cầu."
+   },
+   {
+    "ja": "[道](みち)を**わたる**[時](とき)は、[気](き)をつけてください。",
+    "vi": "Khi băng qua đường hãy cẩn thận."
+   }
+  ]
+ },
+ {
+  "word": "曲がります",
+  "reading": "まがります",
+  "meaning": "rẽ, quẹo",
+  "example": "あの[角](かど)を[右](みぎ)へ**[曲](ま)がります**。",
+  "exampleVi": "Tôi rẽ phải ở góc đường kia.",
+  "examples": [
+   {
+    "ja": "あの[角](かど)を[右](みぎ)へ**[曲](ま)がります**。",
+    "vi": "Tôi rẽ phải ở góc đường kia."
+   },
+   {
+    "ja": "[信号](しんごう)を[左](ひだり)に**[曲](ま)がります**。",
+    "vi": "Quẹo trái chỗ đèn giao thông."
+   }
+  ]
+ },
+ {
+  "word": "さびしい",
+  "reading": "さびしい",
+  "meaning": "buồn, cô đơn",
+  "example": "[一人](ひとり)のとき、**さびしい**です。",
+  "exampleVi": "Khi ở một mình, tôi thấy cô đơn.",
+  "examples": [
+   {
+    "ja": "[一人](ひとり)のとき、**さびしい**です。",
+    "vi": "Khi ở một mình, tôi thấy cô đơn."
+   },
+   {
+    "ja": "[一人](ひとり)は**さびしい**です。",
+    "vi": "Ở một mình thì cô đơn."
+   }
+  ]
+ },
+ {
+  "word": "お湯",
+  "reading": "おゆ",
+  "meaning": "nước nóng",
+  "example": "**お[湯](ゆ)**が[出](で)ません。",
+  "exampleVi": "Nước nóng không ra.",
+  "examples": [
+   {
+    "ja": "**お[湯](ゆ)**が[出](で)ません。",
+    "vi": "Nước nóng không ra."
+   },
+   {
+    "ja": "カップに**お[湯](ゆ)**を[入](い)れます。",
+    "vi": "Tôi cho nước nóng vào ly."
+   }
+  ]
+ },
+ {
+  "word": "音",
+  "reading": "おと",
+  "meaning": "âm thanh",
+  "example": "**[音](おと)**が[大](おお)きいです。",
+  "exampleVi": "Âm thanh to.",
+  "examples": [
+   {
+    "ja": "**[音](おと)**が[大](おお)きいです。",
+    "vi": "Âm thanh to."
+   },
+   {
+    "ja": "ラジオの**[音](おと)**が[小](ちい)さいです。",
+    "vi": "Tiếng radio nhỏ."
+   }
+  ]
+ },
+ {
+  "word": "サイズ",
+  "reading": "サイズ",
+  "meaning": "kích cỡ, size",
+  "example": "**サイズ**はいくつですか。",
+  "exampleVi": "Cỡ (size) của bạn là bao nhiêu?",
+  "examples": [
+   {
+    "ja": "**サイズ**はいくつですか。",
+    "vi": "Cỡ (size) của bạn là bao nhiêu?"
+   },
+   {
+    "ja": "[大](おお)きい**サイズ**がありません。",
+    "vi": "Không có kích cỡ lớn."
+   }
+  ]
+ },
+ {
+  "word": "故障",
+  "reading": "こしょう",
+  "meaning": "hỏng, sự cố",
+  "example": "エアコンが**[故障](こしょう)しました**。",
+  "exampleVi": "Máy điều hòa đã bị hỏng.",
+  "examples": [
+   {
+    "ja": "エアコンが**[故障](こしょう)しました**。",
+    "vi": "Máy điều hòa đã bị hỏng."
+   },
+   {
+    "ja": "[私](わたし)のパソコンが**[故障](こしょう)しました**。",
+    "vi": "Máy tính của tôi bị hỏng."
+   }
+  ]
+ },
+ {
+  "word": "道",
+  "reading": "みち",
+  "meaning": "con đường",
+  "example": "この**[道](みち)**をまっすぐ[行](い)きます。",
+  "exampleVi": "Tôi đi thẳng theo con đường này.",
+  "examples": [
+   {
+    "ja": "この**[道](みち)**をまっすぐ[行](い)きます。",
+    "vi": "Tôi đi thẳng theo con đường này."
+   },
+   {
+    "ja": "この**[道](みち)**をまっすぐ[行](い)ってください。",
+    "vi": "Hãy đi thẳng con đường này."
+   }
+  ]
+ },
+ {
+  "word": "交差点",
+  "reading": "こうさてん",
+  "meaning": "ngã tư",
+  "example": "**[交差点](こうさてん)**を[右](みぎ)へ[曲](ま)がってください。",
+  "exampleVi": "Xin hãy rẽ phải ở ngã tư.",
+  "examples": [
+   {
+    "ja": "**[交差点](こうさてん)**を[右](みぎ)へ[曲](ま)がってください。",
+    "vi": "Xin hãy rẽ phải ở ngã tư."
+   },
+   {
+    "ja": "**[交差点](こうさてん)**を[左](ひだり)に[曲](ま)がります。",
+    "vi": "Rẽ trái ở giao lộ."
+   }
+  ]
+ },
+ {
+  "word": "信号",
+  "reading": "しんごう",
+  "meaning": "đèn tín hiệu",
+  "example": "**[信号](しんごう)**が[青](あお)いとき、わたります。",
+  "exampleVi": "Khi đèn tín hiệu xanh, tôi băng qua đường.",
+  "examples": [
+   {
+    "ja": "**[信号](しんごう)**が[青](あお)いとき、わたります。",
+    "vi": "Khi đèn tín hiệu xanh, tôi băng qua đường."
+   },
+   {
+    "ja": "**[信号](しんごう)**は[赤](あか)いです。",
+    "vi": "Đèn giao thông màu đỏ."
+   }
+  ]
+ },
+ {
+  "word": "角",
+  "reading": "かど",
+  "meaning": "góc đường",
+  "example": "あの**[角](かど)**に[銀行](ぎんこう)があります。",
+  "exampleVi": "Ở góc đường kia có ngân hàng.",
+  "examples": [
+   {
+    "ja": "あの**[角](かど)**に[銀行](ぎんこう)があります。",
+    "vi": "Ở góc đường kia có ngân hàng."
+   },
+   {
+    "ja": "その**[角](かど)**を[右](みぎ)にまがってください。",
+    "vi": "Hãy rẽ phải ở góc đường đó."
+   }
+  ]
+ },
+ {
+  "word": "橋",
+  "reading": "はし",
+  "meaning": "cầu",
+  "example": "あの**[橋](はし)**をわたると、[駅](えき)です。",
+  "exampleVi": "Qua cây cầu kia là đến nhà ga.",
+  "examples": [
+   {
+    "ja": "あの**[橋](はし)**をわたると、[駅](えき)です。",
+    "vi": "Qua cây cầu kia là đến nhà ga."
+   },
+   {
+    "ja": "この**[橋](はし)**は[長](なが)いです。",
+    "vi": "Cây cầu này dài."
+   }
+  ]
+ },
+ {
+  "word": "ちゅうしゃじょう",
+  "reading": "ちゅうしゃじょう",
+  "meaning": "bãi đỗ xe",
+  "example": "**ちゅうしゃじょう**は[地下](ちか)にあります。",
+  "exampleVi": "Bãi đỗ xe ở tầng hầm.",
+  "examples": [
+   {
+    "ja": "**ちゅうしゃじょう**は[地下](ちか)にあります。",
+    "vi": "Bãi đỗ xe ở tầng hầm."
+   },
+   {
+    "ja": "**ちゅうしゃじょう**はありません。",
+    "vi": "Không có bãi đậu xe."
+   }
+  ]
+ },
+ {
+  "word": "建物",
+  "reading": "たてもの",
+  "meaning": "tòa nhà",
+  "example": "あの**[建物](たてもの)**は[大使館](たいしかん)です。",
+  "exampleVi": "Tòa nhà kia là đại sứ quán.",
+  "examples": [
+   {
+    "ja": "あの**[建物](たてもの)**は[大使館](たいしかん)です。",
+    "vi": "Tòa nhà kia là đại sứ quán."
+   },
+   {
+    "ja": "デパートはどの**[建物](たてもの)**ですか。",
+    "vi": "Trung tâm thương mại là tòa nhà nào ạ?"
+   }
+  ]
+ },
+ {
+  "word": "何回も",
+  "reading": "なんかいも",
+  "meaning": "nhiều lần",
+  "example": "**[何回](なんかい)も**[聞](き)きました。",
+  "exampleVi": "Tôi đã hỏi nhiều lần.",
+  "examples": [
+   {
+    "ja": "**[何回](なんかい)も**[聞](き)きました。",
+    "vi": "Tôi đã hỏi nhiều lần."
+   },
+   {
+    "ja": "**[何回](なんかい)も**[北海道](ほっかいどう)へ[行](い)きました。",
+    "vi": "Tôi đã từng đi Hokkaido nhiều lần."
+   }
+  ]
+ },
+ {
+  "word": "目",
+  "reading": "め",
+  "meaning": "mắt",
+  "example": "**[目](め)**が[悪](わる)いとき、めがねをかけます。",
+  "exampleVi": "Khi mắt kém, tôi đeo kính.",
+  "examples": [
+   {
+    "ja": "**[目](め)**が[悪](わる)いとき、めがねをかけます。",
+    "vi": "Khi mắt kém, tôi đeo kính."
+   },
+   {
+    "ja": "**[目](め)**が[青](あお)い[男](おとこ)の[子](こ)がいます。",
+    "vi": "Có một cậu bé mắt xanh."
+   }
+  ]
+ },
+ {
+  "word": "ひっこしします",
+  "reading": "ひっこしします",
+  "meaning": "chuyển nhà",
+  "example": "[来月](らいげつ)、**ひっこしします**。",
+  "exampleVi": "Tháng sau tôi chuyển nhà.",
+  "examples": [
+   {
+    "ja": "[来月](らいげつ)、**ひっこしします**。",
+    "vi": "Tháng sau tôi chuyển nhà."
+   },
+   {
+    "ja": "[友達](ともだち)は[先月](せんげつ)、**ひっこししました**。",
+    "vi": "Bạn tôi đã chuyển nhà vào tháng trước."
+   }
+  ]
+ }
 ]

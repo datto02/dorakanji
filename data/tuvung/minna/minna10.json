@@ -1,49 +1,801 @@
 [
-  "います",
-  "いろいろ",
-  "男の人",
-  "女のひと",
-  "男の子",
-  "女の子",
-  "犬",
-  "猫",
-  "パンダ",
-  "象",
-  "木",
-  "物",
-  "電池",
-  "箱",
-  "スイッチ",
-  "冷蔵庫",
-  "テーブル",
-  "ベッド",
-  "棚",
-  "ドア",
-  "窓",
-  "ポスト",
-  "ビル",
-  "エーティーエム",
-  "コンビニ",
-  "公園",
-  "喫茶店",
-  "屋",
-  "乗り場",
-  "大使館",
-  "県",
-  "上",
-  "下",
-  "前",
-  "後ろ",
-  "右",
-  "左",
-  "中",
-  "外",
-  "隣",
-  "近く",
-  "間",
-  "ナンプラー",
-  "コーナー",
-  "一番",
-  "パスポート",
-  "チリソース"
+ {
+  "word": "います",
+  "reading": "います",
+  "meaning": "ở, có (người, động vật)",
+  "example": "[教室](きょうしつ)に[学生](がくせい)が**います**。",
+  "exampleVi": "Trong lớp học có học sinh.",
+  "examples": [
+   {
+    "ja": "[教室](きょうしつ)に[学生](がくせい)が**います**。",
+    "vi": "Trong lớp học có học sinh."
+   },
+   {
+    "ja": "[私](わたし)は[兄](あに)が[一人](ひとり)**います**。",
+    "vi": "Tôi có một anh trai."
+   }
+  ]
+ },
+ {
+  "word": "いろいろ",
+  "reading": "いろいろ",
+  "meaning": "nhiều, đa dạng",
+  "example": "[店](みせ)に**いろいろ**な[物](もの)があります。",
+  "exampleVi": "Trong cửa hàng có nhiều loại đồ vật.",
+  "examples": [
+   {
+    "ja": "[店](みせ)に**いろいろ**な[物](もの)があります。",
+    "vi": "Trong cửa hàng có nhiều loại đồ vật."
+   },
+   {
+    "ja": "**いろいろ**な[国](くに)へ[行](い)きたいです。",
+    "vi": "Tôi muốn đi đến nhiều nước khác nhau."
+   }
+  ]
+ },
+ {
+  "word": "男の人",
+  "reading": "おとこのひと",
+  "meaning": "người đàn ông",
+  "example": "あそこに**[男](おとこ)の[人](ひと)**がいます。",
+  "exampleVi": "Đằng kia có một người đàn ông.",
+  "examples": [
+   {
+    "ja": "あそこに**[男](おとこ)の[人](ひと)**がいます。",
+    "vi": "Đằng kia có một người đàn ông."
+   },
+   {
+    "ja": "あの**[男](おとこ)の[人](ひと)**は、[先生](せんせい)です。",
+    "vi": "Người đàn ông kia là thầy giáo."
+   }
+  ]
+ },
+ {
+  "word": "女のひと",
+  "reading": "おんなのひと",
+  "meaning": "người đàn bà",
+  "example": "[受付](うけつけ)に**[女](おんな)のひと**がいます。",
+  "exampleVi": "Ở quầy tiếp tân có một người phụ nữ.",
+  "examples": [
+   {
+    "ja": "[受付](うけつけ)に**[女](おんな)のひと**がいます。",
+    "vi": "Ở quầy tiếp tân có một người phụ nữ."
+   },
+   {
+    "ja": "[公園](こうえん)に**[女](おんな)のひと**がいます。",
+    "vi": "Ở công viên có một người phụ nữ."
+   }
+  ]
+ },
+ {
+  "word": "男の子",
+  "reading": "おとこのこ",
+  "meaning": "cậu con trai",
+  "example": "[庭](にわ)に**[男](おとこ)の[子](こ)**がいます。",
+  "exampleVi": "Trong vườn có một cậu bé.",
+  "examples": [
+   {
+    "ja": "[庭](にわ)に**[男](おとこ)の[子](こ)**がいます。",
+    "vi": "Trong vườn có một cậu bé."
+   },
+   {
+    "ja": "あの**[男](おとこ)の[子](こ)**は、わたしの[弟](おとうと)です。",
+    "vi": "Cậu bé kia là em trai tôi."
+   }
+  ]
+ },
+ {
+  "word": "女の子",
+  "reading": "おんなのこ",
+  "meaning": "cô con gái",
+  "example": "[公園](こうえん)に**[女](おんな)の[子](こ)**がいます。",
+  "exampleVi": "Trong công viên có một cô bé.",
+  "examples": [
+   {
+    "ja": "[公園](こうえん)に**[女](おんな)の[子](こ)**がいます。",
+    "vi": "Trong công viên có một cô bé."
+   },
+   {
+    "ja": "あの**[女](おんな)の[子](こ)**は、とてもかわいいです。",
+    "vi": "Cô bé kia rất dễ thương."
+   }
+  ]
+ },
+ {
+  "word": "犬",
+  "reading": "いぬ",
+  "meaning": "chó",
+  "example": "[私](わたし)の[家](うち)に**[犬](いぬ)**がいます。",
+  "exampleVi": "Nhà tôi có một con chó.",
+  "examples": [
+   {
+    "ja": "[私](わたし)の[家](うち)に**[犬](いぬ)**がいます。",
+    "vi": "Nhà tôi có một con chó."
+   },
+   {
+    "ja": "わたしの[家](いえ)には、**[犬](いぬ)**がいます。",
+    "vi": "Nhà tôi có nuôi một con chó."
+   }
+  ]
+ },
+ {
+  "word": "ねこ",
+  "reading": "ねこ",
+  "meaning": "mèo",
+  "example": "[机](つくえ)の[下](した)に**ねこ**がいます。",
+  "exampleVi": "Dưới bàn có một con mèo.",
+  "examples": [
+   {
+    "ja": "[机](つくえ)の[下](した)に**ねこ**がいます。",
+    "vi": "Dưới bàn có một con mèo."
+   },
+   {
+    "ja": "あの**ねこ**は[白](しろ)いです。",
+    "vi": "Con mèo kia màu trắng."
+   }
+  ]
+ },
+ {
+  "word": "パンダ",
+  "reading": "パンダ",
+  "meaning": "gấu trúc",
+  "example": "あそこに**パンダ**がいます。",
+  "exampleVi": "Đằng kia có một con gấu trúc.",
+  "examples": [
+   {
+    "ja": "あそこに**パンダ**がいます。",
+    "vi": "Đằng kia có một con gấu trúc."
+   },
+   {
+    "ja": "[上野](うえの)[動物園](どうぶつえん)に**パンダ**がいました。",
+    "vi": "Ở sở thú Ueno có gấu trúc."
+   }
+  ]
+ },
+ {
+  "word": "象",
+  "reading": "ぞう",
+  "meaning": "voi",
+  "example": "**[象](ぞう)**は[大](おお)きいです。",
+  "exampleVi": "Con voi to.",
+  "examples": [
+   {
+    "ja": "**[象](ぞう)**は[大](おお)きいです。",
+    "vi": "Con voi to."
+   },
+   {
+    "ja": "タイで**[象](ぞう)**を[見](み)ました。",
+    "vi": "Tôi đã xem voi ở Thái Lan."
+   }
+  ]
+ },
+ {
+  "word": "木",
+  "reading": "き",
+  "meaning": "cây, gỗ",
+  "example": "[家](うち)の[前](まえ)に**[木](き)**があります。",
+  "exampleVi": "Trước nhà có một cái cây.",
+  "examples": [
+   {
+    "ja": "[家](うち)の[前](まえ)に**[木](き)**があります。",
+    "vi": "Trước nhà có một cái cây."
+   },
+   {
+    "ja": "[大](おお)きい**[木](き)**の[下](した)で、[休](やす)みました。",
+    "vi": "Tôi đã nghỉ dưới gốc cây lớn."
+   }
+  ]
+ },
+ {
+  "word": "物",
+  "reading": "もの",
+  "meaning": "vật, đồ vật",
+  "example": "[部屋](へや)の[中](なか)に**[物](もの)**がたくさんあります。",
+  "exampleVi": "Trong phòng có nhiều đồ vật.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)の[中](なか)に**[物](もの)**がたくさんあります。",
+    "vi": "Trong phòng có nhiều đồ vật."
+   },
+   {
+    "ja": "いろいろな**[物](もの)**をもらいました。",
+    "vi": "Tôi đã nhận được nhiều thứ."
+   }
+  ]
+ },
+ {
+  "word": "電池",
+  "reading": "でんち",
+  "meaning": "pin",
+  "example": "[箱](はこ)の[中](なか)に**[電池](でんち)**があります。",
+  "exampleVi": "Trong hộp có pin.",
+  "examples": [
+   {
+    "ja": "[箱](はこ)の[中](なか)に**[電池](でんち)**があります。",
+    "vi": "Trong hộp có pin."
+   },
+   {
+    "ja": "**[電池](でんち)**がありません。",
+    "vi": "Không có pin."
+   }
+  ]
+ },
+ {
+  "word": "箱",
+  "reading": "はこ",
+  "meaning": "cái hộp",
+  "example": "[机](つくえ)の[上](うえ)に**[箱](はこ)**があります。",
+  "exampleVi": "Trên bàn có một cái hộp.",
+  "examples": [
+   {
+    "ja": "[机](つくえ)の[上](うえ)に**[箱](はこ)**があります。",
+    "vi": "Trên bàn có một cái hộp."
+   },
+   {
+    "ja": "**[箱](はこ)**の[中](なか)に[何](なに)がありますか。",
+    "vi": "Trong hộp có gì?"
+   }
+  ]
+ },
+ {
+  "word": "スイッチ",
+  "reading": "スイッチ",
+  "meaning": "công tắc",
+  "example": "**スイッチ**はドアの[右](みぎ)にあります。",
+  "exampleVi": "Công tắc ở bên phải cửa.",
+  "examples": [
+   {
+    "ja": "**スイッチ**はドアの[右](みぎ)にあります。",
+    "vi": "Công tắc ở bên phải cửa."
+   },
+   {
+    "ja": "**スイッチ**はあそこにあります。",
+    "vi": "Công tắc ở đằng kia."
+   }
+  ]
+ },
+ {
+  "word": "冷蔵庫",
+  "reading": "れいぞうこ",
+  "meaning": "tủ lạnh",
+  "example": "**[冷蔵庫](れいぞうこ)**の[中](なか)に[卵](たまご)があります。",
+  "exampleVi": "Trong tủ lạnh có trứng.",
+  "examples": [
+   {
+    "ja": "**[冷蔵庫](れいぞうこ)**の[中](なか)に[卵](たまご)があります。",
+    "vi": "Trong tủ lạnh có trứng."
+   },
+   {
+    "ja": "**[冷蔵庫](れいぞうこ)**に[牛乳](ぎゅうにゅう)があります。",
+    "vi": "Trong tủ lạnh có sữa tươi."
+   }
+  ]
+ },
+ {
+  "word": "テーブル",
+  "reading": "テーブル",
+  "meaning": "bàn",
+  "example": "**テーブル**の[上](うえ)に[花](はな)があります。",
+  "exampleVi": "Trên bàn có hoa.",
+  "examples": [
+   {
+    "ja": "**テーブル**の[上](うえ)に[花](はな)があります。",
+    "vi": "Trên bàn có hoa."
+   },
+   {
+    "ja": "ダイニングキッチンに**テーブル**があります。",
+    "vi": "Trong phòng bếp có bàn ăn."
+   }
+  ]
+ },
+ {
+  "word": "ベッド",
+  "reading": "ベッド",
+  "meaning": "giường",
+  "example": "**ベッド**の[下](した)にかばんがあります。",
+  "exampleVi": "Dưới giường có cái cặp.",
+  "examples": [
+   {
+    "ja": "**ベッド**の[下](した)にかばんがあります。",
+    "vi": "Dưới giường có cái cặp."
+   },
+   {
+    "ja": "[部屋](へや)に**ベッド**があります。",
+    "vi": "Trong phòng có giường."
+   }
+  ]
+ },
+ {
+  "word": "たな",
+  "reading": "たな",
+  "meaning": "giá sách, kệ sách",
+  "example": "**たな**の[上](うえ)に[辞書](じしょ)があります。",
+  "exampleVi": "Trên giá có từ điển.",
+  "examples": [
+   {
+    "ja": "**たな**の[上](うえ)に[辞書](じしょ)があります。",
+    "vi": "Trên giá có từ điển."
+   },
+   {
+    "ja": "[飲](の)み[物](もの)はその**たな**です。",
+    "vi": "Thức uống ở kệ đó."
+   }
+  ]
+ },
+ {
+  "word": "ドア",
+  "reading": "ドア",
+  "meaning": "cửa",
+  "example": "**ドア**の[前](まえ)に[男](おとこ)の[人](ひと)がいます。",
+  "exampleVi": "Trước cửa có một người đàn ông.",
+  "examples": [
+   {
+    "ja": "**ドア**の[前](まえ)に[男](おとこ)の[人](ひと)がいます。",
+    "vi": "Trước cửa có một người đàn ông."
+   },
+   {
+    "ja": "**ドア**をあけてください。",
+    "vi": "Xin hãy mở cửa ra."
+   }
+  ]
+ },
+ {
+  "word": "窓",
+  "reading": "まど",
+  "meaning": "cửa sổ",
+  "example": "**[窓](まど)**の[近](ちか)くに[机](つくえ)があります。",
+  "exampleVi": "Gần cửa sổ có một cái bàn.",
+  "examples": [
+   {
+    "ja": "**[窓](まど)**の[近](ちか)くに[机](つくえ)があります。",
+    "vi": "Gần cửa sổ có một cái bàn."
+   },
+   {
+    "ja": "**[窓](まど)**を[開](あ)けます。",
+    "vi": "Mở cửa sổ."
+   }
+  ]
+ },
+ {
+  "word": "ポスト",
+  "reading": "ポスト",
+  "meaning": "hộp thư, hòm thư",
+  "example": "**ポスト**は[駅](えき)の[前](まえ)にあります。",
+  "exampleVi": "Hòm thư ở trước nhà ga.",
+  "examples": [
+   {
+    "ja": "**ポスト**は[駅](えき)の[前](まえ)にあります。",
+    "vi": "Hòm thư ở trước nhà ga."
+   },
+   {
+    "ja": "はがきを**ポスト**に[入](い)れます。",
+    "vi": "Tôi cho bưu thiếp vào thùng thư."
+   }
+  ]
+ },
+ {
+  "word": "ビル",
+  "reading": "ビル",
+  "meaning": "tòa nhà",
+  "example": "あの**ビル**の[中](なか)に[銀行](ぎんこう)があります。",
+  "exampleVi": "Trong tòa nhà kia có ngân hàng.",
+  "examples": [
+   {
+    "ja": "あの**ビル**の[中](なか)に[銀行](ぎんこう)があります。",
+    "vi": "Trong tòa nhà kia có ngân hàng."
+   },
+   {
+    "ja": "[会社](かいしゃ)はあの**ビル**です。",
+    "vi": "Công ty ở tòa nhà đó."
+   }
+  ]
+ },
+ {
+  "word": "エーティーエム",
+  "reading": "エーティーエム",
+  "meaning": "máy ATM",
+  "example": "**エーティーエム**は[銀行](ぎんこう)の[中](なか)にあります。",
+  "exampleVi": "Máy ATM ở trong ngân hàng.",
+  "examples": [
+   {
+    "ja": "**エーティーエム**は[銀行](ぎんこう)の[中](なか)にあります。",
+    "vi": "Máy ATM ở trong ngân hàng."
+   },
+   {
+    "ja": "この[近](ちか)くに**エーティーエム**があります。",
+    "vi": "Gần đây có máy ATM."
+   }
+  ]
+ },
+ {
+  "word": "コンビニ",
+  "reading": "コンビニ",
+  "meaning": "cửa hàng tiện lợi",
+  "example": "**コンビニ**は[駅](えき)の[近](ちか)くにあります。",
+  "exampleVi": "Cửa hàng tiện lợi ở gần nhà ga.",
+  "examples": [
+   {
+    "ja": "**コンビニ**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Cửa hàng tiện lợi ở gần nhà ga."
+   },
+   {
+    "ja": "**コンビニ**でお[弁当](べんとう)を[買](か)います。",
+    "vi": "Tôi mua cơm hộp ở cửa hàng tiện lợi."
+   }
+  ]
+ },
+ {
+  "word": "公園",
+  "reading": "こうえん",
+  "meaning": "công viên",
+  "example": "**[公園](こうえん)**に[木](き)がたくさんあります。",
+  "exampleVi": "Trong công viên có nhiều cây.",
+  "examples": [
+   {
+    "ja": "**[公園](こうえん)**に[木](き)がたくさんあります。",
+    "vi": "Trong công viên có nhiều cây."
+   },
+   {
+    "ja": "[日曜日](にちようび)に、**[公園](こうえん)**であそびました。",
+    "vi": "Chủ nhật tôi đã chơi ở công viên."
+   }
+  ]
+ },
+ {
+  "word": "きっさてん",
+  "reading": "きっさてん",
+  "meaning": "quán nước",
+  "example": "[駅](えき)の[前](まえ)に**きっさてん**があります。",
+  "exampleVi": "Trước nhà ga có một quán nước.",
+  "examples": [
+   {
+    "ja": "[駅](えき)の[前](まえ)に**きっさてん**があります。",
+    "vi": "Trước nhà ga có một quán nước."
+   },
+   {
+    "ja": "**きっさてん**で、コーヒーをのみました。",
+    "vi": "Tôi đã uống cà phê ở quán cà phê."
+   }
+  ]
+ },
+ {
+  "word": "屋",
+  "reading": "や",
+  "meaning": "cửa hàng～",
+  "example": "パン**[屋](や)**は[駅](えき)の[前](まえ)にあります。",
+  "exampleVi": "Tiệm bánh mì ở trước nhà ga.",
+  "examples": [
+   {
+    "ja": "パン**[屋](や)**は[駅](えき)の[前](まえ)にあります。",
+    "vi": "Tiệm bánh mì ở trước nhà ga."
+   },
+   {
+    "ja": "パン**[屋](や)**でパンを[買](か)います。",
+    "vi": "Tôi mua bánh mì ở tiệm bánh mì."
+   }
+  ]
+ },
+ {
+  "word": "乗り場",
+  "reading": "のりば",
+  "meaning": "điểm đón taxi, tàu,...",
+  "example": "バスの**[乗](の)り[場](ば)**はあそこです。",
+  "exampleVi": "Điểm lên xe buýt ở đằng kia.",
+  "examples": [
+   {
+    "ja": "バスの**[乗](の)り[場](ば)**はあそこです。",
+    "vi": "Điểm lên xe buýt ở đằng kia."
+   },
+   {
+    "ja": "バス**[乗](の)り[場](ば)**はどこですか。",
+    "vi": "Trạm xe buýt ở đâu ạ?"
+   }
+  ]
+ },
+ {
+  "word": "大使館",
+  "reading": "たいしかん",
+  "meaning": "đại sứ quán",
+  "example": "**[大使館](たいしかん)**は[駅](えき)の[近](ちか)くにあります。",
+  "exampleVi": "Đại sứ quán ở gần nhà ga.",
+  "examples": [
+   {
+    "ja": "**[大使館](たいしかん)**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Đại sứ quán ở gần nhà ga."
+   },
+   {
+    "ja": "**[大使館](たいしかん)**にビザを[取](と)りに[行](い)きます。",
+    "vi": "Tôi đến đại sứ quán để lấy visa."
+   }
+  ]
+ },
+ {
+  "word": "県",
+  "reading": "けん",
+  "meaning": "tỉnh",
+  "example": "[長野](ながの)**[県](けん)**は[山](やま)がたくさんあります。",
+  "exampleVi": "Tỉnh Nagano có nhiều núi.",
+  "examples": [
+   {
+    "ja": "[長野](ながの)**[県](けん)**は[山](やま)がたくさんあります。",
+    "vi": "Tỉnh Nagano có nhiều núi."
+   },
+   {
+    "ja": "ディズニーランドは[千葉](ちば)**[県](けん)**にあります。",
+    "vi": "Disneyland nằm ở tỉnh Chiba."
+   }
+  ]
+ },
+ {
+  "word": "上",
+  "reading": "うえ",
+  "meaning": "trên",
+  "example": "[机](つくえ)の**[上](うえ)**に[本](ほん)があります。",
+  "exampleVi": "Trên bàn có sách.",
+  "examples": [
+   {
+    "ja": "[机](つくえ)の**[上](うえ)**に[本](ほん)があります。",
+    "vi": "Trên bàn có sách."
+   },
+   {
+    "ja": "いすの**[上](うえ)**に、かばんがあります。",
+    "vi": "Có cái cặp ở trên ghế."
+   }
+  ]
+ },
+ {
+  "word": "下",
+  "reading": "した",
+  "meaning": "dưới",
+  "example": "いすの**[下](した)**にかばんがあります。",
+  "exampleVi": "Dưới ghế có cái cặp.",
+  "examples": [
+   {
+    "ja": "いすの**[下](した)**にかばんがあります。",
+    "vi": "Dưới ghế có cái cặp."
+   },
+   {
+    "ja": "いすの**[下](した)**に、ねこがいます。",
+    "vi": "Có một con mèo dưới gầm ghế."
+   }
+  ]
+ },
+ {
+  "word": "前",
+  "reading": "まえ",
+  "meaning": "trước",
+  "example": "[学校](がっこう)の**[前](まえ)**に[公園](こうえん)があります。",
+  "exampleVi": "Trước trường có công viên.",
+  "examples": [
+   {
+    "ja": "[学校](がっこう)の**[前](まえ)**に[公園](こうえん)があります。",
+    "vi": "Trước trường có công viên."
+   },
+   {
+    "ja": "ねる**[前](まえ)**に、はをみがきます。",
+    "vi": "Trước khi ngủ tôi đánh răng."
+   }
+  ]
+ },
+ {
+  "word": "後ろ",
+  "reading": "うしろ",
+  "meaning": "sau",
+  "example": "ビルの**[後](うし)ろ**に[公園](こうえん)があります。",
+  "exampleVi": "Sau tòa nhà có công viên.",
+  "examples": [
+   {
+    "ja": "ビルの**[後](うし)ろ**に[公園](こうえん)があります。",
+    "vi": "Sau tòa nhà có công viên."
+   },
+   {
+    "ja": "わたしの**[後](うし)ろ**に、ともだちが[立](た)っています。",
+    "vi": "Bạn tôi đang đứng phía sau tôi."
+   }
+  ]
+ },
+ {
+  "word": "右",
+  "reading": "みぎ",
+  "meaning": "(bên) phải",
+  "example": "ポストの**[右](みぎ)**にコンビニがあります。",
+  "exampleVi": "Bên phải hòm thư có cửa hàng tiện lợi.",
+  "examples": [
+   {
+    "ja": "ポストの**[右](みぎ)**にコンビニがあります。",
+    "vi": "Bên phải hòm thư có cửa hàng tiện lợi."
+   },
+   {
+    "ja": "**[右](みぎ)**にまがってください。",
+    "vi": "Hãy rẽ phải."
+   }
+  ]
+ },
+ {
+  "word": "左",
+  "reading": "ひだり",
+  "meaning": "(bên) trái",
+  "example": "[銀行](ぎんこう)の**[左](ひだり)**に[郵便局](ゆうびんきょく)があります。",
+  "exampleVi": "Bên trái ngân hàng có bưu điện.",
+  "examples": [
+   {
+    "ja": "[銀行](ぎんこう)の**[左](ひだり)**に[郵便局](ゆうびんきょく)があります。",
+    "vi": "Bên trái ngân hàng có bưu điện."
+   },
+   {
+    "ja": "**[左](ひだり)**にぎんこうがあります。",
+    "vi": "Bên trái có một ngân hàng."
+   }
+  ]
+ },
+ {
+  "word": "中",
+  "reading": "なか",
+  "meaning": "trong, giữa",
+  "example": "[箱](はこ)の**[中](なか)**に[何](なに)がありますか。",
+  "exampleVi": "Trong hộp có gì?",
+  "examples": [
+   {
+    "ja": "[箱](はこ)の**[中](なか)**に[何](なに)がありますか。",
+    "vi": "Trong hộp có gì?"
+   },
+   {
+    "ja": "かばんの**[中](なか)**に、[本](ほん)が[入](はい)っています。",
+    "vi": "Trong cặp có sách."
+   }
+  ]
+ },
+ {
+  "word": "外",
+  "reading": "そと",
+  "meaning": "ngoài",
+  "example": "[部屋](へや)の**[外](そと)**に[男](おとこ)の[人](ひと)がいます。",
+  "exampleVi": "Bên ngoài phòng có một người đàn ông.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)の**[外](そと)**に[男](おとこ)の[人](ひと)がいます。",
+    "vi": "Bên ngoài phòng có một người đàn ông."
+   },
+   {
+    "ja": "**[外](そと)**はさむいです。",
+    "vi": "Bên ngoài trời lạnh."
+   }
+  ]
+ },
+ {
+  "word": "となり",
+  "reading": "となり",
+  "meaning": "bên cạnh",
+  "example": "[学校](がっこう)の**となり**に[図書館](としょかん)があります。",
+  "exampleVi": "Bên cạnh trường có thư viện.",
+  "examples": [
+   {
+    "ja": "[学校](がっこう)の**となり**に[図書館](としょかん)があります。",
+    "vi": "Bên cạnh trường có thư viện."
+   },
+   {
+    "ja": "[銀行](ぎんこう)の**となり**に[郵便局](ゆうびんきょく)があります。",
+    "vi": "Bên cạnh ngân hàng có bưu điện."
+   }
+  ]
+ },
+ {
+  "word": "近く",
+  "reading": "ちかく",
+  "meaning": "gần",
+  "example": "[家](うち)の**[近](ちか)く**にスーパーがあります。",
+  "exampleVi": "Gần nhà tôi có siêu thị.",
+  "examples": [
+   {
+    "ja": "[家](うち)の**[近](ちか)く**にスーパーがあります。",
+    "vi": "Gần nhà tôi có siêu thị."
+   },
+   {
+    "ja": "わたしの[家](いえ)の**[近](ちか)く**に、えきがあります。",
+    "vi": "Gần nhà tôi có nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "間",
+  "reading": "あいだ",
+  "meaning": "giữa, ở giữa",
+  "example": "[銀行](ぎんこう)と[郵便局](ゆうびんきょく)の**[間](あいだ)**にコンビニがあります。",
+  "exampleVi": "Giữa ngân hàng và bưu điện có cửa hàng tiện lợi.",
+  "examples": [
+   {
+    "ja": "[銀行](ぎんこう)と[郵便局](ゆうびんきょく)の**[間](あいだ)**にコンビニがあります。",
+    "vi": "Giữa ngân hàng và bưu điện có cửa hàng tiện lợi."
+   },
+   {
+    "ja": "えきと[学校](がっこう)の**[間](あいだ)**に、[店](みせ)があります。",
+    "vi": "Có một cửa hàng giữa nhà ga và trường học."
+   }
+  ]
+ },
+ {
+  "word": "ナンプラー",
+  "reading": "ナンプラー",
+  "meaning": "nước mắm",
+  "example": "**ナンプラー**は[冷蔵庫](れいぞうこ)の[中](なか)にあります。",
+  "exampleVi": "Nước mắm Thái ở trong tủ lạnh.",
+  "examples": [
+   {
+    "ja": "**ナンプラー**は[冷蔵庫](れいぞうこ)の[中](なか)にあります。",
+    "vi": "Nước mắm Thái ở trong tủ lạnh."
+   },
+   {
+    "ja": "**ナンプラー**はタイのニョクマムです。",
+    "vi": "Nam-pla là nước mắm của Thái Lan."
+   }
+  ]
+ },
+ {
+  "word": "コーナー",
+  "reading": "コーナー",
+  "meaning": "quầy, phần, góc",
+  "example": "ワインの**コーナー**は[地下](ちか)にあります。",
+  "exampleVi": "Quầy rượu vang ở tầng hầm.",
+  "examples": [
+   {
+    "ja": "ワインの**コーナー**は[地下](ちか)にあります。",
+    "vi": "Quầy rượu vang ở tầng hầm."
+   },
+   {
+    "ja": "ニョクマムはしょうゆの**コーナー**にあります。",
+    "vi": "Nước mắm ở khu nước tương."
+   }
+  ]
+ },
+ {
+  "word": "一番",
+  "reading": "いちばん",
+  "meaning": "số 1, nhất",
+  "example": "[受付](うけつけ)は**[一番](いちばん)**[左](ひだり)です。",
+  "exampleVi": "Quầy tiếp tân ở ngoài cùng bên trái.",
+  "examples": [
+   {
+    "ja": "[受付](うけつけ)は**[一番](いちばん)**[左](ひだり)です。",
+    "vi": "Quầy tiếp tân ở ngoài cùng bên trái."
+   },
+   {
+    "ja": "[季節](きせつ)でいつが**[一番](いちばん)**[好](す)きですか。",
+    "vi": "Trong các mùa, bạn thích mùa nào nhất?"
+   }
+  ]
+ },
+ {
+  "word": "パスポート",
+  "reading": "パスポート",
+  "meaning": "hộ chiếu",
+  "example": "**パスポート**はかばんの[中](なか)にあります。",
+  "exampleVi": "Hộ chiếu ở trong cặp.",
+  "examples": [
+   {
+    "ja": "**パスポート**はかばんの[中](なか)にあります。",
+    "vi": "Hộ chiếu ở trong cặp."
+   },
+   {
+    "ja": "**パスポート**を、[家](いえ)にわすれました。",
+    "vi": "Tôi đã để quên hộ chiếu ở nhà."
+   }
+  ]
+ },
+ {
+  "word": "チリソース",
+  "reading": "チリソース",
+  "meaning": "tương ớt",
+  "example": "**チリソース**はテーブルの[上](うえ)にあります。",
+  "exampleVi": "Tương ớt ở trên bàn.",
+  "examples": [
+   {
+    "ja": "**チリソース**はテーブルの[上](うえ)にあります。",
+    "vi": "Tương ớt ở trên bàn."
+   },
+   {
+    "ja": "**チリソース**は[冷蔵庫](れいぞうこ)の[中](なか)にあります。",
+    "vi": "Tương ớt ở trong tủ lạnh."
+   }
+  ]
+ }
 ]

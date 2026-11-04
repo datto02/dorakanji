@@ -1,16 +1,240 @@
 [
-  "おろす",
-  "届ける",
-  "録音する",
-  "塾",
-  "生徒",
-  "ファイル",
-  "営業",
-  "それまでに",
-  "楽しむ",
-  "親",
-  "小学生",
-  "パーセント",
-  "その次",
-  "習字"
+ {
+  "word": "おろす",
+  "reading": "おろす",
+  "meaning": "lấy xuống",
+  "example": "トラックから[荷物](にもつ)を**おろします**。",
+  "exampleVi": "Tôi dỡ hành lý xuống khỏi xe tải.",
+  "examples": [
+   {
+    "ja": "トラックから[荷物](にもつ)を**おろします**。",
+    "vi": "Tôi dỡ hành lý xuống khỏi xe tải."
+   },
+   {
+    "ja": "[棚](たな)から[箱](はこ)を**おろします**。",
+    "vi": "Tôi lấy chiếc hộp xuống khỏi giá."
+   }
+  ]
+ },
+ {
+  "word": "届ける",
+  "reading": "とどける",
+  "meaning": "giao đến, gửi đến",
+  "example": "[荷物](にもつ)を[家](うち)まで**[届](とど)けます**。",
+  "exampleVi": "Tôi giao hành lý tận nhà.",
+  "examples": [
+   {
+    "ja": "[荷物](にもつ)を[家](うち)まで**[届](とど)けます**。",
+    "vi": "Tôi giao hành lý tận nhà."
+   },
+   {
+    "ja": "[荷物](にもつ)を**[届](とど)けても**らいました。",
+    "vi": "Tôi đã được phát hàng (bưu phẩm)."
+   }
+  ]
+ },
+ {
+  "word": "録音する",
+  "reading": "ろくおんする",
+  "meaning": "ghi âm",
+  "example": "[先生](せんせい)の[話](はなし)を**[録音](ろくおん)します**。",
+  "exampleVi": "Tôi ghi âm bài nói của thầy.",
+  "examples": [
+   {
+    "ja": "[先生](せんせい)の[話](はなし)を**[録音](ろくおん)します**。",
+    "vi": "Tôi ghi âm bài nói của thầy."
+   },
+   {
+    "ja": "[会議](かいぎ)を**[録音](ろくおん)します**。",
+    "vi": "Tôi ghi âm cuộc họp."
+   }
+  ]
+ },
+ {
+  "word": "じゅく",
+  "reading": "じゅく",
+  "meaning": "lớp học thêm, lò luyện thi",
+  "example": "[弟](おとうと)は**じゅく**に[通](かよ)っています。",
+  "exampleVi": "Em trai tôi đang đi học thêm ở lò luyện thi.",
+  "examples": [
+   {
+    "ja": "[弟](おとうと)は**じゅく**に[通](かよ)っています。",
+    "vi": "Em trai tôi đang đi học thêm ở lò luyện thi."
+   },
+   {
+    "ja": "[学校](がっこう)が[終](お)わったら、**じゅく**に[行](い)きます。",
+    "vi": "Sau khi giờ học kết thúc, tôi sẽ đi học thêm."
+   }
+  ]
+ },
+ {
+  "word": "生徒",
+  "reading": "せいと",
+  "meaning": "học sinh",
+  "example": "**[生徒](せいと)**が[教室](きょうしつ)にいます。",
+  "exampleVi": "Học sinh đang ở trong lớp.",
+  "examples": [
+   {
+    "ja": "**[生徒](せいと)**が[教室](きょうしつ)にいます。",
+    "vi": "Học sinh đang ở trong lớp."
+   },
+   {
+    "ja": "この[学校](がっこう)の**[生徒](せいと)**は[何人](なんにん)ですか。",
+    "vi": "Học sinh trường này có bao nhiêu người?"
+   }
+  ]
+ },
+ {
+  "word": "ファイル",
+  "reading": "ファイル",
+  "meaning": "file tài liệu, kẹp tài liệu",
+  "example": "[書類](しょるい)を**ファイル**に[入](い)れます。",
+  "exampleVi": "Tôi cho hồ sơ vào kẹp tài liệu.",
+  "examples": [
+   {
+    "ja": "[書類](しょるい)を**ファイル**に[入](い)れます。",
+    "vi": "Tôi cho hồ sơ vào kẹp tài liệu."
+   },
+   {
+    "ja": "[資料](しりょう)を**ファイル**に[入](い)れます。",
+    "vi": "Tôi cất tài liệu vào bìa hồ sơ."
+   }
+  ]
+ },
+ {
+  "word": "営業",
+  "reading": "えいぎょう",
+  "meaning": "kinh doanh",
+  "example": "**[営業](えいぎょう)**は9[時](じ)からです。",
+  "exampleVi": "Giờ kinh doanh bắt đầu từ 9 giờ.",
+  "examples": [
+   {
+    "ja": "**[営業](えいぎょう)**は9[時](じ)からです。",
+    "vi": "Giờ kinh doanh bắt đầu từ 9 giờ."
+   },
+   {
+    "ja": "**[営業](えいぎょう)**の[仕事](しごと)は[楽](たの)しいです。",
+    "vi": "Công việc kinh doanh thì vui."
+   }
+  ]
+ },
+ {
+  "word": "それまでに",
+  "reading": "それまでに",
+  "meaning": "cho đến lúc đó",
+  "example": "**それまでに**[書類](しょるい)を[出](だ)してください。",
+  "exampleVi": "Xin hãy nộp hồ sơ trước lúc đó.",
+  "examples": [
+   {
+    "ja": "**それまでに**[書類](しょるい)を[出](だ)してください。",
+    "vi": "Xin hãy nộp hồ sơ trước lúc đó."
+   },
+   {
+    "ja": "**それまでに**[宿題](しゅくだい)を[終](お)わらせます。",
+    "vi": "Tôi sẽ làm xong bài tập trước lúc đó."
+   }
+  ]
+ },
+ {
+  "word": "楽しむ",
+  "reading": "たのしむ",
+  "meaning": "vui vẻ, thưởng thức",
+  "example": "[毎日](まいにち)[生活](せいかつ)を**[楽](たの)しんでいます**。",
+  "exampleVi": "Ngày nào tôi cũng tận hưởng cuộc sống.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)[生活](せいかつ)を**[楽](たの)しんでいます**。",
+    "vi": "Ngày nào tôi cũng tận hưởng cuộc sống."
+   },
+   {
+    "ja": "[日本](にほん)の[生活](せいかつ)を**[楽](たの)しんでいます**。",
+    "vi": "Tôi rất vui thích cuộc sống ở Nhật Bản."
+   }
+  ]
+ },
+ {
+  "word": "親",
+  "reading": "おや",
+  "meaning": "bố mẹ",
+  "example": "**[親](おや)**に[手紙](てがみ)を[書](か)きます。",
+  "exampleVi": "Tôi viết thư cho bố mẹ.",
+  "examples": [
+   {
+    "ja": "**[親](おや)**に[手紙](てがみ)を[書](か)きます。",
+    "vi": "Tôi viết thư cho bố mẹ."
+   },
+   {
+    "ja": "**[親](おや)**は[子供](こども)のことを[心配](しんぱい)します。",
+    "vi": "Cha mẹ lo lắng cho con cái."
+   }
+  ]
+ },
+ {
+  "word": "小学生",
+  "reading": "しょうがくせい",
+  "meaning": "học sinh tiểu học",
+  "example": "**[小学生](しょうがくせい)**は[毎日](まいにち)[学校](がっこう)へ[行](い)きます。",
+  "exampleVi": "Học sinh tiểu học ngày nào cũng đến trường.",
+  "examples": [
+   {
+    "ja": "**[小学生](しょうがくせい)**は[毎日](まいにち)[学校](がっこう)へ[行](い)きます。",
+    "vi": "Học sinh tiểu học ngày nào cũng đến trường."
+   },
+   {
+    "ja": "[弟](おとうと)は**[小学生](しょうがくせい)**です。",
+    "vi": "Em trai tôi là học sinh tiểu học."
+   }
+  ]
+ },
+ {
+  "word": "パーセント",
+  "reading": "パーセント",
+  "meaning": "phần trăm",
+  "example": "[学生](がくせい)の50**パーセント**が[女性](じょせい)です。",
+  "exampleVi": "50% học sinh là nữ.",
+  "examples": [
+   {
+    "ja": "[学生](がくせい)の50**パーセント**が[女性](じょせい)です。",
+    "vi": "50% học sinh là nữ."
+   },
+   {
+    "ja": "[試験](しけん)に[合格](ごうかく)した[人](ひと)は[八十](はちじゅう)**パーセント**でした。",
+    "vi": "Số người đỗ kỳ thi là 80%."
+   }
+  ]
+ },
+ {
+  "word": "その次",
+  "reading": "そのつぎ",
+  "meaning": "tiếp theo đó",
+  "example": "**その[次](つぎ)**は[田中](たなか)さんです。",
+  "exampleVi": "Người kế tiếp sau đó là anh Tanaka.",
+  "examples": [
+   {
+    "ja": "**その[次](つぎ)**は[田中](たなか)さんです。",
+    "vi": "Người kế tiếp sau đó là anh Tanaka."
+   },
+   {
+    "ja": "[田中](たなか)さんの**[その次](つぎ)**は[私](わたし)です。",
+    "vi": "Người tiếp theo sau anh Tanaka là tôi."
+   }
+  ]
+ },
+ {
+  "word": "習字",
+  "reading": "しゅうじ",
+  "meaning": "học viết chữ bằng bút lông",
+  "example": "[子供](こども)を**[習字](しゅうじ)**に[通](かよ)わせています。",
+  "exampleVi": "Tôi cho con đi học thư pháp.",
+  "examples": [
+   {
+    "ja": "[子供](こども)を**[習字](しゅうじ)**に[通](かよ)わせています。",
+    "vi": "Tôi cho con đi học thư pháp."
+   },
+   {
+    "ja": "[子供](こども)のころ、**[習字](しゅうじ)**を[習](なら)っていました。",
+    "vi": "Hồi nhỏ tôi đã học thư pháp."
+   }
+  ]
+ }
 ]

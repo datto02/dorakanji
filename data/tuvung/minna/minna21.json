@@ -1,34 +1,546 @@
 [
-  "思います",
-  "言います",
-  "足ります",
-  "勝ちます",
-  "負けます",
-  "お祭り",
-  "役に立ちます",
-  "むだ",
-  "不便",
-  "同じ",
-  "すごい",
-  "首相",
-  "大統領",
-  "政治",
-  "ニュース",
-  "スピーチ",
-  "試合",
-  "アルバイト",
-  "意見",
-  "お話",
-  "ユーモア",
-  "デザイン",
-  "交通",
-  "ラッシュ",
-  "最近",
-  "たぶん",
-  "きっと",
-  "本当に",
-  "そんなに",
-  "について",
-  "もちろん",
-  "カンガルー"
+ {
+  "word": "思います",
+  "reading": "おもいます",
+  "meaning": "nghĩ",
+  "example": "[日本語](にほんご)は[面白](おもしろ)いと**[思](おも)います**。",
+  "exampleVi": "Tôi nghĩ tiếng Nhật thú vị.",
+  "examples": [
+   {
+    "ja": "[日本語](にほんご)は[面白](おもしろ)いと**[思](おも)います**。",
+    "vi": "Tôi nghĩ tiếng Nhật thú vị."
+   },
+   {
+    "ja": "[明日](あした)は[暑](あつ)いと**[思](おも)います**。",
+    "vi": "Tôi nghĩ ngày mai (trời) nóng."
+   }
+  ]
+ },
+ {
+  "word": "言います",
+  "reading": "いいます",
+  "meaning": "nói",
+  "example": "ミラーさんは「ありがとう」と**[言](い)いました**。",
+  "exampleVi": "Anh Miller đã nói \"cảm ơn\".",
+  "examples": [
+   {
+    "ja": "ミラーさんは「ありがとう」と**[言](い)いました**。",
+    "vi": "Anh Miller đã nói \"cảm ơn\"."
+   },
+   {
+    "ja": "[先生](せんせい)は「しゅくだいを[出](だ)してください」と**[言](い)いました**。",
+    "vi": "Thầy giáo nói: \"Hãy nộp bài tập về nhà\"."
+   }
+  ]
+ },
+ {
+  "word": "足ります",
+  "reading": "たります",
+  "meaning": "đủ",
+  "example": "お[金](かね)が**[足](た)りません**。",
+  "exampleVi": "Không đủ tiền.",
+  "examples": [
+   {
+    "ja": "お[金](かね)が**[足](た)りません**。",
+    "vi": "Không đủ tiền."
+   },
+   {
+    "ja": "これでお[金](かね)が**[足](た)ります**。",
+    "vi": "Với số này thì đủ tiền."
+   }
+  ]
+ },
+ {
+  "word": "勝ちます",
+  "reading": "かちます",
+  "meaning": "thắng",
+  "example": "[試合](しあい)に**[勝](か)ちました**。",
+  "exampleVi": "Tôi đã thắng trận đấu.",
+  "examples": [
+   {
+    "ja": "[試合](しあい)に**[勝](か)ちました**。",
+    "vi": "Tôi đã thắng trận đấu."
+   },
+   {
+    "ja": "ブラジルが**[勝](か)ちました**。",
+    "vi": "Brazil đã thắng."
+   }
+  ]
+ },
+ {
+  "word": "負けます",
+  "reading": "まけます",
+  "meaning": "thua",
+  "example": "[昨日](きのう)の[試合](しあい)に**[負](ま)けました**。",
+  "exampleVi": "Tôi đã thua trận đấu hôm qua.",
+  "examples": [
+   {
+    "ja": "[昨日](きのう)の[試合](しあい)に**[負](ま)けました**。",
+    "vi": "Tôi đã thua trận đấu hôm qua."
+   },
+   {
+    "ja": "[山田](やまだ)さんはホアンさんに**[負](ま)けました**。",
+    "vi": "Anh Yamada đã thua anh Hoàng."
+   }
+  ]
+ },
+ {
+  "word": "お祭り",
+  "reading": "おまつり",
+  "meaning": "lễ hội",
+  "example": "[日曜日](にちようび)に**お[祭](まつ)り**があります。",
+  "exampleVi": "Chủ nhật có lễ hội.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に**お[祭](まつ)り**があります。",
+    "vi": "Chủ nhật có lễ hội."
+   },
+   {
+    "ja": "[日本](にほん)の**お[祭](まつ)り**はにぎやかです。",
+    "vi": "Lễ hội của Nhật náo nhiệt."
+   }
+  ]
+ },
+ {
+  "word": "役に立ちます",
+  "reading": "やくにたちます",
+  "meaning": "có ích",
+  "example": "この[辞書](じしょ)は**[役](やく)に[立](た)ちます**。",
+  "exampleVi": "Cuốn từ điển này có ích.",
+  "examples": [
+   {
+    "ja": "この[辞書](じしょ)は**[役](やく)に[立](た)ちます**。",
+    "vi": "Cuốn từ điển này có ích."
+   },
+   {
+    "ja": "これは**[役](やく)に[立](た)ちます**。",
+    "vi": "Cái này có ích."
+   }
+  ]
+ },
+ {
+  "word": "むだ",
+  "reading": "むだ",
+  "meaning": "vô ích, lãng phí",
+  "example": "それは**むだ**だと[思](おも)います。",
+  "exampleVi": "Tôi nghĩ việc đó là vô ích.",
+  "examples": [
+   {
+    "ja": "それは**むだ**だと[思](おも)います。",
+    "vi": "Tôi nghĩ việc đó là vô ích."
+   },
+   {
+    "ja": "これは**むだ**なお[金](かね)です。",
+    "vi": "Đây là số tiền lãng phí."
+   }
+  ]
+ },
+ {
+  "word": "不便",
+  "reading": "ふべん",
+  "meaning": "bất tiện",
+  "example": "この[町](まち)は**[不便](ふべん)**です。",
+  "exampleVi": "Thành phố này bất tiện.",
+  "examples": [
+   {
+    "ja": "この[町](まち)は**[不便](ふべん)**です。",
+    "vi": "Thành phố này bất tiện."
+   },
+   {
+    "ja": "この[駅](えき)の[近](ちか)くは[店](みせ)がなくて**[不便](ふべん)**です。",
+    "vi": "Gần ga này không có cửa hàng nên bất tiện."
+   }
+  ]
+ },
+ {
+  "word": "同じ",
+  "reading": "おなじ",
+  "meaning": "giống",
+  "example": "わたしとミラーさんは**[同](おな)じ**[会社](かいしゃ)です。",
+  "exampleVi": "Tôi và anh Miller làm cùng một công ty.",
+  "examples": [
+   {
+    "ja": "わたしとミラーさんは**[同](おな)じ**[会社](かいしゃ)です。",
+    "vi": "Tôi và anh Miller làm cùng một công ty."
+   },
+   {
+    "ja": "[私](わたし)と[弟](おとうと)は**[同](おな)じ**[学校](がっこう)です。",
+    "vi": "Tôi và em trai học cùng một trường."
+   }
+  ]
+ },
+ {
+  "word": "すごい",
+  "reading": "すごい",
+  "meaning": "kinh khủng, tuyệt vời",
+  "example": "[富士山](ふじさん)は**すごい**です。",
+  "exampleVi": "Núi Phú Sĩ thật tuyệt vời.",
+  "examples": [
+   {
+    "ja": "[富士山](ふじさん)は**すごい**です。",
+    "vi": "Núi Phú Sĩ thật tuyệt vời."
+   },
+   {
+    "ja": "この[絵](え)は**すごい**ですね。",
+    "vi": "Bức tranh này tuyệt quá nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "首相",
+  "reading": "しゅしょう",
+  "meaning": "thủ tướng",
+  "example": "**[首相](しゅしょう)**は[明日](あした)[来](き)ます。",
+  "exampleVi": "Ngày mai thủ tướng sẽ đến.",
+  "examples": [
+   {
+    "ja": "**[首相](しゅしょう)**は[明日](あした)[来](き)ます。",
+    "vi": "Ngày mai thủ tướng sẽ đến."
+   },
+   {
+    "ja": "**[首相](しゅしょう)**は[今](いま)、[会議](かいぎ)に[出](で)ています。",
+    "vi": "Thủ tướng hiện đang dự họp."
+   }
+  ]
+ },
+ {
+  "word": "大統領",
+  "reading": "だいとうりょう",
+  "meaning": "tổng thống",
+  "example": "**[大統領](だいとうりょう)**は[今日](きょう)[日本](にほん)へ[来](き)ます。",
+  "exampleVi": "Hôm nay tổng thống đến Nhật.",
+  "examples": [
+   {
+    "ja": "**[大統領](だいとうりょう)**は[今日](きょう)[日本](にほん)へ[来](き)ます。",
+    "vi": "Hôm nay tổng thống đến Nhật."
+   },
+   {
+    "ja": "**[大統領](だいとうりょう)**の[話](はなし)をテレビで[聞](き)きました。",
+    "vi": "Tôi đã nghe bài phát biểu của tổng thống trên tivi."
+   }
+  ]
+ },
+ {
+  "word": "政治",
+  "reading": "せいじ",
+  "meaning": "chính trị",
+  "example": "**[政治](せいじ)**は[難](むずか)しいと[思](おも)います。",
+  "exampleVi": "Tôi nghĩ chính trị khó.",
+  "examples": [
+   {
+    "ja": "**[政治](せいじ)**は[難](むずか)しいと[思](おも)います。",
+    "vi": "Tôi nghĩ chính trị khó."
+   },
+   {
+    "ja": "[兄](あに)は[大学](だいがく)で**[政治](せいじ)**を[勉強](べんきょう)しています。",
+    "vi": "Anh trai tôi đang học chính trị ở trường đại học."
+   }
+  ]
+ },
+ {
+  "word": "ニュース",
+  "reading": "ニュース",
+  "meaning": "tin tức",
+  "example": "[毎晩](まいばん)**ニュース**を[見](み)ます。",
+  "exampleVi": "Tối nào tôi cũng xem tin tức.",
+  "examples": [
+   {
+    "ja": "[毎晩](まいばん)**ニュース**を[見](み)ます。",
+    "vi": "Tối nào tôi cũng xem tin tức."
+   },
+   {
+    "ja": "[昨日](きのう)、**ニュース**を[見](み)ました。",
+    "vi": "Hôm qua, tôi đã xem tin tức."
+   }
+  ]
+ },
+ {
+  "word": "スピーチ",
+  "reading": "スピーチ",
+  "meaning": "diễn văn, bài phát biểu",
+  "example": "ミラーさんの**スピーチ**は[面白](おもしろ)かったです。",
+  "exampleVi": "Bài phát biểu của anh Miller rất thú vị.",
+  "examples": [
+   {
+    "ja": "ミラーさんの**スピーチ**は[面白](おもしろ)かったです。",
+    "vi": "Bài phát biểu của anh Miller rất thú vị."
+   },
+   {
+    "ja": "[土曜日](どようび)に[学校](がっこう)で**スピーチ**をしました。",
+    "vi": "Tôi đã hùng biện ở trường vào ngày thứ Bảy."
+   }
+  ]
+ },
+ {
+  "word": "試合",
+  "reading": "しあい",
+  "meaning": "trận đấu",
+  "example": "[明日](あした)サッカーの**[試合](しあい)**があります。",
+  "exampleVi": "Ngày mai có trận đấu bóng đá.",
+  "examples": [
+   {
+    "ja": "[明日](あした)サッカーの**[試合](しあい)**があります。",
+    "vi": "Ngày mai có trận đấu bóng đá."
+   },
+   {
+    "ja": "[今日](きょう)、[野球](やきゅう)の**[試合](しあい)**があります。",
+    "vi": "Hôm nay có trận bóng chày."
+   }
+  ]
+ },
+ {
+  "word": "アルバイト",
+  "reading": "アルバイト",
+  "meaning": "việc làm thêm",
+  "example": "[土曜日](どようび)に**アルバイト**をします。",
+  "exampleVi": "Thứ bảy tôi làm thêm.",
+  "examples": [
+   {
+    "ja": "[土曜日](どようび)に**アルバイト**をします。",
+    "vi": "Thứ bảy tôi làm thêm."
+   },
+   {
+    "ja": "[土曜日](どようび)に**アルバイト**があります。",
+    "vi": "Thứ bảy tôi có việc làm thêm."
+   }
+  ]
+ },
+ {
+  "word": "意見",
+  "reading": "いけん",
+  "meaning": "ý kiến",
+  "example": "**[意見](いけん)**を[言](い)ってください。",
+  "exampleVi": "Xin hãy nói ý kiến của bạn.",
+  "examples": [
+   {
+    "ja": "**[意見](いけん)**を[言](い)ってください。",
+    "vi": "Xin hãy nói ý kiến của bạn."
+   },
+   {
+    "ja": "[皆](みな)さんの**[意見](いけん)**を[聞](き)きます。",
+    "vi": "Tôi sẽ lắng nghe ý kiến của mọi người."
+   }
+  ]
+ },
+ {
+  "word": "お話",
+  "reading": "おはなし",
+  "meaning": "câu chuyện",
+  "example": "[面白](おもしろ)い**お[話](はなし)**です。",
+  "exampleVi": "Đây là một câu chuyện thú vị.",
+  "examples": [
+   {
+    "ja": "[面白](おもしろ)い**お[話](はなし)**です。",
+    "vi": "Đây là một câu chuyện thú vị."
+   },
+   {
+    "ja": "[母](はは)に[面白](おもしろ)い**お[話](はなし)**を[聞](き)きました。",
+    "vi": "Tôi đã nghe mẹ kể một câu chuyện thú vị."
+   }
+  ]
+ },
+ {
+  "word": "ユーモア",
+  "reading": "ユーモア",
+  "meaning": "hài hước",
+  "example": "ミラーさんは**ユーモア**があります。",
+  "exampleVi": "Anh Miller có khiếu hài hước.",
+  "examples": [
+   {
+    "ja": "ミラーさんは**ユーモア**があります。",
+    "vi": "Anh Miller có khiếu hài hước."
+   },
+   {
+    "ja": "**ユーモア**のある[人](ひと)が[好](す)きです。",
+    "vi": "Tôi thích người có khiếu hài hước."
+   }
+  ]
+ },
+ {
+  "word": "デザイン",
+  "reading": "デザイン",
+  "meaning": "thiết kế",
+  "example": "この[服](ふく)の**デザイン**はいいです。",
+  "exampleVi": "Thiết kế của bộ quần áo này đẹp.",
+  "examples": [
+   {
+    "ja": "この[服](ふく)の**デザイン**はいいです。",
+    "vi": "Thiết kế của bộ quần áo này đẹp."
+   },
+   {
+    "ja": "[素敵](すてき)な**デザイン**ですね。",
+    "vi": "Mẫu mã đẹp nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "交通",
+  "reading": "こうつう",
+  "meaning": "giao thông",
+  "example": "この[町](まち)は**[交通](こうつう)**が[便利](べんり)です。",
+  "exampleVi": "Giao thông ở thành phố này thuận tiện.",
+  "examples": [
+   {
+    "ja": "この[町](まち)は**[交通](こうつう)**が[便利](べんり)です。",
+    "vi": "Giao thông ở thành phố này thuận tiện."
+   },
+   {
+    "ja": "ここは**[交通](こうつう)**が[不便](ふべん)です。",
+    "vi": "Nơi này giao thông bất tiện."
+   }
+  ]
+ },
+ {
+  "word": "ラッシュ",
+  "reading": "ラッシュ",
+  "meaning": "cao điểm, giờ cao điểm",
+  "example": "[朝](あさ)は**ラッシュ**です。",
+  "exampleVi": "Buổi sáng là giờ cao điểm.",
+  "examples": [
+   {
+    "ja": "[朝](あさ)は**ラッシュ**です。",
+    "vi": "Buổi sáng là giờ cao điểm."
+   },
+   {
+    "ja": "[朝](あさ)の**ラッシュ**は[大変](たいへん)です。",
+    "vi": "Giờ cao điểm buổi sáng thật vất vả."
+   }
+  ]
+ },
+ {
+  "word": "最近",
+  "reading": "さいきん",
+  "meaning": "gần đây",
+  "example": "**[最近](さいきん)**、いそがしいです。",
+  "exampleVi": "Gần đây tôi bận.",
+  "examples": [
+   {
+    "ja": "**[最近](さいきん)**、いそがしいです。",
+    "vi": "Gần đây tôi bận."
+   },
+   {
+    "ja": "**[最近](さいきん)**、[仕事](しごと)がいそがしいです。",
+    "vi": "Gần đây, công việc bận rộn."
+   }
+  ]
+ },
+ {
+  "word": "たぶん",
+  "reading": "たぶん",
+  "meaning": "có lẽ",
+  "example": "**たぶん**[明日](あした)は[雨](あめ)だと[思](おも)います。",
+  "exampleVi": "Có lẽ ngày mai trời sẽ mưa.",
+  "examples": [
+   {
+    "ja": "**たぶん**[明日](あした)は[雨](あめ)だと[思](おも)います。",
+    "vi": "Có lẽ ngày mai trời sẽ mưa."
+   },
+   {
+    "ja": "[明日](あした)は**たぶん**[雨](あめ)だと[思](おも)います。",
+    "vi": "Tôi nghĩ có lẽ ngày mai mưa."
+   }
+  ]
+ },
+ {
+  "word": "きっと",
+  "reading": "きっと",
+  "meaning": "chắc chắn là",
+  "example": "**きっと**だいじょうぶです。",
+  "exampleVi": "Chắc chắn sẽ ổn thôi.",
+  "examples": [
+   {
+    "ja": "**きっと**だいじょうぶです。",
+    "vi": "Chắc chắn sẽ ổn thôi."
+   },
+   {
+    "ja": "**きっと**[雪](ゆき)が[降](ふ)るでしょう。",
+    "vi": "Chắc tuyết sẽ rơi."
+   }
+  ]
+ },
+ {
+  "word": "本当に",
+  "reading": "ほんとうに",
+  "meaning": "thực sự",
+  "example": "**[本当](ほんとう)に**[面白](おもしろ)かったです。",
+  "exampleVi": "Thực sự rất thú vị.",
+  "examples": [
+   {
+    "ja": "**[本当](ほんとう)に**[面白](おもしろ)かったです。",
+    "vi": "Thực sự rất thú vị."
+   },
+   {
+    "ja": "**[本当](ほんとう)に**そうですね。",
+    "vi": "Thật sự đúng vậy nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "そんなに",
+  "reading": "そんなに",
+  "meaning": "đến thế, đến mức đó",
+  "example": "**そんなに**[高](たか)くないです。",
+  "exampleVi": "Không đắt đến thế đâu.",
+  "examples": [
+   {
+    "ja": "**そんなに**[高](たか)くないです。",
+    "vi": "Không đắt đến thế đâu."
+   },
+   {
+    "ja": "**そんなに**いそがしくないです。",
+    "vi": "Không bận lắm đâu."
+   }
+  ]
+ },
+ {
+  "word": "について",
+  "reading": "について",
+  "meaning": "về ~",
+  "example": "[日本](にほん)**について**[勉強](べんきょう)します。",
+  "exampleVi": "Tôi học về nước Nhật.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)**について**[勉強](べんきょう)します。",
+    "vi": "Tôi học về nước Nhật."
+   },
+   {
+    "ja": "[日本](にほん)の[経済](けいざい)**について**[調](しら)べています。",
+    "vi": "Tôi đang tìm hiểu về kinh tế của Nhật Bản."
+   }
+  ]
+ },
+ {
+  "word": "もちろん",
+  "reading": "もちろん",
+  "meaning": "tất nhiên",
+  "example": "**もちろん**、[行](い)きます。",
+  "exampleVi": "Tất nhiên là tôi đi.",
+  "examples": [
+   {
+    "ja": "**もちろん**、[行](い)きます。",
+    "vi": "Tất nhiên là tôi đi."
+   },
+   {
+    "ja": "はい、**もちろん**です。",
+    "vi": "Vâng, đương nhiên rồi."
+   }
+  ]
+ },
+ {
+  "word": "カンガルー",
+  "reading": "カンガルー",
+  "meaning": "con chuột túi",
+  "example": "**カンガルー**はオーストラリアの[動物](どうぶつ)です。",
+  "exampleVi": "Kangaroo là động vật của nước Úc.",
+  "examples": [
+   {
+    "ja": "**カンガルー**はオーストラリアの[動物](どうぶつ)です。",
+    "vi": "Kangaroo là động vật của nước Úc."
+   },
+   {
+    "ja": "[動物園](どうぶつえん)で**カンガルー**を[見](み)ました。",
+    "vi": "Tôi đã xem kangaroo ở sở thú."
+   }
+  ]
+ }
 ]

@@ -1,41 +1,665 @@
 [
-  "切ります",
-  "送ります",
-  "あげます",
-  "もらいます",
-  "貸します",
-  "借ります",
-  "教えます",
-  "習います",
-  "かけます",
-  "手",
-  "箸",
-  "スプーン",
-  "ナイフ",
-  "フォーク",
-  "はさみ",
-  "パソコン",
-  "パンチ",
-  "ホッチキス",
-  "セロテープ",
-  "紙",
-  "花",
-  "シャツ",
-  "プレゼント",
-  "荷物",
-  "お金",
-  "切符",
-  "クリスマス",
-  "父",
-  "母",
-  "お父さん",
-  "お母さん",
-  "もう",
-  "まだ",
-  "これから",
-  "お土産",
-  "スペイン",
-  "ケータイ",
-  "メール",
-  "年賀状"
+ {
+  "word": "切ります",
+  "reading": "きります",
+  "meaning": "cắt",
+  "example": "[紙](かみ)を**[切](き)ります**。",
+  "exampleVi": "Tôi cắt giấy.",
+  "examples": [
+   {
+    "ja": "[紙](かみ)を**[切](き)ります**。",
+    "vi": "Tôi cắt giấy."
+   },
+   {
+    "ja": "はさみで[紙](かみ)を**[切](き)ります**。",
+    "vi": "Tôi cắt giấy bằng kéo."
+   }
+  ]
+ },
+ {
+  "word": "送ります",
+  "reading": "おくります",
+  "meaning": "gửi, tiễn [người]",
+  "example": "[家族](かぞく)に[手紙](てがみ)を**[送](おく)ります**。",
+  "exampleVi": "Tôi gửi thư cho gia đình.",
+  "examples": [
+   {
+    "ja": "[家族](かぞく)に[手紙](てがみ)を**[送](おく)ります**。",
+    "vi": "Tôi gửi thư cho gia đình."
+   },
+   {
+    "ja": "[友達](ともだち)を[駅](えき)まで**[送](おく)ります**。",
+    "vi": "Tôi tiễn bạn đến nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "あげます",
+  "reading": "あげます",
+  "meaning": "cho, tặng",
+  "example": "[父](ちち)に[本](ほん)を**あげます**。",
+  "exampleVi": "Tôi tặng sách cho bố.",
+  "examples": [
+   {
+    "ja": "[父](ちち)に[本](ほん)を**あげます**。",
+    "vi": "Tôi tặng sách cho bố."
+   },
+   {
+    "ja": "[友達](ともだち)にプレゼントを**あげます**。",
+    "vi": "Tôi tặng quà cho bạn."
+   }
+  ]
+ },
+ {
+  "word": "もらいます",
+  "reading": "もらいます",
+  "meaning": "nhận",
+  "example": "[友達](ともだち)に[花](はな)を**もらいます**。",
+  "exampleVi": "Tôi nhận hoa từ bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に[花](はな)を**もらいます**。",
+    "vi": "Tôi nhận hoa từ bạn."
+   },
+   {
+    "ja": "[父](ちち)に[辞書](じしょ)を**もらいました**。",
+    "vi": "Tôi nhận quyển từ điển từ bố. (Bố cho tôi quyển từ điển)"
+   }
+  ]
+ },
+ {
+  "word": "貸します",
+  "reading": "かします",
+  "meaning": "cho mượn",
+  "example": "[友達](ともだち)に[辞書](じしょ)を**[貸](か)します**。",
+  "exampleVi": "Tôi cho bạn mượn từ điển.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に[辞書](じしょ)を**[貸](か)します**。",
+    "vi": "Tôi cho bạn mượn từ điển."
+   },
+   {
+    "ja": "お[金](かね)を**[貸](か)して**ください。",
+    "vi": "Hãy cho tôi mượn tiền."
+   }
+  ]
+ },
+ {
+  "word": "借ります",
+  "reading": "かります",
+  "meaning": "mượn, vay",
+  "example": "[友達](ともだち)に[本](ほん)を**[借](か)ります**。",
+  "exampleVi": "Tôi mượn sách của bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に[本](ほん)を**[借](か)ります**。",
+    "vi": "Tôi mượn sách của bạn."
+   },
+   {
+    "ja": "[友達](ともだち)にお[金](かね)を**[借](か)ります**。",
+    "vi": "Tôi mượn tiền từ bạn."
+   }
+  ]
+ },
+ {
+  "word": "教えます",
+  "reading": "おしえます",
+  "meaning": "dạy, cho biết",
+  "example": "ミラーさんは[学生](がくせい)に[英語](えいご)を**[教](おし)えます**。",
+  "exampleVi": "Anh Miller dạy tiếng Anh cho học sinh.",
+  "examples": [
+   {
+    "ja": "ミラーさんは[学生](がくせい)に[英語](えいご)を**[教](おし)えます**。",
+    "vi": "Anh Miller dạy tiếng Anh cho học sinh."
+   },
+   {
+    "ja": "[住所](じゅうしょ)を**[教](おし)えて**ください。",
+    "vi": "Xin hãy cho tôi biết địa chỉ."
+   }
+  ]
+ },
+ {
+  "word": "習います",
+  "reading": "ならいます",
+  "meaning": "học",
+  "example": "[田中](たなか)さんに[日本語](にほんご)を**[習](なら)います**。",
+  "exampleVi": "Tôi học tiếng Nhật từ anh Tanaka.",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんに[日本語](にほんご)を**[習](なら)います**。",
+    "vi": "Tôi học tiếng Nhật từ anh Tanaka."
+   },
+   {
+    "ja": "[生](い)け[花](ばな)を**[習](なら)いました**。",
+    "vi": "Tôi đã học cắm hoa."
+   }
+  ]
+ },
+ {
+  "word": "かけます",
+  "reading": "かけます",
+  "meaning": "gọi [điện thoại]",
+  "example": "[友達](ともだち)にでんわを**かけます**。",
+  "exampleVi": "Tôi gọi điện thoại cho bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)にでんわを**かけます**。",
+    "vi": "Tôi gọi điện thoại cho bạn."
+   },
+   {
+    "ja": "[国](くに)の[母](はは)にでんわを**かけます**。",
+    "vi": "Tôi gọi điện thoại cho mẹ ở quê."
+   }
+  ]
+ },
+ {
+  "word": "手",
+  "reading": "て",
+  "meaning": "tay",
+  "example": "パンを**[手](て)**で[食](た)べます。",
+  "exampleVi": "Tôi ăn bánh mì bằng tay.",
+  "examples": [
+   {
+    "ja": "パンを**[手](て)**で[食](た)べます。",
+    "vi": "Tôi ăn bánh mì bằng tay."
+   },
+   {
+    "ja": "**[手](て)**をあらってから、ごはんを[食](た)べます。",
+    "vi": "Rửa tay xong rồi mới ăn cơm."
+   }
+  ]
+ },
+ {
+  "word": "はし",
+  "reading": "はし",
+  "meaning": "đũa",
+  "example": "**はし**でご[飯](はん)を[食](た)べます。",
+  "exampleVi": "Tôi ăn cơm bằng đũa.",
+  "examples": [
+   {
+    "ja": "**はし**でご[飯](はん)を[食](た)べます。",
+    "vi": "Tôi ăn cơm bằng đũa."
+   },
+   {
+    "ja": "[川](かわ)に、[新](あたら)しい**はし**ができました。",
+    "vi": "Một cây cầu mới đã được xây trên sông."
+   }
+  ]
+ },
+ {
+  "word": "スプーン",
+  "reading": "スプーン",
+  "meaning": "thìa",
+  "example": "**スプーン**で[卵](たまご)を[食](た)べます。",
+  "exampleVi": "Tôi ăn trứng bằng thìa.",
+  "examples": [
+   {
+    "ja": "**スプーン**で[卵](たまご)を[食](た)べます。",
+    "vi": "Tôi ăn trứng bằng thìa."
+   },
+   {
+    "ja": "**スプーン**でスープを[飲](の)みます。",
+    "vi": "Tôi uống súp bằng thìa."
+   }
+  ]
+ },
+ {
+  "word": "ナイフ",
+  "reading": "ナイフ",
+  "meaning": "dao",
+  "example": "**ナイフ**で[肉](にく)を[切](き)ります。",
+  "exampleVi": "Tôi cắt thịt bằng dao.",
+  "examples": [
+   {
+    "ja": "**ナイフ**で[肉](にく)を[切](き)ります。",
+    "vi": "Tôi cắt thịt bằng dao."
+   },
+   {
+    "ja": "この**ナイフ**は[父](ちち)のです。",
+    "vi": "Con dao này là của bố tôi."
+   }
+  ]
+ },
+ {
+  "word": "フォーク",
+  "reading": "フォーク",
+  "meaning": "nĩa, dĩa",
+  "example": "**フォーク**で[魚](さかな)を[食](た)べます。",
+  "exampleVi": "Tôi ăn cá bằng nĩa.",
+  "examples": [
+   {
+    "ja": "**フォーク**で[魚](さかな)を[食](た)べます。",
+    "vi": "Tôi ăn cá bằng nĩa."
+   },
+   {
+    "ja": "**フォーク**で[食](た)べます。",
+    "vi": "Tôi ăn bằng nĩa."
+   }
+  ]
+ },
+ {
+  "word": "はさみ",
+  "reading": "はさみ",
+  "meaning": "kéo",
+  "example": "**はさみ**で[紙](かみ)を[切](き)ります。",
+  "exampleVi": "Tôi cắt giấy bằng kéo.",
+  "examples": [
+   {
+    "ja": "**はさみ**で[紙](かみ)を[切](き)ります。",
+    "vi": "Tôi cắt giấy bằng kéo."
+   },
+   {
+    "ja": "この**はさみ**は[父](ちち)のです。",
+    "vi": "Cái kéo này là của bố tôi."
+   }
+  ]
+ },
+ {
+  "word": "パソコン",
+  "reading": "パソコン",
+  "meaning": "máy vi tính cá nhân",
+  "example": "**パソコン**で[手紙](てがみ)を[書](か)きます。",
+  "exampleVi": "Tôi viết thư bằng máy tính.",
+  "examples": [
+   {
+    "ja": "**パソコン**で[手紙](てがみ)を[書](か)きます。",
+    "vi": "Tôi viết thư bằng máy tính."
+   },
+   {
+    "ja": "これは[兄](あに)の**パソコン**です。",
+    "vi": "Đây là máy tính của anh tôi."
+   }
+  ]
+ },
+ {
+  "word": "パンチ",
+  "reading": "パンチ",
+  "meaning": "cái đục lỗ",
+  "example": "[友達](ともだち)に**パンチ**を[借](か)ります。",
+  "exampleVi": "Tôi mượn cái đục lỗ của bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**パンチ**を[借](か)ります。",
+    "vi": "Tôi mượn cái đục lỗ của bạn."
+   },
+   {
+    "ja": "**パンチ**を[使](つか)ってください。",
+    "vi": "Hãy dùng đồ bấm lỗ."
+   }
+  ]
+ },
+ {
+  "word": "ホッチキス",
+  "reading": "ホッチキス",
+  "meaning": "cái dập ghim",
+  "example": "**ホッチキス**は[私](わたし)のです。",
+  "exampleVi": "Cái dập ghim là của tôi.",
+  "examples": [
+   {
+    "ja": "**ホッチキス**は[私](わたし)のです。",
+    "vi": "Cái dập ghim là của tôi."
+   },
+   {
+    "ja": "**ホッチキス**は[箱](はこ)の[中](なか)にあります。",
+    "vi": "Đồ bấm ghim ở trong hộp."
+   }
+  ]
+ },
+ {
+  "word": "セロテープ",
+  "reading": "セロテープ",
+  "meaning": "băng dính",
+  "example": "**セロテープ**は[田中](たなか)さんのです。",
+  "exampleVi": "Băng dính là của anh Tanaka.",
+  "examples": [
+   {
+    "ja": "**セロテープ**は[田中](たなか)さんのです。",
+    "vi": "Băng dính là của anh Tanaka."
+   },
+   {
+    "ja": "**セロテープ**を[使](つか)います。",
+    "vi": "Tôi dùng băng keo trong."
+   }
+  ]
+ },
+ {
+  "word": "紙",
+  "reading": "かみ",
+  "meaning": "giấy",
+  "example": "これは[日本](にほん)の**[紙](かみ)**です。",
+  "exampleVi": "Đây là giấy của Nhật.",
+  "examples": [
+   {
+    "ja": "これは[日本](にほん)の**[紙](かみ)**です。",
+    "vi": "Đây là giấy của Nhật."
+   },
+   {
+    "ja": "**[紙](かみ)**に[名前](なまえ)を[書](か)いてください。",
+    "vi": "Hãy viết tên vào tờ giấy."
+   }
+  ]
+ },
+ {
+  "word": "花",
+  "reading": "はな",
+  "meaning": "hoa",
+  "example": "[母](はは)に**[花](はな)**をあげます。",
+  "exampleVi": "Tôi tặng hoa cho mẹ.",
+  "examples": [
+   {
+    "ja": "[母](はは)に**[花](はな)**をあげます。",
+    "vi": "Tôi tặng hoa cho mẹ."
+   },
+   {
+    "ja": "にわに、きれいな**[花](はな)**があります。",
+    "vi": "Trong vườn có những bông hoa đẹp."
+   }
+  ]
+ },
+ {
+  "word": "シャツ",
+  "reading": "シャツ",
+  "meaning": "áo sơ mi",
+  "example": "[父](ちち)に**シャツ**をあげます。",
+  "exampleVi": "Tôi tặng áo sơ mi cho bố.",
+  "examples": [
+   {
+    "ja": "[父](ちち)に**シャツ**をあげます。",
+    "vi": "Tôi tặng áo sơ mi cho bố."
+   },
+   {
+    "ja": "**シャツ**を[買](か)いました。",
+    "vi": "Tôi đã mua áo sơ mi."
+   }
+  ]
+ },
+ {
+  "word": "プレゼント",
+  "reading": "プレゼント",
+  "meaning": "quà tặng",
+  "example": "[友達](ともだち)に**プレゼント**をあげます。",
+  "exampleVi": "Tôi tặng quà cho bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**プレゼント**をあげます。",
+    "vi": "Tôi tặng quà cho bạn."
+   },
+   {
+    "ja": "[弟](おとうと)に**プレゼント**をあげました。",
+    "vi": "Tôi đã tặng quà cho em trai."
+   }
+  ]
+ },
+ {
+  "word": "荷物",
+  "reading": "にもつ",
+  "meaning": "đồ đạc, hành lý",
+  "example": "これは[私](わたし)の**[荷物](にもつ)**です。",
+  "exampleVi": "Đây là hành lý của tôi.",
+  "examples": [
+   {
+    "ja": "これは[私](わたし)の**[荷物](にもつ)**です。",
+    "vi": "Đây là hành lý của tôi."
+   },
+   {
+    "ja": "[郵便局](ゆうびんきょく)で**[荷物](にもつ)**を[送](おく)ります。",
+    "vi": "Tôi gửi hành lý ở bưu điện."
+   }
+  ]
+ },
+ {
+  "word": "お金",
+  "reading": "おかね",
+  "meaning": "tiền",
+  "example": "[友達](ともだち)に**お[金](かね)**を[借](か)りました。",
+  "exampleVi": "Tôi đã mượn tiền của bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**お[金](かね)**を[借](か)りました。",
+    "vi": "Tôi đã mượn tiền của bạn."
+   },
+   {
+    "ja": "**お[金](かね)**がありません。",
+    "vi": "Tôi không có tiền."
+   }
+  ]
+ },
+ {
+  "word": "きっぷ",
+  "reading": "きっぷ",
+  "meaning": "vé",
+  "example": "[駅](えき)で**きっぷ**を[買](か)います。",
+  "exampleVi": "Tôi mua vé ở nhà ga.",
+  "examples": [
+   {
+    "ja": "[駅](えき)で**きっぷ**を[買](か)います。",
+    "vi": "Tôi mua vé ở nhà ga."
+   },
+   {
+    "ja": "[友達](ともだち)に**きっぷ**をあげました。",
+    "vi": "Tôi đã tặng vé cho bạn."
+   }
+  ]
+ },
+ {
+  "word": "クリスマス",
+  "reading": "クリスマス",
+  "meaning": "Giáng sinh",
+  "example": "**クリスマス**は[十二月](じゅうにがつ)の[二十五日](にじゅうごにち)です。",
+  "exampleVi": "Giáng sinh là ngày 25 tháng 12.",
+  "examples": [
+   {
+    "ja": "**クリスマス**は[十二月](じゅうにがつ)の[二十五日](にじゅうごにち)です。",
+    "vi": "Giáng sinh là ngày 25 tháng 12."
+   },
+   {
+    "ja": "**クリスマス**にパーティーをします。",
+    "vi": "Sẽ làm tiệc vào Giáng sinh."
+   }
+  ]
+ },
+ {
+  "word": "父",
+  "reading": "ちち",
+  "meaning": "bố (của mình)",
+  "example": "**[父](ちち)**は[会社員](かいしゃいん)です。",
+  "exampleVi": "Bố tôi là nhân viên công ty.",
+  "examples": [
+   {
+    "ja": "**[父](ちち)**は[会社員](かいしゃいん)です。",
+    "vi": "Bố tôi là nhân viên công ty."
+   },
+   {
+    "ja": "**[父](ちち)**は[会社](かいしゃ)ではたらいています。",
+    "vi": "Bố tôi đang làm việc ở công ty."
+   }
+  ]
+ },
+ {
+  "word": "母",
+  "reading": "はは",
+  "meaning": "mẹ (của mình)",
+  "example": "**[母](はは)**は[先生](せんせい)です。",
+  "exampleVi": "Mẹ tôi là giáo viên.",
+  "examples": [
+   {
+    "ja": "**[母](はは)**は[先生](せんせい)です。",
+    "vi": "Mẹ tôi là giáo viên."
+   },
+   {
+    "ja": "**[母](はは)**は、りょうりが[上手](じょうず)です。",
+    "vi": "Mẹ tôi nấu ăn giỏi."
+   }
+  ]
+ },
+ {
+  "word": "お父さん",
+  "reading": "おとうさん",
+  "meaning": "bố (của người khác)",
+  "example": "ミラーさんの**お[父](とう)さん**は[医者](いしゃ)です。",
+  "exampleVi": "Bố của anh Miller là bác sĩ.",
+  "examples": [
+   {
+    "ja": "ミラーさんの**お[父](とう)さん**は[医者](いしゃ)です。",
+    "vi": "Bố của anh Miller là bác sĩ."
+   },
+   {
+    "ja": "[田中](たなか)さんの**お[父](とう)さん**は、[先生](せんせい)です。",
+    "vi": "Bố của anh Tanaka là giáo viên."
+   }
+  ]
+ },
+ {
+  "word": "お母さん",
+  "reading": "おかあさん",
+  "meaning": "mẹ (của người khác)",
+  "example": "ミラーさんの**お[母](かあ)さん**は[先生](せんせい)です。",
+  "exampleVi": "Mẹ của anh Miller là giáo viên.",
+  "examples": [
+   {
+    "ja": "ミラーさんの**お[母](かあ)さん**は[先生](せんせい)です。",
+    "vi": "Mẹ của anh Miller là giáo viên."
+   },
+   {
+    "ja": "**お[母](かあ)さん**、おなかがすきました。",
+    "vi": "Mẹ ơi, con đói bụng rồi."
+   }
+  ]
+ },
+ {
+  "word": "もう",
+  "reading": "もう",
+  "meaning": "đã, rồi",
+  "example": "**もう**[昼](ひる)ご[飯](はん)を[食](た)べましたか。",
+  "exampleVi": "Bạn đã ăn cơm trưa chưa?",
+  "examples": [
+   {
+    "ja": "**もう**[昼](ひる)ご[飯](はん)を[食](た)べましたか。",
+    "vi": "Bạn đã ăn cơm trưa chưa?"
+   },
+   {
+    "ja": "**もう**いちど[読](よ)んでください。",
+    "vi": "Xin hãy đọc lại một lần nữa."
+   }
+  ]
+ },
+ {
+  "word": "まだ",
+  "reading": "まだ",
+  "meaning": "vẫn, chưa",
+  "example": "A：もう[宿題](しゅくだい)をしましたか。B：いいえ、**まだ**です。",
+  "exampleVi": "A: Bạn đã làm bài tập về nhà chưa?  B: Chưa, vẫn chưa.",
+  "examples": [
+   {
+    "ja": "A：もう[宿題](しゅくだい)をしましたか。B：いいえ、**まだ**です。",
+    "vi": "A: Bạn đã làm bài tập về nhà chưa?  B: Chưa, vẫn chưa."
+   },
+   {
+    "ja": "いいえ、**まだ**です。",
+    "vi": "Chưa, vẫn chưa."
+   }
+  ]
+ },
+ {
+  "word": "これから",
+  "reading": "これから",
+  "meaning": "từ bây giờ, sau đây",
+  "example": "**これから**[勉強](べんきょう)します。",
+  "exampleVi": "Bây giờ tôi sẽ học bài.",
+  "examples": [
+   {
+    "ja": "**これから**[勉強](べんきょう)します。",
+    "vi": "Bây giờ tôi sẽ học bài."
+   },
+   {
+    "ja": "**これから**[考](かんが)えます。",
+    "vi": "Từ nay tôi sẽ suy nghĩ."
+   }
+  ]
+ },
+ {
+  "word": "お土産",
+  "reading": "おみやげ",
+  "meaning": "quà đặc sản, lưu niệm",
+  "example": "[友達](ともだち)に**お[土産](みやげ)**をあげます。",
+  "exampleVi": "Tôi tặng quà lưu niệm cho bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**お[土産](みやげ)**をあげます。",
+    "vi": "Tôi tặng quà lưu niệm cho bạn."
+   },
+   {
+    "ja": "これは[日本](にほん)の**お[土産](みやげ)**です。",
+    "vi": "Đây là quà lưu niệm của Nhật."
+   }
+  ]
+ },
+ {
+  "word": "スペイン",
+  "reading": "スペイン",
+  "meaning": "Tây Ban Nha",
+  "example": "**スペイン**のワインをもらいました。",
+  "exampleVi": "Tôi đã được tặng rượu vang của Tây Ban Nha.",
+  "examples": [
+   {
+    "ja": "**スペイン**のワインをもらいました。",
+    "vi": "Tôi đã được tặng rượu vang của Tây Ban Nha."
+   },
+   {
+    "ja": "**スペイン**へ[行](い)きます。",
+    "vi": "Tôi sẽ đi Tây Ban Nha."
+   }
+  ]
+ },
+ {
+  "word": "ケータイ",
+  "reading": "ケータイ",
+  "meaning": "điện thoại di động",
+  "example": "**ケータイ**でメールを[送](おく)ります。",
+  "exampleVi": "Tôi gửi email bằng điện thoại di động.",
+  "examples": [
+   {
+    "ja": "**ケータイ**でメールを[送](おく)ります。",
+    "vi": "Tôi gửi email bằng điện thoại di động."
+   },
+   {
+    "ja": "**ケータイ**で[電話](でんわ)をかけます。",
+    "vi": "Tôi gọi điện bằng điện thoại di động."
+   }
+  ]
+ },
+ {
+  "word": "メール",
+  "reading": "メール",
+  "meaning": "thư điện tử, email",
+  "example": "[友達](ともだち)に**メール**を[送](おく)ります。",
+  "exampleVi": "Tôi gửi email cho bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**メール**を[送](おく)ります。",
+    "vi": "Tôi gửi email cho bạn."
+   },
+   {
+    "ja": "**メール**を[送](おく)ります。",
+    "vi": "Tôi gửi e-mail."
+   }
+  ]
+ },
+ {
+  "word": "年賀状",
+  "reading": "ねんがじょう",
+  "meaning": "thiệp mừng năm mới",
+  "example": "**[年賀状](ねんがじょう)**を[書](か)きます。",
+  "exampleVi": "Tôi viết thiệp mừng năm mới.",
+  "examples": [
+   {
+    "ja": "**[年賀状](ねんがじょう)**を[書](か)きます。",
+    "vi": "Tôi viết thiệp mừng năm mới."
+   },
+   {
+    "ja": "[先生](せんせい)に**[年賀状](ねんがじょう)**を[出](だ)します。",
+    "vi": "Tôi gửi thiệp chúc năm mới cho thầy cô."
+   }
+  ]
+ }
 ]

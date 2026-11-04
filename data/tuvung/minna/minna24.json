@@ -1,19 +1,291 @@
 [
-  "くれます",
-  "連れていきます",
-  "連れてきます",
-  "送ります",
-  "紹介します",
-  "案内します",
-  "説明します",
-  "おじいさん",
-  "おばあさん",
-  "準備",
-  "引っ越し",
-  "お菓子",
-  "ホームステイ",
-  "全部",
-  "自分で",
-  "他に",
-  "母の日"
+ {
+  "word": "くれます",
+  "reading": "くれます",
+  "meaning": "cho, tặng (tôi)",
+  "example": "[友達](ともだち)が[私](わたし)に[本](ほん)を**くれました**。",
+  "exampleVi": "Bạn đã tặng tôi một quyển sách.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)が[私](わたし)に[本](ほん)を**くれました**。",
+    "vi": "Bạn đã tặng tôi một quyển sách."
+   },
+   {
+    "ja": "[友達](ともだち)がお[土産](みやげ)を**くれました**。",
+    "vi": "Bạn tôi tặng tôi món quà."
+   }
+  ]
+ },
+ {
+  "word": "連れていきます",
+  "reading": "つれていきます",
+  "meaning": "dẫn đi",
+  "example": "[子供](こども)を[公園](こうえん)へ**[連](つ)れて[行](い)きます**。",
+  "exampleVi": "Tôi dẫn con đi công viên.",
+  "examples": [
+   {
+    "ja": "[子供](こども)を[公園](こうえん)へ**[連](つ)れて[行](い)きます**。",
+    "vi": "Tôi dẫn con đi công viên."
+   },
+   {
+    "ja": "[子供](こども)を[病院](びょういん)へ**[連](つ)れていきます**。",
+    "vi": "Tôi dẫn con đến bệnh viện."
+   }
+  ]
+ },
+ {
+  "word": "連れてきます",
+  "reading": "つれてきます",
+  "meaning": "dẫn đến",
+  "example": "[友達](ともだち)を**[連](つ)れて[来](き)ます**。",
+  "exampleVi": "Tôi sẽ dẫn bạn đến.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)を**[連](つ)れて[来](き)ます**。",
+    "vi": "Tôi sẽ dẫn bạn đến."
+   },
+   {
+    "ja": "[友達](ともだち)を[家](うち)へ**[連](つ)れてきます**。",
+    "vi": "Tôi dẫn bạn đến nhà."
+   }
+  ]
+ },
+ {
+  "word": "送ります",
+  "reading": "おくります",
+  "meaning": "gửi, tiễn [người]",
+  "example": "[友達](ともだち)を[駅](えき)まで**[送](おく)ります**。",
+  "exampleVi": "Tôi tiễn bạn đến nhà ga.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)を[駅](えき)まで**[送](おく)ります**。",
+    "vi": "Tôi tiễn bạn đến nhà ga."
+   },
+   {
+    "ja": "[家族](かぞく)に[手紙](てがみ)を**[送](おく)ります**。",
+    "vi": "Tôi gửi thư cho gia đình."
+   }
+  ]
+ },
+ {
+  "word": "しょうかいします",
+  "reading": "しょうかいします",
+  "meaning": "giới thiệu",
+  "example": "[友達](ともだち)を**しょうかいします**。",
+  "exampleVi": "Tôi giới thiệu bạn của tôi.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)を**しょうかいします**。",
+    "vi": "Tôi giới thiệu bạn của tôi."
+   },
+   {
+    "ja": "[先生](せんせい)に[友達](ともだち)を**しょうかいします**。",
+    "vi": "Tôi giới thiệu bạn với thầy giáo."
+   }
+  ]
+ },
+ {
+  "word": "案内します",
+  "reading": "あんないします",
+  "meaning": "hướng dẫn, dẫn đường",
+  "example": "[町](まち)を**[案内](あんない)します**。",
+  "exampleVi": "Tôi dẫn bạn đi tham quan thành phố.",
+  "examples": [
+   {
+    "ja": "[町](まち)を**[案内](あんない)します**。",
+    "vi": "Tôi dẫn bạn đi tham quan thành phố."
+   },
+   {
+    "ja": "[私](わたし)が[駅](えき)まで**[案内](あんない)します**。",
+    "vi": "Tôi sẽ dẫn đường đến ga."
+   }
+  ]
+ },
+ {
+  "word": "説明します",
+  "reading": "せつめいします",
+  "meaning": "giải thích, thuyết minh",
+  "example": "[使](つか)い[方](かた)を**[説明](せつめい)します**。",
+  "exampleVi": "Tôi giải thích cách sử dụng.",
+  "examples": [
+   {
+    "ja": "[使](つか)い[方](かた)を**[説明](せつめい)します**。",
+    "vi": "Tôi giải thích cách sử dụng."
+   },
+   {
+    "ja": "[先生](せんせい)が[文法](ぶんぽう)を**[説明](せつめい)します**。",
+    "vi": "Thầy giáo giải thích ngữ pháp."
+   }
+  ]
+ },
+ {
+  "word": "おじいさん",
+  "reading": "おじいさん",
+  "meaning": "ông",
+  "example": "[私](わたし)の**おじいさん**は[元気](げんき)です。",
+  "exampleVi": "Ông của tôi khỏe.",
+  "examples": [
+   {
+    "ja": "[私](わたし)の**おじいさん**は[元気](げんき)です。",
+    "vi": "Ông của tôi khỏe."
+   },
+   {
+    "ja": "**おじいさん**は[毎朝](まいあさ)[散歩](さんぽ)します。",
+    "vi": "Mỗi sáng ông tôi đều đi dạo."
+   }
+  ]
+ },
+ {
+  "word": "おばあさん",
+  "reading": "おばあさん",
+  "meaning": "bà",
+  "example": "**おばあさん**に[花](はな)をあげました。",
+  "exampleVi": "Tôi đã tặng hoa cho bà.",
+  "examples": [
+   {
+    "ja": "**おばあさん**に[花](はな)をあげました。",
+    "vi": "Tôi đã tặng hoa cho bà."
+   },
+   {
+    "ja": "**おばあさん**は[日本](にほん)の[料理](りょうり)が[上手](じょうず)です。",
+    "vi": "Bà nấu món Nhật rất giỏi."
+   }
+  ]
+ },
+ {
+  "word": "準備",
+  "reading": "じゅんび",
+  "meaning": "chuẩn bị",
+  "example": "パーティーの**[準備](じゅんび)**をします。",
+  "exampleVi": "Tôi chuẩn bị cho bữa tiệc.",
+  "examples": [
+   {
+    "ja": "パーティーの**[準備](じゅんび)**をします。",
+    "vi": "Tôi chuẩn bị cho bữa tiệc."
+   },
+   {
+    "ja": "[旅行](りょこう)の**[準備](じゅんび)**をします。",
+    "vi": "Tôi chuẩn bị cho chuyến du lịch."
+   }
+  ]
+ },
+ {
+  "word": "ひっこし",
+  "reading": "ひっこし",
+  "meaning": "chuyển nhà",
+  "example": "[友達](ともだち)の**ひっこし**を[手伝](てつだ)いました。",
+  "exampleVi": "Tôi đã giúp bạn chuyển nhà.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)の**ひっこし**を[手伝](てつだ)いました。",
+    "vi": "Tôi đã giúp bạn chuyển nhà."
+   },
+   {
+    "ja": "**[引](ひ)っこし**はいつですか。",
+    "vi": "Khi nào bạn chuyển nhà?"
+   }
+  ]
+ },
+ {
+  "word": "おかし",
+  "reading": "おかし",
+  "meaning": "bánh kẹo",
+  "example": "**おかし**を[食](た)べます。",
+  "exampleVi": "Tôi ăn bánh kẹo.",
+  "examples": [
+   {
+    "ja": "**おかし**を[食](た)べます。",
+    "vi": "Tôi ăn bánh kẹo."
+   },
+   {
+    "ja": "**おかし**を[買](か)いました。",
+    "vi": "Tôi đã mua bánh kẹo."
+   }
+  ]
+ },
+ {
+  "word": "ホームステイ",
+  "reading": "ホームステイ",
+  "meaning": "homestay",
+  "example": "**ホームステイ**をしたいです。",
+  "exampleVi": "Tôi muốn ở homestay.",
+  "examples": [
+   {
+    "ja": "**ホームステイ**をしたいです。",
+    "vi": "Tôi muốn ở homestay."
+   },
+   {
+    "ja": "アメリカで**ホームステイしました**。",
+    "vi": "Tôi đã homestay ở Mỹ."
+   }
+  ]
+ },
+ {
+  "word": "全部",
+  "reading": "ぜんぶ",
+  "meaning": "toàn bộ, tất cả",
+  "example": "**[全部](ぜんぶ)**[食](た)べました。",
+  "exampleVi": "Tôi đã ăn hết tất cả.",
+  "examples": [
+   {
+    "ja": "**[全部](ぜんぶ)**[食](た)べました。",
+    "vi": "Tôi đã ăn hết tất cả."
+   },
+   {
+    "ja": "お[弁当](べんとう)を**[全部](ぜんぶ)**[食](た)べました。",
+    "vi": "Tôi đã ăn hết cơm hộp."
+   }
+  ]
+ },
+ {
+  "word": "自分で",
+  "reading": "じぶんで",
+  "meaning": "tự mình",
+  "example": "**[自分](じぶん)で**[荷物](にもつ)を[持](も)ちます。",
+  "exampleVi": "Tôi tự mang hành lý.",
+  "examples": [
+   {
+    "ja": "**[自分](じぶん)で**[荷物](にもつ)を[持](も)ちます。",
+    "vi": "Tôi tự mang hành lý."
+   },
+   {
+    "ja": "[全部](ぜんぶ)**[自分](じぶん)で**[作](つく)りましたか。",
+    "vi": "Tất cả là bạn tự mình làm hết à?"
+   }
+  ]
+ },
+ {
+  "word": "他に",
+  "reading": "ほかに",
+  "meaning": "ngoài ra, bên cạnh đó",
+  "example": "**[他](ほか)に**[何](なに)がありますか。",
+  "exampleVi": "Ngoài ra còn có gì nữa không?",
+  "examples": [
+   {
+    "ja": "**[他](ほか)に**[何](なに)がありますか。",
+    "vi": "Ngoài ra còn có gì nữa không?"
+   },
+   {
+    "ja": "**[他](ほか)に**ご[注文](ちゅうもん)は？",
+    "vi": "Ngoài ra quý khách có dùng gì khác không ạ?"
+   }
+  ]
+ },
+ {
+  "word": "母の日",
+  "reading": "ははのひ",
+  "meaning": "Ngày của mẹ",
+  "example": "**[母の日](ははのひ)**に[花](はな)をあげます。",
+  "exampleVi": "Vào Ngày của Mẹ, tôi tặng hoa.",
+  "examples": [
+   {
+    "ja": "**[母の日](ははのひ)**に[花](はな)をあげます。",
+    "vi": "Vào Ngày của Mẹ, tôi tặng hoa."
+   },
+   {
+    "ja": "**[母](はは)の[日](ひ)**は[五月](ごがつ)です。",
+    "vi": "Ngày của mẹ vào tháng 5."
+   }
+  ]
+ }
 ]

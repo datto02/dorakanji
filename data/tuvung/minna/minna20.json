@@ -1,25 +1,393 @@
 [
-  "要ります",
-  "調べます",
-  "直します",
-  "修理します",
-  "電話します",
-  "僕",
-  "君",
-  "うん",
-  "ううん",
-  "サラリーマン",
-  "言葉",
-  "物価",
-  "着物",
-  "ビザ",
-  "初め",
-  "終わり",
-  "こっち",
-  "そっち",
-  "あっち",
-  "どっち",
-  "この間",
-  "みんなで",
-  "いろいろ"
+ {
+  "word": "要ります",
+  "reading": "いります",
+  "meaning": "cần",
+  "example": "パスポートが**[要](い)ります**。",
+  "exampleVi": "Cần có hộ chiếu.",
+  "examples": [
+   {
+    "ja": "パスポートが**[要](い)ります**。",
+    "vi": "Cần có hộ chiếu."
+   },
+   {
+    "ja": "[旅行](りょこう)にお[金](かね)が**[要](い)ります**。",
+    "vi": "Đi du lịch cần có tiền."
+   }
+  ]
+ },
+ {
+  "word": "調べます",
+  "reading": "しらべます",
+  "meaning": "tìm hiểu, điều tra",
+  "example": "[辞書](じしょ)で**[調](しら)べます**。",
+  "exampleVi": "Tôi tra bằng từ điển.",
+  "examples": [
+   {
+    "ja": "[辞書](じしょ)で**[調](しら)べます**。",
+    "vi": "Tôi tra bằng từ điển."
+   },
+   {
+    "ja": "[辞書](じしょ)で[言葉](ことば)を**[調](しら)べます**。",
+    "vi": "Tôi tra từ bằng từ điển."
+   }
+  ]
+ },
+ {
+  "word": "直します",
+  "reading": "なおします",
+  "meaning": "sửa chữa",
+  "example": "かさを**[直](なお)します**。",
+  "exampleVi": "Tôi sửa cái ô.",
+  "examples": [
+   {
+    "ja": "かさを**[直](なお)します**。",
+    "vi": "Tôi sửa cái ô."
+   },
+   {
+    "ja": "[弟](おとうと)のパソコンを**[直](なお)します**。",
+    "vi": "Tôi sửa máy tính của em trai."
+   }
+  ]
+ },
+ {
+  "word": "修理します",
+  "reading": "しゅうりします",
+  "meaning": "tu sửa",
+  "example": "[時計](とけい)を**[修理](しゅうり)します**。",
+  "exampleVi": "Tôi sửa đồng hồ.",
+  "examples": [
+   {
+    "ja": "[時計](とけい)を**[修理](しゅうり)します**。",
+    "vi": "Tôi sửa đồng hồ."
+   },
+   {
+    "ja": "[父](ちち)は[自転車](じてんしゃ)を**[修理](しゅうり)しました**。",
+    "vi": "Bố tôi đã sửa xe đạp."
+   }
+  ]
+ },
+ {
+  "word": "電話します",
+  "reading": "でんわします",
+  "meaning": "gọi điện thoại",
+  "example": "[後](あと)で**[電話](でんわ)します**。",
+  "exampleVi": "Lát nữa tôi sẽ gọi điện thoại.",
+  "examples": [
+   {
+    "ja": "[後](あと)で**[電話](でんわ)します**。",
+    "vi": "Lát nữa tôi sẽ gọi điện thoại."
+   },
+   {
+    "ja": "[友達](ともだち)に**[電話](でんわ)します**。",
+    "vi": "Tôi gọi điện cho bạn."
+   }
+  ]
+ },
+ {
+  "word": "ぼく",
+  "reading": "ぼく",
+  "meaning": "tôi, tớ (nam giới)",
+  "example": "**ぼく**は[学生](がくせい)だ。",
+  "exampleVi": "Tớ là học sinh.",
+  "examples": [
+   {
+    "ja": "**ぼく**は[学生](がくせい)だ。",
+    "vi": "Tớ là học sinh."
+   },
+   {
+    "ja": "**ぼく**は[先生](せんせい)じゃない。",
+    "vi": "Tớ không phải giáo viên."
+   }
+  ]
+ },
+ {
+  "word": "君",
+  "reading": "きみ",
+  "meaning": "cậu, bạn (nam giới)",
+  "example": "**[君](きみ)**は[学生](がくせい)？",
+  "exampleVi": "Cậu là học sinh à?",
+  "examples": [
+   {
+    "ja": "**[君](きみ)**は[学生](がくせい)？",
+    "vi": "Cậu là học sinh à?"
+   },
+   {
+    "ja": "**[君](きみ)**が[好](す)きだよ。",
+    "vi": "Tớ thích cậu đấy."
+   }
+  ]
+ },
+ {
+  "word": "うん",
+  "reading": "うん",
+  "meaning": "ừ (thân mật)",
+  "example": "A：[行](い)く？B：**うん**、[行](い)く。",
+  "exampleVi": "A: Cậu đi không?  B: Ừ, tớ đi.",
+  "examples": [
+   {
+    "ja": "A：[行](い)く？B：**うん**、[行](い)く。",
+    "vi": "A: Cậu đi không?  B: Ừ, tớ đi."
+   },
+   {
+    "ja": "A：[宿題](しゅくだい)は？B：**うん**、もうした。",
+    "vi": "A: Bài tập thì sao? B: Ừ, tớ làm rồi."
+   }
+  ]
+ },
+ {
+  "word": "ううん",
+  "reading": "ううん",
+  "meaning": "không (thân mật)",
+  "example": "A：[行](い)く？B：**ううん**、[行](い)かない。",
+  "exampleVi": "A: Cậu đi không?  B: Không, tớ không đi.",
+  "examples": [
+   {
+    "ja": "A：[行](い)く？B：**ううん**、[行](い)かない。",
+    "vi": "A: Cậu đi không?  B: Không, tớ không đi."
+   },
+   {
+    "ja": "A：[眠](ねむ)い？B：**ううん**、[眠](ねむ)くない。",
+    "vi": "A: Cậu buồn ngủ à? B: Không, tớ không buồn ngủ."
+   }
+  ]
+ },
+ {
+  "word": "サラリーマン",
+  "reading": "サラリーマン",
+  "meaning": "người làm công ăn lương",
+  "example": "[父](ちち)は**サラリーマン**です。",
+  "exampleVi": "Bố tôi là nhân viên công ty (người làm công ăn lương).",
+  "examples": [
+   {
+    "ja": "[父](ちち)は**サラリーマン**です。",
+    "vi": "Bố tôi là nhân viên công ty (người làm công ăn lương)."
+   },
+   {
+    "ja": "[田中](たなか)さんのお[父](とう)さんは**サラリーマン**です。",
+    "vi": "Bố của anh Tanaka là nhân viên công ty."
+   }
+  ]
+ },
+ {
+  "word": "言葉",
+  "reading": "ことば",
+  "meaning": "từ, lời nói",
+  "example": "あの**[言葉](ことば)**は[分](わ)かりません。",
+  "exampleVi": "Tôi không hiểu từ đó.",
+  "examples": [
+   {
+    "ja": "あの**[言葉](ことば)**は[分](わ)かりません。",
+    "vi": "Tôi không hiểu từ đó."
+   },
+   {
+    "ja": "[日本](にほん)の**[言葉](ことば)**が[分](わ)かりません。",
+    "vi": "Tôi không biết tiếng Nhật."
+   }
+  ]
+ },
+ {
+  "word": "物価",
+  "reading": "ぶっか",
+  "meaning": "giá cả, vật giá",
+  "example": "[日本](にほん)は**[物価](ぶっか)**が[高](たか)い。",
+  "exampleVi": "Ở Nhật giá cả đắt đỏ.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)は**[物価](ぶっか)**が[高](たか)い。",
+    "vi": "Ở Nhật giá cả đắt đỏ."
+   },
+   {
+    "ja": "[東京](とうきょう)は**[物価](ぶっか)**が[高](たか)いです。",
+    "vi": "Vật giá ở Tokyo thì đắt đỏ."
+   }
+  ]
+ },
+ {
+  "word": "着物",
+  "reading": "きもの",
+  "meaning": "Kimono",
+  "example": "あれは**[着物](きもの)**だ。",
+  "exampleVi": "Kia là kimono.",
+  "examples": [
+   {
+    "ja": "あれは**[着物](きもの)**だ。",
+    "vi": "Kia là kimono."
+   },
+   {
+    "ja": "**[着物](きもの)**を[見](み)ました。",
+    "vi": "Tôi đã xem kimono."
+   }
+  ]
+ },
+ {
+  "word": "ビザ",
+  "reading": "ビザ",
+  "meaning": "thị thực, visa",
+  "example": "**ビザ**をなくした。",
+  "exampleVi": "Tớ làm mất visa rồi.",
+  "examples": [
+   {
+    "ja": "**ビザ**をなくした。",
+    "vi": "Tớ làm mất visa rồi."
+   },
+   {
+    "ja": "[大使館](たいしかん)で**ビザ**をもらいます。",
+    "vi": "Sẽ nhận thị thực ở đại sứ quán."
+   }
+  ]
+ },
+ {
+  "word": "初め",
+  "reading": "はじめ",
+  "meaning": "ban đầu",
+  "example": "**[初](はじ)め**は[難](むずか)しかった。",
+  "exampleVi": "Lúc đầu thì khó.",
+  "examples": [
+   {
+    "ja": "**[初](はじ)め**は[難](むずか)しかった。",
+    "vi": "Lúc đầu thì khó."
+   },
+   {
+    "ja": "[去年](きょねん)の**[初](はじ)め**に[日本](にほん)へ[来](き)ました。",
+    "vi": "Tôi đã đến Nhật đầu năm ngoái."
+   }
+  ]
+ },
+ {
+  "word": "終わり",
+  "reading": "おわり",
+  "meaning": "kết thúc",
+  "example": "[映画](えいが)の**[終](お)わり**は[面白](おもしろ)かった。",
+  "exampleVi": "Đoạn kết của bộ phim rất hay.",
+  "examples": [
+   {
+    "ja": "[映画](えいが)の**[終](お)わり**は[面白](おもしろ)かった。",
+    "vi": "Đoạn kết của bộ phim rất hay."
+   },
+   {
+    "ja": "[今月](こんげつ)の**[終](お)わり**に[国](くに)へ[帰](かえ)ります。",
+    "vi": "Cuối tháng này tôi sẽ về nước."
+   }
+  ]
+ },
+ {
+  "word": "こっち",
+  "reading": "こっち",
+  "meaning": "phía này, chỗ này",
+  "example": "**こっち**へ[来](き)て。",
+  "exampleVi": "Đến đây đi.",
+  "examples": [
+   {
+    "ja": "**こっち**へ[来](き)て。",
+    "vi": "Đến đây đi."
+   },
+   {
+    "ja": "**こっち**は[寒](さむ)いよ。",
+    "vi": "Bên này lạnh đấy."
+   }
+  ]
+ },
+ {
+  "word": "そっち",
+  "reading": "そっち",
+  "meaning": "phía đó, chỗ đó",
+  "example": "**そっち**は[暑](あつ)い？",
+  "exampleVi": "Bên đó có nóng không?",
+  "examples": [
+   {
+    "ja": "**そっち**は[暑](あつ)い？",
+    "vi": "Bên đó có nóng không?"
+   },
+   {
+    "ja": "**そっち**は[雨](あめ)が[降](ふ)っている。",
+    "vi": "Bên đó trời đang mưa."
+   }
+  ]
+ },
+ {
+  "word": "あっち",
+  "reading": "あっち",
+  "meaning": "phía kia, chỗ kia",
+  "example": "**あっち**に[駅](えき)がある。",
+  "exampleVi": "Ở đằng kia có nhà ga.",
+  "examples": [
+   {
+    "ja": "**あっち**に[駅](えき)がある。",
+    "vi": "Ở đằng kia có nhà ga."
+   },
+   {
+    "ja": "**あっち**に[大](おお)きい[公園](こうえん)がある。",
+    "vi": "Ở đằng kia có một công viên lớn."
+   }
+  ]
+ },
+ {
+  "word": "どっち",
+  "reading": "どっち",
+  "meaning": "cái nào, phía nào",
+  "example": "**どっち**が[好](す)き？",
+  "exampleVi": "Cậu thích bên nào hơn?",
+  "examples": [
+   {
+    "ja": "**どっち**が[好](す)き？",
+    "vi": "Cậu thích bên nào hơn?"
+   },
+   {
+    "ja": "サッカーと[野球](やきゅう)と**どっち**が[好](す)き？",
+    "vi": "Bóng đá và bóng chày, bạn thích môn nào?"
+   }
+  ]
+ },
+ {
+  "word": "この間",
+  "reading": "このあいだ",
+  "meaning": "vừa rồi, hôm nọ",
+  "example": "**この[間](あいだ)**、[友達](ともだち)とサッカーをした。",
+  "exampleVi": "Hôm nọ tớ đã chơi bóng đá với bạn.",
+  "examples": [
+   {
+    "ja": "**この[間](あいだ)**、[友達](ともだち)とサッカーをした。",
+    "vi": "Hôm nọ tớ đã chơi bóng đá với bạn."
+   },
+   {
+    "ja": "**この[間](あいだ)**、[京都](きょうと)へ[行](い)った。",
+    "vi": "Hôm nọ tớ đã đi Kyoto."
+   }
+  ]
+ },
+ {
+  "word": "みんなで",
+  "reading": "みんなで",
+  "meaning": "mọi người cùng",
+  "example": "**みんなで**[食事](しょくじ)をしましょう。",
+  "exampleVi": "Mọi người cùng dùng bữa nào.",
+  "examples": [
+   {
+    "ja": "**みんなで**[食事](しょくじ)をしましょう。",
+    "vi": "Mọi người cùng dùng bữa nào."
+   },
+   {
+    "ja": "クラスの**みんなで**カラオケに[行](い)きました。",
+    "vi": "Tất cả mọi người trong lớp đã đi karaoke."
+   }
+  ]
+ },
+ {
+  "word": "いろいろ",
+  "reading": "いろいろ",
+  "meaning": "nhiều, đa dạng",
+  "example": "**いろいろ**な[国](くに)へ[行](い)きたいです。",
+  "exampleVi": "Tôi muốn đi đến nhiều nước khác nhau.",
+  "examples": [
+   {
+    "ja": "**いろいろ**な[国](くに)へ[行](い)きたいです。",
+    "vi": "Tôi muốn đi đến nhiều nước khác nhau."
+   },
+   {
+    "ja": "[店](みせ)に**いろいろ**な[物](もの)があります。",
+    "vi": "Trong cửa hàng có nhiều loại đồ vật."
+   }
+  ]
+ }
 ]

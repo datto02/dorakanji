@@ -1,49 +1,801 @@
 [
-  "簡単",
-  "近い",
-  "遠い",
-  "早い",
-  "遅い",
-  "多い",
-  "少ない",
-  "暖かい",
-  "温かい",
-  "涼しい",
-  "甘い",
-  "辛い",
-  "重い",
-  "軽い",
-  "季節",
-  "春",
-  "夏",
-  "秋",
-  "冬",
-  "天気",
-  "雨",
-  "雪",
-  "曇り",
-  "ホテル",
-  "空港",
-  "海",
-  "世界",
-  "パーティー",
-  "お祭り",
-  "すき焼き",
-  "刺身",
-  "おすし",
-  "てんぷら",
-  "豚肉",
-  "とり肉",
-  "牛肉",
-  "レモン",
-  "生け花",
-  "紅葉",
-  "どちら",
-  "どちらも",
-  "一番",
-  "ずっと",
-  "疲れます",
-  "ホンコン",
-  "香港",
-  "シンガポール"
+ {
+  "word": "簡単",
+  "reading": "かんたん",
+  "meaning": "đơn giản, dễ",
+  "example": "[日本語](にほんご)の[宿題](しゅくだい)は**[簡単](かんたん)**でした。",
+  "exampleVi": "Bài tập tiếng Nhật đã dễ.",
+  "examples": [
+   {
+    "ja": "[日本語](にほんご)の[宿題](しゅくだい)は**[簡単](かんたん)**でした。",
+    "vi": "Bài tập tiếng Nhật đã dễ."
+   },
+   {
+    "ja": "この[問題](もんだい)は**[簡単](かんたん)**です。",
+    "vi": "Bài toán này đơn giản."
+   }
+  ]
+ },
+ {
+  "word": "近い",
+  "reading": "ちかい",
+  "meaning": "gần",
+  "example": "[駅](えき)は**[近](ちか)い**です。",
+  "exampleVi": "Nhà ga gần.",
+  "examples": [
+   {
+    "ja": "[駅](えき)は**[近](ちか)い**です。",
+    "vi": "Nhà ga gần."
+   },
+   {
+    "ja": "えきは、[家](いえ)から**[近](ちか)い**です。",
+    "vi": "Nhà ga gần nhà tôi."
+   }
+  ]
+ },
+ {
+  "word": "遠い",
+  "reading": "とおい",
+  "meaning": "xa",
+  "example": "[会社](かいしゃ)は**[遠](とお)い**です。",
+  "exampleVi": "Công ty xa.",
+  "examples": [
+   {
+    "ja": "[会社](かいしゃ)は**[遠](とお)い**です。",
+    "vi": "Công ty xa."
+   },
+   {
+    "ja": "[学校](がっこう)は、[家](いえ)から**[遠](とお)い**です。",
+    "vi": "Trường học xa nhà."
+   }
+  ]
+ },
+ {
+  "word": "早い",
+  "reading": "はやい",
+  "meaning": "nhanh, sớm",
+  "example": "[新幹線](しんかんせん)は**[早](はや)い**です。",
+  "exampleVi": "Tàu Shinkansen nhanh.",
+  "examples": [
+   {
+    "ja": "[新幹線](しんかんせん)は**[早](はや)い**です。",
+    "vi": "Tàu Shinkansen nhanh."
+   },
+   {
+    "ja": "**[早](はや)い**ですね。",
+    "vi": "Sớm nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "おそい",
+  "reading": "おそい",
+  "meaning": "chậm, muộn",
+  "example": "バスは**おそい**です。",
+  "exampleVi": "Xe buýt chậm.",
+  "examples": [
+   {
+    "ja": "バスは**おそい**です。",
+    "vi": "Xe buýt chậm."
+   },
+   {
+    "ja": "**おそい**ですね。",
+    "vi": "Muộn nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "多い",
+  "reading": "おおい",
+  "meaning": "nhiều",
+  "example": "この[町](まち)は[人](ひと)が**[多](おお)い**です。",
+  "exampleVi": "Thành phố này có nhiều người.",
+  "examples": [
+   {
+    "ja": "この[町](まち)は[人](ひと)が**[多](おお)い**です。",
+    "vi": "Thành phố này có nhiều người."
+   },
+   {
+    "ja": "[東京](とうきょう)は、[人](ひと)が**[多](おお)い**です。",
+    "vi": "Tokyo có nhiều người."
+   }
+  ]
+ },
+ {
+  "word": "少ない",
+  "reading": "すくない",
+  "meaning": "ít",
+  "example": "[今日](きょう)は[宿題](しゅくだい)が**[少](すく)ない**です。",
+  "exampleVi": "Hôm nay có ít bài tập về nhà.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)は[宿題](しゅくだい)が**[少](すく)ない**です。",
+    "vi": "Hôm nay có ít bài tập về nhà."
+   },
+   {
+    "ja": "この[教室](きょうしつ)は、[学生](がくせい)が**[少](すく)ない**です。",
+    "vi": "Lớp học này ít học sinh."
+   }
+  ]
+ },
+ {
+  "word": "暖かい",
+  "reading": "あたたかい",
+  "meaning": "ấm (thời tiết)",
+  "example": "[今日](きょう)は**[暖](あたた)かい**です。",
+  "exampleVi": "Hôm nay ấm áp.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)は**[暖](あたた)かい**です。",
+    "vi": "Hôm nay ấm áp."
+   },
+   {
+    "ja": "[春](はる)は**[暖](あたた)かい**です。",
+    "vi": "Mùa xuân thì ấm áp."
+   }
+  ]
+ },
+ {
+  "word": "温かい",
+  "reading": "あたたかい",
+  "meaning": "ấm (cảm giác)",
+  "example": "このお[茶](ちゃ)は**[温](あたた)かい**です。",
+  "exampleVi": "Trà này ấm.",
+  "examples": [
+   {
+    "ja": "このお[茶](ちゃ)は**[温](あたた)かい**です。",
+    "vi": "Trà này ấm."
+   },
+   {
+    "ja": "**[温](あたた)かい**スープを[飲](の)みます。",
+    "vi": "Tôi uống món súp ấm."
+   }
+  ]
+ },
+ {
+  "word": "すずしい",
+  "reading": "すずしい",
+  "meaning": "mát mẻ",
+  "example": "[秋](あき)は**すずしい**です。",
+  "exampleVi": "Mùa thu mát mẻ.",
+  "examples": [
+   {
+    "ja": "[秋](あき)は**すずしい**です。",
+    "vi": "Mùa thu mát mẻ."
+   },
+   {
+    "ja": "[朝](あさ)は**すずしい**です。",
+    "vi": "Buổi sáng mát mẻ."
+   }
+  ]
+ },
+ {
+  "word": "あまい",
+  "reading": "あまい",
+  "meaning": "ngọt",
+  "example": "このみかんは**あまい**です。",
+  "exampleVi": "Quả quýt này ngọt.",
+  "examples": [
+   {
+    "ja": "このみかんは**あまい**です。",
+    "vi": "Quả quýt này ngọt."
+   },
+   {
+    "ja": "このケーキは、**あまい**です。",
+    "vi": "Chiếc bánh này ngọt."
+   }
+  ]
+ },
+ {
+  "word": "からい",
+  "reading": "からい",
+  "meaning": "cay",
+  "example": "このカレーライスは**からい**です。",
+  "exampleVi": "Món cơm cà ri này cay.",
+  "examples": [
+   {
+    "ja": "このカレーライスは**からい**です。",
+    "vi": "Món cơm cà ri này cay."
+   },
+   {
+    "ja": "このカレーは、とても**からい**です。",
+    "vi": "Món cà ri này rất cay."
+   }
+  ]
+ },
+ {
+  "word": "重い",
+  "reading": "おもい",
+  "meaning": "nặng",
+  "example": "このかばんは**[重](おも)い**です。",
+  "exampleVi": "Cái cặp này nặng.",
+  "examples": [
+   {
+    "ja": "このかばんは**[重](おも)い**です。",
+    "vi": "Cái cặp này nặng."
+   },
+   {
+    "ja": "この[荷物](にもつ)は**[重](おも)い**ですね。",
+    "vi": "Hành lý này nặng nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "軽い",
+  "reading": "かるい",
+  "meaning": "nhẹ",
+  "example": "このパソコンは**[軽](かる)い**です。",
+  "exampleVi": "Chiếc máy tính này nhẹ.",
+  "examples": [
+   {
+    "ja": "このパソコンは**[軽](かる)い**です。",
+    "vi": "Chiếc máy tính này nhẹ."
+   },
+   {
+    "ja": "この[荷物](にもつ)は**[軽](かる)い**ですね。",
+    "vi": "Hành lý này nhẹ nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "季節",
+  "reading": "きせつ",
+  "meaning": "mùa",
+  "example": "[日本](にほん)の**[季節](きせつ)**はきれいです。",
+  "exampleVi": "Các mùa ở Nhật đẹp.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)の**[季節](きせつ)**はきれいです。",
+    "vi": "Các mùa ở Nhật đẹp."
+   },
+   {
+    "ja": "[日本](にほん)の**[季節](きせつ)**は4つあります。",
+    "vi": "Nhật Bản có 4 mùa."
+   }
+  ]
+ },
+ {
+  "word": "春",
+  "reading": "はる",
+  "meaning": "mùa xuân",
+  "example": "**[春](はる)**は[暖](あたた)かいです。",
+  "exampleVi": "Mùa xuân ấm áp.",
+  "examples": [
+   {
+    "ja": "**[春](はる)**は[暖](あたた)かいです。",
+    "vi": "Mùa xuân ấm áp."
+   },
+   {
+    "ja": "[日本](にほん)の**[春](はる)**は、[花](はな)がきれいです。",
+    "vi": "Mùa xuân ở Nhật hoa rất đẹp."
+   }
+  ]
+ },
+ {
+  "word": "夏",
+  "reading": "なつ",
+  "meaning": "mùa hè",
+  "example": "**[夏](なつ)**は[暑](あつ)いです。",
+  "exampleVi": "Mùa hè nóng.",
+  "examples": [
+   {
+    "ja": "**[夏](なつ)**は[暑](あつ)いです。",
+    "vi": "Mùa hè nóng."
+   },
+   {
+    "ja": "**[夏](なつ)**に[海](うみ)で[泳](およ)ぎます。",
+    "vi": "Mùa hè tôi bơi ở biển."
+   }
+  ]
+ },
+ {
+  "word": "秋",
+  "reading": "あき",
+  "meaning": "mùa thu",
+  "example": "**[秋](あき)**の[紅葉](もみじ)はきれいです。",
+  "exampleVi": "Lá đỏ mùa thu đẹp.",
+  "examples": [
+   {
+    "ja": "**[秋](あき)**の[紅葉](もみじ)はきれいです。",
+    "vi": "Lá đỏ mùa thu đẹp."
+   },
+   {
+    "ja": "**[秋](あき)**はすずしいです。",
+    "vi": "Mùa thu thì mát mẻ."
+   }
+  ]
+ },
+ {
+  "word": "冬",
+  "reading": "ふゆ",
+  "meaning": "mùa đông",
+  "example": "**[冬](ふゆ)**は[寒](さむ)いです。",
+  "exampleVi": "Mùa đông lạnh.",
+  "examples": [
+   {
+    "ja": "**[冬](ふゆ)**は[寒](さむ)いです。",
+    "vi": "Mùa đông lạnh."
+   },
+   {
+    "ja": "**[冬](ふゆ)**は[雪](ゆき)が[降](ふ)ります。",
+    "vi": "Mùa đông tuyết rơi."
+   }
+  ]
+ },
+ {
+  "word": "天気",
+  "reading": "てんき",
+  "meaning": "thời tiết",
+  "example": "[今日](きょう)はいい**[天気](てんき)**です。",
+  "exampleVi": "Hôm nay thời tiết đẹp.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)はいい**[天気](てんき)**です。",
+    "vi": "Hôm nay thời tiết đẹp."
+   },
+   {
+    "ja": "[今日](きょう)は**[天気](てんき)**がいいです。",
+    "vi": "Hôm nay thời tiết đẹp."
+   }
+  ]
+ },
+ {
+  "word": "雨",
+  "reading": "あめ",
+  "meaning": "mưa",
+  "example": "[昨日](きのう)は**[雨](あめ)**でした。",
+  "exampleVi": "Hôm qua trời mưa.",
+  "examples": [
+   {
+    "ja": "[昨日](きのう)は**[雨](あめ)**でした。",
+    "vi": "Hôm qua trời mưa."
+   },
+   {
+    "ja": "あしたは**[雨](あめ)**ですか。",
+    "vi": "Ngày mai trời mưa à?"
+   }
+  ]
+ },
+ {
+  "word": "雪",
+  "reading": "ゆき",
+  "meaning": "tuyết",
+  "example": "[昨日](きのう)は**[雪](ゆき)**でした。",
+  "exampleVi": "Hôm qua trời có tuyết.",
+  "examples": [
+   {
+    "ja": "[昨日](きのう)は**[雪](ゆき)**でした。",
+    "vi": "Hôm qua trời có tuyết."
+   },
+   {
+    "ja": "[北海道](ほっかいどう)は[冬](ふゆ)に**[雪](ゆき)**がたくさん[降](ふ)ります。",
+    "vi": "Ở Hokkaido vào mùa đông tuyết rơi rất nhiều."
+   }
+  ]
+ },
+ {
+  "word": "くもり",
+  "reading": "くもり",
+  "meaning": "trời mây",
+  "example": "[今日](きょう)は**くもり**です。",
+  "exampleVi": "Hôm nay trời nhiều mây.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)は**くもり**です。",
+    "vi": "Hôm nay trời nhiều mây."
+   },
+   {
+    "ja": "[明日](あした)は**くもり**でしょう。",
+    "vi": "Ngày mai chắc trời nhiều mây."
+   }
+  ]
+ },
+ {
+  "word": "ホテル",
+  "reading": "ホテル",
+  "meaning": "khách sạn",
+  "example": "この**ホテル**は[高](たか)いです。",
+  "exampleVi": "Khách sạn này đắt.",
+  "examples": [
+   {
+    "ja": "この**ホテル**は[高](たか)いです。",
+    "vi": "Khách sạn này đắt."
+   },
+   {
+    "ja": "**ホテル**に[電話](でんわ)をかけます。",
+    "vi": "Tôi gọi điện thoại đến khách sạn."
+   }
+  ]
+ },
+ {
+  "word": "空港",
+  "reading": "くうこう",
+  "meaning": "sân bay",
+  "example": "**[空港](くうこう)**は[駅](えき)より[遠](とお)いです。",
+  "exampleVi": "Sân bay xa hơn nhà ga.",
+  "examples": [
+   {
+    "ja": "**[空港](くうこう)**は[駅](えき)より[遠](とお)いです。",
+    "vi": "Sân bay xa hơn nhà ga."
+   },
+   {
+    "ja": "**[空港](くうこう)**は[成田](なりた)にあります。",
+    "vi": "Sân bay ở Narita."
+   }
+  ]
+ },
+ {
+  "word": "海",
+  "reading": "うみ",
+  "meaning": "biển",
+  "example": "**[海](うみ)**はきれいでした。",
+  "exampleVi": "Biển đã đẹp.",
+  "examples": [
+   {
+    "ja": "**[海](うみ)**はきれいでした。",
+    "vi": "Biển đã đẹp."
+   },
+   {
+    "ja": "**[海](うみ)**より[山](やま)のほうが[好](す)きです。",
+    "vi": "Tôi thích núi hơn biển."
+   }
+  ]
+ },
+ {
+  "word": "世界",
+  "reading": "せかい",
+  "meaning": "thế giới",
+  "example": "[富士山](ふじさん)は**[世界](せかい)**で[有名](ゆうめい)な[山](やま)です。",
+  "exampleVi": "Núi Phú Sĩ là ngọn núi nổi tiếng trên thế giới.",
+  "examples": [
+   {
+    "ja": "[富士山](ふじさん)は**[世界](せかい)**で[有名](ゆうめい)な[山](やま)です。",
+    "vi": "Núi Phú Sĩ là ngọn núi nổi tiếng trên thế giới."
+   },
+   {
+    "ja": "**[世界](せかい)**の[地図](ちず)はありますか。",
+    "vi": "Bạn có bản đồ thế giới không?"
+   }
+  ]
+ },
+ {
+  "word": "パーティー",
+  "reading": "パーティー",
+  "meaning": "tiệc, buổi tiệc",
+  "example": "[昨日](きのう)の**パーティー**は[楽](たの)しかったです。",
+  "exampleVi": "Bữa tiệc hôm qua vui.",
+  "examples": [
+   {
+    "ja": "[昨日](きのう)の**パーティー**は[楽](たの)しかったです。",
+    "vi": "Bữa tiệc hôm qua vui."
+   },
+   {
+    "ja": "ともだちのたんじょうびに、**パーティー**をひらきました。",
+    "vi": "Vào sinh nhật bạn, chúng tôi đã mở tiệc."
+   }
+  ]
+ },
+ {
+  "word": "お祭り",
+  "reading": "おまつり",
+  "meaning": "lễ hội",
+  "example": "[日本](にほん)の**お[祭](まつ)り**はにぎやかです。",
+  "exampleVi": "Lễ hội của Nhật náo nhiệt.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)の**お[祭](まつ)り**はにぎやかです。",
+    "vi": "Lễ hội của Nhật náo nhiệt."
+   },
+   {
+    "ja": "[日曜日](にちようび)に**お[祭](まつ)り**があります。",
+    "vi": "Chủ nhật có lễ hội."
+   }
+  ]
+ },
+ {
+  "word": "すき焼き",
+  "reading": "すきやき",
+  "meaning": "Món Sukiyaki",
+  "example": "**すき[焼](や)き**は[美味](おい)しかったです。",
+  "exampleVi": "Món sukiyaki đã rất ngon.",
+  "examples": [
+   {
+    "ja": "**すき[焼](や)き**は[美味](おい)しかったです。",
+    "vi": "Món sukiyaki đã rất ngon."
+   },
+   {
+    "ja": "[私](わたし)は**すき[焼](や)き**が[好](す)きです。",
+    "vi": "Tôi thích món sukiyaki."
+   }
+  ]
+ },
+ {
+  "word": "さしみ",
+  "reading": "さしみ",
+  "meaning": "Món Sashimi",
+  "example": "**さしみ**は[高](たか)いです。",
+  "exampleVi": "Món sashimi đắt.",
+  "examples": [
+   {
+    "ja": "**さしみ**は[高](たか)いです。",
+    "vi": "Món sashimi đắt."
+   },
+   {
+    "ja": "**さしみ**を[食](た)べました。",
+    "vi": "Tôi đã ăn sashimi."
+   }
+  ]
+ },
+ {
+  "word": "おすし",
+  "reading": "おすし",
+  "meaning": "Món Sushi",
+  "example": "**おすし**は[好](す)きですか。",
+  "exampleVi": "Bạn có thích sushi không?",
+  "examples": [
+   {
+    "ja": "**おすし**は[好](す)きですか。",
+    "vi": "Bạn có thích sushi không?"
+   },
+   {
+    "ja": "**おすし**が[好](す)きです。",
+    "vi": "Tôi thích sushi."
+   }
+  ]
+ },
+ {
+  "word": "てんぷら",
+  "reading": "てんぷら",
+  "meaning": "Món Tempura",
+  "example": "**てんぷら**は[美味](おい)しいです。",
+  "exampleVi": "Món tempura ngon.",
+  "examples": [
+   {
+    "ja": "**てんぷら**は[美味](おい)しいです。",
+    "vi": "Món tempura ngon."
+   },
+   {
+    "ja": "[昨日](きのう)、**てんぷら**を[食](た)べました。",
+    "vi": "Hôm qua tôi đã ăn món tempura."
+   }
+  ]
+ },
+ {
+  "word": "ぶたにく",
+  "reading": "ぶたにく",
+  "meaning": "thịt lợn",
+  "example": "**ぶたにく**は[牛肉](ぎゅうにく)より[安](やす)いです。",
+  "exampleVi": "Thịt lợn rẻ hơn thịt bò.",
+  "examples": [
+   {
+    "ja": "**ぶたにく**は[牛肉](ぎゅうにく)より[安](やす)いです。",
+    "vi": "Thịt lợn rẻ hơn thịt bò."
+   },
+   {
+    "ja": "**ぶたにく**を[買](か)いました。",
+    "vi": "Tôi đã mua thịt heo."
+   }
+  ]
+ },
+ {
+  "word": "とり肉",
+  "reading": "とりにく",
+  "meaning": "thịt gà",
+  "example": "**とり[肉](にく)**を[食](た)べます。",
+  "exampleVi": "Tôi ăn thịt gà.",
+  "examples": [
+   {
+    "ja": "**とり[肉](にく)**を[食](た)べます。",
+    "vi": "Tôi ăn thịt gà."
+   },
+   {
+    "ja": "[私](わたし)は**とり[肉](にく)**が[好](す)きです。",
+    "vi": "Tôi thích thịt gà."
+   }
+  ]
+ },
+ {
+  "word": "牛肉",
+  "reading": "ぎゅうにく",
+  "meaning": "thịt bò",
+  "example": "**[牛肉](ぎゅうにく)**は[高](たか)いです。",
+  "exampleVi": "Thịt bò đắt.",
+  "examples": [
+   {
+    "ja": "**[牛肉](ぎゅうにく)**は[高](たか)いです。",
+    "vi": "Thịt bò đắt."
+   },
+   {
+    "ja": "[私](わたし)は**[牛肉](ぎゅうにく)**が[好](す)きです。",
+    "vi": "Tôi thích thịt bò."
+   }
+  ]
+ },
+ {
+  "word": "レモン",
+  "reading": "レモン",
+  "meaning": "chanh",
+  "example": "**レモン**を[一](ひと)つください。",
+  "exampleVi": "Cho tôi một quả chanh.",
+  "examples": [
+   {
+    "ja": "**レモン**を[一](ひと)つください。",
+    "vi": "Cho tôi một quả chanh."
+   },
+   {
+    "ja": "**レモン**は[黄色](きいろ)いです。",
+    "vi": "Chanh có màu vàng."
+   }
+  ]
+ },
+ {
+  "word": "生け花",
+  "reading": "いけばな",
+  "meaning": "nghệ thuật cắm hoa",
+  "example": "**[生](い)け[花](ばな)**は[難](むずか)しいです。",
+  "exampleVi": "Nghệ thuật cắm hoa khó.",
+  "examples": [
+   {
+    "ja": "**[生](い)け[花](ばな)**は[難](むずか)しいです。",
+    "vi": "Nghệ thuật cắm hoa khó."
+   },
+   {
+    "ja": "[母](はは)は**[生](い)け[花](ばな)**を[習](なら)っています。",
+    "vi": "Mẹ tôi đang học cắm hoa."
+   }
+  ]
+ },
+ {
+  "word": "紅葉",
+  "reading": "もみじ",
+  "meaning": "lá đỏ",
+  "example": "**[紅葉](もみじ)**はきれいです。",
+  "exampleVi": "Lá đỏ đẹp.",
+  "examples": [
+   {
+    "ja": "**[紅葉](もみじ)**はきれいです。",
+    "vi": "Lá đỏ đẹp."
+   },
+   {
+    "ja": "[山](やま)で**[紅葉](もみじ)**を[見](み)ました。",
+    "vi": "Tôi đã xem lá đỏ trên núi."
+   }
+  ]
+ },
+ {
+  "word": "どちら",
+  "reading": "どちら",
+  "meaning": "phía nào (lịch sự)",
+  "example": "コーヒーと[紅茶](こうちゃ)と、**どちら**が[好](す)きですか。",
+  "exampleVi": "Cà phê và trà đen, bạn thích cái nào hơn?",
+  "examples": [
+   {
+    "ja": "コーヒーと[紅茶](こうちゃ)と、**どちら**が[好](す)きですか。",
+    "vi": "Cà phê và trà đen, bạn thích cái nào hơn?"
+   },
+   {
+    "ja": "[会社](かいしゃ)は**どちら**ですか。",
+    "vi": "Công ty của anh/chị ở đâu ạ?"
+   }
+  ]
+ },
+ {
+  "word": "どちらも",
+  "reading": "どちらも",
+  "meaning": "Cái nào cũng",
+  "example": "**どちらも**[好](す)きです。",
+  "exampleVi": "Cả hai tôi đều thích.",
+  "examples": [
+   {
+    "ja": "**どちらも**[好](す)きです。",
+    "vi": "Cả hai tôi đều thích."
+   },
+   {
+    "ja": "[肉](にく)も[魚](さかな)も**どちらも**[好](す)きです。",
+    "vi": "Thịt lẫn cá, tôi thích cả hai."
+   }
+  ]
+ },
+ {
+  "word": "一番",
+  "reading": "いちばん",
+  "meaning": "số 1, nhất",
+  "example": "[季節](きせつ)でいつが**[一番](いちばん)**[好](す)きですか。",
+  "exampleVi": "Trong các mùa, bạn thích mùa nào nhất?",
+  "examples": [
+   {
+    "ja": "[季節](きせつ)でいつが**[一番](いちばん)**[好](す)きですか。",
+    "vi": "Trong các mùa, bạn thích mùa nào nhất?"
+   },
+   {
+    "ja": "[受付](うけつけ)は**[一番](いちばん)**[左](ひだり)です。",
+    "vi": "Quầy tiếp tân ở ngoài cùng bên trái."
+   }
+  ]
+ },
+ {
+  "word": "ずっと",
+  "reading": "ずっと",
+  "meaning": "hơn hẳn, suốt",
+  "example": "[新幹線](しんかんせん)はバスより**ずっと**[早](はや)いです。",
+  "exampleVi": "Tàu Shinkansen nhanh hơn xe buýt rất nhiều.",
+  "examples": [
+   {
+    "ja": "[新幹線](しんかんせん)はバスより**ずっと**[早](はや)いです。",
+    "vi": "Tàu Shinkansen nhanh hơn xe buýt rất nhiều."
+   },
+   {
+    "ja": "[特急](とっきゅう)のほうが[急行](きゅうこう)より**ずっと**[速](はや)いです。",
+    "vi": "Tàu tốc hành nhanh hơn hẳn tàu chạy nhanh."
+   }
+  ]
+ },
+ {
+  "word": "つかれます",
+  "reading": "つかれます",
+  "meaning": "mệt",
+  "example": "[今日](きょう)は**つかれました**。",
+  "exampleVi": "Hôm nay tôi mệt.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)は**つかれました**。",
+    "vi": "Hôm nay tôi mệt."
+   },
+   {
+    "ja": "[今日](きょう)は[歩](ある)いて、とても**つかれました**。",
+    "vi": "Hôm nay đi bộ nhiều nên tôi rất mệt."
+   }
+  ]
+ },
+ {
+  "word": "ホンコン",
+  "reading": "ホンコン",
+  "meaning": "Hồng Kông",
+  "example": "**ホンコン**は[人](ひと)が[多](おお)いです。",
+  "exampleVi": "Hồng Kông có nhiều người.",
+  "examples": [
+   {
+    "ja": "**ホンコン**は[人](ひと)が[多](おお)いです。",
+    "vi": "Hồng Kông có nhiều người."
+   },
+   {
+    "ja": "**ホンコン**は[暑](あつ)いです。",
+    "vi": "Hồng Kông nóng."
+   }
+  ]
+ },
+ {
+  "word": "香港",
+  "reading": "ホンコン",
+  "meaning": "Hồng Kông",
+  "example": "**[香港](ホンコン)**は[有名](ゆうめい)な[町](まち)です。",
+  "exampleVi": "Hồng Kông là một thành phố nổi tiếng.",
+  "examples": [
+   {
+    "ja": "**[香港](ホンコン)**は[有名](ゆうめい)な[町](まち)です。",
+    "vi": "Hồng Kông là một thành phố nổi tiếng."
+   },
+   {
+    "ja": "**[香港](ほんこん)**は[夏](なつ)は[暑](あつ)いです。",
+    "vi": "Hồng Kông mùa hè thì nóng."
+   }
+  ]
+ },
+ {
+  "word": "シンガポール",
+  "reading": "シンガポール",
+  "meaning": "Singapore",
+  "example": "**シンガポール**は[暑](あつ)いです。",
+  "exampleVi": "Singapore nóng.",
+  "examples": [
+   {
+    "ja": "**シンガポール**は[暑](あつ)いです。",
+    "vi": "Singapore nóng."
+   },
+   {
+    "ja": "[来月](らいげつ)**シンガポール**へ[行](い)きます。",
+    "vi": "Tháng sau tôi sẽ đi Singapore."
+   }
+  ]
+ }
 ]

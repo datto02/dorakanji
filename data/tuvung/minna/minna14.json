@@ -1,41 +1,665 @@
 [
-  "つけます",
-  "消します",
-  "開けます",
-  "閉めます",
-  "急ぎます",
-  "待ちます",
-  "持ちます",
-  "取ります",
-  "手伝います",
-  "呼びます",
-  "話します",
-  "使います",
-  "止めます",
-  "見せます",
-  "教えます",
-  "座ります",
-  "立ちます",
-  "ふります",
-  "コピー",
-  "電気",
-  "エアコン",
-  "パスポート",
-  "名前",
-  "住所",
-  "地図",
-  "塩",
-  "砂糖",
-  "問題",
-  "答え",
-  "読み方",
-  "方",
-  "まっすぐ",
-  "ゆっくり",
-  "すぐ",
-  "また",
-  "後で",
-  "もう少し",
-  "もう",
-  "お釣り"
+ {
+  "word": "つけます",
+  "reading": "つけます",
+  "meaning": "bật [điện]",
+  "example": "[電気](でんき)を**つけて**ください。",
+  "exampleVi": "Xin hãy bật đèn.",
+  "examples": [
+   {
+    "ja": "[電気](でんき)を**つけて**ください。",
+    "vi": "Xin hãy bật đèn."
+   },
+   {
+    "ja": "エアコンを**つけます**。",
+    "vi": "Tôi mở máy điều hòa."
+   }
+  ]
+ },
+ {
+  "word": "消します",
+  "reading": "けします",
+  "meaning": "tắt [điện, máy móc]",
+  "example": "エアコンを**[消](け)して**ください。",
+  "exampleVi": "Xin hãy tắt máy điều hòa.",
+  "examples": [
+   {
+    "ja": "エアコンを**[消](け)して**ください。",
+    "vi": "Xin hãy tắt máy điều hòa."
+   },
+   {
+    "ja": "[電気](でんき)を**[消](け)します**。",
+    "vi": "Tôi tắt đèn."
+   }
+  ]
+ },
+ {
+  "word": "開けます",
+  "reading": "あけます",
+  "meaning": "mở [cửa]",
+  "example": "[窓](まど)を**[開](あ)けて**ください。",
+  "exampleVi": "Xin hãy mở cửa sổ.",
+  "examples": [
+   {
+    "ja": "[窓](まど)を**[開](あ)けて**ください。",
+    "vi": "Xin hãy mở cửa sổ."
+   },
+   {
+    "ja": "ドアを**[開](あ)けないで**ください。",
+    "vi": "Xin đừng mở cửa."
+   }
+  ]
+ },
+ {
+  "word": "閉めます",
+  "reading": "しめます",
+  "meaning": "đóng [cửa]",
+  "example": "ドアを**[閉](し)めて**ください。",
+  "exampleVi": "Xin hãy đóng cửa.",
+  "examples": [
+   {
+    "ja": "ドアを**[閉](し)めて**ください。",
+    "vi": "Xin hãy đóng cửa."
+   },
+   {
+    "ja": "[窓](まど)を**[閉](し)めても**いいですか。",
+    "vi": "Tôi đóng cửa sổ được không?"
+   }
+  ]
+ },
+ {
+  "word": "急ぎます",
+  "reading": "いそぎます",
+  "meaning": "vội, gấp",
+  "example": "**[急](いそ)ぎましょう**。",
+  "exampleVi": "Chúng ta nhanh lên nào.",
+  "examples": [
+   {
+    "ja": "**[急](いそ)ぎましょう**。",
+    "vi": "Chúng ta nhanh lên nào."
+   },
+   {
+    "ja": "[時間](じかん)がありません。**[急](いそ)ぎます**。",
+    "vi": "Không còn thời gian. Tôi sẽ vội lên."
+   }
+  ]
+ },
+ {
+  "word": "待ちます",
+  "reading": "まちます",
+  "meaning": "đợi, chờ",
+  "example": "ここで**[待](ま)ちましょうか**。",
+  "exampleVi": "Chúng ta chờ ở đây nhé?",
+  "examples": [
+   {
+    "ja": "ここで**[待](ま)ちましょうか**。",
+    "vi": "Chúng ta chờ ở đây nhé?"
+   },
+   {
+    "ja": "[一時間](いちじかん)[友達](ともだち)を**[待](ま)ちました**。",
+    "vi": "Tôi đã chờ bạn tôi 1 tiếng đồng hồ."
+   }
+  ]
+ },
+ {
+  "word": "持ちます",
+  "reading": "もちます",
+  "meaning": "mang, cầm",
+  "example": "かばんを**[持](も)ちましょうか**。",
+  "exampleVi": "Để tôi xách cặp giúp bạn nhé?",
+  "examples": [
+   {
+    "ja": "かばんを**[持](も)ちましょうか**。",
+    "vi": "Để tôi xách cặp giúp bạn nhé?"
+   },
+   {
+    "ja": "[荷物](にもつ)を**[持](も)ちます**。",
+    "vi": "Tôi mang hành lý."
+   }
+  ]
+ },
+ {
+  "word": "取ります",
+  "reading": "とります",
+  "meaning": "lấy",
+  "example": "[新聞](しんぶん)を**[取](と)りましょうか**。",
+  "exampleVi": "Để tôi lấy tờ báo cho bạn nhé?",
+  "examples": [
+   {
+    "ja": "[新聞](しんぶん)を**[取](と)りましょうか**。",
+    "vi": "Để tôi lấy tờ báo cho bạn nhé?"
+   },
+   {
+    "ja": "[塩](しお)を**[取](と)って**ください。",
+    "vi": "Xin hãy lấy giúp tôi lọ muối."
+   }
+  ]
+ },
+ {
+  "word": "手伝います",
+  "reading": "てつだいます",
+  "meaning": "giúp đỡ",
+  "example": "**[手伝](てつだ)いましょうか**。",
+  "exampleVi": "Để tôi giúp bạn nhé?",
+  "examples": [
+   {
+    "ja": "**[手伝](てつだ)いましょうか**。",
+    "vi": "Để tôi giúp bạn nhé?"
+   },
+   {
+    "ja": "[父](ちち)の[仕事](しごと)を**[手伝](てつだ)います**。",
+    "vi": "Tôi giúp công việc cho bố."
+   }
+  ]
+ },
+ {
+  "word": "呼びます",
+  "reading": "よびます",
+  "meaning": "gọi",
+  "example": "タクシーを**[呼](よ)びましょうか**。",
+  "exampleVi": "Để tôi gọi taxi cho bạn nhé?",
+  "examples": [
+   {
+    "ja": "タクシーを**[呼](よ)びましょうか**。",
+    "vi": "Để tôi gọi taxi cho bạn nhé?"
+   },
+   {
+    "ja": "[電気屋](でんきや)を**[呼](よ)びます**。",
+    "vi": "Tôi sẽ gọi tiệm điện khí."
+   }
+  ]
+ },
+ {
+  "word": "話します",
+  "reading": "はなします",
+  "meaning": "nói chuyện",
+  "example": "[日本語](にほんご)で**[話](はな)して**ください。",
+  "exampleVi": "Xin hãy nói bằng tiếng Nhật.",
+  "examples": [
+   {
+    "ja": "[日本語](にほんご)で**[話](はな)して**ください。",
+    "vi": "Xin hãy nói bằng tiếng Nhật."
+   },
+   {
+    "ja": "ともだちと[日本語](にほんご)で**[話](はな)します**。",
+    "vi": "Tôi nói chuyện với bạn bằng tiếng Nhật."
+   }
+  ]
+ },
+ {
+  "word": "使います",
+  "reading": "つかいます",
+  "meaning": "sử dụng",
+  "example": "このボールペンを**[使](つか)います**。",
+  "exampleVi": "Tôi dùng cây bút bi này.",
+  "examples": [
+   {
+    "ja": "このボールペンを**[使](つか)います**。",
+    "vi": "Tôi dùng cây bút bi này."
+   },
+   {
+    "ja": "このはさみを**[使](つか)って**ください。",
+    "vi": "Hãy sử dụng cây kéo này."
+   }
+  ]
+ },
+ {
+  "word": "止めます",
+  "reading": "とめます",
+  "meaning": "dừng, đỗ xe",
+  "example": "ここで**[止](と)めて**ください。",
+  "exampleVi": "Xin hãy dừng xe ở đây.",
+  "examples": [
+   {
+    "ja": "ここで**[止](と)めて**ください。",
+    "vi": "Xin hãy dừng xe ở đây."
+   },
+   {
+    "ja": "ちゅうしゃじょうに[車](くるま)を**[止](と)めます**。",
+    "vi": "Tôi đậu xe ở bãi đậu xe."
+   }
+  ]
+ },
+ {
+  "word": "見せます",
+  "reading": "みせます",
+  "meaning": "cho xem",
+  "example": "パスポートを**[見](み)せて**ください。",
+  "exampleVi": "Xin cho tôi xem hộ chiếu.",
+  "examples": [
+   {
+    "ja": "パスポートを**[見](み)せて**ください。",
+    "vi": "Xin cho tôi xem hộ chiếu."
+   },
+   {
+    "ja": "ともだちにしゃしんを**[見](み)せました**。",
+    "vi": "Tôi đã cho bạn xem ảnh."
+   }
+  ]
+ },
+ {
+  "word": "教えます",
+  "reading": "おしえます",
+  "meaning": "dạy, cho biết",
+  "example": "[住所](じゅうしょ)を**[教](おし)えて**ください。",
+  "exampleVi": "Xin hãy cho tôi biết địa chỉ.",
+  "examples": [
+   {
+    "ja": "[住所](じゅうしょ)を**[教](おし)えて**ください。",
+    "vi": "Xin hãy cho tôi biết địa chỉ."
+   },
+   {
+    "ja": "ミラーさんは[学生](がくせい)に[英語](えいご)を**[教](おし)えます**。",
+    "vi": "Anh Miller dạy tiếng Anh cho học sinh."
+   }
+  ]
+ },
+ {
+  "word": "座ります",
+  "reading": "すわります",
+  "meaning": "ngồi",
+  "example": "ここに**[座](すわ)りましょう**。",
+  "exampleVi": "Chúng ta ngồi ở đây nào.",
+  "examples": [
+   {
+    "ja": "ここに**[座](すわ)りましょう**。",
+    "vi": "Chúng ta ngồi ở đây nào."
+   },
+   {
+    "ja": "どうぞ**[座](すわ)って**ください。",
+    "vi": "Mời bạn ngồi."
+   }
+  ]
+ },
+ {
+  "word": "立ちます",
+  "reading": "たちます",
+  "meaning": "đứng",
+  "example": "**[立](た)ちましょうか**。",
+  "exampleVi": "Chúng ta đứng dậy nhé?",
+  "examples": [
+   {
+    "ja": "**[立](た)ちましょうか**。",
+    "vi": "Chúng ta đứng dậy nhé?"
+   },
+   {
+    "ja": "[電車](でんしゃ)の[中](なか)で**[立](た)ちます**。",
+    "vi": "Tôi đứng trong xe điện."
+   }
+  ]
+ },
+ {
+  "word": "ふります",
+  "reading": "ふります",
+  "meaning": "rơi [mưa, tuyết]",
+  "example": "[明日](あした)は[雪](ゆき)が**ふります**。",
+  "exampleVi": "Ngày mai trời sẽ có tuyết rơi.",
+  "examples": [
+   {
+    "ja": "[明日](あした)は[雪](ゆき)が**ふります**。",
+    "vi": "Ngày mai trời sẽ có tuyết rơi."
+   },
+   {
+    "ja": "[雨](あめ)が**ふっています**。",
+    "vi": "Trời đang mưa."
+   }
+  ]
+ },
+ {
+  "word": "コピー",
+  "reading": "コピー",
+  "meaning": "copy, phô-tô",
+  "example": "これを**コピーしましょうか**。",
+  "exampleVi": "Để tôi photo cái này nhé?",
+  "examples": [
+   {
+    "ja": "これを**コピーしましょうか**。",
+    "vi": "Để tôi photo cái này nhé?"
+   },
+   {
+    "ja": "コンビニで**コピーします**。",
+    "vi": "Tôi phô-tô ở cửa hàng tiện lợi."
+   }
+  ]
+ },
+ {
+  "word": "電気",
+  "reading": "でんき",
+  "meaning": "điện, đèn",
+  "example": "**[電気](でんき)**を[消](け)しました。",
+  "exampleVi": "Tôi đã tắt đèn.",
+  "examples": [
+   {
+    "ja": "**[電気](でんき)**を[消](け)しました。",
+    "vi": "Tôi đã tắt đèn."
+   },
+   {
+    "ja": "くらいので、**[電気](でんき)**をつけます。",
+    "vi": "Vì tối nên tôi bật đèn."
+   }
+  ]
+ },
+ {
+  "word": "エアコン",
+  "reading": "エアコン",
+  "meaning": "máy điều hòa",
+  "example": "**エアコン**をつけましょうか。",
+  "exampleVi": "Để tôi bật máy điều hòa nhé?",
+  "examples": [
+   {
+    "ja": "**エアコン**をつけましょうか。",
+    "vi": "Để tôi bật máy điều hòa nhé?"
+   },
+   {
+    "ja": "あついので、**エアコン**をつけます。",
+    "vi": "Vì nóng nên tôi bật máy điều hòa."
+   }
+  ]
+ },
+ {
+  "word": "パスポート",
+  "reading": "パスポート",
+  "meaning": "hộ chiếu",
+  "example": "**パスポート**を[持](も)っています。",
+  "exampleVi": "Tôi có hộ chiếu.",
+  "examples": [
+   {
+    "ja": "**パスポート**を[持](も)っています。",
+    "vi": "Tôi có hộ chiếu."
+   },
+   {
+    "ja": "**パスポート**を、[家](いえ)にわすれました。",
+    "vi": "Tôi đã để quên hộ chiếu ở nhà."
+   }
+  ]
+ },
+ {
+  "word": "名前",
+  "reading": "なまえ",
+  "meaning": "tên",
+  "example": "**[名前](なまえ)**を[書](か)いてください。",
+  "exampleVi": "Xin hãy viết tên.",
+  "examples": [
+   {
+    "ja": "**[名前](なまえ)**を[書](か)いてください。",
+    "vi": "Xin hãy viết tên."
+   },
+   {
+    "ja": "あなたの**[名前](なまえ)**は[何](なに)ですか。",
+    "vi": "Tên của bạn là gì?"
+   }
+  ]
+ },
+ {
+  "word": "住所",
+  "reading": "じゅうしょ",
+  "meaning": "địa chỉ",
+  "example": "これは[私](わたし)の**[住所](じゅうしょ)**です。",
+  "exampleVi": "Đây là địa chỉ của tôi.",
+  "examples": [
+   {
+    "ja": "これは[私](わたし)の**[住所](じゅうしょ)**です。",
+    "vi": "Đây là địa chỉ của tôi."
+   },
+   {
+    "ja": "ここに**[住所](じゅうしょ)**を[書](か)いてください。",
+    "vi": "Hãy viết địa chỉ vào đây."
+   }
+  ]
+ },
+ {
+  "word": "地図",
+  "reading": "ちず",
+  "meaning": "bản đồ",
+  "example": "**[地図](ちず)**を[書](か)きましょうか。",
+  "exampleVi": "Để tôi vẽ bản đồ cho bạn nhé?",
+  "examples": [
+   {
+    "ja": "**[地図](ちず)**を[書](か)きましょうか。",
+    "vi": "Để tôi vẽ bản đồ cho bạn nhé?"
+   },
+   {
+    "ja": "**[地図](ちず)**を[見](み)て、えきへ[行](い)きます。",
+    "vi": "Tôi xem bản đồ rồi đi đến nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "塩",
+  "reading": "しお",
+  "meaning": "muối",
+  "example": "**[塩](しお)**を[買](か)います。",
+  "exampleVi": "Tôi mua muối.",
+  "examples": [
+   {
+    "ja": "**[塩](しお)**を[買](か)います。",
+    "vi": "Tôi mua muối."
+   },
+   {
+    "ja": "[料理](りょうり)に**[塩](しお)**を[入](い)れます。",
+    "vi": "Tôi cho muối vào món ăn."
+   }
+  ]
+ },
+ {
+  "word": "砂糖",
+  "reading": "さとう",
+  "meaning": "đường",
+  "example": "**[砂糖](さとう)**は[高](たか)いですか。",
+  "exampleVi": "Đường có đắt không?",
+  "examples": [
+   {
+    "ja": "**[砂糖](さとう)**は[高](たか)いですか。",
+    "vi": "Đường có đắt không?"
+   },
+   {
+    "ja": "コーヒーに**[砂糖](さとう)**を[入](い)れます。",
+    "vi": "Tôi cho đường vào cà phê."
+   }
+  ]
+ },
+ {
+  "word": "問題",
+  "reading": "もんだい",
+  "meaning": "vấn đề, câu hỏi",
+  "example": "この**[問題](もんだい)**は[難](むずか)しいです。",
+  "exampleVi": "Câu hỏi này khó.",
+  "examples": [
+   {
+    "ja": "この**[問題](もんだい)**は[難](むずか)しいです。",
+    "vi": "Câu hỏi này khó."
+   },
+   {
+    "ja": "**[問題](もんだい)**はありません。",
+    "vi": "Không có vấn đề gì."
+   }
+  ]
+ },
+ {
+  "word": "答え",
+  "reading": "こたえ",
+  "meaning": "câu trả lời",
+  "example": "**[答](こた)え**は[簡単](かんたん)です。",
+  "exampleVi": "Câu trả lời đơn giản.",
+  "examples": [
+   {
+    "ja": "**[答](こた)え**は[簡単](かんたん)です。",
+    "vi": "Câu trả lời đơn giản."
+   },
+   {
+    "ja": "**[答](こた)え**を[教](おし)えてください。",
+    "vi": "Xin hãy cho tôi biết đáp án."
+   }
+  ]
+ },
+ {
+  "word": "読み方",
+  "reading": "よみかた",
+  "meaning": "cách đọc",
+  "example": "この[漢字](かんじ)の**[読](よ)み[方](かた)**を[教](おし)えてください。",
+  "exampleVi": "Xin hãy chỉ tôi cách đọc chữ Hán (kanji) này.",
+  "examples": [
+   {
+    "ja": "この[漢字](かんじ)の**[読](よ)み[方](かた)**を[教](おし)えてください。",
+    "vi": "Xin hãy chỉ tôi cách đọc chữ Hán (kanji) này."
+   },
+   {
+    "ja": "この[漢字](かんじ)の**[読](よ)み[方](かた)**は[難](むずか)しいです。",
+    "vi": "Cách đọc chữ Hán (kanji) này khó."
+   }
+  ]
+ },
+ {
+  "word": "方",
+  "reading": "かた",
+  "meaning": "cách",
+  "example": "[食](た)べ**[方](かた)**を[教](おし)えてください。",
+  "exampleVi": "Xin hãy chỉ tôi cách ăn.",
+  "examples": [
+   {
+    "ja": "[食](た)べ**[方](かた)**を[教](おし)えてください。",
+    "vi": "Xin hãy chỉ tôi cách ăn."
+   },
+   {
+    "ja": "ATMの[使](つか)い**[方](かた)**がわかりません。",
+    "vi": "Tôi không biết cách sử dụng ATM."
+   }
+  ]
+ },
+ {
+  "word": "まっすぐ",
+  "reading": "まっすぐ",
+  "meaning": "thẳng",
+  "example": "**まっすぐ**[行](い)ってください。",
+  "exampleVi": "Xin hãy đi thẳng.",
+  "examples": [
+   {
+    "ja": "**まっすぐ**[行](い)ってください。",
+    "vi": "Xin hãy đi thẳng."
+   },
+   {
+    "ja": "この[道](みち)を**まっすぐ**[行](い)くと、ぎんこうがあります。",
+    "vi": "Cứ đi thẳng con đường này là có ngân hàng."
+   }
+  ]
+ },
+ {
+  "word": "ゆっくり",
+  "reading": "ゆっくり",
+  "meaning": "chậm, thong thả",
+  "example": "**ゆっくり**[休](やす)んでください。",
+  "exampleVi": "Xin hãy nghỉ ngơi thong thả.",
+  "examples": [
+   {
+    "ja": "**ゆっくり**[休](やす)んでください。",
+    "vi": "Xin hãy nghỉ ngơi thong thả."
+   },
+   {
+    "ja": "[先生](せんせい)は**ゆっくり**[話](はな)します。",
+    "vi": "Thầy / Cô giáo nói chuyện chậm rãi."
+   }
+  ]
+ },
+ {
+  "word": "すぐ",
+  "reading": "すぐ",
+  "meaning": "ngay, lập tức",
+  "example": "**すぐ**[来](き)ます。",
+  "exampleVi": "Tôi sẽ đến ngay.",
+  "examples": [
+   {
+    "ja": "**すぐ**[来](き)ます。",
+    "vi": "Tôi sẽ đến ngay."
+   },
+   {
+    "ja": "[分](わ)かりました。**すぐ**[行](い)きます。",
+    "vi": "Tôi biết rồi. Sẽ đi ngay."
+   }
+  ]
+ },
+ {
+  "word": "また",
+  "reading": "また",
+  "meaning": "và, cũng lại",
+  "example": "**また**[来](き)ます。",
+  "exampleVi": "Tôi sẽ lại đến.",
+  "examples": [
+   {
+    "ja": "**また**[来](き)ます。",
+    "vi": "Tôi sẽ lại đến."
+   },
+   {
+    "ja": "**また**[後](あと)で[電話](でんわ)をかけます。",
+    "vi": "Tôi sẽ gọi điện thoại lại sau."
+   }
+  ]
+ },
+ {
+  "word": "後で",
+  "reading": "あとで",
+  "meaning": "sau, để sau",
+  "example": "**[後](あと)で**でんわします。",
+  "exampleVi": "Lát nữa tôi sẽ gọi điện thoại.",
+  "examples": [
+   {
+    "ja": "**[後](あと)で**でんわします。",
+    "vi": "Lát nữa tôi sẽ gọi điện thoại."
+   },
+   {
+    "ja": "[今](いま)、レポートを[書](か)いています。**[後](あと)で**[行](い)きます。",
+    "vi": "Bây giờ tôi đang viết báo cáo. Tôi sẽ đi sau."
+   }
+  ]
+ },
+ {
+  "word": "もう少し",
+  "reading": "もうすこし",
+  "meaning": "thêm chút nữa",
+  "example": "**もう[少](すこ)し**[待](ま)ってください。",
+  "exampleVi": "Xin hãy đợi thêm một chút.",
+  "examples": [
+   {
+    "ja": "**もう[少](すこ)し**[待](ま)ってください。",
+    "vi": "Xin hãy đợi thêm một chút."
+   },
+   {
+    "ja": "**もう[少](すこ)し**ゆっくり[話](はな)してください。",
+    "vi": "Hãy nói chậm thêm một chút nữa."
+   }
+  ]
+ },
+ {
+  "word": "もう",
+  "reading": "もう",
+  "meaning": "thêm nữa (もう一度 = thêm một lần nữa); đã, rồi",
+  "example": "**もう**いちど[読](よ)んでください。",
+  "exampleVi": "Xin hãy đọc lại một lần nữa.",
+  "examples": [
+   {
+    "ja": "**もう**いちど[読](よ)んでください。",
+    "vi": "Xin hãy đọc lại một lần nữa."
+   },
+   {
+    "ja": "**もう**[昼](ひる)ご[飯](はん)を[食](た)べましたか。",
+    "vi": "Bạn đã ăn cơm trưa chưa?"
+   }
+  ]
+ },
+ {
+  "word": "おつり",
+  "reading": "おつり",
+  "meaning": "tiền lẻ, tiền thừa",
+  "example": "**おつり**は[百円](ひゃくえん)です。",
+  "exampleVi": "Tiền thừa là 100 yên.",
+  "examples": [
+   {
+    "ja": "**おつり**は[百円](ひゃくえん)です。",
+    "vi": "Tiền thừa là 100 yên."
+   },
+   {
+    "ja": "**おつり**は850[円](えん)です。",
+    "vi": "Tiền thối là 850 yên."
+   }
+  ]
+ }
 ]

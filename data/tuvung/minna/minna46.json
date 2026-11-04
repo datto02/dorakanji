@@ -1,27 +1,427 @@
 [
-  "焼く",
-  "焼ける",
-  "渡す",
-  "帰って来る",
-  "出る",
-  "届く",
-  "入学する",
-  "卒業する",
-  "留守",
-  "宅配便",
-  "原因",
-  "こちら",
-  "半年",
-  "丁度",
-  "たった今",
-  "ガスサービスセンター",
-  "ガスレンジ",
-  "具合",
-  "向かう",
-  "床",
-  "転ぶ",
-  "ベル",
-  "慌てる",
-  "順番に",
-  "出来事"
+ {
+  "word": "焼く",
+  "reading": "やく",
+  "meaning": "nướng, rán",
+  "example": "[魚](さかな)を**[焼](や)いている**ところです。",
+  "exampleVi": "Tôi đang nướng cá.",
+  "examples": [
+   {
+    "ja": "[魚](さかな)を**[焼](や)いている**ところです。",
+    "vi": "Tôi đang nướng cá."
+   },
+   {
+    "ja": "[母](はは)は[毎朝](まいあさ)[魚](さかな)を**[焼](や)きます**。",
+    "vi": "Sáng nào mẹ tôi cũng nướng cá."
+   }
+  ]
+ },
+ {
+  "word": "焼ける",
+  "reading": "やける",
+  "meaning": "cháy, nướng",
+  "example": "パンが**[焼](や)けた**ところです。",
+  "exampleVi": "Bánh mì vừa mới nướng xong.",
+  "examples": [
+   {
+    "ja": "パンが**[焼](や)けた**ところです。",
+    "vi": "Bánh mì vừa mới nướng xong."
+   },
+   {
+    "ja": "パンが**[焼](や)けました**。",
+    "vi": "Bánh mì đã nướng xong."
+   }
+  ]
+ },
+ {
+  "word": "わたす",
+  "reading": "わたす",
+  "meaning": "đưa cho, giao cho",
+  "example": "[書類](しょるい)を**わたして**ください。",
+  "exampleVi": "Xin hãy đưa hồ sơ cho tôi.",
+  "examples": [
+   {
+    "ja": "[書類](しょるい)を**わたして**ください。",
+    "vi": "Xin hãy đưa hồ sơ cho tôi."
+   },
+   {
+    "ja": "ともだちに、[手紙](てがみ)を**わたしました**。",
+    "vi": "Tôi đã đưa thư cho bạn."
+   }
+  ]
+ },
+ {
+  "word": "帰って来る",
+  "reading": "かえってくる",
+  "meaning": "về đến",
+  "example": "[父](ちち)はいま**[帰](かえ)って[来](き)た**ところです。",
+  "exampleVi": "Bố tôi vừa mới về đến.",
+  "examples": [
+   {
+    "ja": "[父](ちち)はいま**[帰](かえ)って[来](き)た**ところです。",
+    "vi": "Bố tôi vừa mới về đến."
+   },
+   {
+    "ja": "[友達](ともだち)が[国](くに)から**[帰](かえ)って[来](き)ました**。",
+    "vi": "Bạn tôi đã từ nước ngoài trở về."
+   }
+  ]
+ },
+ {
+  "word": "出る",
+  "reading": "でる",
+  "meaning": "Ra, tham dự, khởi hành (xe)",
+  "example": "いま[家](うち)を**[出](で)る**ところです。",
+  "exampleVi": "Tôi sắp ra khỏi nhà.",
+  "examples": [
+   {
+    "ja": "いま[家](うち)を**[出](で)る**ところです。",
+    "vi": "Tôi sắp ra khỏi nhà."
+   },
+   {
+    "ja": "[会議](かいぎ)に**[出](で)る**ために、[早](はや)く[起](お)きました。",
+    "vi": "Tôi dậy sớm để tham dự cuộc họp."
+   }
+  ]
+ },
+ {
+  "word": "届く",
+  "reading": "とどく",
+  "meaning": "được gửi đến/ chạm tới",
+  "example": "[荷物](にもつ)が**[届](とど)いた**ところです。",
+  "exampleVi": "Hành lý vừa mới được gửi đến.",
+  "examples": [
+   {
+    "ja": "[荷物](にもつ)が**[届](とど)いた**ところです。",
+    "vi": "Hành lý vừa mới được gửi đến."
+   },
+   {
+    "ja": "[荷物](にもつ)が**[届](とど)きました**。",
+    "vi": "Hành lý đã được gửi đến."
+   }
+  ]
+ },
+ {
+  "word": "入学する",
+  "reading": "にゅうがくする",
+  "meaning": "nhập học",
+  "example": "[今月](こんげつ)、**[入学](にゅうがく)した**ばかりです。",
+  "exampleVi": "Tôi mới nhập học tháng này.",
+  "examples": [
+   {
+    "ja": "[今月](こんげつ)、**[入学](にゅうがく)した**ばかりです。",
+    "vi": "Tôi mới nhập học tháng này."
+   },
+   {
+    "ja": "[来年](らいねん)、[大学](だいがく)に**[入学](にゅうがく)します**。",
+    "vi": "Sang năm tôi sẽ nhập học đại học."
+   }
+  ]
+ },
+ {
+  "word": "卒業する",
+  "reading": "そつぎょうする",
+  "meaning": "tốt nghiệp",
+  "example": "[去年](きょねん)、[大学](だいがく)を**[卒業](そつぎょう)した**ばかりです。",
+  "exampleVi": "Tôi mới tốt nghiệp đại học năm ngoái.",
+  "examples": [
+   {
+    "ja": "[去年](きょねん)、[大学](だいがく)を**[卒業](そつぎょう)した**ばかりです。",
+    "vi": "Tôi mới tốt nghiệp đại học năm ngoái."
+   },
+   {
+    "ja": "[三月](さんがつ)に[大学](だいがく)を**[卒業](そつぎょう)します**。",
+    "vi": "Tháng 3 tôi sẽ tốt nghiệp đại học."
+   }
+  ]
+ },
+ {
+  "word": "留守",
+  "reading": "るす",
+  "meaning": "sự vắng nhà",
+  "example": "[家](いえ)は**[留守](るす)**です。",
+  "exampleVi": "Nhà vắng người.",
+  "examples": [
+   {
+    "ja": "[家](いえ)は**[留守](るす)**です。",
+    "vi": "Nhà vắng người."
+   },
+   {
+    "ja": "[平日](へいじつ)の[昼間](ひるま)は**[留守](るす)**が[多](おお)いです。",
+    "vi": "Tôi thường vắng nhà vào ban ngày những ngày thường."
+   }
+  ]
+ },
+ {
+  "word": "宅配便",
+  "reading": "たくはいびん",
+  "meaning": "dịch vụ giao hàng tận nhà",
+  "example": "**[宅配便](たくはいびん)**が[来](き)ました。",
+  "exampleVi": "Chuyển phát nhanh đã đến.",
+  "examples": [
+   {
+    "ja": "**[宅配便](たくはいびん)**が[来](き)ました。",
+    "vi": "Chuyển phát nhanh đã đến."
+   },
+   {
+    "ja": "[留守](るす)の[間](あいだ)に**[宅配便](たくはいびん)**が[来](き)たようです。",
+    "vi": "Hình như trong lúc tôi vắng nhà thì có bưu phẩm đến."
+   }
+  ]
+ },
+ {
+  "word": "原因",
+  "reading": "げんいん",
+  "meaning": "nguyên nhân",
+  "example": "**[原因](げんいん)**は[何](なん)ですか。",
+  "exampleVi": "Nguyên nhân là gì?",
+  "examples": [
+   {
+    "ja": "**[原因](げんいん)**は[何](なん)ですか。",
+    "vi": "Nguyên nhân là gì?"
+   },
+   {
+    "ja": "[昨日](きのう)のけんかの**[原因](げんいん)**は[何](なん)ですか。",
+    "vi": "Nguyên nhân của việc cãi nhau hôm qua là gì?"
+   }
+  ]
+ },
+ {
+  "word": "こちら",
+  "reading": "こちら",
+  "meaning": "phía này, đây/vị này (lịch sự)",
+  "example": "**こちら**はガスサービスセンターです。",
+  "exampleVi": "Đây là trung tâm dịch vụ ga.",
+  "examples": [
+   {
+    "ja": "**こちら**はガスサービスセンターです。",
+    "vi": "Đây là trung tâm dịch vụ ga."
+   },
+   {
+    "ja": "**こちら**は[田中](たなか)さんです。",
+    "vi": "Đây là anh Tanaka. (khi giới thiệu)"
+   }
+  ]
+ },
+ {
+  "word": "半年",
+  "reading": "はんとし",
+  "meaning": "nửa năm",
+  "example": "[日本](にほん)に[来](き)て**[半年](はんとし)**になります。",
+  "exampleVi": "Tôi đến Nhật được nửa năm rồi.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)に[来](き)て**[半年](はんとし)**になります。",
+    "vi": "Tôi đến Nhật được nửa năm rồi."
+   },
+   {
+    "ja": "[結婚](けっこん)して**[半年](はんとし)**になりました。",
+    "vi": "Tôi kết hôn được nửa năm rồi."
+   }
+  ]
+ },
+ {
+  "word": "丁度",
+  "reading": "ちょうど",
+  "meaning": "vừa đúng, đúng lúc",
+  "example": "**[丁度](ちょうど)**3[時](じ)です。",
+  "exampleVi": "Vừa đúng 3 giờ.",
+  "examples": [
+   {
+    "ja": "**[丁度](ちょうど)**3[時](じ)です。",
+    "vi": "Vừa đúng 3 giờ."
+   },
+   {
+    "ja": "[電車](でんしゃ)は**[丁度](ちょうど)**[十時](じゅうじ)に[着](つ)きました。",
+    "vi": "Tàu điện đã đến đúng 10 giờ."
+   }
+  ]
+ },
+ {
+  "word": "たった今",
+  "reading": "たったいま",
+  "meaning": "vừa mới (vừa xong)",
+  "example": "**たった[今](いま)**[家](うち)に[着](つ)きました。",
+  "exampleVi": "Tôi vừa mới về đến nhà.",
+  "examples": [
+   {
+    "ja": "**たった[今](いま)**[家](うち)に[着](つ)きました。",
+    "vi": "Tôi vừa mới về đến nhà."
+   },
+   {
+    "ja": "[電車](でんしゃ)は**たった[今](いま)**[出](で)たところです。",
+    "vi": "Tàu điện vừa mới xuất phát."
+   }
+  ]
+ },
+ {
+  "word": "ガスサービスセンター",
+  "reading": "ガスサービスセンター",
+  "meaning": "trung tâm dịch vụ ga",
+  "example": "**ガスサービスセンター**に[電話](でんわ)します。",
+  "exampleVi": "Tôi gọi điện cho trung tâm dịch vụ ga.",
+  "examples": [
+   {
+    "ja": "**ガスサービスセンター**に[電話](でんわ)します。",
+    "vi": "Tôi gọi điện cho trung tâm dịch vụ ga."
+   },
+   {
+    "ja": "**ガスサービスセンター**は[駅](えき)の[近](ちか)くです。",
+    "vi": "Trung tâm dịch vụ ga ở gần nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "ガスレンジ",
+  "reading": "ガスレンジ",
+  "meaning": "bếp ga",
+  "example": "**ガスレンジ**の[具合](ぐあい)が[悪](わる)いです。",
+  "exampleVi": "Bếp ga đang có vấn đề.",
+  "examples": [
+   {
+    "ja": "**ガスレンジ**の[具合](ぐあい)が[悪](わる)いです。",
+    "vi": "Bếp ga đang có vấn đề."
+   },
+   {
+    "ja": "**ガスレンジ**を[掃除](そうじ)します。",
+    "vi": "Tôi vệ sinh bếp ga."
+   }
+  ]
+ },
+ {
+  "word": "具合",
+  "reading": "ぐあい",
+  "meaning": "tình trạng, trạng thái",
+  "example": "[体](からだ)の**[具合](ぐあい)**が[悪](わる)いです。",
+  "exampleVi": "Tôi thấy trong người không khỏe.",
+  "examples": [
+   {
+    "ja": "[体](からだ)の**[具合](ぐあい)**が[悪](わる)いです。",
+    "vi": "Tôi thấy trong người không khỏe."
+   },
+   {
+    "ja": "おなかの**[具合](ぐあい)**が[悪](わる)くて、[会社](かいしゃ)を[休](やす)んだ。",
+    "vi": "Bụng khó chịu nên tôi nghỉ làm."
+   }
+  ]
+ },
+ {
+  "word": "向かう",
+  "reading": "むかう",
+  "meaning": "đi đến, hướng đến",
+  "example": "[駅](えき)へ**[向](む)かっています**。",
+  "exampleVi": "Tôi đang trên đường đến nhà ga.",
+  "examples": [
+   {
+    "ja": "[駅](えき)へ**[向](む)かっています**。",
+    "vi": "Tôi đang trên đường đến nhà ga."
+   },
+   {
+    "ja": "[今](いま)、[車](くるま)で[空港](くうこう)に**[向](む)かっています**。",
+    "vi": "Bây giờ tôi đang đi (hướng) đến sân bay bằng xe hơi."
+   }
+  ]
+ },
+ {
+  "word": "ゆか",
+  "reading": "ゆか",
+  "meaning": "sàn nhà",
+  "example": "**ゆか**に[水](みず)があります。",
+  "exampleVi": "Có nước trên sàn nhà.",
+  "examples": [
+   {
+    "ja": "**ゆか**に[水](みず)があります。",
+    "vi": "Có nước trên sàn nhà."
+   },
+   {
+    "ja": "**ゆか**を[拭](ふ)きます。",
+    "vi": "Tôi lau sàn nhà."
+   }
+  ]
+ },
+ {
+  "word": "転ぶ",
+  "reading": "ころぶ",
+  "meaning": "ngã, vấp ngã",
+  "example": "[道](みち)で**[転](ころ)びました**。",
+  "exampleVi": "Tôi đã ngã trên đường.",
+  "examples": [
+   {
+    "ja": "[道](みち)で**[転](ころ)びました**。",
+    "vi": "Tôi đã ngã trên đường."
+   },
+   {
+    "ja": "[雨](あめ)の[日](ひ)は[階段](かいだん)で**[転](ころ)ぶ**ことがあります。",
+    "vi": "Vào ngày mưa, đôi khi tôi bị ngã ở cầu thang."
+   }
+  ]
+ },
+ {
+  "word": "ベル",
+  "reading": "ベル",
+  "meaning": "chuông cửa",
+  "example": "**ベル**が[鳴](な)りました。",
+  "exampleVi": "Chuông cửa đã reo.",
+  "examples": [
+   {
+    "ja": "**ベル**が[鳴](な)りました。",
+    "vi": "Chuông cửa đã reo."
+   },
+   {
+    "ja": "[12時半](じゅうにじはん)に**ベル**が[鳴](な)ります。",
+    "vi": "12 giờ rưỡi chuông sẽ reo."
+   }
+  ]
+ },
+ {
+  "word": "あわてる",
+  "reading": "あわてる",
+  "meaning": "hoảng hốt, cuống lên",
+  "example": "**あわてないで**ください。",
+  "exampleVi": "Xin đừng hoảng hốt.",
+  "examples": [
+   {
+    "ja": "**あわてないで**ください。",
+    "vi": "Xin đừng hoảng hốt."
+   },
+   {
+    "ja": "[時間](じかん)があるので、**あわてなくても**いいです。",
+    "vi": "Còn thời gian nên không cần phải cuống lên."
+   }
+  ]
+ },
+ {
+  "word": "順番に",
+  "reading": "じゅんばんに",
+  "meaning": "theo thứ tự",
+  "example": "**[順番](じゅんばん)に**[入](はい)ってください。",
+  "exampleVi": "Xin hãy vào lần lượt theo thứ tự.",
+  "examples": [
+   {
+    "ja": "**[順番](じゅんばん)に**[入](はい)ってください。",
+    "vi": "Xin hãy vào lần lượt theo thứ tự."
+   },
+   {
+    "ja": "**[順番](じゅんばん)に**[名前](なまえ)を[呼](よ)びます。",
+    "vi": "Tôi gọi tên lần lượt theo thứ tự."
+   }
+  ]
+ },
+ {
+  "word": "出来事",
+  "reading": "できごと",
+  "meaning": "sự kiện",
+  "example": "[今日](きょう)の**[出来事](できごと)**を[日記](にっき)に[書](か)きます。",
+  "exampleVi": "Tôi viết những chuyện xảy ra hôm nay vào nhật ký.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)の**[出来事](できごと)**を[日記](にっき)に[書](か)きます。",
+    "vi": "Tôi viết những chuyện xảy ra hôm nay vào nhật ký."
+   },
+   {
+    "ja": "[先週](せんしゅう)の**[出来事](できごと)**を[話](はな)しました。",
+    "vi": "Tôi đã kể về những chuyện xảy ra tuần trước."
+   }
+  ]
+ }
 ]

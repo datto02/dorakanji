@@ -1,46 +1,750 @@
 [
-  "答える",
-  "倒れる",
-  "通る",
-  "死ぬ",
-  "びっくりする",
-  "がっかりする",
-  "安心する",
-  "離婚する",
-  "複雑",
-  "邪魔",
-  "汚い",
-  "悲しい",
-  "恥ずかしい",
-  "台風",
-  "事故",
-  "見合い",
-  "代",
-  "フロント",
-  "号室",
-  "タオル",
-  "大勢",
-  "伺う",
-  "途中で",
-  "トラック",
-  "ぶつかる",
-  "硬い",
-  "大人",
-  "西洋化",
-  "合う",
-  "今では",
-  "成人式",
-  "柔らかい",
-  "津波",
-  "雷",
-  "火事",
-  "ハイキング",
-  "操作",
-  "せっけん",
-  "また",
-  "太る",
-  "痩せる",
-  "首相",
-  "会場",
-  "洋服"
+ {
+  "word": "答える",
+  "reading": "こたえる",
+  "meaning": "trả lời [câu hỏi]",
+  "example": "[質問](しつもん)に**[答](こた)えて**ください。",
+  "exampleVi": "Xin hãy trả lời câu hỏi.",
+  "examples": [
+   {
+    "ja": "[質問](しつもん)に**[答](こた)えて**ください。",
+    "vi": "Xin hãy trả lời câu hỏi."
+   },
+   {
+    "ja": "[先生](せんせい)のしつもんに**[答](こた)えました**。",
+    "vi": "Tôi đã trả lời câu hỏi của thầy giáo."
+   }
+  ]
+ },
+ {
+  "word": "たおれる",
+  "reading": "たおれる",
+  "meaning": "ngã, đổ, gục (ngã bệnh)",
+  "example": "[父](ちち)が**たおれて**、[入院](にゅういん)しました。",
+  "exampleVi": "Bố tôi ngã bệnh nên đã nhập viện.",
+  "examples": [
+   {
+    "ja": "[父](ちち)が**たおれて**、[入院](にゅういん)しました。",
+    "vi": "Bố tôi ngã bệnh nên đã nhập viện."
+   },
+   {
+    "ja": "[強](つよ)い[風](かぜ)で、[木](き)が**たおれた**。",
+    "vi": "Cây bị đổ vì gió mạnh."
+   }
+  ]
+ },
+ {
+  "word": "通る",
+  "reading": "とおる",
+  "meaning": "đi qua, thông qua",
+  "example": "この[道](みち)は[車](くるま)が**[通](とお)りません**。",
+  "exampleVi": "Xe cộ không đi qua con đường này.",
+  "examples": [
+   {
+    "ja": "この[道](みち)は[車](くるま)が**[通](とお)りません**。",
+    "vi": "Xe cộ không đi qua con đường này."
+   },
+   {
+    "ja": "この[道](みち)は、[車](くるま)が**[通](とお)れません**。",
+    "vi": "Con đường này xe ô tô không đi qua được."
+   }
+  ]
+ },
+ {
+  "word": "死ぬ",
+  "reading": "しぬ",
+  "meaning": "chết",
+  "example": "[犬](いぬ)が**[死](し)んで**、[悲](かな)しいです。",
+  "exampleVi": "Chó chết nên tôi buồn.",
+  "examples": [
+   {
+    "ja": "[犬](いぬ)が**[死](し)んで**、[悲](かな)しいです。",
+    "vi": "Chó chết nên tôi buồn."
+   },
+   {
+    "ja": "[飼](か)っていた[猫](ねこ)が**[死](し)にました**。",
+    "vi": "Con mèo tôi nuôi đã chết."
+   }
+  ]
+ },
+ {
+  "word": "びっくりする",
+  "reading": "びっくりする",
+  "meaning": "ngạc nhiên, giật mình",
+  "example": "[大](おお)きい[音](おと)に**びっくりしました**。",
+  "exampleVi": "Tôi giật mình vì tiếng động lớn.",
+  "examples": [
+   {
+    "ja": "[大](おお)きい[音](おと)に**びっくりしました**。",
+    "vi": "Tôi giật mình vì tiếng động lớn."
+   },
+   {
+    "ja": "[犬](いぬ)に[吠](ほ)えられて、**びっくりしました**。",
+    "vi": "Bị chó sủa, tôi đã giật mình."
+   }
+  ]
+ },
+ {
+  "word": "がっかりする",
+  "reading": "がっかりする",
+  "meaning": "thất vọng",
+  "example": "[試験](しけん)がだめで、**がっかりしました**。",
+  "exampleVi": "Kỳ thi không tốt nên tôi thất vọng.",
+  "examples": [
+   {
+    "ja": "[試験](しけん)がだめで、**がっかりしました**。",
+    "vi": "Kỳ thi không tốt nên tôi thất vọng."
+   },
+   {
+    "ja": "[試合](しあい)に[負](ま)けて、**がっかりしました**。",
+    "vi": "Thua trận đấu nên tôi đã thất vọng."
+   }
+  ]
+ },
+ {
+  "word": "安心する",
+  "reading": "あんしんする",
+  "meaning": "yên tâm",
+  "example": "[話](はなし)を[聞](き)いて、**[安心](あんしん)しました**。",
+  "exampleVi": "Nghe chuyện xong tôi thấy yên tâm.",
+  "examples": [
+   {
+    "ja": "[話](はなし)を[聞](き)いて、**[安心](あんしん)しました**。",
+    "vi": "Nghe chuyện xong tôi thấy yên tâm."
+   },
+   {
+    "ja": "[彼](かれ)の[元気](げんき)な[顔](かお)を[見](み)て**[安心](あんしん)しました**。",
+    "vi": "Nhìn thấy gương mặt khỏe mạnh của anh ấy, tôi đã yên tâm."
+   }
+  ]
+ },
+ {
+  "word": "りこんする",
+  "reading": "りこんする",
+  "meaning": "ly hôn",
+  "example": "**りこんする**[人](ひと)が[多](おお)いです。",
+  "exampleVi": "Có nhiều người ly hôn.",
+  "examples": [
+   {
+    "ja": "**りこんする**[人](ひと)が[多](おお)いです。",
+    "vi": "Có nhiều người ly hôn."
+   },
+   {
+    "ja": "[二人](ふたり)は[去年](きょねん)**りこんしました**。",
+    "vi": "Hai người đó đã ly hôn vào năm ngoái."
+   }
+  ]
+ },
+ {
+  "word": "複雑",
+  "reading": "ふくざつ",
+  "meaning": "phức tạp",
+  "example": "この[話](はなし)は**[複雑](ふくざつ)**です。",
+  "exampleVi": "Câu chuyện này phức tạp.",
+  "examples": [
+   {
+    "ja": "この[話](はなし)は**[複雑](ふくざつ)**です。",
+    "vi": "Câu chuyện này phức tạp."
+   },
+   {
+    "ja": "[人間](にんげん)の[気持](きも)ちは**[複雑](ふくざつ)**です。",
+    "vi": "Cảm xúc của con người rất phức tạp."
+   }
+  ]
+ },
+ {
+  "word": "じゃま",
+  "reading": "じゃま",
+  "meaning": "cản trở",
+  "example": "そのかばんは**じゃま**です。",
+  "exampleVi": "Cái cặp đó gây cản trở.",
+  "examples": [
+   {
+    "ja": "そのかばんは**じゃま**です。",
+    "vi": "Cái cặp đó gây cản trở."
+   },
+   {
+    "ja": "デートに**じゃま**が[入](はい)りました。",
+    "vi": "Có sự cản trở lúc hẹn hò."
+   }
+  ]
+ },
+ {
+  "word": "きたない",
+  "reading": "きたない",
+  "meaning": "bẩn",
+  "example": "[部屋](へや)が**きたなくて**、[困](こま)ります。",
+  "exampleVi": "Phòng bẩn nên tôi thấy khó chịu.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)が**きたなくて**、[困](こま)ります。",
+    "vi": "Phòng bẩn nên tôi thấy khó chịu."
+   },
+   {
+    "ja": "このへやは、**きたない**です。",
+    "vi": "Căn phòng này bẩn."
+   }
+  ]
+ },
+ {
+  "word": "悲しい",
+  "reading": "かなしい",
+  "meaning": "buồn, đau thương",
+  "example": "**[悲](かな)しい**[映画](えいが)を[見](み)ました。",
+  "exampleVi": "Tôi đã xem một bộ phim buồn.",
+  "examples": [
+   {
+    "ja": "**[悲](かな)しい**[映画](えいが)を[見](み)ました。",
+    "vi": "Tôi đã xem một bộ phim buồn."
+   },
+   {
+    "ja": "[友達](ともだち)が[国](くに)へ[帰](かえ)って、**[悲](かな)しい**です。",
+    "vi": "Bạn về nước nên tôi buồn."
+   }
+  ]
+ },
+ {
+  "word": "はずかしい",
+  "reading": "はずかしい",
+  "meaning": "xấu hổ, thẹn",
+  "example": "[大](おお)きい[声](こえ)で[歌](うた)うのは**はずかしい**です。",
+  "exampleVi": "Hát to thì xấu hổ.",
+  "examples": [
+   {
+    "ja": "[大](おお)きい[声](こえ)で[歌](うた)うのは**はずかしい**です。",
+    "vi": "Hát to thì xấu hổ."
+   },
+   {
+    "ja": "[簡単](かんたん)な[漢字](かんじ)が[読](よ)めなくて、**はずかしい**です。",
+    "vi": "Tôi xấu hổ khi không thể đọc được những chữ Kanji đơn giản."
+   }
+  ]
+ },
+ {
+  "word": "台風",
+  "reading": "たいふう",
+  "meaning": "bão",
+  "example": "**[台風](たいふう)**で[電車](でんしゃ)が[止](と)まりました。",
+  "exampleVi": "Tàu điện đã dừng vì bão.",
+  "examples": [
+   {
+    "ja": "**[台風](たいふう)**で[電車](でんしゃ)が[止](と)まりました。",
+    "vi": "Tàu điện đã dừng vì bão."
+   },
+   {
+    "ja": "[大](おお)きい**[台風](たいふう)**が[来](く)るかもしれません。",
+    "vi": "Có thể một cơn bão lớn sẽ đến."
+   }
+  ]
+ },
+ {
+  "word": "事故",
+  "reading": "じこ",
+  "meaning": "tai nạn",
+  "example": "**[事故](じこ)**で[電車](でんしゃ)がおくれました。",
+  "exampleVi": "Tàu điện bị trễ vì tai nạn.",
+  "examples": [
+   {
+    "ja": "**[事故](じこ)**で[電車](でんしゃ)がおくれました。",
+    "vi": "Tàu điện bị trễ vì tai nạn."
+   },
+   {
+    "ja": "[昨日](きのう)、[道](みち)で**[事故](じこ)**を[見](み)てしまいました。",
+    "vi": "Hôm qua tôi đã chứng kiến tai nạn trên đường."
+   }
+  ]
+ },
+ {
+  "word": "見合い",
+  "reading": "みあい",
+  "meaning": "làm mối, xem mắt",
+  "example": "[姉](あね)は[来月](らいげつ)、**[見合](みあ)い**をします。",
+  "exampleVi": "Tháng sau chị tôi sẽ đi xem mắt.",
+  "examples": [
+   {
+    "ja": "[姉](あね)は[来月](らいげつ)、**[見合](みあ)い**をします。",
+    "vi": "Tháng sau chị tôi sẽ đi xem mắt."
+   },
+   {
+    "ja": "[来週](らいしゅう)、レストランでお**[見合](みあ)い**をします。",
+    "vi": "Tuần sau tôi sẽ gặp mặt qua mai mối tại nhà hàng."
+   }
+  ]
+ },
+ {
+  "word": "代",
+  "reading": "だい",
+  "meaning": "tiền ~, phí ~ (hậu tố)",
+  "example": "[電話](でんわ)**[代](だい)**は[高](たか)いです。",
+  "exampleVi": "Tiền điện thoại đắt.",
+  "examples": [
+   {
+    "ja": "[電話](でんわ)**[代](だい)**は[高](たか)いです。",
+    "vi": "Tiền điện thoại đắt."
+   },
+   {
+    "ja": "[電気](でんき)**[代](だい)**が[高](たか)くなりました。",
+    "vi": "Tiền điện đã đắt lên."
+   }
+  ]
+ },
+ {
+  "word": "フロント",
+  "reading": "フロント",
+  "meaning": "quầy lễ tân, mặt trước",
+  "example": "**フロント**でかぎをもらいます。",
+  "exampleVi": "Tôi nhận chìa khóa ở quầy lễ tân.",
+  "examples": [
+   {
+    "ja": "**フロント**でかぎをもらいます。",
+    "vi": "Tôi nhận chìa khóa ở quầy lễ tân."
+   },
+   {
+    "ja": "ホテルの**フロント**でパスポートを[見](み)せます。",
+    "vi": "Cho xem hộ chiếu tại quầy lễ tân khách sạn."
+   }
+  ]
+ },
+ {
+  "word": "号室",
+  "reading": "ごうしつ",
+  "meaning": "phòng số ~",
+  "example": "[部屋](へや)は305**[号室](ごうしつ)**です。",
+  "exampleVi": "Phòng của tôi là phòng số 305.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)は305**[号室](ごうしつ)**です。",
+    "vi": "Phòng của tôi là phòng số 305."
+   },
+   {
+    "ja": "[私](わたし)の[部屋](へや)は[二階](にかい)の201**[号室](ごうしつ)**です。",
+    "vi": "Phòng của tôi là phòng số 201 ở tầng 2."
+   }
+  ]
+ },
+ {
+  "word": "タオル",
+  "reading": "タオル",
+  "meaning": "khăn lau, khăn tắm",
+  "example": "**タオル**を[一](ひと)つください。",
+  "exampleVi": "Cho tôi một chiếc khăn.",
+  "examples": [
+   {
+    "ja": "**タオル**を[一](ひと)つください。",
+    "vi": "Cho tôi một chiếc khăn."
+   },
+   {
+    "ja": "トイレでピンクの**タオル**を[使](つか)っています。",
+    "vi": "Trong nhà vệ sinh tôi sử dụng khăn màu hồng."
+   }
+  ]
+ },
+ {
+  "word": "大勢",
+  "reading": "おおぜい",
+  "meaning": "nhiều người",
+  "example": "**[大勢](おおぜい)**の[人](ひと)で[電車](でんしゃ)がこんでいます。",
+  "exampleVi": "Tàu điện đông vì có rất nhiều người.",
+  "examples": [
+   {
+    "ja": "**[大勢](おおぜい)**の[人](ひと)で[電車](でんしゃ)がこんでいます。",
+    "vi": "Tàu điện đông vì có rất nhiều người."
+   },
+   {
+    "ja": "**[大勢](おおぜい)**の[人](ひと)が[来](き)ました。",
+    "vi": "Rất nhiều người đã đến."
+   }
+  ]
+ },
+ {
+  "word": "うかがう",
+  "reading": "うかがう",
+  "meaning": "hỏi, nghe, thăm (khiêm nhường)",
+  "example": "[明日](あした)、[家](うち)へ**うかがいます**。",
+  "exampleVi": "Ngày mai tôi sẽ đến thăm nhà (cách nói khiêm nhường).",
+  "examples": [
+   {
+    "ja": "[明日](あした)、[家](うち)へ**うかがいます**。",
+    "vi": "Ngày mai tôi sẽ đến thăm nhà (cách nói khiêm nhường)."
+   },
+   {
+    "ja": "[先生](せんせい)に[質問](しつもん)を**うかがいます**。",
+    "vi": "Tôi xin hỏi thầy một câu (khiêm nhường)."
+   }
+  ]
+ },
+ {
+  "word": "とちゅうで",
+  "reading": "とちゅうで",
+  "meaning": "giữa đường, dọc đường",
+  "example": "[会社](かいしゃ)へ[行](い)く**とちゅうで**、[友達](ともだち)に[会](あ)いました。",
+  "exampleVi": "Trên đường đến công ty, tôi đã gặp bạn.",
+  "examples": [
+   {
+    "ja": "[会社](かいしゃ)へ[行](い)く**とちゅうで**、[友達](ともだち)に[会](あ)いました。",
+    "vi": "Trên đường đến công ty, tôi đã gặp bạn."
+   },
+   {
+    "ja": "[学校](がっこう)へ[行](い)く**とちゅうで**[雨](あめ)が[降](ふ)りました。",
+    "vi": "Trên đường đến trường thì trời mưa."
+   }
+  ]
+ },
+ {
+  "word": "トラック",
+  "reading": "トラック",
+  "meaning": "xe tải",
+  "example": "**トラック**が[道](みち)を[通](とお)ります。",
+  "exampleVi": "Xe tải chạy qua đường.",
+  "examples": [
+   {
+    "ja": "**トラック**が[道](みち)を[通](とお)ります。",
+    "vi": "Xe tải chạy qua đường."
+   },
+   {
+    "ja": "[大](おお)きい**トラック**が[止](と)まっています。",
+    "vi": "Chiếc xe tải lớn đang đỗ ở đó."
+   }
+  ]
+ },
+ {
+  "word": "ぶつかる",
+  "reading": "ぶつかる",
+  "meaning": "va chạm, đâm vào",
+  "example": "[車](くるま)がトラックに**ぶつかりました**。",
+  "exampleVi": "Xe hơi đã va vào xe tải.",
+  "examples": [
+   {
+    "ja": "[車](くるま)がトラックに**ぶつかりました**。",
+    "vi": "Xe hơi đã va vào xe tải."
+   },
+   {
+    "ja": "[信号](しんごう)のところで[2台](にだい)のタクシーが**ぶつかりました**。",
+    "vi": "Ở chỗ đèn giao thông, 2 chiếc taxi đã đụng nhau."
+   }
+  ]
+ },
+ {
+  "word": "かたい",
+  "reading": "かたい",
+  "meaning": "cứng",
+  "example": "この[肉](にく)は**かたくて**、[食](た)べられません。",
+  "exampleVi": "Thịt này cứng nên không ăn được.",
+  "examples": [
+   {
+    "ja": "この[肉](にく)は**かたくて**、[食](た)べられません。",
+    "vi": "Thịt này cứng nên không ăn được."
+   },
+   {
+    "ja": "このパンは**かたい**です。",
+    "vi": "Chiếc bánh mì này cứng."
+   }
+  ]
+ },
+ {
+  "word": "大人",
+  "reading": "おとな",
+  "meaning": "người lớn",
+  "example": "**[大人](おとな)**は[二千円](にせんえん)です。",
+  "exampleVi": "Người lớn giá 2.000 yên.",
+  "examples": [
+   {
+    "ja": "**[大人](おとな)**は[二千円](にせんえん)です。",
+    "vi": "Người lớn giá 2.000 yên."
+   },
+   {
+    "ja": "**[大人](おとな)**は、[二](に)[百](ひゃく)[円](えん)です。",
+    "vi": "Vé người lớn là 200 yên."
+   }
+  ]
+ },
+ {
+  "word": "西洋化",
+  "reading": "せいようか",
+  "meaning": "tây âu hóa",
+  "example": "[日本](にほん)の[生活](せいかつ)は**[西洋化](せいようか)しました**。",
+  "exampleVi": "Cuộc sống ở Nhật đã Tây hóa.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)の[生活](せいかつ)は**[西洋化](せいようか)しました**。",
+    "vi": "Cuộc sống ở Nhật đã Tây hóa."
+   },
+   {
+    "ja": "[食生活](しょくせいかつ)も**[西洋化](せいようか)しています**。",
+    "vi": "Cuộc sống ăn uống cũng đang được Tây hóa."
+   }
+  ]
+ },
+ {
+  "word": "合う",
+  "reading": "あう",
+  "meaning": "vừa, hợp",
+  "example": "このくつは[足](あし)に**[合](あ)います**。",
+  "exampleVi": "Đôi giày này vừa chân.",
+  "examples": [
+   {
+    "ja": "このくつは[足](あし)に**[合](あ)います**。",
+    "vi": "Đôi giày này vừa chân."
+   },
+   {
+    "ja": "そのくつは[今日](きょう)の[服](ふく)に**[合](あ)います**ね。",
+    "vi": "Đôi giày đó hợp với trang phục hôm nay nhỉ."
+   }
+  ]
+ },
+ {
+  "word": "今では",
+  "reading": "いまでは",
+  "meaning": "bây giờ (thì)",
+  "example": "**[今](いま)では**[日本語](にほんご)が[話](はな)せます。",
+  "exampleVi": "Bây giờ tôi nói được tiếng Nhật.",
+  "examples": [
+   {
+    "ja": "**[今](いま)では**[日本語](にほんご)が[話](はな)せます。",
+    "vi": "Bây giờ tôi nói được tiếng Nhật."
+   },
+   {
+    "ja": "**[今](いま)では**[自分](じぶん)で[料理](りょうり)ができます。",
+    "vi": "Bây giờ tôi có thể tự nấu ăn."
+   }
+  ]
+ },
+ {
+  "word": "成人式",
+  "reading": "せいじんしき",
+  "meaning": "lễ trưởng thành",
+  "example": "**[成人式](せいじんしき)**は[一月](いちがつ)です。",
+  "exampleVi": "Lễ trưởng thành vào tháng 1.",
+  "examples": [
+   {
+    "ja": "**[成人式](せいじんしき)**は[一月](いちがつ)です。",
+    "vi": "Lễ trưởng thành vào tháng 1."
+   },
+   {
+    "ja": "[二十歳](はたち)になって**[成人式](せいじんしき)**に[出](で)ました。",
+    "vi": "Tôi đã tròn 20 tuổi và tham dự lễ trưởng thành."
+   }
+  ]
+ },
+ {
+  "word": "やわらかい",
+  "reading": "やわらかい",
+  "meaning": "mềm mại",
+  "example": "このパンは**やわらかくて**[美味](おい)しいです。",
+  "exampleVi": "Bánh mì này mềm và ngon.",
+  "examples": [
+   {
+    "ja": "このパンは**やわらかくて**[美味](おい)しいです。",
+    "vi": "Bánh mì này mềm và ngon."
+   },
+   {
+    "ja": "このいすは**やわらかい**です。",
+    "vi": "Chiếc ghế này mềm."
+   }
+  ]
+ },
+ {
+  "word": "つなみ",
+  "reading": "つなみ",
+  "meaning": "sóng thần",
+  "example": "**つなみ**が[来](き)ました。",
+  "exampleVi": "Sóng thần đã ập đến.",
+  "examples": [
+   {
+    "ja": "**つなみ**が[来](き)ました。",
+    "vi": "Sóng thần đã ập đến."
+   },
+   {
+    "ja": "じしんのときは**つなみ**が[心配](しんぱい)です。",
+    "vi": "Khi có động đất thì lo có sóng thần."
+   }
+  ]
+ },
+ {
+  "word": "かみなり",
+  "reading": "かみなり",
+  "meaning": "sấm",
+  "example": "**かみなり**で[電気](でんき)が[消](き)えました。",
+  "exampleVi": "Đèn tắt vì sấm sét.",
+  "examples": [
+   {
+    "ja": "**かみなり**で[電気](でんき)が[消](き)えました。",
+    "vi": "Đèn tắt vì sấm sét."
+   },
+   {
+    "ja": "[私](わたし)は**かみなり**がだいきらいです。",
+    "vi": "Tôi rất ghét sấm."
+   }
+  ]
+ },
+ {
+  "word": "火事",
+  "reading": "かじ",
+  "meaning": "hỏa hoạn",
+  "example": "[近所](きんじょ)で**[火事](かじ)**がありました。",
+  "exampleVi": "Gần nhà đã có hỏa hoạn.",
+  "examples": [
+   {
+    "ja": "[近所](きんじょ)で**[火事](かじ)**がありました。",
+    "vi": "Gần nhà đã có hỏa hoạn."
+   },
+   {
+    "ja": "[昨日](きのう)の[夜](よる)、[近所](きんじょ)で**[火事](かじ)**があった。",
+    "vi": "Đêm qua khu gần nhà tôi có hỏa hoạn."
+   }
+  ]
+ },
+ {
+  "word": "ハイキング",
+  "reading": "ハイキング",
+  "meaning": "đi bộ dã ngoại",
+  "example": "[日曜日](にちようび)に**ハイキング**に[行](い)きます。",
+  "exampleVi": "Chủ nhật tôi đi dã ngoại.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に**ハイキング**に[行](い)きます。",
+    "vi": "Chủ nhật tôi đi dã ngoại."
+   },
+   {
+    "ja": "[家族](かぞく)で**ハイキング**に[行](い)きました。",
+    "vi": "Cả gia đình tôi đã đi dã ngoại."
+   }
+  ]
+ },
+ {
+  "word": "操作",
+  "reading": "そうさ",
+  "meaning": "thao tác",
+  "example": "このコンピューターの**[操作](そうさ)**は[簡単](かんたん)です。",
+  "exampleVi": "Thao tác của máy tính này đơn giản.",
+  "examples": [
+   {
+    "ja": "このコンピューターの**[操作](そうさ)**は[簡単](かんたん)です。",
+    "vi": "Thao tác của máy tính này đơn giản."
+   },
+   {
+    "ja": "リモコンで[車](くるま)のドアを**[操作](そうさ)します**。",
+    "vi": "Điều khiển cửa xe hơi bằng đồ điều khiển từ xa."
+   }
+  ]
+ },
+ {
+  "word": "せっけん",
+  "reading": "せっけん",
+  "meaning": "xà phòng",
+  "example": "**せっけん**で[手](て)を[洗](あら)います。",
+  "exampleVi": "Tôi rửa tay bằng xà phòng.",
+  "examples": [
+   {
+    "ja": "**せっけん**で[手](て)を[洗](あら)います。",
+    "vi": "Tôi rửa tay bằng xà phòng."
+   },
+   {
+    "ja": "**せっけん**で[手](て)を[洗](あら)いましょう。",
+    "vi": "Hãy rửa tay bằng xà bông."
+   }
+  ]
+ },
+ {
+  "word": "また",
+  "reading": "また",
+  "meaning": "và, cũng lại",
+  "example": "[私](わたし)は[日本語](にほんご)が[好](す)きです。**また**、[英語](えいご)も[好](す)きです。",
+  "exampleVi": "Tôi thích tiếng Nhật. Hơn nữa, tôi cũng thích tiếng Anh.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[日本語](にほんご)が[好](す)きです。**また**、[英語](えいご)も[好](す)きです。",
+    "vi": "Tôi thích tiếng Nhật. Hơn nữa, tôi cũng thích tiếng Anh."
+   },
+   {
+    "ja": "**また**[来](き)ます。",
+    "vi": "Tôi sẽ lại đến."
+   }
+  ]
+ },
+ {
+  "word": "太る",
+  "reading": "ふとる",
+  "meaning": "béo lên",
+  "example": "[最近](さいきん)、**[太](ふと)りました**。",
+  "exampleVi": "Gần đây tôi đã béo lên.",
+  "examples": [
+   {
+    "ja": "[最近](さいきん)、**[太](ふと)りました**。",
+    "vi": "Gần đây tôi đã béo lên."
+   },
+   {
+    "ja": "[食](た)べすぎて、[三](さん)キロ**[太](ふと)って**しまった。",
+    "vi": "Ăn quá nhiều nên tôi đã tăng ba ký."
+   }
+  ]
+ },
+ {
+  "word": "やせる",
+  "reading": "やせる",
+  "meaning": "gầy đi",
+  "example": "[病気](びょうき)で**やせました**。",
+  "exampleVi": "Tôi gầy đi vì bệnh.",
+  "examples": [
+   {
+    "ja": "[病気](びょうき)で**やせました**。",
+    "vi": "Tôi gầy đi vì bệnh."
+   },
+   {
+    "ja": "[運動](うんどう)すると**やせます**。",
+    "vi": "Tập thể dục thì sẽ gầy đi."
+   }
+  ]
+ },
+ {
+  "word": "首相",
+  "reading": "しゅしょう",
+  "meaning": "thủ tướng",
+  "example": "**[首相](しゅしょう)**の[話](はなし)を[聞](き)きました。",
+  "exampleVi": "Tôi đã nghe bài nói của thủ tướng.",
+  "examples": [
+   {
+    "ja": "**[首相](しゅしょう)**の[話](はなし)を[聞](き)きました。",
+    "vi": "Tôi đã nghe bài nói của thủ tướng."
+   },
+   {
+    "ja": "**[首相](しゅしょう)**は[明日](あした)[来](き)ます。",
+    "vi": "Ngày mai thủ tướng sẽ đến."
+   }
+  ]
+ },
+ {
+  "word": "会場",
+  "reading": "かいじょう",
+  "meaning": "hội trường",
+  "example": "**[会場](かいじょう)**は[駅](えき)の[近](ちか)くです。",
+  "exampleVi": "Hội trường ở gần nhà ga.",
+  "examples": [
+   {
+    "ja": "**[会場](かいじょう)**は[駅](えき)の[近](ちか)くです。",
+    "vi": "Hội trường ở gần nhà ga."
+   },
+   {
+    "ja": "[会議](かいぎ)の**[会場](かいじょう)**は、[駅](えき)から[歩](ある)いて[五](ご)[分](ふん)のところにある。",
+    "vi": "Hội trường của cuộc họp nằm cách ga năm phút đi bộ."
+   }
+  ]
+ },
+ {
+  "word": "洋服",
+  "reading": "ようふく",
+  "meaning": "quần áo kiểu Tây Âu",
+  "example": "[新](あたら)しい**[洋服](ようふく)**を[買](か)いました。",
+  "exampleVi": "Tôi đã mua quần áo kiểu Tây mới.",
+  "examples": [
+   {
+    "ja": "[新](あたら)しい**[洋服](ようふく)**を[買](か)いました。",
+    "vi": "Tôi đã mua quần áo kiểu Tây mới."
+   },
+   {
+    "ja": "デパートで**[洋服](ようふく)**を[選](えら)びます。",
+    "vi": "Tôi chọn quần áo kiểu Tây ở cửa hàng bách hóa."
+   }
+  ]
+ }
 ]

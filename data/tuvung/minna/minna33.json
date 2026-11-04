@@ -1,49 +1,801 @@
 [
-  "逃げる",
-  "騒ぐ",
-  "諦める",
-  "投げる",
-  "守る",
-  "始まる",
-  "出席する",
-  "伝える",
-  "注意する",
-  "外す",
-  "戻る",
-  "リサイクル",
-  "駄目",
-  "同じ",
-  "警察",
-  "席",
-  "マーク",
-  "ボール",
-  "締め切り",
-  "規則",
-  "危険",
-  "使用禁止",
-  "立入禁止",
-  "徐行",
-  "入口",
-  "出口",
-  "非常口",
-  "無料",
-  "割引",
-  "飲み放題",
-  "使用中",
-  "募集中",
-  "どういう",
-  "もう",
-  "あと",
-  "ほど",
-  "駐車違反",
-  "罰金",
-  "地震",
-  "起きる",
-  "助け合う",
-  "もともと",
-  "悲しい",
-  "もっと",
-  "挨拶",
-  "相手",
-  "気持ち"
+ {
+  "word": "にげる",
+  "reading": "にげる",
+  "meaning": "chạy, bỏ trốn",
+  "example": "**にげろ**！",
+  "exampleVi": "Chạy đi!",
+  "examples": [
+   {
+    "ja": "**にげろ**！",
+    "vi": "Chạy đi!"
+   },
+   {
+    "ja": "[火事](かじ)のとき、みんなで[外](そと)へ**にげた**。",
+    "vi": "Khi có hỏa hoạn, mọi người cùng chạy ra ngoài."
+   }
+  ]
+ },
+ {
+  "word": "さわぐ",
+  "reading": "さわぐ",
+  "meaning": "làm ồn",
+  "example": "ここで**さわぐ**な。",
+  "exampleVi": "Đừng làm ồn ở đây.",
+  "examples": [
+   {
+    "ja": "ここで**さわぐ**な。",
+    "vi": "Đừng làm ồn ở đây."
+   },
+   {
+    "ja": "[上](うえ)の[部屋](へや)の[人](ひと)が[夜中](よなか)に**さわいでいます**。",
+    "vi": "Người ở phòng trên làm ồn vào lúc nửa đêm."
+   }
+  ]
+ },
+ {
+  "word": "あきらめる",
+  "reading": "あきらめる",
+  "meaning": "từ bỏ",
+  "example": "**あきらめる**な！",
+  "exampleVi": "Đừng bỏ cuộc!",
+  "examples": [
+   {
+    "ja": "**あきらめる**な！",
+    "vi": "Đừng bỏ cuộc!"
+   },
+   {
+    "ja": "[何](なん)でも[簡単](かんたん)に**あきらめて**はいけません。",
+    "vi": "Không được dễ dàng bỏ cuộc bất kỳ điều gì."
+   }
+  ]
+ },
+ {
+  "word": "投げる",
+  "reading": "なげる",
+  "meaning": "ném",
+  "example": "ボールを**[投](な)げろ**。",
+  "exampleVi": "Ném bóng đi!",
+  "examples": [
+   {
+    "ja": "ボールを**[投](な)げろ**。",
+    "vi": "Ném bóng đi!"
+   },
+   {
+    "ja": "かれが**[投](な)げる**ボールはとても[速](はや)いです。",
+    "vi": "Bóng anh ấy ném ra rất nhanh."
+   }
+  ]
+ },
+ {
+  "word": "守る",
+  "reading": "まもる",
+  "meaning": "giữ, tuân thủ, bảo vệ",
+  "example": "[約束](やくそく)を**[守](まも)って**ください。",
+  "exampleVi": "Xin hãy giữ lời hứa.",
+  "examples": [
+   {
+    "ja": "[約束](やくそく)を**[守](まも)って**ください。",
+    "vi": "Xin hãy giữ lời hứa."
+   },
+   {
+    "ja": "[規則](きそく)を**[守](まも)りましょう**。",
+    "vi": "Chúng ta hãy tuân thủ quy tắc."
+   }
+  ]
+ },
+ {
+  "word": "始まる",
+  "reading": "はじまる",
+  "meaning": "bắt đầu",
+  "example": "[会議](かいぎ)はもう**[始](はじ)まりました**。",
+  "exampleVi": "Cuộc họp đã bắt đầu rồi.",
+  "examples": [
+   {
+    "ja": "[会議](かいぎ)はもう**[始](はじ)まりました**。",
+    "vi": "Cuộc họp đã bắt đầu rồi."
+   },
+   {
+    "ja": "[授業](じゅぎょう)は9[時](じ)に**[始](はじ)まります**。",
+    "vi": "Giờ học bắt đầu lúc 9 giờ."
+   }
+  ]
+ },
+ {
+  "word": "出席する",
+  "reading": "しゅっせきする",
+  "meaning": "tham dự",
+  "example": "[会議](かいぎ)に**[出席](しゅっせき)して**ください。",
+  "exampleVi": "Xin hãy tham dự cuộc họp.",
+  "examples": [
+   {
+    "ja": "[会議](かいぎ)に**[出席](しゅっせき)して**ください。",
+    "vi": "Xin hãy tham dự cuộc họp."
+   },
+   {
+    "ja": "[会議](かいぎ)に**[出席](しゅっせき)する**つもりです。",
+    "vi": "Tôi định tham dự cuộc họp."
+   }
+  ]
+ },
+ {
+  "word": "伝える",
+  "reading": "つたえる",
+  "meaning": "truyền đạt, dẫn, truyền",
+  "example": "[田中](たなか)さんによろしく**[伝](つた)えて**ください。",
+  "exampleVi": "Xin hãy gửi lời hỏi thăm tới anh Tanaka.",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんによろしく**[伝](つた)えて**ください。",
+    "vi": "Xin hãy gửi lời hỏi thăm tới anh Tanaka."
+   },
+   {
+    "ja": "[難](むずか)しいニュースをやさしく**[伝](つた)えます**。",
+    "vi": "Truyền đạt tin khó một cách dễ hiểu."
+   }
+  ]
+ },
+ {
+  "word": "注意する",
+  "reading": "ちゅういする",
+  "meaning": "chú ý",
+  "example": "[車](くるま)に**[注意](ちゅうい)して**ください。",
+  "exampleVi": "Xin hãy chú ý xe cộ.",
+  "examples": [
+   {
+    "ja": "[車](くるま)に**[注意](ちゅうい)して**ください。",
+    "vi": "Xin hãy chú ý xe cộ."
+   },
+   {
+    "ja": "[足元](あしもと)に**[注意](ちゅうい)して**ください。",
+    "vi": "Xin hãy chú ý dưới chân."
+   }
+  ]
+ },
+ {
+  "word": "外す",
+  "reading": "はずす",
+  "meaning": "tháo, rời [chỗ ngồi]",
+  "example": "[席](せき)を**[外](はず)します**。",
+  "exampleVi": "Tôi xin phép rời chỗ một lát.",
+  "examples": [
+   {
+    "ja": "[席](せき)を**[外](はず)します**。",
+    "vi": "Tôi xin phép rời chỗ một lát."
+   },
+   {
+    "ja": "[電話](でんわ)が[来](き)たので、[席](せき)を**[外](はず)しました**。",
+    "vi": "Vì có điện thoại gọi đến nên tôi đã rời chỗ."
+   }
+  ]
+ },
+ {
+  "word": "もどる",
+  "reading": "もどる",
+  "meaning": "quay về, quay lại",
+  "example": "すぐ**もどります**。",
+  "exampleVi": "Tôi sẽ quay lại ngay.",
+  "examples": [
+   {
+    "ja": "すぐ**もどります**。",
+    "vi": "Tôi sẽ quay lại ngay."
+   },
+   {
+    "ja": "[田中](たなか)さんが**もどる**のは[何時](なんじ)ですか。",
+    "vi": "Anh/chị Tanaka sẽ quay lại lúc mấy giờ?"
+   }
+  ]
+ },
+ {
+  "word": "リサイクル",
+  "reading": "リサイクル",
+  "meaning": "tái chế",
+  "example": "これは**リサイクル**のごみです。",
+  "exampleVi": "Đây là rác tái chế.",
+  "examples": [
+   {
+    "ja": "これは**リサイクル**のごみです。",
+    "vi": "Đây là rác tái chế."
+   },
+   {
+    "ja": "コートを**リサイクル**に[出](だ)しました。",
+    "vi": "Tôi đã bỏ áo choàng để tái sử dụng (đồ cũ)."
+   }
+  ]
+ },
+ {
+  "word": "だめ",
+  "reading": "だめ",
+  "meaning": "không được",
+  "example": "ここで[泳](およ)いでは**だめ**です。",
+  "exampleVi": "Không được bơi ở đây.",
+  "examples": [
+   {
+    "ja": "ここで[泳](およ)いでは**だめ**です。",
+    "vi": "Không được bơi ở đây."
+   },
+   {
+    "ja": "ここでたばこを[吸](す)っては**だめ**です。",
+    "vi": "Không được hút thuốc ở đây."
+   }
+  ]
+ },
+ {
+  "word": "同じ",
+  "reading": "おなじ",
+  "meaning": "giống",
+  "example": "この[字](じ)はあれと**[同](おな)じ**[意味](いみ)です。",
+  "exampleVi": "Chữ này có cùng nghĩa với chữ kia.",
+  "examples": [
+   {
+    "ja": "この[字](じ)はあれと**[同](おな)じ**[意味](いみ)です。",
+    "vi": "Chữ này có cùng nghĩa với chữ kia."
+   },
+   {
+    "ja": "わたしとミラーさんは**[同](おな)じ**[会社](かいしゃ)です。",
+    "vi": "Tôi và anh Miller làm cùng một công ty."
+   }
+  ]
+ },
+ {
+  "word": "警察",
+  "reading": "けいさつ",
+  "meaning": "cảnh sát",
+  "example": "**[警察](けいさつ)**に[電話](でんわ)します。",
+  "exampleVi": "Tôi gọi điện cho cảnh sát.",
+  "examples": [
+   {
+    "ja": "**[警察](けいさつ)**に[電話](でんわ)します。",
+    "vi": "Tôi gọi điện cho cảnh sát."
+   },
+   {
+    "ja": "[道](みち)で[事故](じこ)があって、**[警察](けいさつ)**が[来](き)ました。",
+    "vi": "Có tai nạn trên đường nên cảnh sát đã đến."
+   }
+  ]
+ },
+ {
+  "word": "席",
+  "reading": "せき",
+  "meaning": "chỗ ngồi, ghế",
+  "example": "この**[席](せき)**に[座](すわ)ってください。",
+  "exampleVi": "Xin hãy ngồi vào chỗ này.",
+  "examples": [
+   {
+    "ja": "この**[席](せき)**に[座](すわ)ってください。",
+    "vi": "Xin hãy ngồi vào chỗ này."
+   },
+   {
+    "ja": "この[飛行機](ひこうき)にまだ**[席](せき)**がありますか。",
+    "vi": "Máy bay này vẫn còn chỗ chứ?"
+   }
+  ]
+ },
+ {
+  "word": "マーク",
+  "reading": "マーク",
+  "meaning": "đánh dấu",
+  "example": "この**マーク**は[何](なに)ですか。",
+  "exampleVi": "Ký hiệu này là gì?",
+  "examples": [
+   {
+    "ja": "この**マーク**は[何](なに)ですか。",
+    "vi": "Ký hiệu này là gì?"
+   },
+   {
+    "ja": "[地図](ちず)に**マーク**をつけます。",
+    "vi": "Tôi đánh dấu lên bản đồ."
+   }
+  ]
+ },
+ {
+  "word": "ボール",
+  "reading": "ボール",
+  "meaning": "quả bóng",
+  "example": "[公園](こうえん)で**ボール**を[使](つか)います。",
+  "exampleVi": "Tôi dùng bóng ở công viên.",
+  "examples": [
+   {
+    "ja": "[公園](こうえん)で**ボール**を[使](つか)います。",
+    "vi": "Tôi dùng bóng ở công viên."
+   },
+   {
+    "ja": "[子供](こども)たちが**ボール**で[遊](あそ)んでいます。",
+    "vi": "Bọn trẻ đang chơi bóng."
+   }
+  ]
+ },
+ {
+  "word": "しめきり",
+  "reading": "しめきり",
+  "meaning": "hạn chót",
+  "example": "**しめきり**は[来週](らいしゅう)の[金曜日](きんようび)です。",
+  "exampleVi": "Hạn chót là thứ sáu tuần sau.",
+  "examples": [
+   {
+    "ja": "**しめきり**は[来週](らいしゅう)の[金曜日](きんようび)です。",
+    "vi": "Hạn chót là thứ sáu tuần sau."
+   },
+   {
+    "ja": "レポートの**しめきり**は[明日](あした)です。",
+    "vi": "Hạn chót (nộp) bài báo cáo là ngày mai."
+   }
+  ]
+ },
+ {
+  "word": "規則",
+  "reading": "きそく",
+  "meaning": "quy tắc, kỷ luật",
+  "example": "**[規則](きそく)**を[守](まも)らなければなりません。",
+  "exampleVi": "Phải tuân thủ quy tắc.",
+  "examples": [
+   {
+    "ja": "**[規則](きそく)**を[守](まも)らなければなりません。",
+    "vi": "Phải tuân thủ quy tắc."
+   },
+   {
+    "ja": "この[会社](かいしゃ)の**[規則](きそく)**を[知](し)っていますか。",
+    "vi": "Bạn có biết qui tắc của công ty này không?"
+   }
+  ]
+ },
+ {
+  "word": "危険",
+  "reading": "きけん",
+  "meaning": "nguy hiểm",
+  "example": "ここは**[危険](きけん)**です。",
+  "exampleVi": "Ở đây nguy hiểm.",
+  "examples": [
+   {
+    "ja": "ここは**[危険](きけん)**です。",
+    "vi": "Ở đây nguy hiểm."
+   },
+   {
+    "ja": "この[道](みち)は[車](くるま)が[多](おお)くて、**[危険](きけん)**です。",
+    "vi": "Con đường này có nhiều xe nên nguy hiểm."
+   }
+  ]
+ },
+ {
+  "word": "使用禁止",
+  "reading": "しようきんし",
+  "meaning": "cấm sử dụng",
+  "example": "このトイレは**[使用禁止](しようきんし)**です。",
+  "exampleVi": "Nhà vệ sinh này cấm sử dụng.",
+  "examples": [
+   {
+    "ja": "このトイレは**[使用禁止](しようきんし)**です。",
+    "vi": "Nhà vệ sinh này cấm sử dụng."
+   },
+   {
+    "ja": "このエレベーターは**[使用禁止](しようきんし)**です。",
+    "vi": "Thang máy này đang cấm sử dụng."
+   }
+  ]
+ },
+ {
+  "word": "立入禁止",
+  "reading": "たちいりきんし",
+  "meaning": "cấm vào",
+  "example": "ここは**[立入禁止](たちいりきんし)**です。",
+  "exampleVi": "Ở đây cấm vào.",
+  "examples": [
+   {
+    "ja": "ここは**[立入禁止](たちいりきんし)**です。",
+    "vi": "Ở đây cấm vào."
+   },
+   {
+    "ja": "この[部屋](へや)は**[立入禁止](たちいりきんし)**です。",
+    "vi": "Căn phòng này cấm vào."
+   }
+  ]
+ },
+ {
+  "word": "じょこう",
+  "reading": "じょこう",
+  "meaning": "chạy chậm, đi chậm",
+  "example": "この[道](みち)は**じょこう**です。",
+  "exampleVi": "Đoạn đường này phải đi chậm.",
+  "examples": [
+   {
+    "ja": "この[道](みち)は**じょこう**です。",
+    "vi": "Đoạn đường này phải đi chậm."
+   },
+   {
+    "ja": "[学校](がっこう)の[前](まえ)では**じょこうして**ください。",
+    "vi": "Xin hãy đi chậm trước cổng trường."
+   }
+  ]
+ },
+ {
+  "word": "入口",
+  "reading": "いりぐち",
+  "meaning": "lối vào",
+  "example": "**[入口](いりぐち)**はあそこです。",
+  "exampleVi": "Lối vào ở đằng kia.",
+  "examples": [
+   {
+    "ja": "**[入口](いりぐち)**はあそこです。",
+    "vi": "Lối vào ở đằng kia."
+   },
+   {
+    "ja": "[店](みせ)の**[入口](いりぐち)**で、[友達](ともだち)を[待](ま)っています。",
+    "vi": "Tôi đang đợi bạn ở lối vào cửa hàng."
+   }
+  ]
+ },
+ {
+  "word": "出口",
+  "reading": "でぐち",
+  "meaning": "lối ra",
+  "example": "**[出口](でぐち)**はどこですか。",
+  "exampleVi": "Lối ra ở đâu vậy?",
+  "examples": [
+   {
+    "ja": "**[出口](でぐち)**はどこですか。",
+    "vi": "Lối ra ở đâu vậy?"
+   },
+   {
+    "ja": "あの**[出口](でぐち)**から、[外](そと)へ[出](で)てください。",
+    "vi": "Hãy đi ra ngoài bằng lối ra đằng kia."
+   }
+  ]
+ },
+ {
+  "word": "非常口",
+  "reading": "ひじょうぐち",
+  "meaning": "cửa thoát hiểm",
+  "example": "**[非常口](ひじょうぐち)**は[右](みぎ)です。",
+  "exampleVi": "Cửa thoát hiểm ở bên phải.",
+  "examples": [
+   {
+    "ja": "**[非常口](ひじょうぐち)**は[右](みぎ)です。",
+    "vi": "Cửa thoát hiểm ở bên phải."
+   },
+   {
+    "ja": "ホテルの**[非常口](ひじょうぐち)**を[確認](かくにん)しましょう。",
+    "vi": "Hãy kiểm tra cửa thoát hiểm của khách sạn."
+   }
+  ]
+ },
+ {
+  "word": "無料",
+  "reading": "むりょう",
+  "meaning": "miễn phí",
+  "example": "[水](みず)は**[無料](むりょう)**です。",
+  "exampleVi": "Nước miễn phí.",
+  "examples": [
+   {
+    "ja": "[水](みず)は**[無料](むりょう)**です。",
+    "vi": "Nước miễn phí."
+   },
+   {
+    "ja": "このイベントは**[無料](むりょう)**です。",
+    "vi": "Sự kiện này miễn phí."
+   }
+  ]
+ },
+ {
+  "word": "割引",
+  "reading": "わりびき",
+  "meaning": "giảm giá",
+  "example": "[学生](がくせい)は**[割引](わりびき)**があります。",
+  "exampleVi": "Học sinh được giảm giá.",
+  "examples": [
+   {
+    "ja": "[学生](がくせい)は**[割引](わりびき)**があります。",
+    "vi": "Học sinh được giảm giá."
+   },
+   {
+    "ja": "このレストランは[学生](がくせい)の**[割引](わりびき)**があります。",
+    "vi": "Nhà hàng này có giảm giá cho sinh viên."
+   }
+  ]
+ },
+ {
+  "word": "飲み放題",
+  "reading": "のみほうだい",
+  "meaning": "uống thoải mái không giới hạn",
+  "example": "**[飲](の)み[放題](ほうだい)**は[二千円](にせんえん)です。",
+  "exampleVi": "Uống thoải mái giá 2.000 yên.",
+  "examples": [
+   {
+    "ja": "**[飲](の)み[放題](ほうだい)**は[二千円](にせんえん)です。",
+    "vi": "Uống thoải mái giá 2.000 yên."
+   },
+   {
+    "ja": "[夜](よる)の**[飲](の)み[放題](ほうだい)**は[三千円](さんぜんえん)です。",
+    "vi": "Uống thoải mái buổi tối giá 3.000 yên."
+   }
+  ]
+ },
+ {
+  "word": "使用中",
+  "reading": "しようちゅう",
+  "meaning": "đang sử dụng",
+  "example": "このトイレは**[使用中](しようちゅう)**です。",
+  "exampleVi": "Nhà vệ sinh này đang có người dùng.",
+  "examples": [
+   {
+    "ja": "このトイレは**[使用中](しようちゅう)**です。",
+    "vi": "Nhà vệ sinh này đang có người dùng."
+   },
+   {
+    "ja": "[会議室](かいぎしつ)は[今](いま)**[使用中](しようちゅう)**です。",
+    "vi": "Phòng họp hiện đang được sử dụng."
+   }
+  ]
+ },
+ {
+  "word": "ぼしゅうちゅう",
+  "reading": "ぼしゅうちゅう",
+  "meaning": "đang tuyển",
+  "example": "アルバイト**ぼしゅうちゅう**です。",
+  "exampleVi": "Đang tuyển người làm thêm.",
+  "examples": [
+   {
+    "ja": "アルバイト**ぼしゅうちゅう**です。",
+    "vi": "Đang tuyển người làm thêm."
+   },
+   {
+    "ja": "この[店](みせ)は[今](いま)、[店員](てんいん)を**ぼしゅうちゅう**です。",
+    "vi": "Cửa hàng này hiện đang tuyển nhân viên."
+   }
+  ]
+ },
+ {
+  "word": "どういう",
+  "reading": "どういう",
+  "meaning": "~ như thế nào",
+  "example": "これは**どういう**[意味](いみ)ですか。",
+  "exampleVi": "Cái này có nghĩa là gì?",
+  "examples": [
+   {
+    "ja": "これは**どういう**[意味](いみ)ですか。",
+    "vi": "Cái này có nghĩa là gì?"
+   },
+   {
+    "ja": "この[言葉](ことば)は**どういう**[意味](いみ)ですか。",
+    "vi": "Từ này có nghĩa như thế nào vậy?"
+   }
+  ]
+ },
+ {
+  "word": "もう",
+  "reading": "もう",
+  "meaning": "đã, rồi",
+  "example": "**もう**[帰](かえ)ってもいいです。",
+  "exampleVi": "Bạn về cũng được rồi.",
+  "examples": [
+   {
+    "ja": "**もう**[帰](かえ)ってもいいです。",
+    "vi": "Bạn về cũng được rồi."
+   },
+   {
+    "ja": "**もう**[昼](ひる)ご[飯](はん)を[食](た)べましたか。",
+    "vi": "Bạn đã ăn cơm trưa chưa?"
+   }
+  ]
+ },
+ {
+  "word": "あと",
+  "reading": "あと",
+  "meaning": "còn ~",
+  "example": "[試験](しけん)まで**あと**3[日](みっか)です。",
+  "exampleVi": "Còn 3 ngày nữa là đến kỳ thi.",
+  "examples": [
+   {
+    "ja": "[試験](しけん)まで**あと**3[日](みっか)です。",
+    "vi": "Còn 3 ngày nữa là đến kỳ thi."
+   },
+   {
+    "ja": "[駅](えき)まで**あと**[五分](ごふん)です。",
+    "vi": "Còn 5 phút nữa là đến ga."
+   }
+  ]
+ },
+ {
+  "word": "ほど",
+  "reading": "ほど",
+  "meaning": "khoảng ~",
+  "example": "10[分](ぷん)**ほど**[待](ま)ってください。",
+  "exampleVi": "Xin hãy đợi khoảng 10 phút.",
+  "examples": [
+   {
+    "ja": "10[分](ぷん)**ほど**[待](ま)ってください。",
+    "vi": "Xin hãy đợi khoảng 10 phút."
+   },
+   {
+    "ja": "[二時間](にじかん)**ほど**[勉強](べんきょう)しました。",
+    "vi": "Tôi đã học khoảng hai tiếng."
+   }
+  ]
+ },
+ {
+  "word": "ちゅうしゃいはん",
+  "reading": "ちゅうしゃいはん",
+  "meaning": "đỗ xe trái phép",
+  "example": "ここは**ちゅうしゃいはん**です。",
+  "exampleVi": "Đỗ xe ở đây là vi phạm.",
+  "examples": [
+   {
+    "ja": "ここは**ちゅうしゃいはん**です。",
+    "vi": "Đỗ xe ở đây là vi phạm."
+   },
+   {
+    "ja": "**ちゅうしゃいはん**をすると、[警察](けいさつ)に[注意](ちゅうい)されます。",
+    "vi": "Nếu đỗ xe trái phép thì sẽ bị cảnh sát nhắc nhở."
+   }
+  ]
+ },
+ {
+  "word": "ばっきん",
+  "reading": "ばっきん",
+  "meaning": "tiền phạt",
+  "example": "ちゅうしゃいはんで**ばっきん**をはらいました。",
+  "exampleVi": "Tôi đã nộp phạt vì đỗ xe trái phép.",
+  "examples": [
+   {
+    "ja": "ちゅうしゃいはんで**ばっきん**をはらいました。",
+    "vi": "Tôi đã nộp phạt vì đỗ xe trái phép."
+   },
+   {
+    "ja": "**ばっきん**は[一万円](いちまんえん)です。",
+    "vi": "Tiền phạt là 10.000 yên."
+   }
+  ]
+ },
+ {
+  "word": "じしん",
+  "reading": "じしん",
+  "meaning": "động đất",
+  "example": "**じしん**のときは、エレベーターを[使](つか)わないでください。",
+  "exampleVi": "Khi có động đất, xin đừng dùng thang máy.",
+  "examples": [
+   {
+    "ja": "**じしん**のときは、エレベーターを[使](つか)わないでください。",
+    "vi": "Khi có động đất, xin đừng dùng thang máy."
+   },
+   {
+    "ja": "[昨日](きのう)、**じしん**がありました。",
+    "vi": "Hôm qua đã có động đất."
+   }
+  ]
+ },
+ {
+  "word": "起きる",
+  "reading": "おきる",
+  "meaning": "Thức dậy, xảy ra [sự cố]",
+  "example": "じしんが**[起](お)きました**。",
+  "exampleVi": "Đã xảy ra động đất.",
+  "examples": [
+   {
+    "ja": "じしんが**[起](お)きました**。",
+    "vi": "Đã xảy ra động đất."
+   },
+   {
+    "ja": "[毎朝](まいあさ)、[六](ろく)[時](じ)に**[起](お)きます**。",
+    "vi": "Sáng nào tôi cũng dậy lúc sáu giờ."
+   }
+  ]
+ },
+ {
+  "word": "助け合う",
+  "reading": "たすけあう",
+  "meaning": "giúp đỡ lẫn nhau",
+  "example": "[友達](ともだち)と**[助](たす)け[合](あ)って**[勉強](べんきょう)します。",
+  "exampleVi": "Tôi cùng bạn giúp đỡ nhau học tập.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)と**[助](たす)け[合](あ)って**[勉強](べんきょう)します。",
+    "vi": "Tôi cùng bạn giúp đỡ nhau học tập."
+   },
+   {
+    "ja": "[家族](かぞく)はみんなで**[助](たす)け[合](あ)っています**。",
+    "vi": "Cả gia đình giúp đỡ lẫn nhau."
+   }
+  ]
+ },
+ {
+  "word": "もともと",
+  "reading": "もともと",
+  "meaning": "vốn là, nguyên là",
+  "example": "**もともと**この[町](まち)は[村](むら)でした。",
+  "exampleVi": "Vốn dĩ thành phố này là một ngôi làng.",
+  "examples": [
+   {
+    "ja": "**もともと**この[町](まち)は[村](むら)でした。",
+    "vi": "Vốn dĩ thành phố này là một ngôi làng."
+   },
+   {
+    "ja": "この[店](みせ)は**もともと**[小](ちい)さい[家](いえ)でした。",
+    "vi": "Cửa hàng này vốn là một ngôi nhà nhỏ."
+   }
+  ]
+ },
+ {
+  "word": "悲しい",
+  "reading": "かなしい",
+  "meaning": "buồn, đau thương",
+  "example": "[友達](ともだち)が[国](くに)へ[帰](かえ)って、**[悲](かな)しい**です。",
+  "exampleVi": "Bạn về nước nên tôi buồn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)が[国](くに)へ[帰](かえ)って、**[悲](かな)しい**です。",
+    "vi": "Bạn về nước nên tôi buồn."
+   },
+   {
+    "ja": "**[悲](かな)しい**[映画](えいが)を[見](み)ました。",
+    "vi": "Tôi đã xem một bộ phim buồn."
+   }
+  ]
+ },
+ {
+  "word": "もっと",
+  "reading": "もっと",
+  "meaning": "hơn nữa, thêm nữa",
+  "example": "**もっと**[大](おお)きい[声](こえ)で[話](はな)してください。",
+  "exampleVi": "Xin hãy nói to hơn nữa.",
+  "examples": [
+   {
+    "ja": "**もっと**[大](おお)きい[声](こえ)で[話](はな)してください。",
+    "vi": "Xin hãy nói to hơn nữa."
+   },
+   {
+    "ja": "**もっと**[安](やす)ければ、[買](か)います。",
+    "vi": "Nếu rẻ hơn nữa thì tôi sẽ mua."
+   }
+  ]
+ },
+ {
+  "word": "あいさつ",
+  "reading": "あいさつ",
+  "meaning": "chào hỏi",
+  "example": "[朝](あさ)は**あいさつ**をします。",
+  "exampleVi": "Buổi sáng tôi chào hỏi.",
+  "examples": [
+   {
+    "ja": "[朝](あさ)は**あいさつ**をします。",
+    "vi": "Buổi sáng tôi chào hỏi."
+   },
+   {
+    "ja": "[朝](あさ)、[会社](かいしゃ)の[人](ひと)に**あいさつ**をした。",
+    "vi": "Buổi sáng tôi đã chào những người ở công ty."
+   }
+  ]
+ },
+ {
+  "word": "相手",
+  "reading": "あいて",
+  "meaning": "đối phương",
+  "example": "**[相手](あいて)**の[気持](きも)ちを[考](かんが)えます。",
+  "exampleVi": "Tôi nghĩ đến cảm xúc của đối phương.",
+  "examples": [
+   {
+    "ja": "**[相手](あいて)**の[気持](きも)ちを[考](かんが)えます。",
+    "vi": "Tôi nghĩ đến cảm xúc của đối phương."
+   },
+   {
+    "ja": "**[相手](あいて)**の[話](はなし)を[聞](き)きます。",
+    "vi": "Tôi lắng nghe câu chuyện của đối phương."
+   }
+  ]
+ },
+ {
+  "word": "気持ち",
+  "reading": "きもち",
+  "meaning": "tâm trạng",
+  "example": "**[気持](きも)ち**がいいです。",
+  "exampleVi": "Tôi thấy dễ chịu.",
+  "examples": [
+   {
+    "ja": "**[気持](きも)ち**がいいです。",
+    "vi": "Tôi thấy dễ chịu."
+   },
+   {
+    "ja": "**[気持](きも)ち**がいい[朝](あさ)です。",
+    "vi": "Là một buổi sáng dễ chịu."
+   }
+  ]
+ }
 ]

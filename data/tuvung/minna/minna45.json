@@ -1,26 +1,410 @@
 [
-  "信じる",
-  "キャンセルする",
-  "保証書",
-  "領収書",
-  "キャンプ",
-  "中止",
-  "点",
-  "楽しみにする",
-  "係員",
-  "コース",
-  "スタート",
-  "位",
-  "優勝する",
-  "優勝",
-  "悩み",
-  "目覚まし",
-  "目が覚める",
-  "大学生",
-  "回答",
-  "鳴る",
-  "セットする",
-  "それでも",
-  "梅",
-  "無理に"
+ {
+  "word": "信じる",
+  "reading": "しんじる",
+  "meaning": "tin tưởng",
+  "example": "わたしは[友達](ともだち)を**[信](しん)じています**。",
+  "exampleVi": "Tôi tin tưởng bạn.",
+  "examples": [
+   {
+    "ja": "わたしは[友達](ともだち)を**[信](しん)じています**。",
+    "vi": "Tôi tin tưởng bạn."
+   },
+   {
+    "ja": "かれのことばを**[信](しん)じています**。",
+    "vi": "Tôi tin lời anh ấy."
+   }
+  ]
+ },
+ {
+  "word": "キャンセルする",
+  "reading": "キャンセルする",
+  "meaning": "hủy, xoá bỏ",
+  "example": "[予約](よやく)を**キャンセルします**。",
+  "exampleVi": "Tôi hủy đặt chỗ.",
+  "examples": [
+   {
+    "ja": "[予約](よやく)を**キャンセルします**。",
+    "vi": "Tôi hủy đặt chỗ."
+   },
+   {
+    "ja": "[雨](あめ)なので、[旅行](りょこう)を**キャンセルしました**。",
+    "vi": "Vì trời mưa nên tôi đã hủy chuyến du lịch."
+   }
+  ]
+ },
+ {
+  "word": "保証書",
+  "reading": "ほしょうしょ",
+  "meaning": "giấy bảo hành",
+  "example": "**[保証書](ほしょうしょ)**はかばんの[中](なか)にあります。",
+  "exampleVi": "Giấy bảo hành ở trong cặp.",
+  "examples": [
+   {
+    "ja": "**[保証書](ほしょうしょ)**はかばんの[中](なか)にあります。",
+    "vi": "Giấy bảo hành ở trong cặp."
+   },
+   {
+    "ja": "[買](か)った[時計](とけい)の**[保証書](ほしょうしょ)**をなくしました。",
+    "vi": "Tôi đã làm mất giấy bảo hành của chiếc đồng hồ đã mua."
+   }
+  ]
+ },
+ {
+  "word": "領収書",
+  "reading": "りょうしゅうしょ",
+  "meaning": "biên lai (đã thu tiền)",
+  "example": "**[領収書](りょうしゅうしょ)**をください。",
+  "exampleVi": "Xin cho tôi biên lai.",
+  "examples": [
+   {
+    "ja": "**[領収書](りょうしゅうしょ)**をください。",
+    "vi": "Xin cho tôi biên lai."
+   },
+   {
+    "ja": "[店](みせ)で**[領収書](りょうしゅうしょ)**をもらいました。",
+    "vi": "Tôi đã nhận biên lai ở cửa hàng."
+   }
+  ]
+ },
+ {
+  "word": "キャンプ",
+  "reading": "キャンプ",
+  "meaning": "cắm trại",
+  "example": "[夏](なつ)に**キャンプ**に[行](い)きます。",
+  "exampleVi": "Mùa hè tôi đi cắm trại.",
+  "examples": [
+   {
+    "ja": "[夏](なつ)に**キャンプ**に[行](い)きます。",
+    "vi": "Mùa hè tôi đi cắm trại."
+   },
+   {
+    "ja": "[春](はる)になったら、**キャンプ**に[行](い)きましょう。",
+    "vi": "Mùa xuân đến thì đi cắm trại nhé."
+   }
+  ]
+ },
+ {
+  "word": "中止",
+  "reading": "ちゅうし",
+  "meaning": "ngừng lại, đình chỉ",
+  "example": "[雨](あめ)の[場合](ばあい)は**[中止](ちゅうし)**です。",
+  "exampleVi": "Nếu trời mưa thì hủy.",
+  "examples": [
+   {
+    "ja": "[雨](あめ)の[場合](ばあい)は**[中止](ちゅうし)**です。",
+    "vi": "Nếu trời mưa thì hủy."
+   },
+   {
+    "ja": "[台風](たいふう)が[来](き)たとき、[試合](しあい)は**[中止](ちゅうし)する**そうです。",
+    "vi": "Nghe nói nếu bão đến, trận đấu sẽ bị hủy."
+   }
+  ]
+ },
+ {
+  "word": "点",
+  "reading": "てん",
+  "meaning": "điểm số",
+  "example": "この[問題](もんだい)は5**[点](てん)**です。",
+  "exampleVi": "Câu hỏi này được 5 điểm.",
+  "examples": [
+   {
+    "ja": "この[問題](もんだい)は5**[点](てん)**です。",
+    "vi": "Câu hỏi này được 5 điểm."
+   },
+   {
+    "ja": "[試験](しけん)の**[点](てん)**がよかったです。",
+    "vi": "Điểm thi của tôi tốt."
+   }
+  ]
+ },
+ {
+  "word": "楽しみにする",
+  "reading": "たのしみにする",
+  "meaning": "mong đợi",
+  "example": "[旅行](りょこう)を**[楽](たの)しみにしています**。",
+  "exampleVi": "Tôi đang mong chờ chuyến du lịch.",
+  "examples": [
+   {
+    "ja": "[旅行](りょこう)を**[楽](たの)しみにしています**。",
+    "vi": "Tôi đang mong chờ chuyến du lịch."
+   },
+   {
+    "ja": "[夏休](なつやす)みを**[楽](たの)しみにしています**。",
+    "vi": "Tôi đang mong chờ kỳ nghỉ hè."
+   }
+  ]
+ },
+ {
+  "word": "係員",
+  "reading": "かかりいん",
+  "meaning": "người phụ trách, nhân viên",
+  "example": "**[係員](かかりいん)**に[聞](き)いてください。",
+  "exampleVi": "Xin hãy hỏi nhân viên phụ trách.",
+  "examples": [
+   {
+    "ja": "**[係員](かかりいん)**に[聞](き)いてください。",
+    "vi": "Xin hãy hỏi nhân viên phụ trách."
+   },
+   {
+    "ja": "[分](わ)からない[時](とき)は**[係員](かかりいん)**を[呼](よ)んでください。",
+    "vi": "Khi không hiểu, xin hãy gọi nhân viên phụ trách."
+   }
+  ]
+ },
+ {
+  "word": "コース",
+  "reading": "コース",
+  "meaning": "khóa học, đường đua",
+  "example": "この**コース**は[長](なが)いです。",
+  "exampleVi": "Cung đường này dài.",
+  "examples": [
+   {
+    "ja": "この**コース**は[長](なが)いです。",
+    "vi": "Cung đường này dài."
+   },
+   {
+    "ja": "[私](わたし)のジョギングの**コース**は5キロです。",
+    "vi": "Lộ trình chạy bộ của tôi là 5 km."
+   }
+  ]
+ },
+ {
+  "word": "スタート",
+  "reading": "スタート",
+  "meaning": "sự xuất phát, sự bắt đầu",
+  "example": "**スタート**は9[時](じ)です。",
+  "exampleVi": "Xuất phát lúc 9 giờ.",
+  "examples": [
+   {
+    "ja": "**スタート**は9[時](じ)です。",
+    "vi": "Xuất phát lúc 9 giờ."
+   },
+   {
+    "ja": "[選手](せんしゅ)がいっしょに**スタートしました**。",
+    "vi": "Các vận động viên đã cùng nhau xuất phát."
+   }
+  ]
+ },
+ {
+  "word": "位",
+  "reading": "い",
+  "meaning": "vị trí thứ ~, giải ~ (hậu tố)",
+  "example": "[私](わたし)は3**[位](い)**でした。",
+  "exampleVi": "Tôi đứng hạng 3.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は3**[位](い)**でした。",
+    "vi": "Tôi đứng hạng 3."
+   },
+   {
+    "ja": "[彼](かれ)はテストで[一](いち)**[位](い)**でした。",
+    "vi": "Anh ấy đứng nhất trong bài kiểm tra."
+   }
+  ]
+ },
+ {
+  "word": "優勝する",
+  "reading": "ゆうしょうする",
+  "meaning": "vô địch, đoạt giải nhất",
+  "example": "[私](わたし)のチームが**[優勝](ゆうしょう)しました**。",
+  "exampleVi": "Đội của tôi đã vô địch.",
+  "examples": [
+   {
+    "ja": "[私](わたし)のチームが**[優勝](ゆうしょう)しました**。",
+    "vi": "Đội của tôi đã vô địch."
+   },
+   {
+    "ja": "[彼](かれ)のチームがサッカーで**[優勝](ゆうしょう)しました**。",
+    "vi": "Đội của anh ấy đã vô địch bóng đá."
+   }
+  ]
+ },
+ {
+  "word": "優勝",
+  "reading": "ゆうしょう",
+  "meaning": "vô địch",
+  "example": "**[優勝](ゆうしょう)**は[田中](たなか)さんです。",
+  "exampleVi": "Người vô địch là anh Tanaka.",
+  "examples": [
+   {
+    "ja": "**[優勝](ゆうしょう)**は[田中](たなか)さんです。",
+    "vi": "Người vô địch là anh Tanaka."
+   },
+   {
+    "ja": "テニスの[大会](たいかい)で**[優勝](ゆうしょう)しました**。",
+    "vi": "Tôi đã vô địch tại giải quần vợt."
+   }
+  ]
+ },
+ {
+  "word": "なやみ",
+  "reading": "なやみ",
+  "meaning": "phiền muộn, điều lo nghĩ",
+  "example": "**なやみ**があったら、[相談](そうだん)してください。",
+  "exampleVi": "Nếu có điều lo nghĩ, hãy bàn bạc nhé.",
+  "examples": [
+   {
+    "ja": "**なやみ**があったら、[相談](そうだん)してください。",
+    "vi": "Nếu có điều lo nghĩ, hãy bàn bạc nhé."
+   },
+   {
+    "ja": "[友達](ともだち)の**なやみ**を[聞](き)きました。",
+    "vi": "Tôi đã nghe những điều lo nghĩ của bạn."
+   }
+  ]
+ },
+ {
+  "word": "目覚まし",
+  "reading": "めざまし",
+  "meaning": "đồng hồ báo thức",
+  "example": "**[目覚](めざ)まし**を6[時](じ)にセットします。",
+  "exampleVi": "Tôi đặt đồng hồ báo thức lúc 6 giờ.",
+  "examples": [
+   {
+    "ja": "**[目覚](めざ)まし**を6[時](じ)にセットします。",
+    "vi": "Tôi đặt đồng hồ báo thức lúc 6 giờ."
+   },
+   {
+    "ja": "[毎朝](まいあさ)、**[目覚](めざ)まし**で[起](お)きます。",
+    "vi": "Mỗi sáng tôi thức dậy nhờ đồng hồ báo thức."
+   }
+  ]
+ },
+ {
+  "word": "目が覚める",
+  "reading": "めがさめる",
+  "meaning": "tỉnh giấc",
+  "example": "**[目](め)が[覚](さ)めても**、[起](お)きません。",
+  "exampleVi": "Dù tỉnh giấc tôi cũng không dậy.",
+  "examples": [
+   {
+    "ja": "**[目](め)が[覚](さ)めても**、[起](お)きません。",
+    "vi": "Dù tỉnh giấc tôi cũng không dậy."
+   },
+   {
+    "ja": "[朝](あさ)、6[時](じ)に**[目](め)が[覚](さ)めました**。",
+    "vi": "Sáng nay tôi tỉnh giấc lúc 6 giờ."
+   }
+  ]
+ },
+ {
+  "word": "大学生",
+  "reading": "だいがくせい",
+  "meaning": "sinh viên đại học",
+  "example": "**[大学生](だいがくせい)**は[割引](わりびき)があります。",
+  "exampleVi": "Sinh viên đại học được giảm giá.",
+  "examples": [
+   {
+    "ja": "**[大学生](だいがくせい)**は[割引](わりびき)があります。",
+    "vi": "Sinh viên đại học được giảm giá."
+   },
+   {
+    "ja": "[早](はや)く**[大学生](だいがくせい)**になりたいです。",
+    "vi": "Tôi muốn mau trở thành sinh viên đại học."
+   }
+  ]
+ },
+ {
+  "word": "回答",
+  "reading": "かいとう",
+  "meaning": "trả lời",
+  "example": "**[回答](かいとう)**は[来週](らいしゅう)までです。",
+  "exampleVi": "Hạn trả lời là đến tuần sau.",
+  "examples": [
+   {
+    "ja": "**[回答](かいとう)**は[来週](らいしゅう)までです。",
+    "vi": "Hạn trả lời là đến tuần sau."
+   },
+   {
+    "ja": "アンケートの**[回答](かいとう)**をお[願](ねが)いします。",
+    "vi": "Xin hãy trả lời bảng khảo sát."
+   }
+  ]
+ },
+ {
+  "word": "鳴る",
+  "reading": "なる",
+  "meaning": "kêu, reo",
+  "example": "[目覚](めざ)ましが**[鳴](な)りました**。",
+  "exampleVi": "Đồng hồ báo thức đã reo.",
+  "examples": [
+   {
+    "ja": "[目覚](めざ)ましが**[鳴](な)りました**。",
+    "vi": "Đồng hồ báo thức đã reo."
+   },
+   {
+    "ja": "[電話](でんわ)が**[鳴](な)っています**。",
+    "vi": "Điện thoại đang reo."
+   }
+  ]
+ },
+ {
+  "word": "セットする",
+  "reading": "セットする",
+  "meaning": "đặt (giờ), thiết lập",
+  "example": "[時計](とけい)を6[時](じ)に**セットします**。",
+  "exampleVi": "Tôi đặt đồng hồ lúc 6 giờ.",
+  "examples": [
+   {
+    "ja": "[時計](とけい)を6[時](じ)に**セットします**。",
+    "vi": "Tôi đặt đồng hồ lúc 6 giờ."
+   },
+   {
+    "ja": "[目覚](めざ)まし[時計](どけい)を[七時](しちじ)に**セットしました**。",
+    "vi": "Tôi đã đặt đồng hồ báo thức lúc 7 giờ."
+   }
+  ]
+ },
+ {
+  "word": "それでも",
+  "reading": "それでも",
+  "meaning": "kể cả như thế, mặc dù như thế",
+  "example": "[寒](さむ)いです。**それでも**、[出](で)かけます。",
+  "exampleVi": "Trời lạnh. Dù vậy tôi vẫn ra ngoài.",
+  "examples": [
+   {
+    "ja": "[寒](さむ)いです。**それでも**、[出](で)かけます。",
+    "vi": "Trời lạnh. Dù vậy tôi vẫn ra ngoài."
+   },
+   {
+    "ja": "[頭](あたま)が[痛](いた)いです。**それでも**、[学校](がっこう)へ[行](い)きます。",
+    "vi": "Tôi đau đầu. Dù vậy tôi vẫn đến trường."
+   }
+  ]
+ },
+ {
+  "word": "梅",
+  "reading": "うめ",
+  "meaning": "cây mơ",
+  "example": "**[梅](うめ)**の[花](はな)がさきました。",
+  "exampleVi": "Hoa mơ đã nở.",
+  "examples": [
+   {
+    "ja": "**[梅](うめ)**の[花](はな)がさきました。",
+    "vi": "Hoa mơ đã nở."
+   },
+   {
+    "ja": "[庭](にわ)の**[梅](うめ)**の[花](はな)がきれいです。",
+    "vi": "Hoa mơ trong vườn rất đẹp."
+   }
+  ]
+ },
+ {
+  "word": "無理に",
+  "reading": "むりに",
+  "meaning": "quá sức, ép buộc",
+  "example": "**[無理](むり)に**[食](た)べなくてもいいです。",
+  "exampleVi": "Bạn không cần ép mình ăn.",
+  "examples": [
+   {
+    "ja": "**[無理](むり)に**[食](た)べなくてもいいです。",
+    "vi": "Bạn không cần ép mình ăn."
+   },
+   {
+    "ja": "**[無理](むり)に**[勉強](べんきょう)しなくてもいいです。",
+    "vi": "Bạn không cần ép mình học."
+   }
+  ]
+ }
 ]

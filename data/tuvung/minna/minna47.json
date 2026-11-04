@@ -1,30 +1,478 @@
 [
-  "吹く",
-  "燃える",
-  "亡くなる",
-  "集まる",
-  "別れる",
-  "厳しい",
-  "酷い",
-  "実験",
-  "データ",
-  "人口",
-  "匂い",
-  "科学",
-  "医学",
-  "文学",
-  "パトカー",
-  "救急車",
-  "賛成",
-  "反対",
-  "大統領",
-  "によると",
-  "婚約",
-  "相手",
-  "化粧",
-  "世話をする",
-  "女性",
-  "男性",
-  "長生きする",
-  "関係"
+ {
+  "word": "ふく",
+  "reading": "ふく",
+  "meaning": "thổi",
+  "example": "[風](かぜ)が**ふいています**。",
+  "exampleVi": "Gió đang thổi.",
+  "examples": [
+   {
+    "ja": "[風](かぜ)が**ふいています**。",
+    "vi": "Gió đang thổi."
+   },
+   {
+    "ja": "[今日](きょう)は、[強](つよ)い[風](かぜ)が**ふいています**。",
+    "vi": "Hôm nay có gió mạnh đang thổi."
+   }
+  ]
+ },
+ {
+  "word": "燃える",
+  "reading": "もえる",
+  "meaning": "cháy",
+  "example": "[家](いえ)が**[燃](も)えています**。",
+  "exampleVi": "Ngôi nhà đang cháy.",
+  "examples": [
+   {
+    "ja": "[家](いえ)が**[燃](も)えています**。",
+    "vi": "Ngôi nhà đang cháy."
+   },
+   {
+    "ja": "[紙](かみ)はよく**[燃](も)えます**。",
+    "vi": "Giấy cháy rất tốt."
+   }
+  ]
+ },
+ {
+  "word": "亡くなる",
+  "reading": "なくなる",
+  "meaning": "mất, qua đời",
+  "example": "[祖父](そふ)が**[亡](な)くなりました**。",
+  "exampleVi": "Ông tôi đã qua đời.",
+  "examples": [
+   {
+    "ja": "[祖父](そふ)が**[亡](な)くなりました**。",
+    "vi": "Ông tôi đã qua đời."
+   },
+   {
+    "ja": "となりの[家](いえ)のおばあさんが**[亡](な)くなりました**。",
+    "vi": "Bà cụ nhà bên cạnh đã mất."
+   }
+  ]
+ },
+ {
+  "word": "集まる",
+  "reading": "あつまる",
+  "meaning": "tập trung, tụ họp",
+  "example": "[人](ひと)が[大勢](おおぜい)**[集](あつ)まっています**。",
+  "exampleVi": "Rất nhiều người đang tập trung.",
+  "examples": [
+   {
+    "ja": "[人](ひと)が[大勢](おおぜい)**[集](あつ)まっています**。",
+    "vi": "Rất nhiều người đang tập trung."
+   },
+   {
+    "ja": "[朝](あさ)[九時](くじ)に[駅前](えきまえ)に**[集](あつ)まって**ください。",
+    "vi": "Hãy tập trung ở trước ga lúc chín giờ sáng."
+   }
+  ]
+ },
+ {
+  "word": "別れる",
+  "reading": "わかれる",
+  "meaning": "chia tay",
+  "example": "[二人](ふたり)は**[別](わか)れた**そうです。",
+  "exampleVi": "Nghe nói hai người đó đã chia tay.",
+  "examples": [
+   {
+    "ja": "[二人](ふたり)は**[別](わか)れた**そうです。",
+    "vi": "Nghe nói hai người đó đã chia tay."
+   },
+   {
+    "ja": "[駅](えき)で[友達](ともだち)と**[別](わか)れました**。",
+    "vi": "Tôi đã chia tay bạn ở nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "厳しい",
+  "reading": "きびしい",
+  "meaning": "nghiêm khắc",
+  "example": "[先生](せんせい)は**[厳](きび)しい**です。",
+  "exampleVi": "Giáo viên nghiêm khắc.",
+  "examples": [
+   {
+    "ja": "[先生](せんせい)は**[厳](きび)しい**です。",
+    "vi": "Giáo viên nghiêm khắc."
+   },
+   {
+    "ja": "[木村先生](きむらせんせい)はときどき**[厳](きび)しい**です。",
+    "vi": "Thầy/ cô Kimura đôi khi nghiêm khắc."
+   }
+  ]
+ },
+ {
+  "word": "ひどい",
+  "reading": "ひどい",
+  "meaning": "khủng khiếp",
+  "example": "**ひどい**[雨](あめ)ですね。",
+  "exampleVi": "Trời mưa to khủng khiếp nhỉ.",
+  "examples": [
+   {
+    "ja": "**ひどい**[雨](あめ)ですね。",
+    "vi": "Trời mưa to khủng khiếp nhỉ."
+   },
+   {
+    "ja": "[昨日](きのう)のテストは**ひどい**[点](てん)でした。",
+    "vi": "Bài kiểm tra hôm qua có điểm rất tệ."
+   }
+  ]
+ },
+ {
+  "word": "実験",
+  "reading": "じっけん",
+  "meaning": "thực nghiệm, thí nghiệm",
+  "example": "[科学](かがく)の**[実験](じっけん)**をします。",
+  "exampleVi": "Tôi làm thí nghiệm khoa học.",
+  "examples": [
+   {
+    "ja": "[科学](かがく)の**[実験](じっけん)**をします。",
+    "vi": "Tôi làm thí nghiệm khoa học."
+   },
+   {
+    "ja": "**[実験](じっけん)**は[大変](たいへん)ですが、[面白](おもしろ)いです。",
+    "vi": "Thí nghiệm (thì) vất vả nhưng thú vị."
+   }
+  ]
+ },
+ {
+  "word": "データ",
+  "reading": "データ",
+  "meaning": "dữ liệu",
+  "example": "**データ**を[調](しら)べます。",
+  "exampleVi": "Tôi kiểm tra dữ liệu.",
+  "examples": [
+   {
+    "ja": "**データ**を[調](しら)べます。",
+    "vi": "Tôi kiểm tra dữ liệu."
+   },
+   {
+    "ja": "[世界](せかい)の**データ**を[集](あつ)めました。",
+    "vi": "Tôi đã tập hợp dữ liệu của thế giới."
+   }
+  ]
+ },
+ {
+  "word": "人口",
+  "reading": "じんこう",
+  "meaning": "dân số",
+  "example": "[日本](にほん)の**[人口](じんこう)**は[多](おお)いです。",
+  "exampleVi": "Dân số Nhật Bản đông.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)の**[人口](じんこう)**は[多](おお)いです。",
+    "vi": "Dân số Nhật Bản đông."
+   },
+   {
+    "ja": "[東京](とうきょう)は、**[人口](じんこう)**がとても[多](おお)い[町](まち)だ。",
+    "vi": "Tokyo là thành phố có dân số rất đông."
+   }
+  ]
+ },
+ {
+  "word": "におい",
+  "reading": "におい",
+  "meaning": "mùi",
+  "example": "いい**におい**がします。",
+  "exampleVi": "Có mùi thơm.",
+  "examples": [
+   {
+    "ja": "いい**におい**がします。",
+    "vi": "Có mùi thơm."
+   },
+   {
+    "ja": "[台所](だいどころ)からいい**におい**がしてきました。",
+    "vi": "Mùi thơm tỏa ra từ nhà bếp."
+   }
+  ]
+ },
+ {
+  "word": "科学",
+  "reading": "かがく",
+  "meaning": "khoa học",
+  "example": "**[科学](かがく)**は[面白](おもしろ)いです。",
+  "exampleVi": "Khoa học thú vị.",
+  "examples": [
+   {
+    "ja": "**[科学](かがく)**は[面白](おもしろ)いです。",
+    "vi": "Khoa học thú vị."
+   },
+   {
+    "ja": "[子供](こども)のときから**[科学](かがく)**が[好](す)きでした。",
+    "vi": "Tôi thích khoa học từ khi còn nhỏ."
+   }
+  ]
+ },
+ {
+  "word": "医学",
+  "reading": "いがく",
+  "meaning": "y học",
+  "example": "[大学](だいがく)で**[医学](いがく)**を[勉強](べんきょう)します。",
+  "exampleVi": "Tôi học y học ở đại học.",
+  "examples": [
+   {
+    "ja": "[大学](だいがく)で**[医学](いがく)**を[勉強](べんきょう)します。",
+    "vi": "Tôi học y học ở đại học."
+   },
+   {
+    "ja": "[医者](いしゃ)になるために**[医学部](いがくぶ)**に[入](はい)りました。",
+    "vi": "Tôi đã vào ngành Y để trở thành bác sĩ."
+   }
+  ]
+ },
+ {
+  "word": "文学",
+  "reading": "ぶんがく",
+  "meaning": "văn học",
+  "example": "[日本](にほん)の**[文学](ぶんがく)**が[好](す)きです。",
+  "exampleVi": "Tôi thích văn học Nhật Bản.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)の**[文学](ぶんがく)**が[好](す)きです。",
+    "vi": "Tôi thích văn học Nhật Bản."
+   },
+   {
+    "ja": "フランスの**[文学](ぶんがく)**を[勉強](べんきょう)しています。",
+    "vi": "Tôi học văn học Pháp."
+   }
+  ]
+ },
+ {
+  "word": "パトカー",
+  "reading": "パトカー",
+  "meaning": "xe cảnh sát",
+  "example": "**パトカー**が[来](き)ました。",
+  "exampleVi": "Xe cảnh sát đã đến.",
+  "examples": [
+   {
+    "ja": "**パトカー**が[来](き)ました。",
+    "vi": "Xe cảnh sát đã đến."
+   },
+   {
+    "ja": "[事故](じこ)があって、**パトカー**が[止](と)まっています。",
+    "vi": "Có tai nạn nên xe cảnh sát đang dừng ở đó."
+   }
+  ]
+ },
+ {
+  "word": "救急車",
+  "reading": "きゅうきゅうしゃ",
+  "meaning": "xe cấp cứu",
+  "example": "**[救急車](きゅうきゅうしゃ)**を[呼](よ)びました。",
+  "exampleVi": "Tôi đã gọi xe cấp cứu.",
+  "examples": [
+   {
+    "ja": "**[救急車](きゅうきゅうしゃ)**を[呼](よ)びました。",
+    "vi": "Tôi đã gọi xe cấp cứu."
+   },
+   {
+    "ja": "[119番](ひゃくじゅうきゅうばん)で**[救急車](きゅうきゅうしゃ)**をよびます。",
+    "vi": "Gọi xe cấp cứu bằng số 119."
+   }
+  ]
+ },
+ {
+  "word": "賛成",
+  "reading": "さんせい",
+  "meaning": "tán thành, đồng ý",
+  "example": "その[意見](いけん)に**[賛成](さんせい)**です。",
+  "exampleVi": "Tôi tán thành ý kiến đó.",
+  "examples": [
+   {
+    "ja": "その[意見](いけん)に**[賛成](さんせい)**です。",
+    "vi": "Tôi tán thành ý kiến đó."
+   },
+   {
+    "ja": "みんなかれのけっこんに**[賛成](さんせい)しています**。",
+    "vi": "Mọi người tán thành việc kết hôn của anh ấy."
+   }
+  ]
+ },
+ {
+  "word": "反対",
+  "reading": "はんたい",
+  "meaning": "phản đối",
+  "example": "わたしは**[反対](はんたい)**です。",
+  "exampleVi": "Tôi phản đối.",
+  "examples": [
+   {
+    "ja": "わたしは**[反対](はんたい)**です。",
+    "vi": "Tôi phản đối."
+   },
+   {
+    "ja": "[両親](りょうしん)は、わたしのりゅう[学](がく)に**[反対](はんたい)している**。",
+    "vi": "Bố mẹ tôi phản đối việc tôi đi du học."
+   }
+  ]
+ },
+ {
+  "word": "大統領",
+  "reading": "だいとうりょう",
+  "meaning": "tổng thống",
+  "example": "[新聞](しんぶん)によると、**[大統領](だいとうりょう)**が[来](く)るそうです。",
+  "exampleVi": "Theo báo, tổng thống sẽ đến.",
+  "examples": [
+   {
+    "ja": "[新聞](しんぶん)によると、**[大統領](だいとうりょう)**が[来](く)るそうです。",
+    "vi": "Theo báo, tổng thống sẽ đến."
+   },
+   {
+    "ja": "**[大統領](だいとうりょう)**は[今日](きょう)[日本](にほん)へ[来](き)ます。",
+    "vi": "Hôm nay tổng thống đến Nhật."
+   }
+  ]
+ },
+ {
+  "word": "によると",
+  "reading": "によると",
+  "meaning": "theo như ~",
+  "example": "[天気予報](てんきよほう)**によると**、[明日](あした)は[雨](あめ)だそうです。",
+  "exampleVi": "Theo dự báo thời tiết, ngày mai trời mưa.",
+  "examples": [
+   {
+    "ja": "[天気予報](てんきよほう)**によると**、[明日](あした)は[雨](あめ)だそうです。",
+    "vi": "Theo dự báo thời tiết, ngày mai trời mưa."
+   },
+   {
+    "ja": "ニュース**によると**、[事故](じこ)があったそうです。",
+    "vi": "Theo bản tin thì hình như đã có tai nạn."
+   }
+  ]
+ },
+ {
+  "word": "こんやく",
+  "reading": "こんやく",
+  "meaning": "sự đính ước",
+  "example": "[姉](あね)は**こんやくしました**。",
+  "exampleVi": "Chị tôi đã đính hôn.",
+  "examples": [
+   {
+    "ja": "[姉](あね)は**こんやくしました**。",
+    "vi": "Chị tôi đã đính hôn."
+   },
+   {
+    "ja": "[姉](あね)が[私](わたし)の[友達](ともだち)と**こんやくしました**。",
+    "vi": "Chị tôi đã đính hôn với bạn tôi."
+   }
+  ]
+ },
+ {
+  "word": "相手",
+  "reading": "あいて",
+  "meaning": "đối phương",
+  "example": "**[相手](あいて)**の[話](はなし)を[聞](き)きます。",
+  "exampleVi": "Tôi lắng nghe câu chuyện của đối phương.",
+  "examples": [
+   {
+    "ja": "**[相手](あいて)**の[話](はなし)を[聞](き)きます。",
+    "vi": "Tôi lắng nghe câu chuyện của đối phương."
+   },
+   {
+    "ja": "**[相手](あいて)**の[気持](きも)ちを[考](かんが)えます。",
+    "vi": "Tôi nghĩ đến cảm xúc của đối phương."
+   }
+  ]
+ },
+ {
+  "word": "けしょう",
+  "reading": "けしょう",
+  "meaning": "trang điểm",
+  "example": "**けしょう**をして[出](で)かけます。",
+  "exampleVi": "Tôi trang điểm rồi ra ngoài.",
+  "examples": [
+   {
+    "ja": "**けしょう**をして[出](で)かけます。",
+    "vi": "Tôi trang điểm rồi ra ngoài."
+   },
+   {
+    "ja": "[母](はは)は[毎朝](まいあさ)**けしょう**をします。",
+    "vi": "Sáng nào mẹ tôi cũng trang điểm."
+   }
+  ]
+ },
+ {
+  "word": "世話をする",
+  "reading": "せわをする",
+  "meaning": "chăm sóc",
+  "example": "[犬](いぬ)の**[世話](せわ)をします**。",
+  "exampleVi": "Tôi chăm sóc chó.",
+  "examples": [
+   {
+    "ja": "[犬](いぬ)の**[世話](せわ)をします**。",
+    "vi": "Tôi chăm sóc chó."
+   },
+   {
+    "ja": "[子供](こども)の**[世話](せわ)をしています**。",
+    "vi": "Tôi đang chăm sóc con."
+   }
+  ]
+ },
+ {
+  "word": "女性",
+  "reading": "じょせい",
+  "meaning": "nữ giới, phụ nữ",
+  "example": "あの**[女性](じょせい)**は[医者](いしゃ)です。",
+  "exampleVi": "Người phụ nữ kia là bác sĩ.",
+  "examples": [
+   {
+    "ja": "あの**[女性](じょせい)**は[医者](いしゃ)です。",
+    "vi": "Người phụ nữ kia là bác sĩ."
+   },
+   {
+    "ja": "[私](わたし)が[行](い)く[病院](びょういん)の[先生](せんせい)は**[女性](じょせい)**です。",
+    "vi": "Bác sĩ bệnh viện tôi đi là phụ nữ."
+   }
+  ]
+ },
+ {
+  "word": "男性",
+  "reading": "だんせい",
+  "meaning": "nam giới, đàn ông",
+  "example": "あの**[男性](だんせい)**は[先生](せんせい)です。",
+  "exampleVi": "Người đàn ông kia là giáo viên.",
+  "examples": [
+   {
+    "ja": "あの**[男性](だんせい)**は[先生](せんせい)です。",
+    "vi": "Người đàn ông kia là giáo viên."
+   },
+   {
+    "ja": "**[男性](だんせい)**のトイレは[2階](にかい)にあります。",
+    "vi": "Nhà vệ sinh nam ở tầng 2."
+   }
+  ]
+ },
+ {
+  "word": "長生きする",
+  "reading": "ながいきする",
+  "meaning": "sống thọ",
+  "example": "[祖母](そぼ)は**[長生](ながい)きしています**。",
+  "exampleVi": "Bà tôi sống thọ.",
+  "examples": [
+   {
+    "ja": "[祖母](そぼ)は**[長生](ながい)きしています**。",
+    "vi": "Bà tôi sống thọ."
+   },
+   {
+    "ja": "[祖父](そふ)は**[長生](ながい)きしました**。",
+    "vi": "Ông tôi đã sống thọ."
+   }
+  ]
+ },
+ {
+  "word": "関係",
+  "reading": "かんけい",
+  "meaning": "mối quan hệ",
+  "example": "[二人](ふたり)はどんな**[関係](かんけい)**ですか。",
+  "exampleVi": "Hai người có quan hệ thế nào?",
+  "examples": [
+   {
+    "ja": "[二人](ふたり)はどんな**[関係](かんけい)**ですか。",
+    "vi": "Hai người có quan hệ thế nào?"
+   },
+   {
+    "ja": "わたしには**[関係](かんけい)**がありません。",
+    "vi": "Việc đó không liên quan đến tôi."
+   }
+  ]
+ }
 ]

@@ -1,50 +1,818 @@
 [
-  "食べます",
-  "飲みます",
-  "吸います",
-  "見ます",
-  "聞きます",
-  "読みます",
-  "書きます",
-  "買います",
-  "撮ります",
-  "します",
-  "会います",
-  "ご飯",
-  "朝ご飯",
-  "昼ご飯",
-  "晩ご飯",
-  "パン",
-  "卵",
-  "肉",
-  "魚",
-  "野菜",
-  "果物",
-  "水",
-  "お茶",
-  "紅茶",
-  "牛乳",
-  "ミルク",
-  "ジュース",
-  "ビール",
-  "お酒",
-  "たばこ",
-  "手紙",
-  "レポート",
-  "写真",
-  "ビデオ",
-  "店",
-  "庭",
-  "宿題",
-  "テニス",
-  "サッカー",
-  "お花見",
-  "何",
-  "一緒に",
-  "ちょっと",
-  "いつも",
-  "ときどき",
-  "それから",
-  "ええ",
-  "メキシコ"
+ {
+  "word": "食べます",
+  "reading": "たべます",
+  "meaning": "ăn",
+  "example": "[毎朝](まいあさ)パンを**[食](た)べます**。",
+  "exampleVi": "Sáng nào tôi cũng ăn bánh mì.",
+  "examples": [
+   {
+    "ja": "[毎朝](まいあさ)パンを**[食](た)べます**。",
+    "vi": "Sáng nào tôi cũng ăn bánh mì."
+   },
+   {
+    "ja": "[朝](あさ)ごはんに、パンを**[食](た)べます**。",
+    "vi": "Bữa sáng tôi ăn bánh mì."
+   }
+  ]
+ },
+ {
+  "word": "飲みます",
+  "reading": "のみます",
+  "meaning": "uống",
+  "example": "[毎日](まいにち)[牛乳](ぎゅうにゅう)を**[飲](の)みます**。",
+  "exampleVi": "Ngày nào tôi cũng uống sữa bò.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)[牛乳](ぎゅうにゅう)を**[飲](の)みます**。",
+    "vi": "Ngày nào tôi cũng uống sữa bò."
+   },
+   {
+    "ja": "[水](みず)を**[飲](の)みます**。",
+    "vi": "Tôi uống nước."
+   }
+  ]
+ },
+ {
+  "word": "吸います",
+  "reading": "すいます",
+  "meaning": "hút [thuốc lá]",
+  "example": "ミラーさんはたばこを**[吸](す)います**。",
+  "exampleVi": "Anh Miller hút thuốc lá.",
+  "examples": [
+   {
+    "ja": "ミラーさんはたばこを**[吸](す)います**。",
+    "vi": "Anh Miller hút thuốc lá."
+   },
+   {
+    "ja": "[父](ちち)はたばこを**[吸](す)いません**。",
+    "vi": "Bố tôi không hút thuốc lá."
+   }
+  ]
+ },
+ {
+  "word": "見ます",
+  "reading": "みます",
+  "meaning": "xem, nhìn",
+  "example": "[毎晩](まいばん)テレビを**[見](み)ます**。",
+  "exampleVi": "Tối nào tôi cũng xem tivi.",
+  "examples": [
+   {
+    "ja": "[毎晩](まいばん)テレビを**[見](み)ます**。",
+    "vi": "Tối nào tôi cũng xem tivi."
+   },
+   {
+    "ja": "[日曜日](にちようび)に、えいがを**[見](み)ました**。",
+    "vi": "Chủ nhật tôi đã xem phim."
+   }
+  ]
+ },
+ {
+  "word": "聞きます",
+  "reading": "ききます",
+  "meaning": "hỏi, nghe",
+  "example": "[毎朝](まいあさ)ラジオを**[聞](き)きます**。",
+  "exampleVi": "Sáng nào tôi cũng nghe đài.",
+  "examples": [
+   {
+    "ja": "[毎朝](まいあさ)ラジオを**[聞](き)きます**。",
+    "vi": "Sáng nào tôi cũng nghe đài."
+   },
+   {
+    "ja": "まいばん、ラジオを**[聞](き)きます**。",
+    "vi": "Tối nào tôi cũng nghe radio."
+   }
+  ]
+ },
+ {
+  "word": "読みます",
+  "reading": "よみます",
+  "meaning": "đọc",
+  "example": "[毎日](まいにち)[新聞](しんぶん)を**[読](よ)みます**。",
+  "exampleVi": "Ngày nào tôi cũng đọc báo.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)[新聞](しんぶん)を**[読](よ)みます**。",
+    "vi": "Ngày nào tôi cũng đọc báo."
+   },
+   {
+    "ja": "まいばん、[本](ほん)を**[読](よ)みます**。",
+    "vi": "Tối nào tôi cũng đọc sách."
+   }
+  ]
+ },
+ {
+  "word": "書きます",
+  "reading": "かきます",
+  "meaning": "viết, vẽ",
+  "example": "[今晩](こんばん)、レポートを**[書](か)きます**。",
+  "exampleVi": "Tối nay tôi sẽ viết báo cáo.",
+  "examples": [
+   {
+    "ja": "[今晩](こんばん)、レポートを**[書](か)きます**。",
+    "vi": "Tối nay tôi sẽ viết báo cáo."
+   },
+   {
+    "ja": "[母](はは)に[手紙](てがみ)を**[書](か)きます**。",
+    "vi": "Tôi viết thư cho mẹ."
+   }
+  ]
+ },
+ {
+  "word": "買います",
+  "reading": "かいます",
+  "meaning": "mua",
+  "example": "スーパーで[野菜](やさい)を**[買](か)います**。",
+  "exampleVi": "Tôi mua rau ở siêu thị.",
+  "examples": [
+   {
+    "ja": "スーパーで[野菜](やさい)を**[買](か)います**。",
+    "vi": "Tôi mua rau ở siêu thị."
+   },
+   {
+    "ja": "デパートで、くつを**[買](か)います**。",
+    "vi": "Tôi mua giày ở trung tâm bách hóa."
+   }
+  ]
+ },
+ {
+  "word": "とります",
+  "reading": "とります",
+  "meaning": "chụp [ảnh]",
+  "example": "[学校](がっこう)で[写真](しゃしん)を**とります**。",
+  "exampleVi": "Tôi chụp ảnh ở trường.",
+  "examples": [
+   {
+    "ja": "[学校](がっこう)で[写真](しゃしん)を**とります**。",
+    "vi": "Tôi chụp ảnh ở trường."
+   },
+   {
+    "ja": "りょこうで、しゃしんを**とりました**。",
+    "vi": "Tôi đã chụp ảnh trong chuyến du lịch."
+   }
+  ]
+ },
+ {
+  "word": "します",
+  "reading": "します",
+  "meaning": "làm",
+  "example": "[土曜日](どようび)にサッカーを**します**。",
+  "exampleVi": "Thứ bảy tôi chơi bóng đá.",
+  "examples": [
+   {
+    "ja": "[土曜日](どようび)にサッカーを**します**。",
+    "vi": "Thứ bảy tôi chơi bóng đá."
+   },
+   {
+    "ja": "[日曜日](にちようび)はアルバイトを**しません**。",
+    "vi": "Chủ nhật, tôi không làm thêm."
+   }
+  ]
+ },
+ {
+  "word": "会います",
+  "reading": "あいます",
+  "meaning": "gặp",
+  "example": "[駅](えき)で[友達](ともだち)に**[会](あ)います**。",
+  "exampleVi": "Tôi gặp bạn ở nhà ga.",
+  "examples": [
+   {
+    "ja": "[駅](えき)で[友達](ともだち)に**[会](あ)います**。",
+    "vi": "Tôi gặp bạn ở nhà ga."
+   },
+   {
+    "ja": "[明日](あした)、ともだちに**[会](あ)います**。",
+    "vi": "Ngày mai tôi gặp bạn."
+   }
+  ]
+ },
+ {
+  "word": "ご飯",
+  "reading": "ごはん",
+  "meaning": "cơm, bữa ăn",
+  "example": "[朝](あさ)は**ご[飯](はん)**を[食](た)べません。",
+  "exampleVi": "Buổi sáng tôi không ăn cơm.",
+  "examples": [
+   {
+    "ja": "[朝](あさ)は**ご[飯](はん)**を[食](た)べません。",
+    "vi": "Buổi sáng tôi không ăn cơm."
+   },
+   {
+    "ja": "**ご[飯](はん)**を[食](た)べます。",
+    "vi": "Tôi ăn cơm."
+   }
+  ]
+ },
+ {
+  "word": "朝ご飯",
+  "reading": "あさごはん",
+  "meaning": "cơm sáng",
+  "example": "[毎朝](まいあさ)、**[朝](あさ)ご[飯](はん)**を[食](た)べます。",
+  "exampleVi": "Sáng nào tôi cũng ăn sáng.",
+  "examples": [
+   {
+    "ja": "[毎朝](まいあさ)、**[朝](あさ)ご[飯](はん)**を[食](た)べます。",
+    "vi": "Sáng nào tôi cũng ăn sáng."
+   },
+   {
+    "ja": "[七時](しちじ)に**[朝](あさ)ご[飯](はん)**を[食](た)べます。",
+    "vi": "Tôi ăn sáng lúc 7 giờ."
+   }
+  ]
+ },
+ {
+  "word": "昼ご飯",
+  "reading": "ひるごはん",
+  "meaning": "cơm trưa",
+  "example": "**[昼](ひる)ご[飯](はん)**を[食](た)べます。",
+  "exampleVi": "Tôi ăn cơm trưa.",
+  "examples": [
+   {
+    "ja": "**[昼](ひる)ご[飯](はん)**を[食](た)べます。",
+    "vi": "Tôi ăn cơm trưa."
+   },
+   {
+    "ja": "[十二時](じゅうにじ)に**[昼](ひる)ご[飯](はん)**を[食](た)べます。",
+    "vi": "Tôi ăn trưa lúc 12 giờ."
+   }
+  ]
+ },
+ {
+  "word": "晩ご飯",
+  "reading": "ばんごはん",
+  "meaning": "cơm tối",
+  "example": "**[晩](ばん)ご[飯](はん)**は[魚](さかな)を[食](た)べます。",
+  "exampleVi": "Bữa tối tôi ăn cá.",
+  "examples": [
+   {
+    "ja": "**[晩](ばん)ご[飯](はん)**は[魚](さかな)を[食](た)べます。",
+    "vi": "Bữa tối tôi ăn cá."
+   },
+   {
+    "ja": "[友達](ともだち)と**[晩](ばん)ご[飯](はん)**を[食](た)べました。",
+    "vi": "Tôi đã ăn tối với bạn tôi."
+   }
+  ]
+ },
+ {
+  "word": "パン",
+  "reading": "パン",
+  "meaning": "bánh mì",
+  "example": "**パン**と[卵](たまご)を[食](た)べます。",
+  "exampleVi": "Tôi ăn bánh mì và trứng.",
+  "examples": [
+   {
+    "ja": "**パン**と[卵](たまご)を[食](た)べます。",
+    "vi": "Tôi ăn bánh mì và trứng."
+   },
+   {
+    "ja": "[朝](あさ)、**パン**を[食](た)べます。",
+    "vi": "Buổi sáng tôi ăn bánh mì."
+   }
+  ]
+ },
+ {
+  "word": "卵",
+  "reading": "たまご",
+  "meaning": "trứng",
+  "example": "**[卵](たまご)**を[買](か)います。",
+  "exampleVi": "Tôi mua trứng.",
+  "examples": [
+   {
+    "ja": "**[卵](たまご)**を[買](か)います。",
+    "vi": "Tôi mua trứng."
+   },
+   {
+    "ja": "[朝](あさ)、**[卵](たまご)**を[食](た)べます。",
+    "vi": "Buổi sáng tôi ăn trứng."
+   }
+  ]
+ },
+ {
+  "word": "肉",
+  "reading": "にく",
+  "meaning": "thịt",
+  "example": "**[肉](にく)**を[食](た)べません。",
+  "exampleVi": "Tôi không ăn thịt.",
+  "examples": [
+   {
+    "ja": "**[肉](にく)**を[食](た)べません。",
+    "vi": "Tôi không ăn thịt."
+   },
+   {
+    "ja": "**[肉](にく)**を[食](た)べます。",
+    "vi": "Tôi ăn thịt."
+   }
+  ]
+ },
+ {
+  "word": "魚",
+  "reading": "さかな",
+  "meaning": "cá",
+  "example": "[私](わたし)は**[魚](さかな)**を[食](た)べます。",
+  "exampleVi": "Tôi ăn cá.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は**[魚](さかな)**を[食](た)べます。",
+    "vi": "Tôi ăn cá."
+   },
+   {
+    "ja": "わたしは**[魚](さかな)**がすきです。",
+    "vi": "Tôi thích cá."
+   }
+  ]
+ },
+ {
+  "word": "野菜",
+  "reading": "やさい",
+  "meaning": "Rau",
+  "example": "[毎日](まいにち)**[野菜](やさい)**を[食](た)べます。",
+  "exampleVi": "Ngày nào tôi cũng ăn rau.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)**[野菜](やさい)**を[食](た)べます。",
+    "vi": "Ngày nào tôi cũng ăn rau."
+   },
+   {
+    "ja": "**[野菜](やさい)**は[体](からだ)にいいです。",
+    "vi": "Rau tốt cho cơ thể."
+   }
+  ]
+ },
+ {
+  "word": "果物",
+  "reading": "くだもの",
+  "meaning": "hoa quả, trái cây",
+  "example": "**[果物](くだもの)**を[買](か)います。",
+  "exampleVi": "Tôi mua trái cây.",
+  "examples": [
+   {
+    "ja": "**[果物](くだもの)**を[買](か)います。",
+    "vi": "Tôi mua trái cây."
+   },
+   {
+    "ja": "**[果物](くだもの)**が[好](す)きです。",
+    "vi": "Tôi thích trái cây."
+   }
+  ]
+ },
+ {
+  "word": "水",
+  "reading": "みず",
+  "meaning": "nước",
+  "example": "**[水](みず)**を[飲](の)みます。",
+  "exampleVi": "Tôi uống nước.",
+  "examples": [
+   {
+    "ja": "**[水](みず)**を[飲](の)みます。",
+    "vi": "Tôi uống nước."
+   },
+   {
+    "ja": "のどがかわいたので、**[水](みず)**をのみます。",
+    "vi": "Vì khát nước nên tôi uống nước."
+   }
+  ]
+ },
+ {
+  "word": "お茶",
+  "reading": "おちゃ",
+  "meaning": "trà",
+  "example": "いっしょに**お[茶](ちゃ)**を[飲](の)みませんか。",
+  "exampleVi": "Bạn uống trà cùng tôi nhé?",
+  "examples": [
+   {
+    "ja": "いっしょに**お[茶](ちゃ)**を[飲](の)みませんか。",
+    "vi": "Bạn uống trà cùng tôi nhé?"
+   },
+   {
+    "ja": "**お[茶](ちゃ)**を[飲](の)んだり、[新聞](しんぶん)を[読](よ)んだりします。",
+    "vi": "Tôi lúc thì uống trà, lúc thì đọc báo."
+   }
+  ]
+ },
+ {
+  "word": "紅茶",
+  "reading": "こうちゃ",
+  "meaning": "trà đen",
+  "example": "**[紅茶](こうちゃ)**を[飲](の)みます。",
+  "exampleVi": "Tôi uống trà đen.",
+  "examples": [
+   {
+    "ja": "**[紅茶](こうちゃ)**を[飲](の)みます。",
+    "vi": "Tôi uống trà đen."
+   },
+   {
+    "ja": "**[紅茶](こうちゃ)**は[好](す)きですか。",
+    "vi": "Bạn có thích hồng trà không?"
+   }
+  ]
+ },
+ {
+  "word": "牛乳",
+  "reading": "ぎゅうにゅう",
+  "meaning": "sữa bò",
+  "example": "**[牛乳](ぎゅうにゅう)**を[買](か)います。",
+  "exampleVi": "Tôi mua sữa bò.",
+  "examples": [
+   {
+    "ja": "**[牛乳](ぎゅうにゅう)**を[買](か)います。",
+    "vi": "Tôi mua sữa bò."
+   },
+   {
+    "ja": "[毎朝](まいあさ)、**[牛乳](ぎゅうにゅう)**を[飲](の)みます。",
+    "vi": "Mỗi sáng tôi uống sữa tươi."
+   }
+  ]
+ },
+ {
+  "word": "ミルク",
+  "reading": "ミルク",
+  "meaning": "sữa",
+  "example": "**ミルク**を[飲](の)みます。",
+  "exampleVi": "Tôi uống sữa.",
+  "examples": [
+   {
+    "ja": "**ミルク**を[飲](の)みます。",
+    "vi": "Tôi uống sữa."
+   },
+   {
+    "ja": "コーヒーに**ミルク**を[入](い)れます。",
+    "vi": "Tôi cho sữa vào cà phê."
+   }
+  ]
+ },
+ {
+  "word": "ジュース",
+  "reading": "ジュース",
+  "meaning": "nước ép",
+  "example": "**ジュース**を[飲](の)みませんか。",
+  "exampleVi": "Bạn uống nước ép nhé?",
+  "examples": [
+   {
+    "ja": "**ジュース**を[飲](の)みませんか。",
+    "vi": "Bạn uống nước ép nhé?"
+   },
+   {
+    "ja": "**ジュース**を[飲](の)みます。",
+    "vi": "Tôi uống nước trái cây."
+   }
+  ]
+ },
+ {
+  "word": "ビール",
+  "reading": "ビール",
+  "meaning": "bia",
+  "example": "[今晩](こんばん)、**ビール**を[飲](の)みます。",
+  "exampleVi": "Tối nay tôi sẽ uống bia.",
+  "examples": [
+   {
+    "ja": "[今晩](こんばん)、**ビール**を[飲](の)みます。",
+    "vi": "Tối nay tôi sẽ uống bia."
+   },
+   {
+    "ja": "**ビール**と[肉](にく)を[買](か)います。",
+    "vi": "Tôi mua bia và thịt."
+   }
+  ]
+ },
+ {
+  "word": "お酒",
+  "reading": "おさけ",
+  "meaning": "rượu, rượu sake",
+  "example": "[私](わたし)は**お[酒](さけ)**を[飲](の)みません。",
+  "exampleVi": "Tôi không uống rượu.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は**お[酒](さけ)**を[飲](の)みません。",
+    "vi": "Tôi không uống rượu."
+   },
+   {
+    "ja": "[友達](ともだち)と**お[酒](さけ)**を[飲](の)みます。",
+    "vi": "Tôi uống rượu cùng bạn."
+   }
+  ]
+ },
+ {
+  "word": "たばこ",
+  "reading": "たばこ",
+  "meaning": "thuốc lá",
+  "example": "[私](わたし)は**たばこ**を[吸](す)いません。",
+  "exampleVi": "Tôi không hút thuốc lá.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は**たばこ**を[吸](す)いません。",
+    "vi": "Tôi không hút thuốc lá."
+   },
+   {
+    "ja": "じどうはんばいきで**たばこ**を[買](か)います。",
+    "vi": "Tôi mua thuốc lá ở máy bán hàng tự động."
+   }
+  ]
+ },
+ {
+  "word": "手紙",
+  "reading": "てがみ",
+  "meaning": "bức thư, lá thư",
+  "example": "**[手紙](てがみ)**を[書](か)きます。",
+  "exampleVi": "Tôi viết thư.",
+  "examples": [
+   {
+    "ja": "**[手紙](てがみ)**を[書](か)きます。",
+    "vi": "Tôi viết thư."
+   },
+   {
+    "ja": "[母](はは)に**[手紙](てがみ)**を[書](か)きました。",
+    "vi": "Tôi đã viết thư cho mẹ."
+   }
+  ]
+ },
+ {
+  "word": "レポート",
+  "reading": "レポート",
+  "meaning": "báo cáo",
+  "example": "[明日](あした)、**レポート**を[読](よ)みます。",
+  "exampleVi": "Ngày mai tôi sẽ đọc báo cáo.",
+  "examples": [
+   {
+    "ja": "[明日](あした)、**レポート**を[読](よ)みます。",
+    "vi": "Ngày mai tôi sẽ đọc báo cáo."
+   },
+   {
+    "ja": "[学校](がっこう)で**レポート**を[書](か)きました。",
+    "vi": "Tôi đã viết bài báo cáo ở trường."
+   }
+  ]
+ },
+ {
+  "word": "写真",
+  "reading": "しゃしん",
+  "meaning": "ảnh",
+  "example": "**[写真](しゃしん)**を[見](み)ます。",
+  "exampleVi": "Tôi xem ảnh.",
+  "examples": [
+   {
+    "ja": "**[写真](しゃしん)**を[見](み)ます。",
+    "vi": "Tôi xem ảnh."
+   },
+   {
+    "ja": "これは[家族](かぞく)の**[写真](しゃしん)**です。",
+    "vi": "Đây là ảnh chụp gia đình."
+   }
+  ]
+ },
+ {
+  "word": "ビデオ",
+  "reading": "ビデオ",
+  "meaning": "video",
+  "example": "[土曜日](どようび)に**ビデオ**を[見](み)ます。",
+  "exampleVi": "Thứ bảy tôi sẽ xem video.",
+  "examples": [
+   {
+    "ja": "[土曜日](どようび)に**ビデオ**を[見](み)ます。",
+    "vi": "Thứ bảy tôi sẽ xem video."
+   },
+   {
+    "ja": "[週末](しゅうまつ)、**ビデオ**を[見](み)ます。",
+    "vi": "Cuối tuần, tôi xem video."
+   }
+  ]
+ },
+ {
+  "word": "店",
+  "reading": "みせ",
+  "meaning": "cửa hàng, cửa hiệu",
+  "example": "**[店](みせ)**で[果物](くだもの)を[買](か)います。",
+  "exampleVi": "Tôi mua trái cây ở cửa hàng.",
+  "examples": [
+   {
+    "ja": "**[店](みせ)**で[果物](くだもの)を[買](か)います。",
+    "vi": "Tôi mua trái cây ở cửa hàng."
+   },
+   {
+    "ja": "あの**[店](みせ)**は、やすいです。",
+    "vi": "Cửa hàng kia rẻ."
+   }
+  ]
+ },
+ {
+  "word": "庭",
+  "reading": "にわ",
+  "meaning": "vườn",
+  "example": "**[庭](にわ)**でテニスをします。",
+  "exampleVi": "Tôi chơi tennis ở trong vườn.",
+  "examples": [
+   {
+    "ja": "**[庭](にわ)**でテニスをします。",
+    "vi": "Tôi chơi tennis ở trong vườn."
+   },
+   {
+    "ja": "**[庭](にわ)**に[犬](いぬ)がいます。",
+    "vi": "Trong vườn có con chó."
+   }
+  ]
+ },
+ {
+  "word": "宿題",
+  "reading": "しゅくだい",
+  "meaning": "bài tập về nhà",
+  "example": "[毎晩](まいばん)**[宿題](しゅくだい)**をします。",
+  "exampleVi": "Tối nào tôi cũng làm bài tập về nhà.",
+  "examples": [
+   {
+    "ja": "[毎晩](まいばん)**[宿題](しゅくだい)**をします。",
+    "vi": "Tối nào tôi cũng làm bài tập về nhà."
+   },
+   {
+    "ja": "[今日](きょう)は**[宿題](しゅくだい)**があります。",
+    "vi": "Hôm nay có bài tập về nhà."
+   }
+  ]
+ },
+ {
+  "word": "テニス",
+  "reading": "テニス",
+  "meaning": "quần vợt",
+  "example": "[日曜日](にちようび)に**テニス**をします。",
+  "exampleVi": "Chủ nhật tôi chơi tennis.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に**テニス**をします。",
+    "vi": "Chủ nhật tôi chơi tennis."
+   },
+   {
+    "ja": "**テニス**を[練習](れんしゅう)します。",
+    "vi": "Tôi luyện tập quần vợt."
+   }
+  ]
+ },
+ {
+  "word": "サッカー",
+  "reading": "サッカー",
+  "meaning": "bóng đá",
+  "example": "いっしょに**サッカー**をしませんか。",
+  "exampleVi": "Bạn chơi bóng đá cùng tôi nhé?",
+  "examples": [
+   {
+    "ja": "いっしょに**サッカー**をしませんか。",
+    "vi": "Bạn chơi bóng đá cùng tôi nhé?"
+   },
+   {
+    "ja": "**サッカー**が[好](す)きです。",
+    "vi": "Tôi thích bóng đá."
+   }
+  ]
+ },
+ {
+  "word": "お花見",
+  "reading": "おはなみ",
+  "meaning": "việc ngắm hoa",
+  "example": "[来週](らいしゅう)、いっしょに**お[花見](はなみ)**をしませんか。",
+  "exampleVi": "Tuần sau chúng ta cùng đi ngắm hoa nhé?",
+  "examples": [
+   {
+    "ja": "[来週](らいしゅう)、いっしょに**お[花見](はなみ)**をしませんか。",
+    "vi": "Tuần sau chúng ta cùng đi ngắm hoa nhé?"
+   },
+   {
+    "ja": "[友達](ともだち)と**お[花見](はなみ)**をしました。",
+    "vi": "Tôi đã đi ngắm hoa cùng bạn."
+   }
+  ]
+ },
+ {
+  "word": "何",
+  "reading": "なん/なに",
+  "meaning": "cái gì",
+  "example": "**[何](なに)**を[食](た)べますか。",
+  "exampleVi": "Bạn ăn gì?",
+  "examples": [
+   {
+    "ja": "**[何](なに)**を[食](た)べますか。",
+    "vi": "Bạn ăn gì?"
+   },
+   {
+    "ja": "レストランで**[何](なに)**を[食](た)べましたか。",
+    "vi": "Bạn ăn gì ở nhà hàng?"
+   }
+  ]
+ },
+ {
+  "word": "いっしょに",
+  "reading": "いっしょに",
+  "meaning": "cùng nhau",
+  "example": "**いっしょに**[食](た)べませんか。",
+  "exampleVi": "Bạn ăn cùng tôi nhé?",
+  "examples": [
+   {
+    "ja": "**いっしょに**[食](た)べませんか。",
+    "vi": "Bạn ăn cùng tôi nhé?"
+   },
+   {
+    "ja": "**いっしょに**カラオケに[行](い)きませんか。",
+    "vi": "Cùng đi hát karaoke không?"
+   }
+  ]
+ },
+ {
+  "word": "ちょっと",
+  "reading": "ちょっと",
+  "meaning": "một chút",
+  "example": "**ちょっと**[休](やす)みましょう。",
+  "exampleVi": "Chúng ta nghỉ một chút nhé.",
+  "examples": [
+   {
+    "ja": "**ちょっと**[休](やす)みましょう。",
+    "vi": "Chúng ta nghỉ một chút nhé."
+   },
+   {
+    "ja": "これは**ちょっと**[高](たか)いですね。",
+    "vi": "Cái này hơi đắt một chút."
+   }
+  ]
+ },
+ {
+  "word": "いつも",
+  "reading": "いつも",
+  "meaning": "luôn luôn",
+  "example": "**いつも**[朝](あさ)ご[飯](はん)を[食](た)べます。",
+  "exampleVi": "Tôi luôn ăn sáng.",
+  "examples": [
+   {
+    "ja": "**いつも**[朝](あさ)ご[飯](はん)を[食](た)べます。",
+    "vi": "Tôi luôn ăn sáng."
+   },
+   {
+    "ja": "**いつも**[飛行機](ひこうき)で[大阪](おおさか)へ[行](い)きます。",
+    "vi": "Tôi luôn đi Osaka bằng máy bay."
+   }
+  ]
+ },
+ {
+  "word": "ときどき",
+  "reading": "ときどき",
+  "meaning": "thỉnh thoảng",
+  "example": "**ときどき**[友達](ともだち)とサッカーをします。",
+  "exampleVi": "Thỉnh thoảng tôi chơi bóng đá với bạn.",
+  "examples": [
+   {
+    "ja": "**ときどき**[友達](ともだち)とサッカーをします。",
+    "vi": "Thỉnh thoảng tôi chơi bóng đá với bạn."
+   },
+   {
+    "ja": "**ときどき**[図書館](としょかん)へ[行](い)きます。",
+    "vi": "Thỉnh thoảng tôi đến thư viện."
+   }
+  ]
+ },
+ {
+  "word": "それから",
+  "reading": "それから",
+  "meaning": "sau đó, tiếp theo",
+  "example": "[卵](たまご)を[買](か)います。**それから**、[肉](にく)を[買](か)います。",
+  "exampleVi": "Tôi mua trứng. Sau đó, tôi mua thịt.",
+  "examples": [
+   {
+    "ja": "[卵](たまご)を[買](か)います。**それから**、[肉](にく)を[買](か)います。",
+    "vi": "Tôi mua trứng. Sau đó, tôi mua thịt."
+   },
+   {
+    "ja": "**それから**[金額](きんがく)をおしてください。",
+    "vi": "Sau đó, hãy bấm số tiền."
+   }
+  ]
+ },
+ {
+  "word": "ええ",
+  "reading": "ええ",
+  "meaning": "vâng, ừ",
+  "example": "A：いっしょに[食](た)べませんか。B：**ええ**、[食](た)べましょう。",
+  "exampleVi": "A: Bạn ăn cùng tôi nhé?  B: Vâng, cùng ăn nào.",
+  "examples": [
+   {
+    "ja": "A：いっしょに[食](た)べませんか。B：**ええ**、[食](た)べましょう。",
+    "vi": "A: Bạn ăn cùng tôi nhé?  B: Vâng, cùng ăn nào."
+   },
+   {
+    "ja": "**ええ**、そうです。",
+    "vi": "Vâng, đúng vậy."
+   }
+  ]
+ },
+ {
+  "word": "メキシコ",
+  "reading": "メキシコ",
+  "meaning": "Mexico",
+  "example": "**メキシコ**のビールを[飲](の)みます。",
+  "exampleVi": "Tôi uống bia của Mexico.",
+  "examples": [
+   {
+    "ja": "**メキシコ**のビールを[飲](の)みます。",
+    "vi": "Tôi uống bia của Mexico."
+   },
+   {
+    "ja": "**メキシコ**の[人](ひと)と[話](はな)しました。",
+    "vi": "Tôi đã nói chuyện với người Mexico."
+   }
+  ]
+ }
 ]

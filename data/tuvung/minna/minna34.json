@@ -1,45 +1,733 @@
 [
-  "磨く",
-  "組み立てる",
-  "折る",
-  "気が付く",
-  "見つかる",
-  "質問する",
-  "差す",
-  "城",
-  "説明書",
-  "図",
-  "線",
-  "矢印",
-  "黒",
-  "白",
-  "赤",
-  "青",
-  "紺",
-  "黄色",
-  "茶色",
-  "しょうゆ",
-  "ソース",
-  "お客さん",
-  "昨夜",
-  "さっき",
-  "茶道",
-  "点てる",
-  "先に",
-  "載せる",
-  "苦い",
-  "親子丼",
-  "材料",
-  "分",
-  "グラム",
-  "個",
-  "玉ねぎ",
-  "調味料",
-  "鍋",
-  "火にかける",
-  "煮る",
-  "煮える",
-  "丼",
-  "経つ",
-  "適当"
+ {
+  "word": "みがく",
+  "reading": "みがく",
+  "meaning": "đánh [răng], mài",
+  "example": "[食事](しょくじ)の[後](あと)で[歯](は)を**みがきます**。",
+  "exampleVi": "Sau bữa ăn tôi đánh răng.",
+  "examples": [
+   {
+    "ja": "[食事](しょくじ)の[後](あと)で[歯](は)を**みがきます**。",
+    "vi": "Sau bữa ăn tôi đánh răng."
+   },
+   {
+    "ja": "ねる[前](まえ)に、はを**みがきます**。",
+    "vi": "Trước khi ngủ tôi đánh răng."
+   }
+  ]
+ },
+ {
+  "word": "組み立てる",
+  "reading": "くみたてる",
+  "meaning": "lắp ráp, xây dựng",
+  "example": "[説明書](せつめいしょ)のとおりに**[組](く)み[立](た)てます**。",
+  "exampleVi": "Tôi lắp ráp theo sách hướng dẫn.",
+  "examples": [
+   {
+    "ja": "[説明書](せつめいしょ)のとおりに**[組](く)み[立](た)てます**。",
+    "vi": "Tôi lắp ráp theo sách hướng dẫn."
+   },
+   {
+    "ja": "このベッドは[自分](じぶん)で**[組](く)み[立](た)てて**ください。",
+    "vi": "Bạn hãy tự mình lắp ráp cái giường này."
+   }
+  ]
+ },
+ {
+  "word": "折る",
+  "reading": "おる",
+  "meaning": "bẻ gãy, gấp lại",
+  "example": "[紙](かみ)を**[折](お)って**ください。",
+  "exampleVi": "Xin hãy gấp tờ giấy lại.",
+  "examples": [
+   {
+    "ja": "[紙](かみ)を**[折](お)って**ください。",
+    "vi": "Xin hãy gấp tờ giấy lại."
+   },
+   {
+    "ja": "[紙](かみ)を[半分](はんぶん)に**[折](お)って**、ふうとうに[入](い)れた。",
+    "vi": "Tôi gập tờ giấy làm đôi rồi bỏ vào phong bì."
+   }
+  ]
+ },
+ {
+  "word": "気が付く",
+  "reading": "きがつく",
+  "meaning": "để ý đến, chú ý đến",
+  "example": "[忘](わす)れ[物](もの)に**[気](き)が[付](つ)きました**。",
+  "exampleVi": "Tôi nhận ra mình đã để quên đồ.",
+  "examples": [
+   {
+    "ja": "[忘](わす)れ[物](もの)に**[気](き)が[付](つ)きました**。",
+    "vi": "Tôi nhận ra mình đã để quên đồ."
+   },
+   {
+    "ja": "[電車](でんしゃ)の[中](なか)で[傘](かさ)を[忘](わす)れたことに**[気](き)が[付](つ)きました**。",
+    "vi": "Tôi nhận ra mình đã để quên ô trên tàu điện."
+   }
+  ]
+ },
+ {
+  "word": "見つかる",
+  "reading": "みつかる",
+  "meaning": "được tìm thấy",
+  "example": "かぎがやっと**[見](み)つかりました**。",
+  "exampleVi": "Cuối cùng chìa khóa cũng được tìm thấy.",
+  "examples": [
+   {
+    "ja": "かぎがやっと**[見](み)つかりました**。",
+    "vi": "Cuối cùng chìa khóa cũng được tìm thấy."
+   },
+   {
+    "ja": "[電車](でんしゃ)に[忘](わす)れた[書類](しょるい)が**[見](み)つかりました**。",
+    "vi": "Tài liệu để quên trên tàu điện đã được tìm thấy."
+   }
+  ]
+ },
+ {
+  "word": "質問する",
+  "reading": "しつもんする",
+  "meaning": "hỏi",
+  "example": "[先生](せんせい)に**[質問](しつもん)します**。",
+  "exampleVi": "Tôi hỏi giáo viên.",
+  "examples": [
+   {
+    "ja": "[先生](せんせい)に**[質問](しつもん)します**。",
+    "vi": "Tôi hỏi giáo viên."
+   },
+   {
+    "ja": "[分](わ)からないことは[先生](せんせい)に**[質問](しつもん)します**。",
+    "vi": "Điều gì không hiểu thì tôi hỏi thầy giáo."
+   }
+  ]
+ },
+ {
+  "word": "差す",
+  "reading": "さす",
+  "meaning": "giương (ô), chiếu (nắng), nhỏ (thuốc)",
+  "example": "[雨](あめ)ですから、かさを**[差](さ)しましょう**。",
+  "exampleVi": "Vì trời mưa nên chúng ta giương ô lên nhé.",
+  "examples": [
+   {
+    "ja": "[雨](あめ)ですから、かさを**[差](さ)しましょう**。",
+    "vi": "Vì trời mưa nên chúng ta giương ô lên nhé."
+   },
+   {
+    "ja": "[日](ひ)が[強](つよ)いので、[日傘](ひがさ)を**[差](さ)します**。",
+    "vi": "Vì nắng gắt nên tôi che dù."
+   }
+  ]
+ },
+ {
+  "word": "城",
+  "reading": "しろ",
+  "meaning": "thành, lâu đài",
+  "example": "あの[山](やま)の[上](うえ)に**[城](しろ)**があります。",
+  "exampleVi": "Trên ngọn núi kia có một tòa lâu đài.",
+  "examples": [
+   {
+    "ja": "あの[山](やま)の[上](うえ)に**[城](しろ)**があります。",
+    "vi": "Trên ngọn núi kia có một tòa lâu đài."
+   },
+   {
+    "ja": "この**[城](しろ)**は[450年前](よんひゃくごじゅうねんまえ)に[建](た)てられました。",
+    "vi": "Lâu đài này được xây từ 450 năm trước."
+   }
+  ]
+ },
+ {
+  "word": "説明書",
+  "reading": "せつめいしょ",
+  "meaning": "sách hướng dẫn",
+  "example": "**[説明書](せつめいしょ)**をよく[読](よ)んでください。",
+  "exampleVi": "Xin hãy đọc kỹ sách hướng dẫn.",
+  "examples": [
+   {
+    "ja": "**[説明書](せつめいしょ)**をよく[読](よ)んでください。",
+    "vi": "Xin hãy đọc kỹ sách hướng dẫn."
+   },
+   {
+    "ja": "[新](あたら)しい[機械](きかい)の**[説明書](せつめいしょ)**を[読](よ)みます。",
+    "vi": "Tôi đọc sách hướng dẫn của chiếc máy mới."
+   }
+  ]
+ },
+ {
+  "word": "図",
+  "reading": "ず",
+  "meaning": "hình vẽ minh họa",
+  "example": "**[図](ず)**を[見](み)てください。",
+  "exampleVi": "Xin hãy xem hình vẽ.",
+  "examples": [
+   {
+    "ja": "**[図](ず)**を[見](み)てください。",
+    "vi": "Xin hãy xem hình vẽ."
+   },
+   {
+    "ja": "[説明書](せつめいしょ)の**[図](ず)**を[見](み)ながら[作](つく)ります。",
+    "vi": "Tôi vừa nhìn hình vẽ trong sách hướng dẫn vừa làm."
+   }
+  ]
+ },
+ {
+  "word": "線",
+  "reading": "せん",
+  "meaning": "đường kẻ",
+  "example": "この**[線](せん)**は[赤](あか)いです。",
+  "exampleVi": "Đường kẻ này màu đỏ.",
+  "examples": [
+   {
+    "ja": "この**[線](せん)**は[赤](あか)いです。",
+    "vi": "Đường kẻ này màu đỏ."
+   },
+   {
+    "ja": "[紙](かみ)に**[線](せん)**を[引](ひ)きます。",
+    "vi": "Tôi kẻ đường trên giấy."
+   }
+  ]
+ },
+ {
+  "word": "矢印",
+  "reading": "やじるし",
+  "meaning": "(kí hiệu) mũi tên",
+  "example": "**[矢印](やじるし)**の[方](ほう)へ[行](い)ってください。",
+  "exampleVi": "Xin hãy đi theo hướng mũi tên.",
+  "examples": [
+   {
+    "ja": "**[矢印](やじるし)**の[方](ほう)へ[行](い)ってください。",
+    "vi": "Xin hãy đi theo hướng mũi tên."
+   },
+   {
+    "ja": "[美術館](びじゅつかん)では**[矢印](やじるし)**を[見](み)て、[進](すす)んでください。",
+    "vi": "Ở viện bảo tàng mỹ thuật, hãy nhìn dấu mũi tên mà đi theo."
+   }
+  ]
+ },
+ {
+  "word": "黒",
+  "reading": "くろ",
+  "meaning": "màu đen",
+  "example": "**[黒](くろ)**は[好](す)きな[色](いろ)です。",
+  "exampleVi": "Màu đen là màu tôi thích.",
+  "examples": [
+   {
+    "ja": "**[黒](くろ)**は[好](す)きな[色](いろ)です。",
+    "vi": "Màu đen là màu tôi thích."
+   },
+   {
+    "ja": "[私](わたし)の[猫](ねこ)は**[黒](くろ)**です。",
+    "vi": "Con mèo của tôi màu đen."
+   }
+  ]
+ },
+ {
+  "word": "白",
+  "reading": "しろ",
+  "meaning": "màu trắng",
+  "example": "**[白](しろ)**はきれいな[色](いろ)です。",
+  "exampleVi": "Màu trắng là một màu đẹp.",
+  "examples": [
+   {
+    "ja": "**[白](しろ)**はきれいな[色](いろ)です。",
+    "vi": "Màu trắng là một màu đẹp."
+   },
+   {
+    "ja": "[白](しろ)いシャツに**[白](しろ)**のネクタイをします。",
+    "vi": "Tôi đeo cà vạt trắng với áo sơ mi trắng."
+   }
+  ]
+ },
+ {
+  "word": "赤",
+  "reading": "あか",
+  "meaning": "màu đỏ",
+  "example": "**[赤](あか)**のペンはありますか。",
+  "exampleVi": "Bạn có bút màu đỏ không?",
+  "examples": [
+   {
+    "ja": "**[赤](あか)**のペンはありますか。",
+    "vi": "Bạn có bút màu đỏ không?"
+   },
+   {
+    "ja": "**[赤](あか)**い[花](はな)と[白](しろ)い[花](はな)を[買](か)いました。",
+    "vi": "Tôi đã mua hoa đỏ và hoa trắng."
+   }
+  ]
+ },
+ {
+  "word": "青",
+  "reading": "あお",
+  "meaning": "màu xanh",
+  "example": "**[青](あお)**のかばんを[買](か)いました。",
+  "exampleVi": "Tôi đã mua chiếc cặp màu xanh.",
+  "examples": [
+   {
+    "ja": "**[青](あお)**のかばんを[買](か)いました。",
+    "vi": "Tôi đã mua chiếc cặp màu xanh."
+   },
+   {
+    "ja": "[空](そら)は**[青](あお)**いです。",
+    "vi": "Bầu trời màu xanh."
+   }
+  ]
+ },
+ {
+  "word": "こん",
+  "reading": "こん",
+  "meaning": "màu xanh sẫm",
+  "example": "**こん**のスーツを[着](き)ます。",
+  "exampleVi": "Tôi mặc bộ com-lê màu xanh sẫm.",
+  "examples": [
+   {
+    "ja": "**こん**のスーツを[着](き)ます。",
+    "vi": "Tôi mặc bộ com-lê màu xanh sẫm."
+   },
+   {
+    "ja": "[会社](かいしゃ)には、**こん**のスーツで[行](い)きます。",
+    "vi": "Tôi mặc bộ com-lê xanh sẫm đi đến công ty."
+   }
+  ]
+ },
+ {
+  "word": "黄色",
+  "reading": "きいろ",
+  "meaning": "màu vàng",
+  "example": "**[黄色](きいろ)**の[花](はな)がきれいです。",
+  "exampleVi": "Bông hoa màu vàng đẹp.",
+  "examples": [
+   {
+    "ja": "**[黄色](きいろ)**の[花](はな)がきれいです。",
+    "vi": "Bông hoa màu vàng đẹp."
+   },
+   {
+    "ja": "**[黄色](きいろ)**い[帽子](ぼうし)をかぶります。",
+    "vi": "Tôi đội chiếc mũ màu vàng."
+   }
+  ]
+ },
+ {
+  "word": "茶色",
+  "reading": "ちゃいろ",
+  "meaning": "màu nâu nhạt",
+  "example": "**[茶色](ちゃいろ)**のくつをはきます。",
+  "exampleVi": "Tôi đi đôi giày màu nâu.",
+  "examples": [
+   {
+    "ja": "**[茶色](ちゃいろ)**のくつをはきます。",
+    "vi": "Tôi đi đôi giày màu nâu."
+   },
+   {
+    "ja": "**[茶色](ちゃいろ)**の[犬](いぬ)が[走](はし)っています。",
+    "vi": "Con chó màu nâu đang chạy."
+   }
+  ]
+ },
+ {
+  "word": "しょうゆ",
+  "reading": "しょうゆ",
+  "meaning": "xì dầu",
+  "example": "**しょうゆ**をかけて[食](た)べます。",
+  "exampleVi": "Tôi rưới xì dầu lên rồi ăn.",
+  "examples": [
+   {
+    "ja": "**しょうゆ**をかけて[食](た)べます。",
+    "vi": "Tôi rưới xì dầu lên rồi ăn."
+   },
+   {
+    "ja": "**しょうゆ**は[黒](くろ)いです。",
+    "vi": "Nước tương có màu đen."
+   }
+  ]
+ },
+ {
+  "word": "ソース",
+  "reading": "ソース",
+  "meaning": "nước xốt",
+  "example": "**ソース**をかけてください。",
+  "exampleVi": "Xin hãy rưới nước sốt lên.",
+  "examples": [
+   {
+    "ja": "**ソース**をかけてください。",
+    "vi": "Xin hãy rưới nước sốt lên."
+   },
+   {
+    "ja": "この[料理](りょうり)には**ソース**が[合](あ)います。",
+    "vi": "Món ăn này thì hợp với nước sốt."
+   }
+  ]
+ },
+ {
+  "word": "お客さん",
+  "reading": "おきゃくさん",
+  "meaning": "(vị) khách",
+  "example": "**お[客](きゃく)さん**にお[茶](ちゃ)を[出](だ)します。",
+  "exampleVi": "Tôi mời khách uống trà.",
+  "examples": [
+   {
+    "ja": "**お[客](きゃく)さん**にお[茶](ちゃ)を[出](だ)します。",
+    "vi": "Tôi mời khách uống trà."
+   },
+   {
+    "ja": "[会社](かいしゃ)に**お[客](きゃく)さん**が[来](き)ました。",
+    "vi": "Có khách đến công ty."
+   }
+  ]
+ },
+ {
+  "word": "昨夜",
+  "reading": "ゆうべ",
+  "meaning": "tối qua",
+  "example": "**[昨夜](ゆうべ)**は[早](はや)くねました。",
+  "exampleVi": "Tối qua tôi đã đi ngủ sớm.",
+  "examples": [
+   {
+    "ja": "**[昨夜](ゆうべ)**は[早](はや)くねました。",
+    "vi": "Tối qua tôi đã đi ngủ sớm."
+   },
+   {
+    "ja": "**[昨夜](ゆうべ)**、うちでパーティーをしました。",
+    "vi": "Tối hôm qua, tôi đã làm tiệc ở nhà."
+   }
+  ]
+ },
+ {
+  "word": "さっき",
+  "reading": "さっき",
+  "meaning": "lúc nãy",
+  "example": "**さっき**[田中](たなか)さんから[電話](でんわ)がありました。",
+  "exampleVi": "Lúc nãy có điện thoại từ anh Tanaka.",
+  "examples": [
+   {
+    "ja": "**さっき**[田中](たなか)さんから[電話](でんわ)がありました。",
+    "vi": "Lúc nãy có điện thoại từ anh Tanaka."
+   },
+   {
+    "ja": "[山下](やました)さんなら、**さっき**[帰](かえ)りましたよ。",
+    "vi": "Anh/ chị Yamashita (thì) về lúc nãy rồi."
+   }
+  ]
+ },
+ {
+  "word": "茶道",
+  "reading": "さどう",
+  "meaning": "trà đạo",
+  "example": "**[茶道](さどう)**を[習](なら)っています。",
+  "exampleVi": "Tôi đang học trà đạo.",
+  "examples": [
+   {
+    "ja": "**[茶道](さどう)**を[習](なら)っています。",
+    "vi": "Tôi đang học trà đạo."
+   },
+   {
+    "ja": "[友達](ともだち)に**[茶道](さどう)**を[教](おし)えてもらいました。",
+    "vi": "Tôi được bạn dạy trà đạo."
+   }
+  ]
+ },
+ {
+  "word": "点てる",
+  "reading": "たてる",
+  "meaning": "pha trà, khuấy trà",
+  "example": "お[茶](ちゃ)を**[点](た)てます**。",
+  "exampleVi": "Tôi pha trà (theo trà đạo).",
+  "examples": [
+   {
+    "ja": "お[茶](ちゃ)を**[点](た)てます**。",
+    "vi": "Tôi pha trà (theo trà đạo)."
+   },
+   {
+    "ja": "[先生](せんせい)がお[茶](ちゃ)を**[点](た)てます**。",
+    "vi": "Cô giáo pha trà."
+   }
+  ]
+ },
+ {
+  "word": "先に",
+  "reading": "さきに",
+  "meaning": "trước",
+  "example": "**[先](さき)に**[食](た)べてください。",
+  "exampleVi": "Xin hãy ăn trước đi.",
+  "examples": [
+   {
+    "ja": "**[先](さき)に**[食](た)べてください。",
+    "vi": "Xin hãy ăn trước đi."
+   },
+   {
+    "ja": "ようじがあるので、お**[先](さき)に**しつれいします。",
+    "vi": "Vì có việc nên tôi xin phép về trước."
+   }
+  ]
+ },
+ {
+  "word": "のせる",
+  "reading": "のせる",
+  "meaning": "đăng tải, đặt lên",
+  "example": "[皿](さら)に[肉](にく)を**のせます**。",
+  "exampleVi": "Tôi đặt thịt lên đĩa.",
+  "examples": [
+   {
+    "ja": "[皿](さら)に[肉](にく)を**のせます**。",
+    "vi": "Tôi đặt thịt lên đĩa."
+   },
+   {
+    "ja": "パンの[上](うえ)にチーズを**のせます**。",
+    "vi": "Tôi đặt phô mai lên trên bánh mì."
+   }
+  ]
+ },
+ {
+  "word": "苦い",
+  "reading": "にがい",
+  "meaning": "đắng",
+  "example": "この[薬](くすり)は**[苦](にが)い**です。",
+  "exampleVi": "Thuốc này đắng.",
+  "examples": [
+   {
+    "ja": "この[薬](くすり)は**[苦](にが)い**です。",
+    "vi": "Thuốc này đắng."
+   },
+   {
+    "ja": "ビールは**[苦](にが)い**ので、あまり[飲](の)みません。",
+    "vi": "Vì bia đắng nên tôi không uống nhiều lắm."
+   }
+  ]
+ },
+ {
+  "word": "おやこどんぶり",
+  "reading": "おやこどんぶり",
+  "meaning": "món cơm gà trứng",
+  "example": "**おやこどんぶり**を[作](つく)ります。",
+  "exampleVi": "Tôi nấu món cơm gà trứng.",
+  "examples": [
+   {
+    "ja": "**おやこどんぶり**を[作](つく)ります。",
+    "vi": "Tôi nấu món cơm gà trứng."
+   },
+   {
+    "ja": "[昼](ひる)ご[飯](はん)に**おやこどんぶり**を[食](た)べました。",
+    "vi": "Bữa trưa tôi đã ăn cơm gà trứng."
+   }
+  ]
+ },
+ {
+  "word": "材料",
+  "reading": "ざいりょう",
+  "meaning": "nguyên liệu, vật liệu",
+  "example": "**[材料](ざいりょう)**は[卵](たまご)と[肉](にく)です。",
+  "exampleVi": "Nguyên liệu là trứng và thịt.",
+  "examples": [
+   {
+    "ja": "**[材料](ざいりょう)**は[卵](たまご)と[肉](にく)です。",
+    "vi": "Nguyên liệu là trứng và thịt."
+   },
+   {
+    "ja": "[料理](りょうり)の**[材料](ざいりょう)**を[買](か)います。",
+    "vi": "Tôi mua nguyên liệu nấu ăn."
+   }
+  ]
+ },
+ {
+  "word": "分",
+  "reading": "ふん",
+  "meaning": "phút",
+  "example": "[駅](えき)まで[歩](ある)いて10**[分](ぷん)**です。",
+  "exampleVi": "Đến nhà ga đi bộ mất 10 phút.",
+  "examples": [
+   {
+    "ja": "[駅](えき)まで[歩](ある)いて10**[分](ぷん)**です。",
+    "vi": "Đến nhà ga đi bộ mất 10 phút."
+   },
+   {
+    "ja": "[電車](でんしゃ)で[五](ご)**[分](ふん)**です。",
+    "vi": "Đi tàu điện mất 5 phút."
+   }
+  ]
+ },
+ {
+  "word": "グラム",
+  "reading": "グラム",
+  "meaning": "gram",
+  "example": "[肉](にく)を200**グラム**[使](つか)います。",
+  "exampleVi": "Tôi dùng 200 gram thịt.",
+  "examples": [
+   {
+    "ja": "[肉](にく)を200**グラム**[使](つか)います。",
+    "vi": "Tôi dùng 200 gram thịt."
+   },
+   {
+    "ja": "[砂糖](さとう)を50**グラム**[入](い)れます。",
+    "vi": "Tôi cho vào 50 gram đường."
+   }
+  ]
+ },
+ {
+  "word": "個",
+  "reading": "こ",
+  "meaning": "cái, cục, viên (đếm vật nhỏ)",
+  "example": "[卵](たまご)を2**[個](こ)**[使](つか)います。",
+  "exampleVi": "Tôi dùng 2 quả trứng.",
+  "examples": [
+   {
+    "ja": "[卵](たまご)を2**[個](こ)**[使](つか)います。",
+    "vi": "Tôi dùng 2 quả trứng."
+   },
+   {
+    "ja": "りんごを3**[個](こ)**[買](か)いました。",
+    "vi": "Tôi đã mua 3 quả táo."
+   }
+  ]
+ },
+ {
+  "word": "玉ねぎ",
+  "reading": "たまねぎ",
+  "meaning": "hành tây",
+  "example": "**[玉](たま)ねぎ**を[切](き)ります。",
+  "exampleVi": "Tôi thái hành tây.",
+  "examples": [
+   {
+    "ja": "**[玉](たま)ねぎ**を[切](き)ります。",
+    "vi": "Tôi thái hành tây."
+   },
+   {
+    "ja": "**[玉](たま)ねぎ**とにんじんを[切](き)ります。",
+    "vi": "Tôi thái hành tây và cà rốt."
+   }
+  ]
+ },
+ {
+  "word": "調味料",
+  "reading": "ちょうみりょう",
+  "meaning": "gia vị",
+  "example": "**[調味料](ちょうみりょう)**はしょうゆと[砂糖](さとう)です。",
+  "exampleVi": "Gia vị là xì dầu và đường.",
+  "examples": [
+   {
+    "ja": "**[調味料](ちょうみりょう)**はしょうゆと[砂糖](さとう)です。",
+    "vi": "Gia vị là xì dầu và đường."
+   },
+   {
+    "ja": "[料理](りょうり)には**[調味料](ちょうみりょう)**が[必要](ひつよう)です。",
+    "vi": "Nấu ăn cần có gia vị."
+   }
+  ]
+ },
+ {
+  "word": "なべ",
+  "reading": "なべ",
+  "meaning": "cái nồi",
+  "example": "**なべ**に[水](みず)を[入](い)れます。",
+  "exampleVi": "Tôi cho nước vào nồi.",
+  "examples": [
+   {
+    "ja": "**なべ**に[水](みず)を[入](い)れます。",
+    "vi": "Tôi cho nước vào nồi."
+   },
+   {
+    "ja": "**なべ**に[水](みず)を[入](い)れてください。",
+    "vi": "Hãy cho nước vào nồi."
+   }
+  ]
+ },
+ {
+  "word": "火にかける",
+  "reading": "ひにかける",
+  "meaning": "bắc bếp lên lửa",
+  "example": "なべを**[火](ひ)にかけます**。",
+  "exampleVi": "Tôi bắc nồi lên bếp.",
+  "examples": [
+   {
+    "ja": "なべを**[火](ひ)にかけます**。",
+    "vi": "Tôi bắc nồi lên bếp."
+   },
+   {
+    "ja": "[水](みず)を[入](い)れたなべを**[火](ひ)にかけます**。",
+    "vi": "Tôi bắc nồi có nước lên bếp."
+   }
+  ]
+ },
+ {
+  "word": "にる",
+  "reading": "にる",
+  "meaning": "nấu, kho",
+  "example": "[肉](にく)と[玉](たま)ねぎを**にます**。",
+  "exampleVi": "Tôi nấu thịt và hành tây.",
+  "examples": [
+   {
+    "ja": "[肉](にく)と[玉](たま)ねぎを**にます**。",
+    "vi": "Tôi nấu thịt và hành tây."
+   },
+   {
+    "ja": "[野菜](やさい)をやわらかく**にます**。",
+    "vi": "Tôi nấu rau cho mềm."
+   }
+  ]
+ },
+ {
+  "word": "にえる",
+  "reading": "にえる",
+  "meaning": "chín, được nấu",
+  "example": "[肉](にく)が**にえました**。",
+  "exampleVi": "Thịt đã chín.",
+  "examples": [
+   {
+    "ja": "[肉](にく)が**にえました**。",
+    "vi": "Thịt đã chín."
+   },
+   {
+    "ja": "[二十分](にじゅっぷん)ぐらいで[肉](にく)が**にえます**。",
+    "vi": "Khoảng 20 phút thì thịt sẽ chín."
+   }
+  ]
+ },
+ {
+  "word": "どんぶり",
+  "reading": "どんぶり",
+  "meaning": "bát tô lớn",
+  "example": "**どんぶり**にご[飯](はん)を[入](い)れます。",
+  "exampleVi": "Tôi cho cơm vào bát tô.",
+  "examples": [
+   {
+    "ja": "**どんぶり**にご[飯](はん)を[入](い)れます。",
+    "vi": "Tôi cho cơm vào bát tô."
+   },
+   {
+    "ja": "[大](おお)きい**どんぶり**でラーメンを[食](た)べます。",
+    "vi": "Tôi ăn mì ramen bằng bát tô lớn."
+   }
+  ]
+ },
+ {
+  "word": "経つ",
+  "reading": "たつ",
+  "meaning": "trải qua, trôi qua",
+  "example": "[三十分](さんじゅっぷん)**[経](た)ちました**。",
+  "exampleVi": "30 phút đã trôi qua.",
+  "examples": [
+   {
+    "ja": "[三十分](さんじゅっぷん)**[経](た)ちました**。",
+    "vi": "30 phút đã trôi qua."
+   },
+   {
+    "ja": "もう1[年](ねん)が**[経](た)ちました**。",
+    "vi": "Đã một năm trôi qua rồi."
+   }
+  ]
+ },
+ {
+  "word": "適当",
+  "reading": "てきとう",
+  "meaning": "phù hợp/qua loa",
+  "example": "**[適当](てきとう)**な[大](おお)きさに[切](き)ってください。",
+  "exampleVi": "Xin hãy cắt thành kích cỡ vừa phải.",
+  "examples": [
+   {
+    "ja": "**[適当](てきとう)**な[大](おお)きさに[切](き)ってください。",
+    "vi": "Xin hãy cắt thành kích cỡ vừa phải."
+   },
+   {
+    "ja": "[好](す)きな[味](あじ)に**[適当](てきとう)**に[調味料](ちょうみりょう)を[入](い)れます。",
+    "vi": "Tôi cho gia vị vào vừa miệng theo vị mình thích."
+   }
+  ]
+ }
 ]

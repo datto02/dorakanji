@@ -1,53 +1,869 @@
 [
-  "います",
-  "かかります",
-  "休みます",
-  "一つ",
-  "二つ",
-  "三つ",
-  "四つ",
-  "五つ",
-  "六つ",
-  "七つ",
-  "八つ",
-  "九つ",
-  "十",
-  "いくつ",
-  "一人",
-  "二人",
-  "台",
-  "枚",
-  "回",
-  "りんご",
-  "みかん",
-  "サンドイッチ",
-  "カレーライス",
-  "アイスクリーム",
-  "切手",
-  "葉書",
-  "封筒",
-  "両親",
-  "兄弟",
-  "兄",
-  "お兄さん",
-  "姉",
-  "お姉さん",
-  "弟",
-  "弟さん",
-  "妹",
-  "妹さん",
-  "外国",
-  "留学生",
-  "クラス",
-  "時間",
-  "週間",
-  "ぐらい",
-  "どのくらい",
-  "全部で",
-  "皆",
-  "だけ",
-  "船便",
-  "航空便",
-  "エアメール",
-  "オーストラリア"
+ {
+  "word": "います",
+  "reading": "います",
+  "meaning": "ở, có (người, động vật)",
+  "example": "[私](わたし)は[兄](あに)が[一人](ひとり)**います**。",
+  "exampleVi": "Tôi có một anh trai.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[兄](あに)が[一人](ひとり)**います**。",
+    "vi": "Tôi có một anh trai."
+   },
+   {
+    "ja": "[教室](きょうしつ)に[学生](がくせい)が**います**。",
+    "vi": "Trong lớp học có học sinh."
+   }
+  ]
+ },
+ {
+  "word": "かかります",
+  "reading": "かかります",
+  "meaning": "mất, tốn (thời gian, tiền bạc)",
+  "example": "[駅](えき)まで10[分](ぷん)**かかります**。",
+  "exampleVi": "Đến nhà ga mất 10 phút.",
+  "examples": [
+   {
+    "ja": "[駅](えき)まで10[分](ぷん)**かかります**。",
+    "vi": "Đến nhà ga mất 10 phút."
+   },
+   {
+    "ja": "[日本](にほん)まで[飛行機](ひこうき)で[三時間](さんじかん)**かかります**。",
+    "vi": "Đến Nhật Bản bằng máy bay mất ba tiếng."
+   }
+  ]
+ },
+ {
+  "word": "休みます",
+  "reading": "やすみます",
+  "meaning": "Nghỉ",
+  "example": "[昨日](きのう)は[会社](かいしゃ)を**[休](やす)みました**。",
+  "exampleVi": "Hôm qua tôi đã nghỉ làm.",
+  "examples": [
+   {
+    "ja": "[昨日](きのう)は[会社](かいしゃ)を**[休](やす)みました**。",
+    "vi": "Hôm qua tôi đã nghỉ làm."
+   },
+   {
+    "ja": "かぜをひいたので、[学校](がっこう)を**[休](やす)みました**。",
+    "vi": "Vì bị cảm nên tôi đã nghỉ học."
+   }
+  ]
+ },
+ {
+  "word": "一つ",
+  "reading": "ひとつ",
+  "meaning": "1 cái",
+  "example": "りんごを**[一](ひと)つ**ください。",
+  "exampleVi": "Cho tôi một quả táo.",
+  "examples": [
+   {
+    "ja": "りんごを**[一](ひと)つ**ください。",
+    "vi": "Cho tôi một quả táo."
+   },
+   {
+    "ja": "この[中](なか)から**[一](ひと)つ**えらんでください。",
+    "vi": "Hãy chọn một cái trong số này."
+   }
+  ]
+ },
+ {
+  "word": "二つ",
+  "reading": "ふたつ",
+  "meaning": "2 cái",
+  "example": "みかんを**[二](ふた)つ**[買](か)いました。",
+  "exampleVi": "Tôi đã mua hai quả quýt.",
+  "examples": [
+   {
+    "ja": "みかんを**[二](ふた)つ**[買](か)いました。",
+    "vi": "Tôi đã mua hai quả quýt."
+   },
+   {
+    "ja": "ケーキを**[二](ふた)つ**に[切](き)りました。",
+    "vi": "Tôi đã cắt chiếc bánh làm hai."
+   }
+  ]
+ },
+ {
+  "word": "三つ",
+  "reading": "みっつ",
+  "meaning": "3 cái",
+  "example": "りんごが**[三](みっ)つ**あります。",
+  "exampleVi": "Có ba quả táo.",
+  "examples": [
+   {
+    "ja": "りんごが**[三](みっ)つ**あります。",
+    "vi": "Có ba quả táo."
+   },
+   {
+    "ja": "つくえの[上](うえ)にコップが**[三](みっ)つ**あります。",
+    "vi": "Trên bàn có ba cái cốc."
+   }
+  ]
+ },
+ {
+  "word": "四つ",
+  "reading": "よっつ",
+  "meaning": "4 cái",
+  "example": "[卵](たまご)を**[四](よっ)つ**[食](た)べました。",
+  "exampleVi": "Tôi đã ăn bốn quả trứng.",
+  "examples": [
+   {
+    "ja": "[卵](たまご)を**[四](よっ)つ**[食](た)べました。",
+    "vi": "Tôi đã ăn bốn quả trứng."
+   },
+   {
+    "ja": "パンを**[四](よっ)つ**ください。",
+    "vi": "Cho tôi bốn cái bánh mì."
+   }
+  ]
+ },
+ {
+  "word": "五つ",
+  "reading": "いつつ",
+  "meaning": "5 cái",
+  "example": "アイスクリームを**[五](いつ)つ**ください。",
+  "exampleVi": "Cho tôi năm cây kem.",
+  "examples": [
+   {
+    "ja": "アイスクリームを**[五](いつ)つ**ください。",
+    "vi": "Cho tôi năm cây kem."
+   },
+   {
+    "ja": "**[五](いつ)つ**[数](かぞ)えたら、[目](め)をあけてください。",
+    "vi": "Đếm đến năm thì hãy mở mắt ra."
+   }
+  ]
+ },
+ {
+  "word": "六つ",
+  "reading": "むっつ",
+  "meaning": "6 cái",
+  "example": "みかんが**[六](むっ)つ**あります。",
+  "exampleVi": "Có sáu quả quýt.",
+  "examples": [
+   {
+    "ja": "みかんが**[六](むっ)つ**あります。",
+    "vi": "Có sáu quả quýt."
+   },
+   {
+    "ja": "たまごが**[六](むっ)つ**[入](はい)っています。",
+    "vi": "Có sáu quả trứng ở trong."
+   }
+  ]
+ },
+ {
+  "word": "七つ",
+  "reading": "ななつ",
+  "meaning": "7 cái",
+  "example": "[箱](はこ)の[中](なか)にりんごが**[七](なな)つ**あります。",
+  "exampleVi": "Trong hộp có bảy quả táo.",
+  "examples": [
+   {
+    "ja": "[箱](はこ)の[中](なか)にりんごが**[七](なな)つ**あります。",
+    "vi": "Trong hộp có bảy quả táo."
+   },
+   {
+    "ja": "みかんを**[七](なな)つ**[買](か)いました。",
+    "vi": "Tôi đã mua bảy quả quýt."
+   }
+  ]
+ },
+ {
+  "word": "八つ",
+  "reading": "やっつ",
+  "meaning": "8 cái",
+  "example": "サンドイッチを**[八](やっ)つ**[買](か)います。",
+  "exampleVi": "Tôi mua tám cái bánh sandwich.",
+  "examples": [
+   {
+    "ja": "サンドイッチを**[八](やっ)つ**[買](か)います。",
+    "vi": "Tôi mua tám cái bánh sandwich."
+   },
+   {
+    "ja": "あめを**[八](やっ)つ**もらいました。",
+    "vi": "Tôi đã được cho tám viên kẹo."
+   }
+  ]
+ },
+ {
+  "word": "九つ",
+  "reading": "ここのつ",
+  "meaning": "9 cái",
+  "example": "みかんを**[九](ここの)つ**ください。",
+  "exampleVi": "Cho tôi chín quả quýt.",
+  "examples": [
+   {
+    "ja": "みかんを**[九](ここの)つ**ください。",
+    "vi": "Cho tôi chín quả quýt."
+   },
+   {
+    "ja": "りんごが**[九](ここの)つ**のこっています。",
+    "vi": "Còn lại chín quả táo."
+   }
+  ]
+ },
+ {
+  "word": "十",
+  "reading": "とお",
+  "meaning": "10 cái",
+  "example": "[卵](たまご)が**[十](とお)**あります。",
+  "exampleVi": "Có mười quả trứng.",
+  "examples": [
+   {
+    "ja": "[卵](たまご)が**[十](とお)**あります。",
+    "vi": "Có mười quả trứng."
+   },
+   {
+    "ja": "みかんが**[十](とお)**あります。",
+    "vi": "Có mười quả quýt."
+   }
+  ]
+ },
+ {
+  "word": "いくつ",
+  "reading": "いくつ",
+  "meaning": "mấy cái, bao nhiêu cái",
+  "example": "りんごを**いくつ**[買](か)いましたか。",
+  "exampleVi": "Bạn đã mua mấy quả táo?",
+  "examples": [
+   {
+    "ja": "りんごを**いくつ**[買](か)いましたか。",
+    "vi": "Bạn đã mua mấy quả táo?"
+   },
+   {
+    "ja": "みかんを**いくつ**[食](た)べましたか。",
+    "vi": "Bạn đã ăn mấy quả quýt?"
+   }
+  ]
+ },
+ {
+  "word": "一人",
+  "reading": "ひとり",
+  "meaning": "1 người",
+  "example": "[学生](がくせい)が**[一人](ひとり)**います。",
+  "exampleVi": "Có một học sinh.",
+  "examples": [
+   {
+    "ja": "[学生](がくせい)が**[一人](ひとり)**います。",
+    "vi": "Có một học sinh."
+   },
+   {
+    "ja": "わたしは**[一人](ひとり)**ですんでいます。",
+    "vi": "Tôi sống một mình."
+   }
+  ]
+ },
+ {
+  "word": "二人",
+  "reading": "ふたり",
+  "meaning": "hai người, cặp, đôi",
+  "example": "[兄弟](きょうだい)が**[二人](ふたり)**います。",
+  "exampleVi": "Tôi có hai anh chị em.",
+  "examples": [
+   {
+    "ja": "[兄弟](きょうだい)が**[二人](ふたり)**います。",
+    "vi": "Tôi có hai anh chị em."
+   },
+   {
+    "ja": "**[二人](ふたり)**で[行](い)きます。",
+    "vi": "Hai người cùng đi."
+   }
+  ]
+ },
+ {
+  "word": "台",
+  "reading": "～だい",
+  "meaning": "～cái, chiếc (xe, máy móc)",
+  "example": "[会社](かいしゃ)にコンピューターが5**[台](だい)**あります。",
+  "exampleVi": "Ở công ty có 5 chiếc máy tính.",
+  "examples": [
+   {
+    "ja": "[会社](かいしゃ)にコンピューターが5**[台](だい)**あります。",
+    "vi": "Ở công ty có 5 chiếc máy tính."
+   },
+   {
+    "ja": "[庭](にわ)に[車](くるま)が2**[台](だい)**あります。",
+    "vi": "Ở sân có 2 chiếc xe hơi."
+   }
+  ]
+ },
+ {
+  "word": "枚",
+  "reading": "～まい",
+  "meaning": "～tờ, tấm (vật mỏng)",
+  "example": "きっぷを3**[枚](まい)**ください。",
+  "exampleVi": "Cho tôi 3 vé.",
+  "examples": [
+   {
+    "ja": "きっぷを3**[枚](まい)**ください。",
+    "vi": "Cho tôi 3 vé."
+   },
+   {
+    "ja": "[紙](かみ)を10**[枚](まい)**[買](か)いました。",
+    "vi": "Tôi đã mua 10 tờ giấy."
+   }
+  ]
+ },
+ {
+  "word": "回",
+  "reading": "～かい",
+  "meaning": "～lần",
+  "example": "[一週間](いっしゅうかん)に2**[回](かい)**サッカーをします。",
+  "exampleVi": "Một tuần tôi chơi bóng đá 2 lần.",
+  "examples": [
+   {
+    "ja": "[一週間](いっしゅうかん)に2**[回](かい)**サッカーをします。",
+    "vi": "Một tuần tôi chơi bóng đá 2 lần."
+   },
+   {
+    "ja": "[一週間](いっしゅうかん)に[三](さん)**[回](かい)**コンビニへ[行](い)きます。",
+    "vi": "1 tuần, tôi đi đến cửa hàng tiện lợi 3 lần."
+   }
+  ]
+ },
+ {
+  "word": "りんご",
+  "reading": "りんご",
+  "meaning": "táo",
+  "example": "**りんご**が[好](す)きですか。",
+  "exampleVi": "Bạn có thích táo không?",
+  "examples": [
+   {
+    "ja": "**りんご**が[好](す)きですか。",
+    "vi": "Bạn có thích táo không?"
+   },
+   {
+    "ja": "**りんご**を[買](か)いました。",
+    "vi": "Tôi đã mua táo."
+   }
+  ]
+ },
+ {
+  "word": "みかん",
+  "reading": "みかん",
+  "meaning": "quýt",
+  "example": "**みかん**を[食](た)べます。",
+  "exampleVi": "Tôi ăn quýt.",
+  "examples": [
+   {
+    "ja": "**みかん**を[食](た)べます。",
+    "vi": "Tôi ăn quýt."
+   },
+   {
+    "ja": "[毎朝](まいあさ)**みかん**を[食](た)べます。",
+    "vi": "Sáng nào tôi cũng ăn quýt."
+   }
+  ]
+ },
+ {
+  "word": "サンドイッチ",
+  "reading": "サンドイッチ",
+  "meaning": "bánh sandwich",
+  "example": "**サンドイッチ**を[二](ふた)つください。",
+  "exampleVi": "Cho tôi hai cái bánh sandwich.",
+  "examples": [
+   {
+    "ja": "**サンドイッチ**を[二](ふた)つください。",
+    "vi": "Cho tôi hai cái bánh sandwich."
+   },
+   {
+    "ja": "**サンドイッチ**を[食](た)べます。",
+    "vi": "Tôi ăn bánh mì sandwich."
+   }
+  ]
+ },
+ {
+  "word": "カレーライス",
+  "reading": "カレーライス",
+  "meaning": "cơm cà ri",
+  "example": "**カレーライス**を[一](ひと)つください。",
+  "exampleVi": "Cho tôi một phần cơm cà ri.",
+  "examples": [
+   {
+    "ja": "**カレーライス**を[一](ひと)つください。",
+    "vi": "Cho tôi một phần cơm cà ri."
+   },
+   {
+    "ja": "**カレーライス**はからいです。",
+    "vi": "Cơm cà ri thì cay."
+   }
+  ]
+ },
+ {
+  "word": "アイスクリーム",
+  "reading": "アイスクリーム",
+  "meaning": "kem",
+  "example": "**アイスクリーム**を[買](か)います。",
+  "exampleVi": "Tôi mua kem.",
+  "examples": [
+   {
+    "ja": "**アイスクリーム**を[買](か)います。",
+    "vi": "Tôi mua kem."
+   },
+   {
+    "ja": "**アイスクリーム**は[冷](つめ)たいです。",
+    "vi": "Kem thì lạnh."
+   }
+  ]
+ },
+ {
+  "word": "切手",
+  "reading": "きって",
+  "meaning": "tem",
+  "example": "**[切手](きって)**を5[枚](まい)[買](か)います。",
+  "exampleVi": "Tôi mua 5 con tem.",
+  "examples": [
+   {
+    "ja": "**[切手](きって)**を5[枚](まい)[買](か)います。",
+    "vi": "Tôi mua 5 con tem."
+   },
+   {
+    "ja": "[手紙](てがみ)に**[切手](きって)**をはります。",
+    "vi": "Tôi dán tem lên lá thư."
+   }
+  ]
+ },
+ {
+  "word": "葉書",
+  "reading": "はがき",
+  "meaning": "bưu thiếp",
+  "example": "**[葉書](はがき)**を3[枚](まい)ください。",
+  "exampleVi": "Cho tôi 3 tấm bưu thiếp.",
+  "examples": [
+   {
+    "ja": "**[葉書](はがき)**を3[枚](まい)ください。",
+    "vi": "Cho tôi 3 tấm bưu thiếp."
+   },
+   {
+    "ja": "[友達](ともだち)に**[葉書](はがき)**を[書](か)きます。",
+    "vi": "Tôi viết bưu thiếp cho bạn."
+   }
+  ]
+ },
+ {
+  "word": "ふうとう",
+  "reading": "ふうとう",
+  "meaning": "phong bì",
+  "example": "**ふうとう**を[買](か)います。",
+  "exampleVi": "Tôi mua phong bì.",
+  "examples": [
+   {
+    "ja": "**ふうとう**を[買](か)います。",
+    "vi": "Tôi mua phong bì."
+   },
+   {
+    "ja": "**ふうとう**に[手紙](てがみ)を[入](い)れます。",
+    "vi": "Tôi cho thư vào bì thư."
+   }
+  ]
+ },
+ {
+  "word": "両親",
+  "reading": "りょうしん",
+  "meaning": "bố mẹ",
+  "example": "**[両親](りょうしん)**は[国](くに)にいます。",
+  "exampleVi": "Bố mẹ tôi ở quê nhà.",
+  "examples": [
+   {
+    "ja": "**[両親](りょうしん)**は[国](くに)にいます。",
+    "vi": "Bố mẹ tôi ở quê nhà."
+   },
+   {
+    "ja": "**[両親](りょうしん)**は[日本](にほん)にいます。",
+    "vi": "Bố mẹ tôi ở Nhật Bản."
+   }
+  ]
+ },
+ {
+  "word": "兄弟",
+  "reading": "きょうだい",
+  "meaning": "anh chị em",
+  "example": "ミラーさんは**[兄弟](きょうだい)**が[三人](さんにん)います。",
+  "exampleVi": "Anh Miller có ba anh chị em.",
+  "examples": [
+   {
+    "ja": "ミラーさんは**[兄弟](きょうだい)**が[三人](さんにん)います。",
+    "vi": "Anh Miller có ba anh chị em."
+   },
+   {
+    "ja": "**[兄弟](きょうだい)**は[二人](ふたり)です。",
+    "vi": "Tôi có hai anh chị em."
+   }
+  ]
+ },
+ {
+  "word": "兄",
+  "reading": "あに",
+  "meaning": "anh trai (mình)",
+  "example": "**[兄](あに)**は[銀行員](ぎんこういん)です。",
+  "exampleVi": "Anh trai tôi là nhân viên ngân hàng.",
+  "examples": [
+   {
+    "ja": "**[兄](あに)**は[銀行員](ぎんこういん)です。",
+    "vi": "Anh trai tôi là nhân viên ngân hàng."
+   },
+   {
+    "ja": "**[兄](あに)**は[大学生](だいがくせい)です。",
+    "vi": "Anh trai tôi là sinh viên đại học."
+   }
+  ]
+ },
+ {
+  "word": "お兄さん",
+  "reading": "おにいさん",
+  "meaning": "anh trai (người khác)",
+  "example": "ミラーさんの**お[兄](にい)さん**は[先生](せんせい)です。",
+  "exampleVi": "Anh trai của anh Miller là giáo viên.",
+  "examples": [
+   {
+    "ja": "ミラーさんの**お[兄](にい)さん**は[先生](せんせい)です。",
+    "vi": "Anh trai của anh Miller là giáo viên."
+   },
+   {
+    "ja": "**お[兄](にい)さん**は[車](くるま)が[好](す)きですか。",
+    "vi": "Anh trai bạn có thích xe hơi không?"
+   }
+  ]
+ },
+ {
+  "word": "姉",
+  "reading": "あね",
+  "meaning": "chị gái (mình)",
+  "example": "**[姉](あね)**は[医者](いしゃ)です。",
+  "exampleVi": "Chị gái tôi là bác sĩ.",
+  "examples": [
+   {
+    "ja": "**[姉](あね)**は[医者](いしゃ)です。",
+    "vi": "Chị gái tôi là bác sĩ."
+   },
+   {
+    "ja": "**[姉](あね)**は[大学生](だいがくせい)です。",
+    "vi": "Chị gái tôi là sinh viên đại học."
+   }
+  ]
+ },
+ {
+  "word": "お姉さん",
+  "reading": "おねえさん",
+  "meaning": "chị gái (người khác)",
+  "example": "[田中](たなか)さんの**お[姉](ねえ)さん**は[会社員](かいしゃいん)です。",
+  "exampleVi": "Chị gái của anh Tanaka là nhân viên công ty.",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんの**お[姉](ねえ)さん**は[会社員](かいしゃいん)です。",
+    "vi": "Chị gái của anh Tanaka là nhân viên công ty."
+   },
+   {
+    "ja": "**お[姉](ねえ)さん**は[学生](がくせい)ですか。",
+    "vi": "Chị gái bạn là sinh viên phải không?"
+   }
+  ]
+ },
+ {
+  "word": "弟",
+  "reading": "おとうと",
+  "meaning": "em trai (mình)",
+  "example": "**[弟](おとうと)**は[学生](がくせい)です。",
+  "exampleVi": "Em trai tôi là học sinh.",
+  "examples": [
+   {
+    "ja": "**[弟](おとうと)**は[学生](がくせい)です。",
+    "vi": "Em trai tôi là học sinh."
+   },
+   {
+    "ja": "[私](わたし)は**[弟](おとうと)**が[一人](ひとり)います。",
+    "vi": "Tôi có một em trai."
+   }
+  ]
+ },
+ {
+  "word": "弟さん",
+  "reading": "おとうとさん",
+  "meaning": "em trai (người khác)",
+  "example": "**[弟](おとうと)さん**はなんさいですか。",
+  "exampleVi": "Em trai của bạn mấy tuổi?",
+  "examples": [
+   {
+    "ja": "**[弟](おとうと)さん**はなんさいですか。",
+    "vi": "Em trai của bạn mấy tuổi?"
+   },
+   {
+    "ja": "**[弟](おとうと)さん**はお[元気](げんき)ですか。",
+    "vi": "Em trai bạn có khỏe không?"
+   }
+  ]
+ },
+ {
+  "word": "妹",
+  "reading": "いもうと",
+  "meaning": "em gái (mình)",
+  "example": "**[妹](いもうと)**は[日本](にほん)にいます。",
+  "exampleVi": "Em gái tôi ở Nhật.",
+  "examples": [
+   {
+    "ja": "**[妹](いもうと)**は[日本](にほん)にいます。",
+    "vi": "Em gái tôi ở Nhật."
+   },
+   {
+    "ja": "**[妹](いもうと)**は[犬](いぬ)が[好](す)きです。",
+    "vi": "Em gái tôi thích chó."
+   }
+  ]
+ },
+ {
+  "word": "妹さん",
+  "reading": "いもうとさん",
+  "meaning": "em gái (người khác)",
+  "example": "**[妹](いもうと)さん**は[元気](げんき)ですか。",
+  "exampleVi": "Em gái của bạn có khỏe không?",
+  "examples": [
+   {
+    "ja": "**[妹](いもうと)さん**は[元気](げんき)ですか。",
+    "vi": "Em gái của bạn có khỏe không?"
+   },
+   {
+    "ja": "**[妹](いもうと)さん**は[犬](いぬ)が[好](す)きですか。",
+    "vi": "Em gái bạn có thích chó không?"
+   }
+  ]
+ },
+ {
+  "word": "外国",
+  "reading": "がいこく",
+  "meaning": "nước ngoài",
+  "example": "**[外国](がいこく)**の[友達](ともだち)に[手紙](てがみ)を[送](おく)ります。",
+  "exampleVi": "Tôi gửi thư cho bạn ở nước ngoài.",
+  "examples": [
+   {
+    "ja": "**[外国](がいこく)**の[友達](ともだち)に[手紙](てがみ)を[送](おく)ります。",
+    "vi": "Tôi gửi thư cho bạn ở nước ngoài."
+   },
+   {
+    "ja": "**[外国](がいこく)**にすんだことがありますか。",
+    "vi": "Bạn đã từng sống ở nước ngoài chưa?"
+   }
+  ]
+ },
+ {
+  "word": "留学生",
+  "reading": "りゅうがくせい",
+  "meaning": "du học sinh",
+  "example": "**[留学生](りゅうがくせい)**が[二人](ふたり)います。",
+  "exampleVi": "Có hai du học sinh.",
+  "examples": [
+   {
+    "ja": "**[留学生](りゅうがくせい)**が[二人](ふたり)います。",
+    "vi": "Có hai du học sinh."
+   },
+   {
+    "ja": "[大学](だいがく)にベトナムの**[留学生](りゅうがくせい)**がいます。",
+    "vi": "Ở trường đại học có du học sinh Việt Nam."
+   }
+  ]
+ },
+ {
+  "word": "クラス",
+  "reading": "クラス",
+  "meaning": "lớp học",
+  "example": "**クラス**に[学生](がくせい)が10[人](にん)います。",
+  "exampleVi": "Trong lớp có 10 học sinh.",
+  "examples": [
+   {
+    "ja": "**クラス**に[学生](がくせい)が10[人](にん)います。",
+    "vi": "Trong lớp có 10 học sinh."
+   },
+   {
+    "ja": "[私](わたし)の**クラス**に[先生](せんせい)が[二人](ふたり)います。",
+    "vi": "Lớp tôi có hai giáo viên."
+   }
+  ]
+ },
+ {
+  "word": "時間",
+  "reading": "じかん",
+  "meaning": "Thời gian/～tiếng",
+  "example": "[会社](かいしゃ)まで1**[時間](じかん)**かかります。",
+  "exampleVi": "Đến công ty mất 1 tiếng.",
+  "examples": [
+   {
+    "ja": "[会社](かいしゃ)まで1**[時間](じかん)**かかります。",
+    "vi": "Đến công ty mất 1 tiếng."
+   },
+   {
+    "ja": "**[時間](じかん)**がありません。",
+    "vi": "Tôi không có thời gian."
+   }
+  ]
+ },
+ {
+  "word": "週間",
+  "reading": "～しゅうかん",
+  "meaning": "～tuần",
+  "example": "[日本](にほん)に2**[週間](しゅうかん)**います。",
+  "exampleVi": "Tôi ở Nhật 2 tuần.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)に2**[週間](しゅうかん)**います。",
+    "vi": "Tôi ở Nhật 2 tuần."
+   },
+   {
+    "ja": "アメリカへ[二](に)**[週間](しゅうかん)**[行](い)きました。",
+    "vi": "Tôi đã đi Mỹ 2 tuần."
+   }
+  ]
+ },
+ {
+  "word": "ぐらい",
+  "reading": "ぐらい",
+  "meaning": "khoảng",
+  "example": "[駅](えき)まで10[分](ぷん)**ぐらい**かかります。",
+  "exampleVi": "Đến nhà ga mất khoảng 10 phút.",
+  "examples": [
+   {
+    "ja": "[駅](えき)まで10[分](ぷん)**ぐらい**かかります。",
+    "vi": "Đến nhà ga mất khoảng 10 phút."
+   },
+   {
+    "ja": "[三十分](さんじゅっぷん)**ぐらい**[休](やす)みましょう。",
+    "vi": "Hãy nghỉ ngơi khoảng 30 phút."
+   }
+  ]
+ },
+ {
+  "word": "どのくらい",
+  "reading": "どのくらい",
+  "meaning": "bao lâu, bao nhiêu",
+  "example": "[会社](かいしゃ)まで**どのくらい**かかりますか。",
+  "exampleVi": "Đến công ty mất bao lâu?",
+  "examples": [
+   {
+    "ja": "[会社](かいしゃ)まで**どのくらい**かかりますか。",
+    "vi": "Đến công ty mất bao lâu?"
+   },
+   {
+    "ja": "[大学](だいがく)まで**どのくらい**かかりますか。",
+    "vi": "Đến trường đại học mất khoảng bao lâu?"
+   }
+  ]
+ },
+ {
+  "word": "全部で",
+  "reading": "ぜんぶで",
+  "meaning": "tổng cộng",
+  "example": "**[全部](ぜんぶ)で**500[円](えん)です。",
+  "exampleVi": "Tổng cộng là 500 yên.",
+  "examples": [
+   {
+    "ja": "**[全部](ぜんぶ)で**500[円](えん)です。",
+    "vi": "Tổng cộng là 500 yên."
+   },
+   {
+    "ja": "**[全部](ぜんぶ)で**いくらですか。",
+    "vi": "Tổng cộng là bao nhiêu tiền vậy?"
+   }
+  ]
+ },
+ {
+  "word": "みんな",
+  "reading": "みんな",
+  "meaning": "tất cả, mọi người",
+  "example": "**みんな**[学生](がくせい)です。",
+  "exampleVi": "Tất cả đều là học sinh.",
+  "examples": [
+   {
+    "ja": "**みんな**[学生](がくせい)です。",
+    "vi": "Tất cả đều là học sinh."
+   },
+   {
+    "ja": "[友達](ともだち)は**みんな**[親切](しんせつ)です。",
+    "vi": "Bạn tôi mọi người đều tử tế."
+   }
+  ]
+ },
+ {
+  "word": "だけ",
+  "reading": "だけ",
+  "meaning": "chỉ",
+  "example": "[卵](たまご)を[一](ひと)つ**だけ**[買](か)いました。",
+  "exampleVi": "Tôi chỉ mua một quả trứng.",
+  "examples": [
+   {
+    "ja": "[卵](たまご)を[一](ひと)つ**だけ**[買](か)いました。",
+    "vi": "Tôi chỉ mua một quả trứng."
+   },
+   {
+    "ja": "1[回](かい)**だけ**[飛行機](ひこうき)に[乗](の)ったことがあります。",
+    "vi": "Tôi chỉ từng đi máy bay 1 lần."
+   }
+  ]
+ },
+ {
+  "word": "船便",
+  "reading": "ふなびん",
+  "meaning": "gửi bằng đường biển",
+  "example": "**[船便](ふなびん)**で[荷物](にもつ)を[送](おく)ります。",
+  "exampleVi": "Tôi gửi hành lý bằng đường biển.",
+  "examples": [
+   {
+    "ja": "**[船便](ふなびん)**で[荷物](にもつ)を[送](おく)ります。",
+    "vi": "Tôi gửi hành lý bằng đường biển."
+   },
+   {
+    "ja": "**[船便](ふなびん)**で[送](おく)ります。",
+    "vi": "Tôi gửi bằng đường biển."
+   }
+  ]
+ },
+ {
+  "word": "航空便",
+  "reading": "こうくうびん",
+  "meaning": "gửi đường hàng không",
+  "example": "**[航空便](こうくうびん)**で[手紙](てがみ)を[送](おく)ります。",
+  "exampleVi": "Tôi gửi thư bằng đường hàng không.",
+  "examples": [
+   {
+    "ja": "**[航空便](こうくうびん)**で[手紙](てがみ)を[送](おく)ります。",
+    "vi": "Tôi gửi thư bằng đường hàng không."
+   },
+   {
+    "ja": "**[航空便](こうくうびん)**で[荷物](にもつ)を[送](おく)ります。",
+    "vi": "Tôi gửi hành lý bằng đường hàng không."
+   }
+  ]
+ },
+ {
+  "word": "エアメール",
+  "reading": "エアメール",
+  "meaning": "thư gửi đường hàng không",
+  "example": "**エアメール**で[葉書](はがき)を[送](おく)ります。",
+  "exampleVi": "Tôi gửi bưu thiếp bằng thư máy bay (air mail).",
+  "examples": [
+   {
+    "ja": "**エアメール**で[葉書](はがき)を[送](おく)ります。",
+    "vi": "Tôi gửi bưu thiếp bằng thư máy bay (air mail)."
+   },
+   {
+    "ja": "イギリスまで**エアメール**でお[願](ねが)いします。",
+    "vi": "Vui lòng gửi bằng đường hàng không đến Anh."
+   }
+  ]
+ },
+ {
+  "word": "オーストラリア",
+  "reading": "オーストラリア",
+  "meaning": "Úc",
+  "example": "**オーストラリア**まで[飛行機](ひこうき)で10[時間](じかん)かかります。",
+  "exampleVi": "Đến Úc bằng máy bay mất 10 tiếng.",
+  "examples": [
+   {
+    "ja": "**オーストラリア**まで[飛行機](ひこうき)で10[時間](じかん)かかります。",
+    "vi": "Đến Úc bằng máy bay mất 10 tiếng."
+   },
+   {
+    "ja": "**オーストラリア**に[行](い)きたいです。",
+    "vi": "Tôi muốn đến Úc."
+   }
+  ]
+ }
 ]

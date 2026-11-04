@@ -1,12 +1,172 @@
 [
-  "考えます",
-  "着きます",
-  "留学します",
-  "田舎",
-  "大使館",
-  "グループ",
-  "チャンス",
-  "億",
-  "転勤します",
-  "頑張ります"
+ {
+  "word": "考えます",
+  "reading": "かんがえます",
+  "meaning": "suy nghĩ",
+  "example": "よく**[考](かんが)えます**。",
+  "exampleVi": "Tôi suy nghĩ kỹ.",
+  "examples": [
+   {
+    "ja": "よく**[考](かんが)えます**。",
+    "vi": "Tôi suy nghĩ kỹ."
+   },
+   {
+    "ja": "[将来](しょうらい)のことを**[考](かんが)えています**。",
+    "vi": "Tôi đang suy nghĩ về chuyện tương lai."
+   }
+  ]
+ },
+ {
+  "word": "着きます",
+  "reading": "つきます",
+  "meaning": "đến nơi",
+  "example": "[駅](えき)に**[着](つ)きます**。",
+  "exampleVi": "Tôi đến nhà ga.",
+  "examples": [
+   {
+    "ja": "[駅](えき)に**[着](つ)きます**。",
+    "vi": "Tôi đến nhà ga."
+   },
+   {
+    "ja": "[10時](じゅうじ)に[会社](かいしゃ)に**[着](つ)きます**。",
+    "vi": "Tôi đến công ty lúc 10 giờ."
+   }
+  ]
+ },
+ {
+  "word": "留学します",
+  "reading": "りゅうがくします",
+  "meaning": "du học",
+  "example": "[来年](らいねん)、[日本](にほん)へ**[留学](りゅうがく)します**。",
+  "exampleVi": "Sang năm tôi sẽ đi du học ở Nhật.",
+  "examples": [
+   {
+    "ja": "[来年](らいねん)、[日本](にほん)へ**[留学](りゅうがく)します**。",
+    "vi": "Sang năm tôi sẽ đi du học ở Nhật."
+   },
+   {
+    "ja": "[姉](あね)はアメリカへ**[留学](りゅうがく)しました**。",
+    "vi": "Chị tôi đã đi du học ở Mỹ."
+   }
+  ]
+ },
+ {
+  "word": "田舎",
+  "reading": "いなか",
+  "meaning": "quê, nông thôn",
+  "example": "**[田舎](いなか)**に[帰](かえ)りたいです。",
+  "exampleVi": "Tôi muốn về quê.",
+  "examples": [
+   {
+    "ja": "**[田舎](いなか)**に[帰](かえ)りたいです。",
+    "vi": "Tôi muốn về quê."
+   },
+   {
+    "ja": "**[田舎](いなか)**が[好](す)きです。",
+    "vi": "Tôi thích vùng quê."
+   }
+  ]
+ },
+ {
+  "word": "大使館",
+  "reading": "たいしかん",
+  "meaning": "đại sứ quán",
+  "example": "**[大使館](たいしかん)**にビザを[取](と)りに[行](い)きます。",
+  "exampleVi": "Tôi đến đại sứ quán để lấy visa.",
+  "examples": [
+   {
+    "ja": "**[大使館](たいしかん)**にビザを[取](と)りに[行](い)きます。",
+    "vi": "Tôi đến đại sứ quán để lấy visa."
+   },
+   {
+    "ja": "**[大使館](たいしかん)**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Đại sứ quán ở gần nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "グループ",
+  "reading": "グループ",
+  "meaning": "nhóm",
+  "example": "**グループ**で[勉強](べんきょう)します。",
+  "exampleVi": "Tôi học theo nhóm.",
+  "examples": [
+   {
+    "ja": "**グループ**で[勉強](べんきょう)します。",
+    "vi": "Tôi học theo nhóm."
+   },
+   {
+    "ja": "[私](わたし)たちの**グループ**は[五人](ごにん)です。",
+    "vi": "Nhóm của chúng tôi có 5 người."
+   }
+  ]
+ },
+ {
+  "word": "チャンス",
+  "reading": "チャンス",
+  "meaning": "cơ hội",
+  "example": "これはいい**チャンス**です。",
+  "exampleVi": "Đây là cơ hội tốt.",
+  "examples": [
+   {
+    "ja": "これはいい**チャンス**です。",
+    "vi": "Đây là cơ hội tốt."
+   },
+   {
+    "ja": "**チャンス**があったら、[北海道](ほっかいどう)へ[行](い)きたいです。",
+    "vi": "Nếu có dịp, tôi muốn đi Hokkaido."
+   }
+  ]
+ },
+ {
+  "word": "億",
+  "reading": "おく",
+  "meaning": "một trăm triệu",
+  "example": "[一](いち)**[億](おく)**[円](えん)があったら、[家](いえ)を[買](か)いたいです。",
+  "exampleVi": "Nếu có 100 triệu yên, tôi muốn mua nhà.",
+  "examples": [
+   {
+    "ja": "[一](いち)**[億](おく)**[円](えん)があったら、[家](いえ)を[買](か)いたいです。",
+    "vi": "Nếu có 100 triệu yên, tôi muốn mua nhà."
+   },
+   {
+    "ja": "[一](いち)**[億](おく)**、[二](に)**[億](おく)**。",
+    "vi": "Một trăm triệu, hai trăm triệu."
+   }
+  ]
+ },
+ {
+  "word": "転勤します",
+  "reading": "てんきんします",
+  "meaning": "chuyển công tác",
+  "example": "[来月](らいげつ)、**[転勤](てんきん)します**。",
+  "exampleVi": "Tháng sau tôi chuyển công tác.",
+  "examples": [
+   {
+    "ja": "[来月](らいげつ)、**[転勤](てんきん)します**。",
+    "vi": "Tháng sau tôi chuyển công tác."
+   },
+   {
+    "ja": "[来月](らいげつ)、[大阪](おおさか)へ**[転勤](てんきん)します**。",
+    "vi": "Tháng tới, tôi chuyển sở làm đến Osaka."
+   }
+  ]
+ },
+ {
+  "word": "がんばります",
+  "reading": "がんばります",
+  "meaning": "cố gắng",
+  "example": "[試験](しけん)まで**がんばります**。",
+  "exampleVi": "Tôi sẽ cố gắng cho đến kỳ thi.",
+  "examples": [
+   {
+    "ja": "[試験](しけん)まで**がんばります**。",
+    "vi": "Tôi sẽ cố gắng cho đến kỳ thi."
+   },
+   {
+    "ja": "**がんばって**ください。",
+    "vi": "Hãy cố gắng lên."
+   }
+  ]
+ }
 ]

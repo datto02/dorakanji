@@ -1,34 +1,546 @@
 [
-  "遊びます",
-  "泳ぎます",
-  "迎えます",
-  "疲れます",
-  "入ります",
-  "出ます",
-  "結婚します",
-  "買い物します",
-  "食事します",
-  "散歩します",
-  "大変",
-  "欲しい",
-  "寂しい",
-  "広い",
-  "狭い",
-  "市役所",
-  "プール",
-  "川",
-  "経済",
-  "美術",
-  "釣り",
-  "スキー",
-  "会議",
-  "登録",
-  "週末",
-  "ごろ",
-  "何か",
-  "どこか",
-  "定食",
-  "牛どん",
-  "べつべつに",
-  "ロシア"
+ {
+  "word": "遊びます",
+  "reading": "あそびます",
+  "meaning": "chơi",
+  "example": "[日曜日](にちようび)に[友達](ともだち)と[公園](こうえん)で**[遊](あそ)びます**。",
+  "exampleVi": "Chủ nhật tôi chơi với bạn ở công viên.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に[友達](ともだち)と[公園](こうえん)で**[遊](あそ)びます**。",
+    "vi": "Chủ nhật tôi chơi với bạn ở công viên."
+   },
+   {
+    "ja": "[日曜日](にちようび)に[子供](こども)と**[遊](あそ)びました**。",
+    "vi": "Chủ nhật, tôi đã chơi đùa cùng các con."
+   }
+  ]
+ },
+ {
+  "word": "泳ぎます",
+  "reading": "およぎます",
+  "meaning": "bơi",
+  "example": "プールで**[泳](およ)ぎます**。",
+  "exampleVi": "Tôi bơi ở bể bơi.",
+  "examples": [
+   {
+    "ja": "プールで**[泳](およ)ぎます**。",
+    "vi": "Tôi bơi ở bể bơi."
+   },
+   {
+    "ja": "[沖縄](おきなわ)の[海](うみ)で**[泳](およ)ぎました**。",
+    "vi": "Tôi đã bơi ở biển Okinawa."
+   }
+  ]
+ },
+ {
+  "word": "むかえます",
+  "reading": "むかえます",
+  "meaning": "đón",
+  "example": "[駅](えき)へ[友達](ともだち)を**むかえ**に[行](い)きます。",
+  "exampleVi": "Tôi đi đến nhà ga để đón bạn.",
+  "examples": [
+   {
+    "ja": "[駅](えき)へ[友達](ともだち)を**むかえ**に[行](い)きます。",
+    "vi": "Tôi đi đến nhà ga để đón bạn."
+   },
+   {
+    "ja": "[成田](なりた)へ[父](ちち)を**むかえ**に[行](い)きます。",
+    "vi": "Tôi đi đến Narita để đón bố."
+   }
+  ]
+ },
+ {
+  "word": "つかれます",
+  "reading": "つかれます",
+  "meaning": "mệt",
+  "example": "[今日](きょう)はとても**つかれました**。",
+  "exampleVi": "Hôm nay tôi rất mệt.",
+  "examples": [
+   {
+    "ja": "[今日](きょう)はとても**つかれました**。",
+    "vi": "Hôm nay tôi rất mệt."
+   },
+   {
+    "ja": "[今日](きょう)は[歩](ある)いて、とても**つかれました**。",
+    "vi": "Hôm nay đi bộ nhiều nên tôi rất mệt."
+   }
+  ]
+ },
+ {
+  "word": "入ります",
+  "reading": "はいります",
+  "meaning": "vào",
+  "example": "[部屋](へや)に**[入](はい)ります**。",
+  "exampleVi": "Tôi vào phòng.",
+  "examples": [
+   {
+    "ja": "[部屋](へや)に**[入](はい)ります**。",
+    "vi": "Tôi vào phòng."
+   },
+   {
+    "ja": "[家](いえ)に**[入](はい)る**[時](とき)は、くつをぬぎます。",
+    "vi": "Khi vào nhà thì cởi giày."
+   }
+  ]
+ },
+ {
+  "word": "出ます",
+  "reading": "でます",
+  "meaning": "ra",
+  "example": "[毎日](まいにち)8[時](じ)に[家](うち)を**[出](で)ます**。",
+  "exampleVi": "Ngày nào tôi cũng rời nhà lúc 8 giờ.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)8[時](じ)に[家](うち)を**[出](で)ます**。",
+    "vi": "Ngày nào tôi cũng rời nhà lúc 8 giờ."
+   },
+   {
+    "ja": "[八](はち)[時](じ)に、[家](いえ)を**[出](で)ます**。",
+    "vi": "Tôi ra khỏi nhà lúc tám giờ."
+   }
+  ]
+ },
+ {
+  "word": "けっこんします",
+  "reading": "けっこんします",
+  "meaning": "kết hôn",
+  "example": "[姉](あね)は[来年](らいねん)**けっこんします**。",
+  "exampleVi": "Chị gái tôi sẽ kết hôn vào năm sau.",
+  "examples": [
+   {
+    "ja": "[姉](あね)は[来年](らいねん)**けっこんします**。",
+    "vi": "Chị gái tôi sẽ kết hôn vào năm sau."
+   },
+   {
+    "ja": "[兄](あに)は[今年](ことし)**けっこんします**。",
+    "vi": "Anh trai tôi năm nay sẽ kết hôn."
+   }
+  ]
+ },
+ {
+  "word": "買い物します",
+  "reading": "かいものします",
+  "meaning": "mua sắm",
+  "example": "[土曜日](どようび)にデパートで**[買](か)い[物](もの)します**。",
+  "exampleVi": "Thứ bảy tôi mua sắm ở cửa hàng bách hóa.",
+  "examples": [
+   {
+    "ja": "[土曜日](どようび)にデパートで**[買](か)い[物](もの)します**。",
+    "vi": "Thứ bảy tôi mua sắm ở cửa hàng bách hóa."
+   },
+   {
+    "ja": "[毎週](まいしゅう)[日曜日](にちようび)に**[買](か)い[物](もの)します**。",
+    "vi": "Chủ nhật hàng tuần tôi đi mua sắm."
+   }
+  ]
+ },
+ {
+  "word": "食事します",
+  "reading": "しょくじします",
+  "meaning": "dùng bữa, ăn cơm",
+  "example": "[友達](ともだち)と**[食事](しょくじ)します**。",
+  "exampleVi": "Tôi dùng bữa với bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)と**[食事](しょくじ)します**。",
+    "vi": "Tôi dùng bữa với bạn."
+   },
+   {
+    "ja": "[家族](かぞく)と**[食事](しょくじ)します**。",
+    "vi": "Tôi dùng bữa cùng gia đình."
+   }
+  ]
+ },
+ {
+  "word": "散歩します",
+  "reading": "さんぽします",
+  "meaning": "đi dạo",
+  "example": "[公園](こうえん)を**[散歩](さんぽ)します**。",
+  "exampleVi": "Tôi đi dạo trong công viên.",
+  "examples": [
+   {
+    "ja": "[公園](こうえん)を**[散歩](さんぽ)します**。",
+    "vi": "Tôi đi dạo trong công viên."
+   },
+   {
+    "ja": "[朝](あさ)、[犬](いぬ)と**[散歩](さんぽ)します**。",
+    "vi": "Buổi sáng tôi đi dạo cùng chú chó."
+   }
+  ]
+ },
+ {
+  "word": "大変",
+  "reading": "たいへん",
+  "meaning": "vất vả, rất, kinh khủng",
+  "example": "[仕事](しごと)は**[大変](たいへん)**です。",
+  "exampleVi": "Công việc vất vả.",
+  "examples": [
+   {
+    "ja": "[仕事](しごと)は**[大変](たいへん)**です。",
+    "vi": "Công việc vất vả."
+   },
+   {
+    "ja": "[今日](きょう)は**[大変](たいへん)**でした。",
+    "vi": "Hôm nay thật là vất vả."
+   }
+  ]
+ },
+ {
+  "word": "欲しい",
+  "reading": "ほしい",
+  "meaning": "muốn",
+  "example": "[新](あたら)しい[車](くるま)が**[欲](ほ)しい**です。",
+  "exampleVi": "Tôi muốn có một chiếc xe hơi mới.",
+  "examples": [
+   {
+    "ja": "[新](あたら)しい[車](くるま)が**[欲](ほ)しい**です。",
+    "vi": "Tôi muốn có một chiếc xe hơi mới."
+   },
+   {
+    "ja": "[小](ちい)さいパソコンが**[欲](ほ)しい**です。",
+    "vi": "Tôi muốn có cái máy tính nhỏ."
+   }
+  ]
+ },
+ {
+  "word": "さびしい",
+  "reading": "さびしい",
+  "meaning": "buồn, cô đơn",
+  "example": "[一人](ひとり)は**さびしい**です。",
+  "exampleVi": "Ở một mình thì cô đơn.",
+  "examples": [
+   {
+    "ja": "[一人](ひとり)は**さびしい**です。",
+    "vi": "Ở một mình thì cô đơn."
+   },
+   {
+    "ja": "[一人](ひとり)のとき、**さびしい**です。",
+    "vi": "Khi ở một mình, tôi thấy cô đơn."
+   }
+  ]
+ },
+ {
+  "word": "広い",
+  "reading": "ひろい",
+  "meaning": "rộng",
+  "example": "この[部屋](へや)は**[広](ひろ)い**です。",
+  "exampleVi": "Căn phòng này rộng.",
+  "examples": [
+   {
+    "ja": "この[部屋](へや)は**[広](ひろ)い**です。",
+    "vi": "Căn phòng này rộng."
+   },
+   {
+    "ja": "[私](わたし)の[家](いえ)は**[広](ひろ)い**です。",
+    "vi": "Nhà tôi rộng."
+   }
+  ]
+ },
+ {
+  "word": "せまい",
+  "reading": "せまい",
+  "meaning": "hẹp",
+  "example": "わたしのりょうは**せまい**です。",
+  "exampleVi": "Ký túc xá của tôi chật.",
+  "examples": [
+   {
+    "ja": "わたしのりょうは**せまい**です。",
+    "vi": "Ký túc xá của tôi chật."
+   },
+   {
+    "ja": "[日本](にほん)の[家](いえ)は**せまい**です。",
+    "vi": "Nhà ở Nhật chật."
+   }
+  ]
+ },
+ {
+  "word": "市役所",
+  "reading": "しやくしょ",
+  "meaning": "tòa thị chính",
+  "example": "**[市役所](しやくしょ)**は[駅](えき)の[近](ちか)くにあります。",
+  "exampleVi": "Tòa thị chính ở gần nhà ga.",
+  "examples": [
+   {
+    "ja": "**[市役所](しやくしょ)**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Tòa thị chính ở gần nhà ga."
+   },
+   {
+    "ja": "**[市役所](しやくしょ)**で[働](はたら)いています。",
+    "vi": "Tôi làm việc ở tòa thị chính."
+   }
+  ]
+ },
+ {
+  "word": "プール",
+  "reading": "プール",
+  "meaning": "bể bơi",
+  "example": "**プール**へ[泳](およ)ぎに[行](い)きます。",
+  "exampleVi": "Tôi đi bơi ở bể bơi.",
+  "examples": [
+   {
+    "ja": "**プール**へ[泳](およ)ぎに[行](い)きます。",
+    "vi": "Tôi đi bơi ở bể bơi."
+   },
+   {
+    "ja": "[昨日](きのう)、**プール**で[泳](およ)ぎました。",
+    "vi": "Hôm qua, tôi đã bơi ở hồ bơi."
+   }
+  ]
+ },
+ {
+  "word": "川",
+  "reading": "かわ",
+  "meaning": "sông",
+  "example": "**[川](かわ)**へつりに[行](い)きます。",
+  "exampleVi": "Tôi đi câu cá ở sông.",
+  "examples": [
+   {
+    "ja": "**[川](かわ)**へつりに[行](い)きます。",
+    "vi": "Tôi đi câu cá ở sông."
+   },
+   {
+    "ja": "**[川](かわ)**で、[魚](さかな)を[見](み)ました。",
+    "vi": "Tôi đã nhìn thấy cá ở sông."
+   }
+  ]
+ },
+ {
+  "word": "経済",
+  "reading": "けいざい",
+  "meaning": "kinh tế",
+  "example": "**[経済](けいざい)**を[勉強](べんきょう)しに[日本](にほん)へ[来](き)ました。",
+  "exampleVi": "Tôi đã đến Nhật để học kinh tế.",
+  "examples": [
+   {
+    "ja": "**[経済](けいざい)**を[勉強](べんきょう)しに[日本](にほん)へ[来](き)ました。",
+    "vi": "Tôi đã đến Nhật để học kinh tế."
+   },
+   {
+    "ja": "**[経済](けいざい)**は[難](むずか)しいです。",
+    "vi": "Kinh tế khó."
+   }
+  ]
+ },
+ {
+  "word": "美術",
+  "reading": "びじゅつ",
+  "meaning": "mỹ thuật",
+  "example": "**[美術](びじゅつ)**を[勉強](べんきょう)したいです。",
+  "exampleVi": "Tôi muốn học mỹ thuật.",
+  "examples": [
+   {
+    "ja": "**[美術](びじゅつ)**を[勉強](べんきょう)したいです。",
+    "vi": "Tôi muốn học mỹ thuật."
+   },
+   {
+    "ja": "[専門](せんもん)は**[美術](びじゅつ)**です。",
+    "vi": "Chuyên môn là mỹ thuật."
+   }
+  ]
+ },
+ {
+  "word": "つり",
+  "reading": "つり",
+  "meaning": "câu cá",
+  "example": "[日曜日](にちようび)に**つり**に[行](い)きます。",
+  "exampleVi": "Chủ nhật tôi đi câu cá.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に**つり**に[行](い)きます。",
+    "vi": "Chủ nhật tôi đi câu cá."
+   },
+   {
+    "ja": "[川](かわ)で**つり**をします。",
+    "vi": "Tôi câu cá ở sông."
+   }
+  ]
+ },
+ {
+  "word": "スキー",
+  "reading": "スキー",
+  "meaning": "việc trượt tuyết",
+  "example": "[冬](ふゆ)は**スキー**に[行](い)きます。",
+  "exampleVi": "Mùa đông tôi đi trượt tuyết.",
+  "examples": [
+   {
+    "ja": "[冬](ふゆ)は**スキー**に[行](い)きます。",
+    "vi": "Mùa đông tôi đi trượt tuyết."
+   },
+   {
+    "ja": "[冬](ふゆ)は、[山](やま)へ**スキー**に[行](い)きます。",
+    "vi": "Mùa đông tôi lên núi trượt tuyết."
+   }
+  ]
+ },
+ {
+  "word": "会議",
+  "reading": "かいぎ",
+  "meaning": "cuộc họp",
+  "example": "**[会議](かいぎ)**に[行](い)きます。",
+  "exampleVi": "Tôi đi họp.",
+  "examples": [
+   {
+    "ja": "**[会議](かいぎ)**に[行](い)きます。",
+    "vi": "Tôi đi họp."
+   },
+   {
+    "ja": "**[会議](かいぎ)**は2[時](じ)から4[時](じ)までです。",
+    "vi": "Cuộc họp diễn ra từ 2 giờ đến 4 giờ."
+   }
+  ]
+ },
+ {
+  "word": "登録",
+  "reading": "とうろく",
+  "meaning": "đăng ký",
+  "example": "**[登録](とうろく)**に[行](い)きます。",
+  "exampleVi": "Tôi đi đăng ký.",
+  "examples": [
+   {
+    "ja": "**[登録](とうろく)**に[行](い)きます。",
+    "vi": "Tôi đi đăng ký."
+   },
+   {
+    "ja": "[市役所](しやくしょ)で**[登録](とうろく)します**。",
+    "vi": "Tôi đăng ký ở tòa thị chính."
+   }
+  ]
+ },
+ {
+  "word": "週末",
+  "reading": "しゅうまつ",
+  "meaning": "cuối tuần",
+  "example": "**[週末](しゅうまつ)**は[家](うち)で[休](やす)みたいです。",
+  "exampleVi": "Cuối tuần tôi muốn nghỉ ngơi ở nhà.",
+  "examples": [
+   {
+    "ja": "**[週末](しゅうまつ)**は[家](うち)で[休](やす)みたいです。",
+    "vi": "Cuối tuần tôi muốn nghỉ ngơi ở nhà."
+   },
+   {
+    "ja": "**[週末](しゅうまつ)**は[休](やす)みです。",
+    "vi": "Cuối tuần là ngày nghỉ."
+   }
+  ]
+ },
+ {
+  "word": "ごろ",
+  "reading": "ごろ",
+  "meaning": "khoảng ~ (thời gian)",
+  "example": "[明日](あした)3[時](じ)**ごろ**[来](き)ます。",
+  "exampleVi": "Ngày mai khoảng 3 giờ tôi sẽ đến.",
+  "examples": [
+   {
+    "ja": "[明日](あした)3[時](じ)**ごろ**[来](き)ます。",
+    "vi": "Ngày mai khoảng 3 giờ tôi sẽ đến."
+   },
+   {
+    "ja": "[八時](はちじ)[四十分](よんじゅっぷん)**ごろ**[学校](がっこう)へ[行](い)きます。",
+    "vi": "Tôi đi học vào khoảng 8 giờ 40 phút."
+   }
+  ]
+ },
+ {
+  "word": "何か",
+  "reading": "なにか",
+  "meaning": "cái gì đó",
+  "example": "**[何](なに)か**[食](た)べたいです。",
+  "exampleVi": "Tôi muốn ăn cái gì đó.",
+  "examples": [
+   {
+    "ja": "**[何](なに)か**[食](た)べたいです。",
+    "vi": "Tôi muốn ăn cái gì đó."
+   },
+   {
+    "ja": "[朝](あさ)、**[何](なに)か**[食](た)べましたか。",
+    "vi": "Buổi sáng bạn có ăn gì đó không?"
+   }
+  ]
+ },
+ {
+  "word": "どこか",
+  "reading": "どこか",
+  "meaning": "đâu đó, chỗ nào đó",
+  "example": "**どこか**[静](しず)かな[所](ところ)へ[行](い)きたいです。",
+  "exampleVi": "Tôi muốn đi đến một nơi yên tĩnh nào đó.",
+  "examples": [
+   {
+    "ja": "**どこか**[静](しず)かな[所](ところ)へ[行](い)きたいです。",
+    "vi": "Tôi muốn đi đến một nơi yên tĩnh nào đó."
+   },
+   {
+    "ja": "[夏休](なつやす)みに**どこか**[行](い)きますか。",
+    "vi": "Kỳ nghỉ hè bạn có đi đâu đó không?"
+   }
+  ]
+ },
+ {
+  "word": "定食",
+  "reading": "ていしょく",
+  "meaning": "cơm suất",
+  "example": "**[定食](ていしょく)**をください。",
+  "exampleVi": "Cho tôi một suất cơm (teishoku).",
+  "examples": [
+   {
+    "ja": "**[定食](ていしょく)**をください。",
+    "vi": "Cho tôi một suất cơm (teishoku)."
+   },
+   {
+    "ja": "[食堂](しょくどう)で**[定食](ていしょく)**を[食](た)べます。",
+    "vi": "Tôi ăn cơm phần ở quán ăn."
+   }
+  ]
+ },
+ {
+  "word": "牛どん",
+  "reading": "ぎゅうどん",
+  "meaning": "món cơm thịt bò",
+  "example": "**ぎゅうどん**を[食](た)べたいです。",
+  "exampleVi": "Tôi muốn ăn cơm thịt bò.",
+  "examples": [
+   {
+    "ja": "**ぎゅうどん**を[食](た)べたいです。",
+    "vi": "Tôi muốn ăn cơm thịt bò."
+   },
+   {
+    "ja": "**[牛](ぎゅう)どん**を[食](た)べます。",
+    "vi": "Tôi ăn cơm bò."
+   }
+  ]
+ },
+ {
+  "word": "べつべつに",
+  "reading": "べつべつに",
+  "meaning": "riêng ra",
+  "example": "**べつべつに**[食事](しょくじ)します。",
+  "exampleVi": "Chúng tôi dùng bữa riêng nhau.",
+  "examples": [
+   {
+    "ja": "**べつべつに**[食事](しょくじ)します。",
+    "vi": "Chúng tôi dùng bữa riêng nhau."
+   },
+   {
+    "ja": "[友達](ともだち)と**べつべつに**[帰](かえ)ります。",
+    "vi": "Tôi về riêng với bạn."
+   }
+  ]
+ },
+ {
+  "word": "ロシア",
+  "reading": "ロシア",
+  "meaning": "Nga",
+  "example": "**ロシア**へ[行](い)きたいです。",
+  "exampleVi": "Tôi muốn đi Nga.",
+  "examples": [
+   {
+    "ja": "**ロシア**へ[行](い)きたいです。",
+    "vi": "Tôi muốn đi Nga."
+   },
+   {
+    "ja": "**ロシア**へ[行](い)きます。",
+    "vi": "Tôi sẽ đi Nga."
+   }
+  ]
+ }
 ]

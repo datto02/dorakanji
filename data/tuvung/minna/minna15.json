@@ -1,22 +1,342 @@
 [
-  "置きます",
-  "作ります",
-  "売ります",
-  "知ります",
-  "住みます",
-  "研究します",
-  "資料",
-  "カタログ",
-  "時刻表",
-  "服",
-  "製品",
-  "ソフト",
-  "電子辞書",
-  "経済",
-  "市役所",
-  "高校",
-  "歯医者",
-  "独身",
-  "皆さん",
-  "思い出します"
+ {
+  "word": "置きます",
+  "reading": "おきます",
+  "meaning": "đặt, để",
+  "example": "ここにかばんを**[置](お)きます**。",
+  "exampleVi": "Tôi đặt cặp ở đây.",
+  "examples": [
+   {
+    "ja": "ここにかばんを**[置](お)きます**。",
+    "vi": "Tôi đặt cặp ở đây."
+   },
+   {
+    "ja": "[机](つくえ)の[上](うえ)に[本](ほん)を**[置](お)きます**。",
+    "vi": "Tôi đặt sách lên bàn."
+   }
+  ]
+ },
+ {
+  "word": "作ります",
+  "reading": "つくります",
+  "meaning": "làm, chế tạo",
+  "example": "[私](わたし)は[毎日](まいにち)[晩](ばん)ご[飯](はん)を**[作](つく)ります**。",
+  "exampleVi": "Ngày nào tôi cũng nấu bữa tối.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[毎日](まいにち)[晩](ばん)ご[飯](はん)を**[作](つく)ります**。",
+    "vi": "Ngày nào tôi cũng nấu bữa tối."
+   },
+   {
+    "ja": "これは[日本](にほん)の[工場](こうじょう)で**[作](つく)りました**。",
+    "vi": "Cái này đã (được) làm tại nhà máy của Nhật."
+   }
+  ]
+ },
+ {
+  "word": "売ります",
+  "reading": "うります",
+  "meaning": "bán",
+  "example": "この[店](みせ)は[服](ふく)を**[売](う)ります**。",
+  "exampleVi": "Cửa hàng này bán quần áo.",
+  "examples": [
+   {
+    "ja": "この[店](みせ)は[服](ふく)を**[売](う)ります**。",
+    "vi": "Cửa hàng này bán quần áo."
+   },
+   {
+    "ja": "[駅](えき)の[店](みせ)で[新聞](しんぶん)を**[売](う)っています**。",
+    "vi": "Cửa hàng ở nhà ga đang bán báo."
+   }
+  ]
+ },
+ {
+  "word": "知ります",
+  "reading": "しります",
+  "meaning": "biết",
+  "example": "[田中](たなか)さんの[住所](じゅうしょ)を**[知](し)りません**。",
+  "exampleVi": "Tôi không biết địa chỉ của anh Tanaka.",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんの[住所](じゅうしょ)を**[知](し)りません**。",
+    "vi": "Tôi không biết địa chỉ của anh Tanaka."
+   },
+   {
+    "ja": "いいえ、**[知](し)りません**。",
+    "vi": "Không, tôi không biết."
+   }
+  ]
+ },
+ {
+  "word": "住みます",
+  "reading": "すみます",
+  "meaning": "sống, cư trú",
+  "example": "[私](わたし)は[学校](がっこう)の[近](ちか)くに**[住](す)みます**。",
+  "exampleVi": "Tôi sống gần trường.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[学校](がっこう)の[近](ちか)くに**[住](す)みます**。",
+    "vi": "Tôi sống gần trường."
+   },
+   {
+    "ja": "[家族](かぞく)はタイに**[住](す)んでいます**。",
+    "vi": "Gia đình tôi sống ở Thái Lan."
+   }
+  ]
+ },
+ {
+  "word": "研究します",
+  "reading": "けんきゅうします",
+  "meaning": "nghiên cứu",
+  "example": "[大学](だいがく)で[経済](けいざい)を**[研究](けんきゅう)します**。",
+  "exampleVi": "Tôi nghiên cứu kinh tế ở trường đại học.",
+  "examples": [
+   {
+    "ja": "[大学](だいがく)で[経済](けいざい)を**[研究](けんきゅう)します**。",
+    "vi": "Tôi nghiên cứu kinh tế ở trường đại học."
+   },
+   {
+    "ja": "[田中](たなか)さんは[大学](だいがく)で[日本](にほん)の[歴史](れきし)を**[研究](けんきゅう)しています**。",
+    "vi": "Anh Tanaka nghiên cứu lịch sử Nhật Bản ở trường đại học."
+   }
+  ]
+ },
+ {
+  "word": "資料",
+  "reading": "しりょう",
+  "meaning": "tài liệu",
+  "example": "この**[資料](しりょう)**をコピーしてもいいですか。",
+  "exampleVi": "Tôi photo tài liệu này được không?",
+  "examples": [
+   {
+    "ja": "この**[資料](しりょう)**をコピーしてもいいですか。",
+    "vi": "Tôi photo tài liệu này được không?"
+   },
+   {
+    "ja": "これは[会議](かいぎ)の**[資料](しりょう)**です。",
+    "vi": "Đây là tài liệu của cuộc họp."
+   }
+  ]
+ },
+ {
+  "word": "カタログ",
+  "reading": "カタログ",
+  "meaning": "catalog",
+  "example": "**カタログ**を[見](み)てもいいですか。",
+  "exampleVi": "Tôi xem catalog được không?",
+  "examples": [
+   {
+    "ja": "**カタログ**を[見](み)てもいいですか。",
+    "vi": "Tôi xem catalog được không?"
+   },
+   {
+    "ja": "パソコンの**カタログ**を[見](み)ます。",
+    "vi": "Tôi xem tập giới thiệu về máy tính."
+   }
+  ]
+ },
+ {
+  "word": "時刻表",
+  "reading": "じこくひょう",
+  "meaning": "bảng giờ tàu",
+  "example": "[駅](えき)に**[時刻表](じこくひょう)**があります。",
+  "exampleVi": "Ở nhà ga có bảng giờ tàu.",
+  "examples": [
+   {
+    "ja": "[駅](えき)に**[時刻表](じこくひょう)**があります。",
+    "vi": "Ở nhà ga có bảng giờ tàu."
+   },
+   {
+    "ja": "**[時刻表](じこくひょう)**は[机](つくえ)の[上](うえ)にあります。",
+    "vi": "Bảng giờ tàu ở trên bàn."
+   }
+  ]
+ },
+ {
+  "word": "服",
+  "reading": "ふく",
+  "meaning": "quần áo",
+  "example": "この[店](みせ)の**[服](ふく)**は[安](やす)いです。",
+  "exampleVi": "Quần áo của cửa hàng này rẻ.",
+  "examples": [
+   {
+    "ja": "この[店](みせ)の**[服](ふく)**は[安](やす)いです。",
+    "vi": "Quần áo của cửa hàng này rẻ."
+   },
+   {
+    "ja": "[昨日](きのう)、**[服](ふく)**を[買](か)いました。",
+    "vi": "Hôm qua, tôi đã mua áo quần."
+   }
+  ]
+ },
+ {
+  "word": "製品",
+  "reading": "せいひん",
+  "meaning": "sản phẩm",
+  "example": "この**[製品](せいひん)**は[有名](ゆうめい)です。",
+  "exampleVi": "Sản phẩm này nổi tiếng.",
+  "examples": [
+   {
+    "ja": "この**[製品](せいひん)**は[有名](ゆうめい)です。",
+    "vi": "Sản phẩm này nổi tiếng."
+   },
+   {
+    "ja": "[電気](でんき)**[製品](せいひん)**を[秋葉原](あきはばら)で[買](か)いました。",
+    "vi": "Tôi đã mua sản phẩm điện máy ở Akihabara."
+   }
+  ]
+ },
+ {
+  "word": "ソフト",
+  "reading": "ソフト",
+  "meaning": "phần mềm",
+  "example": "この**ソフト**を[使](つか)ってもいいですか。",
+  "exampleVi": "Tôi dùng phần mềm này được không?",
+  "examples": [
+   {
+    "ja": "この**ソフト**を[使](つか)ってもいいですか。",
+    "vi": "Tôi dùng phần mềm này được không?"
+   },
+   {
+    "ja": "ゲームの**ソフト**を[買](か)いました。",
+    "vi": "Tôi đã mua phần mềm chơi game."
+   }
+  ]
+ },
+ {
+  "word": "電子辞書",
+  "reading": "でんしじしょ",
+  "meaning": "từ điển điện tử",
+  "example": "**[電子辞書](でんしじしょ)**を[持](も)っています。",
+  "exampleVi": "Tôi có một cuốn từ điển điện tử.",
+  "examples": [
+   {
+    "ja": "**[電子辞書](でんしじしょ)**を[持](も)っています。",
+    "vi": "Tôi có một cuốn từ điển điện tử."
+   },
+   {
+    "ja": "**[電子辞書](でんしじしょ)**で[意味](いみ)を[調](しら)べます。",
+    "vi": "Tôi tra ý nghĩa bằng từ điển điện tử."
+   }
+  ]
+ },
+ {
+  "word": "経済",
+  "reading": "けいざい",
+  "meaning": "kinh tế",
+  "example": "**[経済](けいざい)**は[難](むずか)しいです。",
+  "exampleVi": "Kinh tế khó.",
+  "examples": [
+   {
+    "ja": "**[経済](けいざい)**は[難](むずか)しいです。",
+    "vi": "Kinh tế khó."
+   },
+   {
+    "ja": "**[経済](けいざい)**を[勉強](べんきょう)しに[日本](にほん)へ[来](き)ました。",
+    "vi": "Tôi đã đến Nhật để học kinh tế."
+   }
+  ]
+ },
+ {
+  "word": "市役所",
+  "reading": "しやくしょ",
+  "meaning": "tòa thị chính",
+  "example": "**[市役所](しやくしょ)**で[働](はたら)いています。",
+  "exampleVi": "Tôi làm việc ở tòa thị chính.",
+  "examples": [
+   {
+    "ja": "**[市役所](しやくしょ)**で[働](はたら)いています。",
+    "vi": "Tôi làm việc ở tòa thị chính."
+   },
+   {
+    "ja": "**[市役所](しやくしょ)**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Tòa thị chính ở gần nhà ga."
+   }
+  ]
+ },
+ {
+  "word": "高校",
+  "reading": "こうこう",
+  "meaning": "trường cấp 3",
+  "example": "**[高校](こうこう)**は[駅](えき)の[近](ちか)くにあります。",
+  "exampleVi": "Trường cấp ba ở gần nhà ga.",
+  "examples": [
+   {
+    "ja": "**[高校](こうこう)**は[駅](えき)の[近](ちか)くにあります。",
+    "vi": "Trường cấp ba ở gần nhà ga."
+   },
+   {
+    "ja": "アメリカの**[高校](こうこう)**で[勉強](べんきょう)します。",
+    "vi": "Tôi sẽ học tại trường phổ thông trung học của Mỹ."
+   }
+  ]
+ },
+ {
+  "word": "歯医者",
+  "reading": "はいしゃ",
+  "meaning": "nha sĩ",
+  "example": "**[歯医者](はいしゃ)**で[働](はたら)いています。",
+  "exampleVi": "Tôi làm việc ở phòng khám nha khoa.",
+  "examples": [
+   {
+    "ja": "**[歯医者](はいしゃ)**で[働](はたら)いています。",
+    "vi": "Tôi làm việc ở phòng khám nha khoa."
+   },
+   {
+    "ja": "[毎月](まいつき)、**[歯医者](はいしゃ)**へ[行](い)きます。",
+    "vi": "Hàng tháng tôi đến nha sĩ."
+   }
+  ]
+ },
+ {
+  "word": "独身",
+  "reading": "どくしん",
+  "meaning": "độc thân",
+  "example": "[田中](たなか)さんは**[独身](どくしん)**です。",
+  "exampleVi": "Anh Tanaka còn độc thân.",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんは**[独身](どくしん)**です。",
+    "vi": "Anh Tanaka còn độc thân."
+   },
+   {
+    "ja": "[兄](あに)は**[独身](どくしん)**です。",
+    "vi": "Anh trai tôi độc thân."
+   }
+  ]
+ },
+ {
+  "word": "みなさん",
+  "reading": "みなさん",
+  "meaning": "Mọi người",
+  "example": "**みなさん**、こんにちは。",
+  "exampleVi": "Chào mọi người.",
+  "examples": [
+   {
+    "ja": "**みなさん**、こんにちは。",
+    "vi": "Chào mọi người."
+   },
+   {
+    "ja": "**みなさん**、おはようございます。",
+    "vi": "Chào buổi sáng mọi người."
+   }
+  ]
+ },
+ {
+  "word": "思い出します",
+  "reading": "おもいだします",
+  "meaning": "nhớ lại",
+  "example": "[国](くに)の[家族](かぞく)を**[思](おも)い[出](だ)します**。",
+  "exampleVi": "Tôi nhớ đến gia đình ở quê nhà.",
+  "examples": [
+   {
+    "ja": "[国](くに)の[家族](かぞく)を**[思](おも)い[出](だ)します**。",
+    "vi": "Tôi nhớ đến gia đình ở quê nhà."
+   },
+   {
+    "ja": "[時々](ときどき)、[家族](かぞく)を**[思](おも)い[出](だ)します**。",
+    "vi": "Thỉnh thoảng, tôi nhớ gia đình."
+   }
+  ]
+ }
 ]

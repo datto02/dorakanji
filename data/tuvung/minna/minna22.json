@@ -1,23 +1,359 @@
 [
-  "着ます",
-  "はきます",
-  "かぶります",
-  "生まれます",
-  "コート",
-  "セーター",
-  "スーツ",
-  "帽子",
-  "眼鏡",
-  "ケーキ",
-  "お弁当",
-  "ロボット",
-  "ユーモア",
-  "都合",
-  "よく",
-  "えーと",
-  "家賃",
-  "和室",
-  "押入れ",
-  "布団",
-  "パリ"
+ {
+  "word": "着ます",
+  "reading": "きます",
+  "meaning": "mặc [áo]",
+  "example": "[白](しろ)いシャツを**[着](き)ます**。",
+  "exampleVi": "Tôi mặc chiếc áo sơ mi trắng.",
+  "examples": [
+   {
+    "ja": "[白](しろ)いシャツを**[着](き)ます**。",
+    "vi": "Tôi mặc chiếc áo sơ mi trắng."
+   },
+   {
+    "ja": "[上着](うわぎ)を**[着](き)ます**。",
+    "vi": "Tôi mặc áo khoác."
+   }
+  ]
+ },
+ {
+  "word": "はきます",
+  "reading": "はきます",
+  "meaning": "mặc [quần], đi [giày]",
+  "example": "[黒](くろ)いくつを**はきます**。",
+  "exampleVi": "Tôi đi đôi giày đen.",
+  "examples": [
+   {
+    "ja": "[黒](くろ)いくつを**はきます**。",
+    "vi": "Tôi đi đôi giày đen."
+   },
+   {
+    "ja": "[黒](くろ)いスカートを**はきます**。",
+    "vi": "Tôi mặc váy đen."
+   }
+  ]
+ },
+ {
+  "word": "かぶります",
+  "reading": "かぶります",
+  "meaning": "đội [mũ]",
+  "example": "ぼうしを**かぶります**。",
+  "exampleVi": "Tôi đội mũ.",
+  "examples": [
+   {
+    "ja": "ぼうしを**かぶります**。",
+    "vi": "Tôi đội mũ."
+   },
+   {
+    "ja": "あつい[日](ひ)は、ぼうしを**かぶります**。",
+    "vi": "Những ngày nóng, tôi đội mũ."
+   }
+  ]
+ },
+ {
+  "word": "生まれます",
+  "reading": "うまれます",
+  "meaning": "sinh ra",
+  "example": "[私](わたし)は[日本](にほん)で**[生](う)まれました**。",
+  "exampleVi": "Tôi sinh ra ở Nhật.",
+  "examples": [
+   {
+    "ja": "[私](わたし)は[日本](にほん)で**[生](う)まれました**。",
+    "vi": "Tôi sinh ra ở Nhật."
+   },
+   {
+    "ja": "[父](ちち)は[東京](とうきょう)で**[生](う)まれました**。",
+    "vi": "Bố tôi sinh ra ở Tokyo."
+   }
+  ]
+ },
+ {
+  "word": "コート",
+  "reading": "コート",
+  "meaning": "áo khoác",
+  "example": "[寒](さむ)いですから、**コート**を[着](き)ます。",
+  "exampleVi": "Vì trời lạnh nên tôi mặc áo khoác.",
+  "examples": [
+   {
+    "ja": "[寒](さむ)いですから、**コート**を[着](き)ます。",
+    "vi": "Vì trời lạnh nên tôi mặc áo khoác."
+   },
+   {
+    "ja": "この**コート**は[大](おお)きいです。",
+    "vi": "Chiếc áo khoác này to."
+   }
+  ]
+ },
+ {
+  "word": "セーター",
+  "reading": "セーター",
+  "meaning": "áo len",
+  "example": "[赤](あか)い**セーター**を[買](か)いました。",
+  "exampleVi": "Tôi đã mua chiếc áo len màu đỏ.",
+  "examples": [
+   {
+    "ja": "[赤](あか)い**セーター**を[買](か)いました。",
+    "vi": "Tôi đã mua chiếc áo len màu đỏ."
+   },
+   {
+    "ja": "**セーター**は[高](たか)いです。",
+    "vi": "Áo len đắt."
+   }
+  ]
+ },
+ {
+  "word": "スーツ",
+  "reading": "スーツ",
+  "meaning": "com-lê",
+  "example": "**スーツ**を[着](き)ている[人](ひと)は[社長](しゃちょう)です。",
+  "exampleVi": "Người đang mặc com-lê là giám đốc.",
+  "examples": [
+   {
+    "ja": "**スーツ**を[着](き)ている[人](ひと)は[社長](しゃちょう)です。",
+    "vi": "Người đang mặc com-lê là giám đốc."
+   },
+   {
+    "ja": "[父](ちち)は**スーツ**を[着](き)ます。",
+    "vi": "Bố tôi mặc bộ vét."
+   }
+  ]
+ },
+ {
+  "word": "ぼうし",
+  "reading": "ぼうし",
+  "meaning": "mũ",
+  "example": "**ぼうし**をかぶっている[人](ひと)はだれですか。",
+  "exampleVi": "Người đang đội mũ là ai vậy?",
+  "examples": [
+   {
+    "ja": "**ぼうし**をかぶっている[人](ひと)はだれですか。",
+    "vi": "Người đang đội mũ là ai vậy?"
+   },
+   {
+    "ja": "あの**ぼうし**は、[父](ちち)のです。",
+    "vi": "Chiếc mũ kia là của bố tôi."
+   }
+  ]
+ },
+ {
+  "word": "眼鏡",
+  "reading": "めがね",
+  "meaning": "kính mắt",
+  "example": "**[眼鏡](めがね)**をかけている[人](ひと)は[先生](せんせい)です。",
+  "exampleVi": "Người đang đeo kính là giáo viên.",
+  "examples": [
+   {
+    "ja": "**[眼鏡](めがね)**をかけている[人](ひと)は[先生](せんせい)です。",
+    "vi": "Người đang đeo kính là giáo viên."
+   },
+   {
+    "ja": "**[眼鏡](めがね)**を[買](か)いました。",
+    "vi": "Tôi đã mua kính."
+   }
+  ]
+ },
+ {
+  "word": "ケーキ",
+  "reading": "ケーキ",
+  "meaning": "bánh ngọt",
+  "example": "これは[友達](ともだち)が[買](か)った**ケーキ**です。",
+  "exampleVi": "Đây là chiếc bánh mà bạn tôi đã mua.",
+  "examples": [
+   {
+    "ja": "これは[友達](ともだち)が[買](か)った**ケーキ**です。",
+    "vi": "Đây là chiếc bánh mà bạn tôi đã mua."
+   },
+   {
+    "ja": "**ケーキ**はあまいです。",
+    "vi": "Bánh kem thì ngọt."
+   }
+  ]
+ },
+ {
+  "word": "お弁当",
+  "reading": "おべんとう",
+  "meaning": "cơm hộp",
+  "example": "これは[母](はは)が[作](つく)った**お[弁当](べんとう)**です。",
+  "exampleVi": "Đây là cơm hộp do mẹ tôi làm.",
+  "examples": [
+   {
+    "ja": "これは[母](はは)が[作](つく)った**お[弁当](べんとう)**です。",
+    "vi": "Đây là cơm hộp do mẹ tôi làm."
+   },
+   {
+    "ja": "**お[弁当](べんとう)**を[作](つく)りました。",
+    "vi": "Tôi đã làm cơm hộp."
+   }
+  ]
+ },
+ {
+  "word": "ロボット",
+  "reading": "ロボット",
+  "meaning": "robot",
+  "example": "これは[私](わたし)が[作](つく)った**ロボット**です。",
+  "exampleVi": "Đây là con robot do tôi làm.",
+  "examples": [
+   {
+    "ja": "これは[私](わたし)が[作](つく)った**ロボット**です。",
+    "vi": "Đây là con robot do tôi làm."
+   },
+   {
+    "ja": "**ロボット**は[働](はたら)きます。",
+    "vi": "Người máy làm việc."
+   }
+  ]
+ },
+ {
+  "word": "ユーモア",
+  "reading": "ユーモア",
+  "meaning": "hài hước",
+  "example": "**ユーモア**のある[人](ひと)が[好](す)きです。",
+  "exampleVi": "Tôi thích người có khiếu hài hước.",
+  "examples": [
+   {
+    "ja": "**ユーモア**のある[人](ひと)が[好](す)きです。",
+    "vi": "Tôi thích người có khiếu hài hước."
+   },
+   {
+    "ja": "ミラーさんは**ユーモア**があります。",
+    "vi": "Anh Miller có khiếu hài hước."
+   }
+  ]
+ },
+ {
+  "word": "都合",
+  "reading": "つごう",
+  "meaning": "sự thuận tiện",
+  "example": "[明日](あした)は**[都合](つごう)**が[悪](わる)いです。",
+  "exampleVi": "Ngày mai tôi không tiện (lịch không thuận lợi).",
+  "examples": [
+   {
+    "ja": "[明日](あした)は**[都合](つごう)**が[悪](わる)いです。",
+    "vi": "Ngày mai tôi không tiện (lịch không thuận lợi)."
+   },
+   {
+    "ja": "[来週](らいしゅう)の**[都合](つごう)**はどうですか。",
+    "vi": "Lịch tuần sau của bạn thế nào?"
+   }
+  ]
+ },
+ {
+  "word": "よく",
+  "reading": "よく",
+  "meaning": "thường, hay, tốt",
+  "example": "**よく**[分](わ)かりません。",
+  "exampleVi": "Tôi không hiểu rõ lắm.",
+  "examples": [
+   {
+    "ja": "**よく**[分](わ)かりません。",
+    "vi": "Tôi không hiểu rõ lắm."
+   },
+   {
+    "ja": "[私](わたし)は**よく**サッカーをします。",
+    "vi": "Tôi hay chơi bóng đá."
+   }
+  ]
+ },
+ {
+  "word": "えーと",
+  "reading": "えーと",
+  "meaning": "à, ờ",
+  "example": "**えーと**、わたしの[名前](なまえ)はミラーです。",
+  "exampleVi": "À thì, tên tôi là Miller.",
+  "examples": [
+   {
+    "ja": "**えーと**、わたしの[名前](なまえ)はミラーです。",
+    "vi": "À thì, tên tôi là Miller."
+   },
+   {
+    "ja": "**えーと**、[駅](えき)は[右](みぎ)です。",
+    "vi": "À thì, nhà ga ở bên phải."
+   }
+  ]
+ },
+ {
+  "word": "家賃",
+  "reading": "やちん",
+  "meaning": "tiền nhà",
+  "example": "この[部屋](へや)は**[家賃](やちん)**が[高](たか)いです。",
+  "exampleVi": "Căn phòng này tiền thuê nhà đắt.",
+  "examples": [
+   {
+    "ja": "この[部屋](へや)は**[家賃](やちん)**が[高](たか)いです。",
+    "vi": "Căn phòng này tiền thuê nhà đắt."
+   },
+   {
+    "ja": "ここは**[家賃](やちん)**が[高](たか)いです。",
+    "vi": "Nơi này tiền nhà đắt."
+   }
+  ]
+ },
+ {
+  "word": "和室",
+  "reading": "わしつ",
+  "meaning": "phòng kiểu Nhật",
+  "example": "[私](わたし)の[家](うち)に**[和室](わしつ)**があります。",
+  "exampleVi": "Nhà tôi có một phòng kiểu Nhật.",
+  "examples": [
+   {
+    "ja": "[私](わたし)の[家](うち)に**[和室](わしつ)**があります。",
+    "vi": "Nhà tôi có một phòng kiểu Nhật."
+   },
+   {
+    "ja": "**[和室](わしつ)**は[広](ひろ)いです。",
+    "vi": "Phòng kiểu Nhật rộng."
+   }
+  ]
+ },
+ {
+  "word": "おしいれ",
+  "reading": "おしいれ",
+  "meaning": "tủ âm tường",
+  "example": "**おしいれ**に[布団](ふとん)があります。",
+  "exampleVi": "Trong tủ âm tường có chăn đệm.",
+  "examples": [
+   {
+    "ja": "**おしいれ**に[布団](ふとん)があります。",
+    "vi": "Trong tủ âm tường có chăn đệm."
+   },
+   {
+    "ja": "**おしいれ**から[布団](ふとん)を[出](だ)します。",
+    "vi": "Tôi lấy chăn đệm ra khỏi tủ âm tường."
+   }
+  ]
+ },
+ {
+  "word": "布団",
+  "reading": "ふとん",
+  "meaning": "chăn, đệm",
+  "example": "**[布団](ふとん)**でねます。",
+  "exampleVi": "Tôi ngủ trên chăn đệm.",
+  "examples": [
+   {
+    "ja": "**[布団](ふとん)**でねます。",
+    "vi": "Tôi ngủ trên chăn đệm."
+   },
+   {
+    "ja": "[私](わたし)は**[布団](ふとん)**でねるのが[好](す)きです。",
+    "vi": "Tôi thích ngủ trên chăn đệm."
+   }
+  ]
+ },
+ {
+  "word": "パリ",
+  "reading": "パリ",
+  "meaning": "Paris",
+  "example": "**パリ**はフランスの[町](まち)です。",
+  "exampleVi": "Paris là một thành phố của nước Pháp.",
+  "examples": [
+   {
+    "ja": "**パリ**はフランスの[町](まち)です。",
+    "vi": "Paris là một thành phố của nước Pháp."
+   },
+   {
+    "ja": "[来年](らいねん)、**パリ**へ[行](い)きます。",
+    "vi": "Sang năm tôi sẽ đi Paris."
+   }
+  ]
+ }
 ]

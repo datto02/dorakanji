@@ -1,26 +1,410 @@
 [
-  "出来ます",
-  "洗います",
-  "弾きます",
-  "歌います",
-  "集めます",
-  "捨てます",
-  "換えます",
-  "運転します",
-  "予約します",
-  "ピアノ",
-  "メートル",
-  "現金",
-  "趣味",
-  "日記",
-  "お祈り",
-  "課長",
-  "部長",
-  "社長",
-  "動物",
-  "馬",
-  "インターネット",
-  "特に",
-  "なかなか",
-  "ぜひ"
+ {
+  "word": "出来ます",
+  "reading": "できます",
+  "meaning": "có thể",
+  "example": "[日本語](にほんご)が**[出来](でき)ます**。",
+  "exampleVi": "Tôi biết (nói được) tiếng Nhật.",
+  "examples": [
+   {
+    "ja": "[日本語](にほんご)が**[出来](でき)ます**。",
+    "vi": "Tôi biết (nói được) tiếng Nhật."
+   },
+   {
+    "ja": "[私](わたし)は[泳](およ)ぐことが**[出来](でき)ます**。",
+    "vi": "Tôi biết bơi."
+   }
+  ]
+ },
+ {
+  "word": "洗います",
+  "reading": "あらいます",
+  "meaning": "rửa, giặt",
+  "example": "[手](て)を**[洗](あら)います**。",
+  "exampleVi": "Tôi rửa tay.",
+  "examples": [
+   {
+    "ja": "[手](て)を**[洗](あら)います**。",
+    "vi": "Tôi rửa tay."
+   },
+   {
+    "ja": "[朝](あさ)、[顔](かお)を**[洗](あら)います**。",
+    "vi": "Buổi sáng, tôi rửa mặt."
+   }
+  ]
+ },
+ {
+  "word": "ひきます",
+  "reading": "ひきます",
+  "meaning": "chơi [nhạc cụ]",
+  "example": "ピアノを**ひきます**。",
+  "exampleVi": "Tôi chơi đàn piano.",
+  "examples": [
+   {
+    "ja": "ピアノを**ひきます**。",
+    "vi": "Tôi chơi đàn piano."
+   },
+   {
+    "ja": "[姉](あね)はピアノをじょうずに**ひきます**。",
+    "vi": "Chị tôi chơi piano giỏi."
+   }
+  ]
+ },
+ {
+  "word": "歌います",
+  "reading": "うたいます",
+  "meaning": "hát",
+  "example": "[歌](うた)を**[歌](うた)います**。",
+  "exampleVi": "Tôi hát một bài hát.",
+  "examples": [
+   {
+    "ja": "[歌](うた)を**[歌](うた)います**。",
+    "vi": "Tôi hát một bài hát."
+   },
+   {
+    "ja": "みんなで[日本](にほん)の[歌](うた)を**[歌](うた)います**。",
+    "vi": "Mọi người hát bài hát của Nhật."
+   }
+  ]
+ },
+ {
+  "word": "集めます",
+  "reading": "あつめます",
+  "meaning": "sưu tầm, thu thập",
+  "example": "[切手](きって)を**[集](あつ)めます**。",
+  "exampleVi": "Tôi sưu tầm tem.",
+  "examples": [
+   {
+    "ja": "[切手](きって)を**[集](あつ)めます**。",
+    "vi": "Tôi sưu tầm tem."
+   },
+   {
+    "ja": "[切手](きって)を**[集](あつ)めています**。",
+    "vi": "Tôi sưu tầm tem."
+   }
+  ]
+ },
+ {
+  "word": "捨てます",
+  "reading": "すてます",
+  "meaning": "vứt, bỏ",
+  "example": "[古](ふる)い[新聞](しんぶん)を**[捨](す)てます**。",
+  "exampleVi": "Tôi vứt tờ báo cũ.",
+  "examples": [
+   {
+    "ja": "[古](ふる)い[新聞](しんぶん)を**[捨](す)てます**。",
+    "vi": "Tôi vứt tờ báo cũ."
+   },
+   {
+    "ja": "[木曜日](もくようび)にごみを**[捨](す)てます**。",
+    "vi": "Tôi vứt rác vào ngày thứ Năm."
+   }
+  ]
+ },
+ {
+  "word": "かえます",
+  "reading": "かえます",
+  "meaning": "đổi, trao đổi",
+  "example": "お[金](かね)を**かえます**。",
+  "exampleVi": "Tôi đổi tiền.",
+  "examples": [
+   {
+    "ja": "お[金](かね)を**かえます**。",
+    "vi": "Tôi đổi tiền."
+   },
+   {
+    "ja": "[円](えん)をドルに**かえます**。",
+    "vi": "Tôi đổi tiền yên sang đô la."
+   }
+  ]
+ },
+ {
+  "word": "運転します",
+  "reading": "うんてんします",
+  "meaning": "lái xe",
+  "example": "[車](くるま)を**[運転](うんてん)します**。",
+  "exampleVi": "Tôi lái xe hơi.",
+  "examples": [
+   {
+    "ja": "[車](くるま)を**[運転](うんてん)します**。",
+    "vi": "Tôi lái xe hơi."
+   },
+   {
+    "ja": "[母](はは)は[車](くるま)を**[運転](うんてん)する**ことが[好](す)きです。",
+    "vi": "Mẹ tôi thích lái xe hơi."
+   }
+  ]
+ },
+ {
+  "word": "予約します",
+  "reading": "よやくします",
+  "meaning": "đặt chỗ, đặt trước",
+  "example": "ホテルを**[予約](よやく)します**。",
+  "exampleVi": "Tôi đặt phòng khách sạn.",
+  "examples": [
+   {
+    "ja": "ホテルを**[予約](よやく)します**。",
+    "vi": "Tôi đặt phòng khách sạn."
+   },
+   {
+    "ja": "[来週](らいしゅう)のホテルを**[予約](よやく)しました**。",
+    "vi": "Tôi đã đặt khách sạn cho tuần sau."
+   }
+  ]
+ },
+ {
+  "word": "ピアノ",
+  "reading": "ピアノ",
+  "meaning": "đàn piano",
+  "example": "**ピアノ**が[好](す)きです。",
+  "exampleVi": "Tôi thích đàn piano.",
+  "examples": [
+   {
+    "ja": "**ピアノ**が[好](す)きです。",
+    "vi": "Tôi thích đàn piano."
+   },
+   {
+    "ja": "**ピアノ**をひきます。",
+    "vi": "Tôi đánh đàn piano."
+   }
+  ]
+ },
+ {
+  "word": "メートル",
+  "reading": "メートル",
+  "meaning": "mét",
+  "example": "あのビルは100**メートル**です。",
+  "exampleVi": "Tòa nhà kia cao 100 mét.",
+  "examples": [
+   {
+    "ja": "あのビルは100**メートル**です。",
+    "vi": "Tòa nhà kia cao 100 mét."
+   },
+   {
+    "ja": "プールは[二](に)[十](じゅう)[五](ご)**メートル**です。",
+    "vi": "Hồ bơi dài hai mươi lăm mét."
+   }
+  ]
+ },
+ {
+  "word": "現金",
+  "reading": "げんきん",
+  "meaning": "tiền mặt",
+  "example": "**[現金](げんきん)**ではらいます。",
+  "exampleVi": "Tôi trả bằng tiền mặt.",
+  "examples": [
+   {
+    "ja": "**[現金](げんきん)**ではらいます。",
+    "vi": "Tôi trả bằng tiền mặt."
+   },
+   {
+    "ja": "**[現金](げんきん)**がありません。",
+    "vi": "Tôi không có tiền mặt."
+   }
+  ]
+ },
+ {
+  "word": "しゅみ",
+  "reading": "しゅみ",
+  "meaning": "sở thích",
+  "example": "わたしの**しゅみ**は[音楽](おんがく)を[聞](き)くことです。",
+  "exampleVi": "Sở thích của tôi là nghe nhạc.",
+  "examples": [
+   {
+    "ja": "わたしの**しゅみ**は[音楽](おんがく)を[聞](き)くことです。",
+    "vi": "Sở thích của tôi là nghe nhạc."
+   },
+   {
+    "ja": "**しゅみ**はカラオケです。",
+    "vi": "Sở thích (của tôi) là karaoke."
+   }
+  ]
+ },
+ {
+  "word": "日記",
+  "reading": "にっき",
+  "meaning": "nhật ký",
+  "example": "[毎日](まいにち)**[日記](にっき)**を[書](か)きます。",
+  "exampleVi": "Ngày nào tôi cũng viết nhật ký.",
+  "examples": [
+   {
+    "ja": "[毎日](まいにち)**[日記](にっき)**を[書](か)きます。",
+    "vi": "Ngày nào tôi cũng viết nhật ký."
+   },
+   {
+    "ja": "[兄](あに)は**[日記](にっき)**を[書](か)いています。",
+    "vi": "Anh trai tôi đang viết nhật ký."
+   }
+  ]
+ },
+ {
+  "word": "おいのり",
+  "reading": "おいのり",
+  "meaning": "cầu nguyện",
+  "example": "[毎朝](まいあさ)**おいのり**をします。",
+  "exampleVi": "Sáng nào tôi cũng cầu nguyện.",
+  "examples": [
+   {
+    "ja": "[毎朝](まいあさ)**おいのり**をします。",
+    "vi": "Sáng nào tôi cũng cầu nguyện."
+   },
+   {
+    "ja": "[毎日](まいにち)、**おいのり**をします。",
+    "vi": "Hàng ngày, tôi cầu nguyện."
+   }
+  ]
+ },
+ {
+  "word": "課長",
+  "reading": "かちょう",
+  "meaning": "trưởng ban, tổ trưởng (kachō)",
+  "example": "[田中](たなか)さんは**[課長](かちょう)**です。",
+  "exampleVi": "Anh Tanaka là trưởng ban (kachō).",
+  "examples": [
+   {
+    "ja": "[田中](たなか)さんは**[課長](かちょう)**です。",
+    "vi": "Anh Tanaka là trưởng ban (kachō)."
+   },
+   {
+    "ja": "[父](ちち)は**[課長](かちょう)**です。",
+    "vi": "Bố tôi là trưởng ban."
+   }
+  ]
+ },
+ {
+  "word": "部長",
+  "reading": "ぶちょう",
+  "meaning": "trưởng phòng, trưởng bộ phận",
+  "example": "[山田](やまだ)さんは**[部長](ぶちょう)**です。",
+  "exampleVi": "Ông Yamada là trưởng phòng (buchō).",
+  "examples": [
+   {
+    "ja": "[山田](やまだ)さんは**[部長](ぶちょう)**です。",
+    "vi": "Ông Yamada là trưởng phòng (buchō)."
+   },
+   {
+    "ja": "[会社](かいしゃ)の**[部長](ぶちょう)**は[親切](しんせつ)です。",
+    "vi": "Trưởng phòng của công ty rất tốt bụng."
+   }
+  ]
+ },
+ {
+  "word": "社長",
+  "reading": "しゃちょう",
+  "meaning": "giám đốc",
+  "example": "**[社長](しゃちょう)**は[今日](きょう)[出張](しゅっちょう)します。",
+  "exampleVi": "Hôm nay giám đốc đi công tác.",
+  "examples": [
+   {
+    "ja": "**[社長](しゃちょう)**は[今日](きょう)[出張](しゅっちょう)します。",
+    "vi": "Hôm nay giám đốc đi công tác."
+   },
+   {
+    "ja": "[山田](やまだ)さんは**[社長](しゃちょう)**です。",
+    "vi": "Anh/chị Yamada là giám đốc."
+   }
+  ]
+ },
+ {
+  "word": "動物",
+  "reading": "どうぶつ",
+  "meaning": "động vật",
+  "example": "**[動物](どうぶつ)**が[好](す)きです。",
+  "exampleVi": "Tôi thích động vật.",
+  "examples": [
+   {
+    "ja": "**[動物](どうぶつ)**が[好](す)きです。",
+    "vi": "Tôi thích động vật."
+   },
+   {
+    "ja": "[色々](いろいろ)な**[動物](どうぶつ)**を[見](み)ました。",
+    "vi": "Tôi đã xem nhiều động vật."
+   }
+  ]
+ },
+ {
+  "word": "馬",
+  "reading": "うま",
+  "meaning": "ngựa",
+  "example": "**[馬](うま)**に[乗](の)ることが[出来](でき)ます。",
+  "exampleVi": "Tôi có thể cưỡi ngựa.",
+  "examples": [
+   {
+    "ja": "**[馬](うま)**に[乗](の)ることが[出来](でき)ます。",
+    "vi": "Tôi có thể cưỡi ngựa."
+   },
+   {
+    "ja": "**[馬](うま)**を[見](み)たいです。",
+    "vi": "Tôi muốn xem con ngựa."
+   }
+  ]
+ },
+ {
+  "word": "インターネット",
+  "reading": "インターネット",
+  "meaning": "mạng internet",
+  "example": "**インターネット**で[写真](しゃしん)を[見](み)ます。",
+  "exampleVi": "Tôi xem ảnh trên internet.",
+  "examples": [
+   {
+    "ja": "**インターネット**で[写真](しゃしん)を[見](み)ます。",
+    "vi": "Tôi xem ảnh trên internet."
+   },
+   {
+    "ja": "**インターネット**で[電話番号](でんわばんごう)を[調](しら)べます。",
+    "vi": "Tôi tìm số điện thoại qua mạng internet."
+   }
+  ]
+ },
+ {
+  "word": "特に",
+  "reading": "とくに",
+  "meaning": "đặc biệt, nhất là",
+  "example": "**[特](とく)に**[音楽](おんがく)が[好](す)きです。",
+  "exampleVi": "Đặc biệt là tôi thích âm nhạc.",
+  "examples": [
+   {
+    "ja": "**[特](とく)に**[音楽](おんがく)が[好](す)きです。",
+    "vi": "Đặc biệt là tôi thích âm nhạc."
+   },
+   {
+    "ja": "**[特](とく)に**[漢字](かんじ)が[難](むずか)しいです。",
+    "vi": "Đặc biệt chữ Hán thì khó."
+   }
+  ]
+ },
+ {
+  "word": "なかなか",
+  "reading": "なかなか",
+  "meaning": "khó mà, mãi mà",
+  "example": "**なかなか**[時間](じかん)がありません。",
+  "exampleVi": "Tôi khó mà có thời gian.",
+  "examples": [
+   {
+    "ja": "**なかなか**[時間](じかん)がありません。",
+    "vi": "Tôi khó mà có thời gian."
+   },
+   {
+    "ja": "[難](むずか)しいです。**なかなか**[答](こた)えが[分](わ)かりません。",
+    "vi": "Khó quá. Mãi không biết câu trả lời."
+   }
+  ]
+ },
+ {
+  "word": "ぜひ",
+  "reading": "ぜひ",
+  "meaning": "bằng mọi giá, nhất định",
+  "example": "**ぜひ**[日本](にほん)へ[来](き)てください。",
+  "exampleVi": "Nhất định hãy đến Nhật nhé.",
+  "examples": [
+   {
+    "ja": "**ぜひ**[日本](にほん)へ[来](き)てください。",
+    "vi": "Nhất định hãy đến Nhật nhé."
+   },
+   {
+    "ja": "**ぜひ**[私](わたし)の[家](うち)に[来](き)てください。",
+    "vi": "Nhất định hãy đến nhà tôi."
+   }
+  ]
+ }
 ]

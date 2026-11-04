@@ -1,25 +1,393 @@
 [
-  "増える",
-  "減る",
-  "上がる",
-  "下がる",
-  "切れる",
-  "取れる",
-  "落ちる",
-  "無くなる",
-  "変",
-  "幸せ",
-  "上手い",
-  "まずい",
-  "今にも",
-  "つまらない",
-  "ガソリン",
-  "ばら",
-  "ドライブ",
-  "パンフレット",
-  "楽",
-  "理由",
-  "謝る",
-  "知り合う",
-  "火"
+ {
+  "word": "増える",
+  "reading": "ふえる",
+  "meaning": "tăng lên, gia tăng",
+  "example": "[外国](がいこく)の[人](ひと)が**[増](ふ)えました**。",
+  "exampleVi": "Số người nước ngoài đã tăng lên.",
+  "examples": [
+   {
+    "ja": "[外国](がいこく)の[人](ひと)が**[増](ふ)えました**。",
+    "vi": "Số người nước ngoài đã tăng lên."
+   },
+   {
+    "ja": "この[店](みせ)は[外国人](がいこくじん)のお[客](きゃく)さんがとても**[増](ふ)えています**。",
+    "vi": "Tiệm này khách nước ngoài tăng nhiều."
+   }
+  ]
+ },
+ {
+  "word": "減る",
+  "reading": "へる",
+  "meaning": "giảm",
+  "example": "[雨](あめ)の[日](ひ)が**[減](へ)りました**。",
+  "exampleVi": "Số ngày mưa đã giảm.",
+  "examples": [
+   {
+    "ja": "[雨](あめ)の[日](ひ)が**[減](へ)りました**。",
+    "vi": "Số ngày mưa đã giảm."
+   },
+   {
+    "ja": "[夏](なつ)は[人](ひと)が**[減](へ)ります**。",
+    "vi": "Mùa hè thì số người giảm."
+   }
+  ]
+ },
+ {
+  "word": "上がる",
+  "reading": "あがる",
+  "meaning": "tăng [giá cả]",
+  "example": "ガソリンの[値段](ねだん)が**[上](あ)がりました**。",
+  "exampleVi": "Giá xăng đã tăng.",
+  "examples": [
+   {
+    "ja": "ガソリンの[値段](ねだん)が**[上](あ)がりました**。",
+    "vi": "Giá xăng đã tăng."
+   },
+   {
+    "ja": "[食料品](しょくりょうひん)の[値段](ねだん)が**[上](あ)がりました**。",
+    "vi": "Giá cả thực phẩm đã tăng lên."
+   }
+  ]
+ },
+ {
+  "word": "下がる",
+  "reading": "さがる",
+  "meaning": "hạ xuống, giảm",
+  "example": "[値段](ねだん)が**[下](さ)がりました**。",
+  "exampleVi": "Giá cả đã giảm.",
+  "examples": [
+   {
+    "ja": "[値段](ねだん)が**[下](さ)がりました**。",
+    "vi": "Giá cả đã giảm."
+   },
+   {
+    "ja": "[温度](おんど)が**[下](さ)がりました**。",
+    "vi": "Nhiệt độ đã hạ xuống."
+   }
+  ]
+ },
+ {
+  "word": "切れる",
+  "reading": "きれる",
+  "meaning": "đứt/hết hạn",
+  "example": "ひもが**[切](き)れそう**です。",
+  "exampleVi": "Sợi dây có vẻ sắp đứt.",
+  "examples": [
+   {
+    "ja": "ひもが**[切](き)れそう**です。",
+    "vi": "Sợi dây có vẻ sắp đứt."
+   },
+   {
+    "ja": "[弟](おとうと)のくつのひもが**[切](き)れました**。",
+    "vi": "Dây giày em trai tôi đã đứt rồi."
+   }
+  ]
+ },
+ {
+  "word": "取れる",
+  "reading": "とれる",
+  "meaning": "tuột [cúc áo]",
+  "example": "ボタンが**[取](と)れそう**です。",
+  "exampleVi": "Cái cúc có vẻ sắp tuột.",
+  "examples": [
+   {
+    "ja": "ボタンが**[取](と)れそう**です。",
+    "vi": "Cái cúc có vẻ sắp tuột."
+   },
+   {
+    "ja": "[袖](そで)のボタンが**[取](と)れました**。",
+    "vi": "Cúc áo ở tay đã bị tuột."
+   }
+  ]
+ },
+ {
+  "word": "落ちる",
+  "reading": "おちる",
+  "meaning": "rơi [hành lý]",
+  "example": "その[箱](はこ)は**[落](お)ちそう**です。",
+  "exampleVi": "Cái hộp đó có vẻ sắp rơi.",
+  "examples": [
+   {
+    "ja": "その[箱](はこ)は**[落](お)ちそう**です。",
+    "vi": "Cái hộp đó có vẻ sắp rơi."
+   },
+   {
+    "ja": "[荷物](にもつ)が[下](した)に**[落](お)ちて**しまいました。",
+    "vi": "Hành lý rớt xuống dưới."
+   }
+  ]
+ },
+ {
+  "word": "無くなる",
+  "reading": "なくなる",
+  "meaning": "bị mất, hết",
+  "example": "お[金](かね)が**[無](な)くなりました**。",
+  "exampleVi": "Tiền đã hết.",
+  "examples": [
+   {
+    "ja": "お[金](かね)が**[無](な)くなりました**。",
+    "vi": "Tiền đã hết."
+   },
+   {
+    "ja": "[電子辞書](でんしじしょ)が**[無](な)くなって**しまいました。",
+    "vi": "Từ điển điện tử đã mất tiêu rồi."
+   }
+  ]
+ },
+ {
+  "word": "変",
+  "reading": "へん",
+  "meaning": "lạ, kỳ lạ, dị",
+  "example": "この[音](おと)は**[変](へん)**です。",
+  "exampleVi": "Âm thanh này lạ.",
+  "examples": [
+   {
+    "ja": "この[音](おと)は**[変](へん)**です。",
+    "vi": "Âm thanh này lạ."
+   },
+   {
+    "ja": "[今日](きょう)の[彼](かれ)は**[変](へん)**です。",
+    "vi": "Hôm nay anh ấy lạ lắm."
+   }
+  ]
+ },
+ {
+  "word": "幸せ",
+  "reading": "しあわせ",
+  "meaning": "hạnh phúc",
+  "example": "[家族](かぞく)といっしょで**[幸](しあわ)せ**です。",
+  "exampleVi": "Ở cùng gia đình tôi thấy hạnh phúc.",
+  "examples": [
+   {
+    "ja": "[家族](かぞく)といっしょで**[幸](しあわ)せ**です。",
+    "vi": "Ở cùng gia đình tôi thấy hạnh phúc."
+   },
+   {
+    "ja": "[毎日](まいにち)**[幸](しあわ)せ**です。",
+    "vi": "Ngày nào tôi cũng thấy hạnh phúc."
+   }
+  ]
+ },
+ {
+  "word": "上手い",
+  "reading": "うまい",
+  "meaning": "ngon, khéo, giỏi",
+  "example": "あの[人](ひと)は[歌](うた)が**[上手](うま)い**です。",
+  "exampleVi": "Người kia hát hay.",
+  "examples": [
+   {
+    "ja": "あの[人](ひと)は[歌](うた)が**[上手](うま)い**です。",
+    "vi": "Người kia hát hay."
+   },
+   {
+    "ja": "このケーキは**[上手](うま)い**です。",
+    "vi": "Chiếc bánh này ngon."
+   }
+  ]
+ },
+ {
+  "word": "まずい",
+  "reading": "まずい",
+  "meaning": "dở, không ngon",
+  "example": "この[料理](りょうり)は**まずい**です。",
+  "exampleVi": "Món ăn này dở.",
+  "examples": [
+   {
+    "ja": "この[料理](りょうり)は**まずい**です。",
+    "vi": "Món ăn này dở."
+   },
+   {
+    "ja": "このコーヒーは**まずい**です。",
+    "vi": "Cà phê này dở."
+   }
+  ]
+ },
+ {
+  "word": "今にも",
+  "reading": "いまにも",
+  "meaning": "sắp sửa",
+  "example": "**[今](いま)にも**[雨](あめ)がふりそうです。",
+  "exampleVi": "Trời có vẻ sắp mưa đến nơi.",
+  "examples": [
+   {
+    "ja": "**[今](いま)にも**[雨](あめ)がふりそうです。",
+    "vi": "Trời có vẻ sắp mưa đến nơi."
+   },
+   {
+    "ja": "[空](そら)が[暗](くら)くなって、**[今](いま)にも**[雨](あめ)が[降](ふ)りそうです。",
+    "vi": "Bầu trời tối sầm lại, có vẻ sắp mưa đến nơi."
+   }
+  ]
+ },
+ {
+  "word": "つまらない",
+  "reading": "つまらない",
+  "meaning": "chán, không hay",
+  "example": "この[映画](えいが)は**つまらない**です。",
+  "exampleVi": "Bộ phim này chán.",
+  "examples": [
+   {
+    "ja": "この[映画](えいが)は**つまらない**です。",
+    "vi": "Bộ phim này chán."
+   },
+   {
+    "ja": "このえいがは、**つまらない**です。",
+    "vi": "Bộ phim này chán."
+   }
+  ]
+ },
+ {
+  "word": "ガソリン",
+  "reading": "ガソリン",
+  "meaning": "xăng",
+  "example": "**ガソリン**が[高](たか)くなりました。",
+  "exampleVi": "Xăng đã đắt lên.",
+  "examples": [
+   {
+    "ja": "**ガソリン**が[高](たか)くなりました。",
+    "vi": "Xăng đã đắt lên."
+   },
+   {
+    "ja": "**ガソリン**の[値段](ねだん)がまた[上](あ)がりました。",
+    "vi": "Giá xăng lại tăng."
+   }
+  ]
+ },
+ {
+  "word": "ばら",
+  "reading": "ばら",
+  "meaning": "hoa hồng",
+  "example": "**ばら**の[花](はな)を[買](か)いました。",
+  "exampleVi": "Tôi đã mua hoa hồng.",
+  "examples": [
+   {
+    "ja": "**ばら**の[花](はな)を[買](か)いました。",
+    "vi": "Tôi đã mua hoa hồng."
+   },
+   {
+    "ja": "[庭](にわ)に**ばら**が[咲](さ)いています。",
+    "vi": "Hoa hồng đang nở trong vườn."
+   }
+  ]
+ },
+ {
+  "word": "ドライブ",
+  "reading": "ドライブ",
+  "meaning": "lái xe ô tô (theo sở thích)",
+  "example": "[日曜日](にちようび)に**ドライブ**に[行](い)きます。",
+  "exampleVi": "Chủ nhật tôi đi lái xe hóng gió.",
+  "examples": [
+   {
+    "ja": "[日曜日](にちようび)に**ドライブ**に[行](い)きます。",
+    "vi": "Chủ nhật tôi đi lái xe hóng gió."
+   },
+   {
+    "ja": "[友達](ともだち)と[海](うみ)へ**ドライブ**に[行](い)きました。",
+    "vi": "Tôi đã đi lái xe ra biển cùng bạn."
+   }
+  ]
+ },
+ {
+  "word": "パンフレット",
+  "reading": "パンフレット",
+  "meaning": "ấn phẩm quảng cáo",
+  "example": "**パンフレット**を[見](み)てください。",
+  "exampleVi": "Xin hãy xem tờ rơi quảng cáo.",
+  "examples": [
+   {
+    "ja": "**パンフレット**を[見](み)てください。",
+    "vi": "Xin hãy xem tờ rơi quảng cáo."
+   },
+   {
+    "ja": "**パンフレット**を[読](よ)んでから、パソコンを[買](か)います。",
+    "vi": "Sau khi đọc tờ bướm quảng cáo, tôi sẽ mua máy tính cá nhân."
+   }
+  ]
+ },
+ {
+  "word": "楽",
+  "reading": "らく",
+  "meaning": "dễ dàng, thoải mái",
+  "example": "この[仕事](しごと)は**[楽](らく)**です。",
+  "exampleVi": "Công việc này nhàn.",
+  "examples": [
+   {
+    "ja": "この[仕事](しごと)は**[楽](らく)**です。",
+    "vi": "Công việc này nhàn."
+   },
+   {
+    "ja": "[毎日](まいにち)が**[楽](らく)**です。",
+    "vi": "Mỗi ngày đều thoải mái."
+   }
+  ]
+ },
+ {
+  "word": "理由",
+  "reading": "りゆう",
+  "meaning": "lý do",
+  "example": "**[理由](りゆう)**を[教](おし)えてください。",
+  "exampleVi": "Xin hãy cho tôi biết lý do.",
+  "examples": [
+   {
+    "ja": "**[理由](りゆう)**を[教](おし)えてください。",
+    "vi": "Xin hãy cho tôi biết lý do."
+   },
+   {
+    "ja": "ちこくの**[理由](りゆう)**はねぼうです。",
+    "vi": "Lý do của việc đi trễ là ngủ nướng."
+   }
+  ]
+ },
+ {
+  "word": "謝る",
+  "reading": "あやまる",
+  "meaning": "xin lỗi",
+  "example": "[友達](ともだち)に**[謝](あやま)りました**。",
+  "exampleVi": "Tôi đã xin lỗi bạn.",
+  "examples": [
+   {
+    "ja": "[友達](ともだち)に**[謝](あやま)りました**。",
+    "vi": "Tôi đã xin lỗi bạn."
+   },
+   {
+    "ja": "[自分](じぶん)が[悪](わる)いときは**[謝](あやま)りましょう**。",
+    "vi": "Khi mình có lỗi hãy xin lỗi."
+   }
+  ]
+ },
+ {
+  "word": "知り合う",
+  "reading": "しりあう",
+  "meaning": "quen biết",
+  "example": "[日本](にほん)で[田中](たなか)さんと**[知](し)り[合](あ)いました**。",
+  "exampleVi": "Tôi đã quen anh Tanaka ở Nhật.",
+  "examples": [
+   {
+    "ja": "[日本](にほん)で[田中](たなか)さんと**[知](し)り[合](あ)いました**。",
+    "vi": "Tôi đã quen anh Tanaka ở Nhật."
+   },
+   {
+    "ja": "かのじょとは[友達](ともだち)のしょうかいで**[知](し)り[合](あ)いました**。",
+    "vi": "Tôi quen biết cô ấy nhờ sự giới thiệu của bạn tôi."
+   }
+  ]
+ },
+ {
+  "word": "火",
+  "reading": "ひ",
+  "meaning": "lửa",
+  "example": "**[火](ひ)**をつけてください。",
+  "exampleVi": "Xin hãy châm lửa.",
+  "examples": [
+   {
+    "ja": "**[火](ひ)**をつけてください。",
+    "vi": "Xin hãy châm lửa."
+   },
+   {
+    "ja": "**[火](ひ)**が[強](つよ)いので、[少](すこ)し[弱](よわ)くしてください。",
+    "vi": "Vì lửa lớn nên hãy làm cho nhỏ lại một chút."
+   }
+  ]
+ }
 ]
